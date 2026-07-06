@@ -1,0 +1,176 @@
+[
+  {
+    "id": "who-wrote-the-gospels",
+    "title": "Who Really Wrote the Gospels?",
+    "category": "History & Authorship",
+    "summary": "The four Gospels are traditionally attributed to Matthew, Mark, Luke, and John, but the manuscripts themselves are anonymous. Here's what's actually known, what's debated, and what remains a matter of tradition and faith.",
+    "readingTimeMinutes": 8,
+    "sections": [
+      {
+        "heading": "What's well-established",
+        "body": "The earliest surviving Gospel manuscripts do not contain author names in their original text; the familiar titles ('According to Matthew,' etc.) were added by scribes, and the earliest clear external evidence for those specific attributions comes from church writers in the 2nd century, decades after the texts were likely composed. Most scholars agree Mark was written first, and that Matthew and Luke both used Mark as a source alongside other material."
+      },
+      {
+        "heading": "The traditional view",
+        "body": "Church tradition, especially from writers like Papias and Irenaeus in the 2nd century, identifies the Gospels with two of Jesus's apostles (Matthew and John) and two companions of apostles (Mark, linked to Peter, and Luke, linked to Paul). This tradition has been the standard attribution used in most Bibles for centuries."
+      },
+      {
+        "heading": "What scholars debate",
+        "body": "Historians disagree on how much weight to give that later tradition, since it postdates the texts and may reflect an effort to attach apostolic authority to already-circulating works. Debate also continues over the Gospels' precise dates, the identity of 'Q,' a hypothesized shared source behind material in Matthew and Luke not found in Mark, and how much eyewitness material versus oral tradition and later editing each Gospel contains."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "How you weigh authorship affects how you read the text: as direct eyewitness reporting, as community tradition compiled with editorial shaping, or somewhere between. None of these options require dismissing the Gospels as historical sources, but honest engagement means acknowledging genuine uncertainty rather than treating traditional authorship as an established fact."
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "Many faith communities hold traditional authorship as a matter of doctrine or trust in church tradition, independent of what historical-critical scholarship can prove. That's a legitimate faith position, but it is a different kind of claim than a historical one, and this site keeps the two distinct."
+      }
+    ]
+  },
+  {
+    "id": "exodus-history-memory-archaeology",
+    "title": "The Exodus: History, Memory, and Archaeology",
+    "category": "Archaeology & History",
+    "summary": "Was there a historical Exodus from Egypt? The archaeological picture is far less clear-cut than popular retellings suggest, and this is one of the most genuinely contested topics in biblical archaeology.",
+    "readingTimeMinutes": 9,
+    "sections": [
+      {
+        "heading": "What's well-established",
+        "body": "Egyptian records confirm that Semitic peoples from Canaan regularly lived, worked, and sometimes settled in Egypt across the Bronze Age, including as laborers, and that Egypt exercised control over Canaan for much of that era. The Merneptah Stele (circa 1208 BC) confirms a group called 'Israel' existed in or near Canaan by that date."
+      },
+      {
+        "heading": "What scholars debate",
+        "body": "No Egyptian text describes anything resembling the plagues, a mass departure of enslaved Israelites, or the drowning of a pursuing army, and no archaeological trace of a large wilderness migration has been found in the Sinai. Scholars are divided between views ranging from a smaller-scale historical kernel behind the story, to the Exodus narrative being a later foundational memory shaped over centuries, to combinations of both; there is no scholarly consensus on the size, date, or even the basic historicity of the events as narrated."
+      },
+      {
+        "heading": "Why the silence is debated, not just assumed",
+        "body": "Some point to the absence of Egyptian sources as expected, since ancient Egyptian monuments rarely record embarrassing setbacks. Others note Egyptian record-keeping in this period is substantial enough that a national catastrophe on the described scale would be a notable gap, and argue this absence is meaningful evidence, not merely silence."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "The Exodus story functions as a foundational narrative of liberation regardless of exactly how it maps onto verifiable history, and its themes have shaped ethics and identity for thousands of years independent of the archaeological question. Being honest about the uncertainty here is a good example of how this site tries to handle genuinely unresolved historical debates."
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "For many readers, the theological and communal meaning of the Exodus does not depend on resolving the historical debate, in the same way many national founding stories carry meaning distinct from strict historiography. This site presents the historical uncertainty plainly and leaves interpretation of its meaning to the reader."
+      }
+    ]
+  },
+  {
+    "id": "how-was-the-bible-assembled",
+    "title": "How Was the Bible Assembled? Understanding the Canon",
+    "category": "History & Authorship",
+    "summary": "The Bible wasn't handed down as a single finished book. It's a collection assembled over centuries through a gradual, sometimes contested process of recognition and selection.",
+    "readingTimeMinutes": 7,
+    "sections": [
+      {
+        "heading": "What's well-established",
+        "body": "The Hebrew Bible's contents were substantially settled among Jewish communities by roughly the 1st-2nd century AD, though debates about a few books continued after that. The New Testament's 27 books were widely, though not universally, used by Christian communities by the 2nd-3rd centuries, and the earliest surviving list matching today's exact 27-book table dates to a letter from bishop Athanasius in 367 AD."
+      },
+      {
+        "heading": "How books were recognized",
+        "body": "Early Christian communities generally weighed a text's perceived apostolic origin or close connection to it, its consistency with widely accepted teaching, and its established, wide use in worship across many communities. This was less a single top-down decision than a gradual convergence, though regional church councils in later centuries did formally ratify lists."
+      },
+      {
+        "heading": "What scholars debate",
+        "body": "Historians debate exactly when and how quickly consensus formed, why certain other early Christian writings (like the Gospel of Thomas or the Shepherd of Hermas) were used by some communities but ultimately excluded, and how much political and institutional factors versus purely theological ones shaped the outcome. Catholic, Orthodox, and Protestant Bibles also differ today on the Old Testament's exact contents, reflecting different canon decisions made across history."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "Understanding the canon as a historical process, rather than a single miraculous event, doesn't require concluding it was arbitrary. It helps explain why different traditions today hold slightly different books as scripture, and it separates the historical question of 'how did this collection form' from the theological question of 'why do I trust it.'"
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "Many faith traditions hold that the canon's formation was guided by divine providence working through a human historical process. That is a theological claim about meaning, distinct from the historical record of committees, letters, and regional councils described above."
+      }
+    ]
+  },
+  {
+    "id": "was-there-really-a-king-david",
+    "title": "Was There Really a King David?",
+    "category": "Archaeology & History",
+    "summary": "For decades some scholars doubted David existed at all. A 1993 discovery changed the conversation, though the size and nature of his kingdom remain genuinely debated.",
+    "readingTimeMinutes": 7,
+    "sections": [
+      {
+        "heading": "What's well-established",
+        "body": "The Tel Dan Stele, a 9th century BC inscription discovered in 1993-1994, references 'the House of David' as a recognized royal dynasty, providing the earliest evidence outside the Bible that a king named David was remembered as a real dynastic founder. Most scholars now accept that David was a real historical figure."
+      },
+      {
+        "heading": "What scholars debate",
+        "body": "The debate has shifted from 'did David exist' to 'what did his kingdom actually look like.' Some archaeologists argue for a relatively modest hill-country chiefdom or small kingdom, pointing to limited monumental architecture from that period in Jerusalem, while others point to sites like Khirbet Qeiyafa and argue for a more substantial, organized state. The population, borders, and administrative sophistication of David's kingdom remain actively contested."
+      },
+      {
+        "heading": "Why the scale question matters",
+        "body": "The Bible's portrayal of David and Solomon's kingdom as a large, wealthy, unified empire is a bigger historical claim than 'a real king named David existed,' and the archaeological evidence bears on these two claims very differently. Conflating the two often produces overconfident claims in either direction."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "David's story anchors messianic expectation, royal ideology, and a huge portion of the Psalms attributed to him. Distinguishing the well-supported claim (a historical David existed and founded a recognized dynasty) from the debated one (the exact size and grandeur of his kingdom) allows for honest engagement with both the history and the literature."
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "David's theological role as ancestor of the promised messiah in Jewish and Christian tradition is a claim about meaning and covenant, not archaeology, and doesn't rise or fall on debates about the physical size of his 10th century BC kingdom."
+      }
+    ]
+  },
+  {
+    "id": "old-testament-law-in-context",
+    "title": "Understanding Old Testament Law in Its Ancient Context",
+    "category": "Culture & Context",
+    "summary": "Laws in the Torah can look strange or harsh to modern readers taken out of context. Comparing them to other law codes of the ancient Near East reveals both continuity and genuine moral innovation.",
+    "readingTimeMinutes": 8,
+    "sections": [
+      {
+        "heading": "What's well-established",
+        "body": "Several ancient Near Eastern law collections predate or overlap with biblical law, including the Code of Hammurabi (Babylon, circa 1750 BC) and Hittite law codes, and scholars have documented clear parallels in structure and specific case-law formulas ('if a man does X, then Y') between these and portions of Exodus, Leviticus, and Deuteronomy."
+      },
+      {
+        "heading": "Where biblical law diverges",
+        "body": "Compared to some neighboring codes, several biblical laws show a leveling tendency, applying more uniform penalties across social classes rather than harsher punishments for offenses against the wealthy, and includes repeated ethical commands to protect widows, orphans, and foreigners. Scholars generally agree these represent real points of distinctiveness, even while debating how consistently they were followed in practice."
+      },
+      {
+        "heading": "What scholars debate",
+        "body": "There is ongoing debate about the dating of different legal sections of the Torah (some scholars see law developing across several centuries and later compilation, rather than a single Mosaic-era origin), and about how literally versus rhetorically to read specific harsh penalties described in the text. Historians also debate how much these laws were actually enforced as a functioning legal system versus functioning as an idealized or aspirational literary code."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "Reading these laws against their ancient Near Eastern backdrop, rather than by modern legal standards alone, helps explain both why some provisions look startling today and why other provisions were, in their own era, genuinely progressive. Neither observation is a modern judgment on the text, just a comparison to its actual historical neighbors."
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "How communities today understand the ongoing authority, symbolism, or fulfillment of these laws differs widely across Jewish and Christian traditions, and that theological question is separate from the historical-comparative one addressed here."
+      }
+    ]
+  },
+  {
+    "id": "dead-sea-scrolls-what-changed",
+    "title": "The Dead Sea Scrolls and What They Changed",
+    "category": "Archaeology & History",
+    "summary": "Discovered by chance in desert caves in 1947, the Dead Sea Scrolls remain the single biggest archaeological find for understanding how the Hebrew Bible's text was transmitted.",
+    "readingTimeMinutes": 8,
+    "sections": [
+      {
+        "heading": "What's well-established",
+        "body": "Between 1947 and 1956, roughly 900 manuscripts and fragments were recovered from eleven caves near Qumran, dating from about the 3rd century BC to the 1st century AD. They include copies of nearly every book of the Hebrew Bible (all but Esther), along with previously unknown community documents, hymns, and biblical commentary, and they predate the previously oldest known complete Hebrew Bible manuscripts by roughly a thousand years."
+      },
+      {
+        "heading": "What the comparison showed",
+        "body": "When scholars compared the scrolls to the medieval Masoretic Text used in most modern Hebrew Bibles, the wording matched closely for most books, demonstrating unusually careful transmission over many centuries. At the same time, some scrolls, particularly of books like Jeremiah and Samuel, show meaningfully different textual traditions, some of which align more closely with the ancient Greek Septuagint translation than with the later Masoretic tradition."
+      },
+      {
+        "heading": "What scholars debate",
+        "body": "Historians still debate exactly who lived at Qumran and whether the scrolls represent one sectarian community's library or a broader collection gathered from elsewhere for safekeeping. The relationship between the community described in some scrolls (often associated with the Essenes) and other Jewish groups of the period is also actively studied and revised."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "The scrolls shifted biblical text studies from theoretical reconstruction to direct comparison with ancient physical evidence, showing both remarkable consistency and legitimate, documented textual variation across the Hebrew Bible's transmission history."
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "Communities that hold a strong view of scriptural preservation often point to the overall consistency shown by the scrolls as reassuring, while textual scholars are equally interested in the documented variants as historically significant in their own right. Both observations are compatible with the same underlying evidence."
+      }
+    ]
+  }
+]

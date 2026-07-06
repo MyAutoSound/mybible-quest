@@ -1,0 +1,52 @@
+[
+  {
+    "id": "f1",
+    "question": "Is this site affiliated with a specific church or denomination?",
+    "answer": "No. MyBible.quest is an independent, non-denominational educational project. It isn't run by or affiliated with any church, denomination, or religious organization, and it aims to be useful to readers from any background, including people who aren't religious at all."
+  },
+  {
+    "id": "f2",
+    "question": "Which Bible translation are the verses from?",
+    "answer": "The verse text on this site is paraphrased and adapted into plain, modern language for educational readability, rather than reproduced from a specific licensed translation. This makes it easy to read at a glance, but it also means it should not be treated as a substitute for a full study Bible in an established translation if you want precise wording for study, citation, or worship."
+  },
+  {
+    "id": "f3",
+    "question": "Is my reading progress or personal data private?",
+    "answer": "Yes. Everything you do on this site, including quest progress, saved verses, and reading plan status, is stored locally in your own browser using localStorage. Nothing is sent to a server, there is no account or sign-up, and no one else can see your activity."
+  },
+  {
+    "id": "f4",
+    "question": "Is the AI assistant always right?",
+    "answer": "No, and it isn't meant to be treated as an authority. It's a local, rule-based tool that only draws from this site's own curated verses, themes, and people data, and it cites where each answer comes from. It can miss nuance or context, so it should be treated as a starting point for exploration, not a scholarly or pastoral source of truth."
+  },
+  {
+    "id": "f5",
+    "question": "Is this a replacement for therapy or pastoral care?",
+    "answer": "No. The guided quests can be a helpful companion during a hard week, but they are not therapy, counseling, or pastoral care, and they aren't written by mental health or religious professionals. If you're struggling, please reach out to a qualified therapist, doctor, or faith leader in your community."
+  },
+  {
+    "id": "f6",
+    "question": "How is the historical context researched and sourced?",
+    "answer": "Context notes draw on widely available historical, archaeological, and biblical-scholarship sources, and are written to reflect mainstream academic understanding rather than any one faith tradition's interpretation. Where scholars genuinely disagree, the site tries to say so plainly rather than picking a side."
+  },
+  {
+    "id": "f7",
+    "question": "Can I suggest a verse, feature, or correction?",
+    "answer": "Yes, suggestions are welcome. Since this is a small independent project without a account system or forum yet, the best way is through the contact link in the site footer, and feedback genuinely does shape what gets added or fixed."
+  },
+  {
+    "id": "f8",
+    "question": "Is this site free to use?",
+    "answer": "Yes, the entire site is free, with no paywall, no required account, and no hidden tiers. It's built as a static educational resource, not a subscription product."
+  },
+  {
+    "id": "f9",
+    "question": "Does it work offline or on mobile?",
+    "answer": "The site is built to work well on phones, tablets, and desktops alike. Because your data is stored locally in your browser rather than on a server, previously loaded pages can continue to work with limited or no connection, though a first visit to any page still requires loading it once."
+  },
+  {
+    "id": "f10",
+    "question": "How does the site handle scholarly disagreement?",
+    "answer": "Rather than smoothing over debate, the site tries to name it directly: historical and archaeological content distinguishes between what is well-established, what is genuinely debated among historians and archaeologists, and what is a matter of faith interpretation. The goal is to let you see that distinction clearly rather than presenting any single hypothesis as settled fact."
+  }
+]

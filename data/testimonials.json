@@ -1,0 +1,44 @@
+[
+  {
+    "id": "t1",
+    "name": "Sarah M.",
+    "role": "New to reading scripture",
+    "quote": "I never grew up going to church, so a lot of the Bible felt like a locked room. Reading one short verse a day with a little context underneath it made it feel less intimidating. I actually look forward to opening the site in the morning.",
+    "avatarInitial": "S"
+  },
+  {
+    "id": "t2",
+    "name": "David K.",
+    "role": "Went through a hard season",
+    "quote": "My dad passed away last winter and I couldn't focus on much of anything. The grief quest didn't try to fix how I felt, it just walked with me a few verses at a time. Some days that was the only reading I could manage.",
+    "avatarInitial": "D"
+  },
+  {
+    "id": "t3",
+    "name": "Priya R.",
+    "role": "Longtime reader, new perspective",
+    "quote": "I've read these passages for twenty years, but the historical context notes on the map made me stop and reconsider things I'd always skimmed past. Knowing where a letter was actually written changes how you read it.",
+    "avatarInitial": "P"
+  },
+  {
+    "id": "t4",
+    "name": "Marcus T.",
+    "role": "Used the search feature for a sermon",
+    "quote": "I was trying to remember a verse about a shepherd and only had half a phrase to go on. The search found it in seconds and pointed me to two related passages I hadn't thought to look at.",
+    "avatarInitial": "M"
+  },
+  {
+    "id": "t5",
+    "name": "Elena V.",
+    "role": "Curious skeptic",
+    "quote": "I mostly came in to ask the assistant pointed questions and see if it would dodge them. It didn't. It answered plainly and told me when something was debated instead of pretending everything was settled.",
+    "avatarInitial": "E"
+  },
+  {
+    "id": "t6",
+    "name": "James O.",
+    "role": "Reads on his commute",
+    "quote": "It's a small thing, but having one verse and a short reflection load fast on my phone during a train ride is exactly the amount of scripture I have time for most days. No account, no clutter, just the reading.",
+    "avatarInitial": "J"
+  }
+]

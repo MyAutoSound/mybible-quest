@@ -1,0 +1,188 @@
+[
+  {
+    "id": "psalms-7-day",
+    "title": "7 Days Through the Psalms",
+    "tagline": "A week of honest prayer, praise, and lament",
+    "description": "Seven short daily readings drawn from some of the best-known Psalms, moving from trust and comfort through honest struggle and back to praise, paired with a brief daily reflection.",
+    "durationDays": 7,
+    "icon": "wave",
+    "days": [
+      {
+        "day": 1,
+        "reference": "Psalm 23:1-3",
+        "verseText": "The Lord is my shepherd, I lack nothing. He lets me rest in green pastures, leads me beside quiet waters, and restores my soul.",
+        "devotional": "This psalm opens not with a demand but with an image of provision and rest. Before anything else this week, notice what it feels like to imagine being led somewhere quiet."
+      },
+      {
+        "day": 2,
+        "reference": "Psalm 8:3-4",
+        "verseText": "When I look at the night sky, the moon and stars you set in place, I wonder: what is a person, that you would think of them at all?",
+        "devotional": "This is a psalm of scale, written by someone looking up at an unpolluted ancient sky. It asks a question worth sitting with rather than rushing to answer."
+      },
+      {
+        "day": 3,
+        "reference": "Psalm 13:1-2",
+        "verseText": "How long, Lord? Will you forget me forever? How long will I carry this sorrow in my heart, day after day?",
+        "devotional": "Not every psalm is comfortable. This one is raw complaint, a reminder that honest frustration has always had a place in prayer, not just polished gratitude."
+      },
+      {
+        "day": 4,
+        "reference": "Psalm 46:1-2",
+        "verseText": "God is our refuge and strength, a help always near in times of trouble. So we will not fear, even if the earth gives way beneath us.",
+        "devotional": "Written in the middle of apparent crisis, this psalm names the worst case directly instead of avoiding it. What would it mean to name your own worry that plainly today?"
+      },
+      {
+        "day": 5,
+        "reference": "Psalm 51:10",
+        "verseText": "Create in me a clean heart, God, and renew a steady spirit within me.",
+        "devotional": "Traditionally linked to a moment of personal failure, this short verse is less about self-punishment and more about asking for a fresh start."
+      },
+      {
+        "day": 6,
+        "reference": "Psalm 90:12",
+        "verseText": "Teach us to count our days carefully, so that we may grow in wisdom.",
+        "devotional": "A short, practical request in the middle of a psalm about mortality and time. It's less about fear of death and more about not sleepwalking through the days you have."
+      },
+      {
+        "day": 7,
+        "reference": "Psalm 150:1-2",
+        "verseText": "Praise God in his sanctuary, praise him in his mighty heavens. Praise him for his powerful deeds, praise him for his surpassing greatness.",
+        "devotional": "The final psalm in the book is unrestrained praise with no request attached. After six days moving through trust, wonder, complaint, fear, and renewal, it ends simply with gratitude."
+      }
+    ]
+  },
+  {
+    "id": "jesus-life-14-day",
+    "title": "14 Days: The Life of Jesus",
+    "tagline": "A chronological walk from birth to resurrection",
+    "description": "A 14-day journey through the Gospels in roughly chronological order, following the major moments of Jesus's birth, ministry, teaching, and final days.",
+    "durationDays": 14,
+    "icon": "compass",
+    "days": [
+      {
+        "day": 1,
+        "reference": "Luke 2:6-7",
+        "verseText": "While they were in Bethlehem, the time came for Mary's baby to be born. She gave birth to her firstborn son and wrapped him snugly, laying him in a manger, because there was no room for them in the inn.",
+        "devotional": "The story begins not in a palace but in the most ordinary circumstances possible: displaced travelers and no available room."
+      },
+      {
+        "day": 2,
+        "reference": "Matthew 2:1-2",
+        "verseText": "After Jesus was born in Bethlehem, wise men from the east arrived in Jerusalem, asking, 'Where is the newborn king? We saw his star rise and have come to honor him.'",
+        "devotional": "Outsiders, not local religious leaders, are the ones who notice and travel to respond. Recognition often comes from unexpected places."
+      },
+      {
+        "day": 3,
+        "reference": "Matthew 3:16-17",
+        "verseText": "As soon as Jesus was baptized, he came up out of the water. The heavens opened and he saw God's Spirit descending like a dove, and a voice said, 'This is my beloved Son, in whom I delight.'",
+        "devotional": "Jesus's public ministry begins with this moment of affirmation, before he has taught, healed, or done anything publicly notable yet."
+      },
+      {
+        "day": 4,
+        "reference": "Matthew 4:1-2",
+        "verseText": "Then the Spirit led Jesus into the wilderness to be tested by the accuser. After fasting forty days and nights, he was hungry.",
+        "devotional": "Before any public teaching, there is testing in isolation and hunger. Significant beginnings are often preceded by a hard, unseen stretch."
+      },
+      {
+        "day": 5,
+        "reference": "Mark 1:16-17",
+        "verseText": "Walking beside the Sea of Galilee, Jesus saw Simon and his brother Andrew casting a net into the water, for they were fishermen. 'Come, follow me,' Jesus said, 'and I will send you out to fish for people.'",
+        "devotional": "The first disciples are working people, called mid-task rather than sought out in a formal setting."
+      },
+      {
+        "day": 6,
+        "reference": "Matthew 5:3-4",
+        "verseText": "Blessed are the poor in spirit, for the kingdom of heaven belongs to them. Blessed are those who mourn, for they will be comforted.",
+        "devotional": "The Sermon on the Mount opens by calling the overlooked and grieving 'blessed,' inverting the usual order of who gets called fortunate."
+      },
+      {
+        "day": 7,
+        "reference": "Luke 15:20",
+        "verseText": "While the son was still a long way off, his father saw him and was filled with compassion. He ran to his son, threw his arms around him, and kissed him.",
+        "devotional": "The parable of the prodigal son describes a father who runs, undignified by the standards of the time, to reach his returning child."
+      },
+      {
+        "day": 8,
+        "reference": "Mark 4:39",
+        "verseText": "Jesus got up, rebuked the wind, and said to the waves, 'Peace! Be still!' Then the wind died down and it was completely calm.",
+        "devotional": "This miracle story is followed immediately by the disciples' fear and awe, not relief, at what they'd just witnessed."
+      },
+      {
+        "day": 9,
+        "reference": "John 6:35",
+        "verseText": "Jesus told them, 'I am the bread of life. Whoever comes to me will never go hungry, and whoever believes in me will never be thirsty.'",
+        "devotional": "This is the first of several 'I am' statements in John's Gospel, using an everyday image, bread, to describe something the text presents as sustaining beyond food."
+      },
+      {
+        "day": 10,
+        "reference": "Matthew 16:15-16",
+        "verseText": "'But who do you say I am?' Jesus asked. Simon Peter answered, 'You are the Messiah, the Son of the living God.'",
+        "devotional": "This exchange sits at a turning point in the Gospels, the moment the narrative shifts from broad ministry toward the road to Jerusalem."
+      },
+      {
+        "day": 11,
+        "reference": "Matthew 21:9",
+        "verseText": "The crowds that went ahead of him and those that followed shouted, 'Hosanna to the Son of David! Blessed is he who comes in the name of the Lord!'",
+        "devotional": "Jesus's entry into Jerusalem is celebrated publicly, a moment of high expectation that the coming week's events sharply contrast with."
+      },
+      {
+        "day": 12,
+        "reference": "Luke 22:19",
+        "verseText": "Jesus took bread, gave thanks, and broke it, giving it to them and saying, 'This is my body, given for you. Do this in remembrance of me.'",
+        "devotional": "At what the Gospels present as his final meal with his closest followers, Jesus reframes an ordinary shared meal with new meaning."
+      },
+      {
+        "day": 13,
+        "reference": "Luke 23:33-34",
+        "verseText": "There they crucified him, along with the criminals, one on his right and one on his left. Jesus said, 'Father, forgive them, for they don't know what they're doing.'",
+        "devotional": "This account presents Jesus responding to his execution with forgiveness rather than condemnation, a detail central to how Christian tradition has read this scene ever since."
+      },
+      {
+        "day": 14,
+        "reference": "Matthew 28:5-6",
+        "verseText": "The angel said to the women, 'Don't be afraid. I know you're looking for Jesus, who was crucified. He is not here, he has risen, just as he said.'",
+        "devotional": "The Gospels end this arc not with an ending but with an announcement of something unexpected, the claim at the center of the Easter story."
+      }
+    ]
+  },
+  {
+    "id": "genesis-beginnings-5-day",
+    "title": "5 Days: Genesis Beginnings",
+    "tagline": "Creation, fall, flood, call, and providence",
+    "description": "A five-day walk through the opening chapters of Genesis, from creation through the call of Abraham and Joseph's story, tracing the book's earliest foundational narratives.",
+    "durationDays": 5,
+    "icon": "sprout",
+    "days": [
+      {
+        "day": 1,
+        "reference": "Genesis 1:1-3",
+        "verseText": "In the beginning, God created the heavens and the earth. The earth was formless and empty, darkness covered the deep, and God's Spirit hovered over the waters. Then God said, 'Let there be light,' and there was light.",
+        "devotional": "The creation account begins with formlessness and moves toward order, one spoken step at a time. It's less a scientific account than a declaration that the world is intentional, not accidental."
+      },
+      {
+        "day": 2,
+        "reference": "Genesis 3:6-7",
+        "verseText": "The woman saw that the fruit was good for food, pleasing to look at, and desirable for gaining wisdom, so she took some and ate it. She also gave some to her husband, and he ate it too. Then both of their eyes were opened.",
+        "devotional": "The story of the fall centers on a choice made for reasons that sound strikingly ordinary: something looked good, useful, and wise. Temptation here isn't cartoonish, it's relatable."
+      },
+      {
+        "day": 3,
+        "reference": "Genesis 6:17-18",
+        "verseText": "God said, 'I am going to bring floodwaters on the earth to destroy every living creature under the sky. But I will establish my covenant with you, and you will enter the ark, you and your family.'",
+        "devotional": "Even within a story of judgment, the text pairs it immediately with a promise of preservation and covenant. Destruction is not presented as the final word."
+      },
+      {
+        "day": 4,
+        "reference": "Genesis 12:1-2",
+        "verseText": "The Lord said to Abram, 'Leave your country, your relatives, and your father's household, and go to the land I will show you. I will make you into a great nation and bless you.'",
+        "devotional": "Abraham's story begins with an open-ended instruction to leave what's familiar before knowing the destination. The promise comes before the proof."
+      },
+      {
+        "day": 5,
+        "reference": "Genesis 50:20",
+        "verseText": "Joseph said to his brothers, 'You intended to harm me, but God intended it for good, to accomplish what is now being done, the saving of many lives.'",
+        "devotional": "After chapters of betrayal, slavery, and imprisonment, Joseph's story closes with this reflection on how harm and good can coexist in a single long story without one erasing the other."
+      }
+    ]
+  }
+]

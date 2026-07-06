@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Bible Assistant — MyBible.quest</title>
+  <meta name="description" content="Ask questions about Bible verses, people, places, and books. Grounded entirely in the site's own curated data, with sources always cited.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="main-content">
+    <section class="hero" style="padding-bottom:20px">
+      <div class="container hero-inner">
+        <span class="eyebrow reveal">✦ AI Bible Assistant</span>
+        <h1 class="reveal">Ask, and get a<br>grounded answer.</h1>
+        <p class="subtitle reveal">This assistant only answers from the site's own curated verses, people, places, and books — it always cites what it used, and always separates established fact from scholarly debate from interpretation.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container" style="max-width:760px">
+        <div class="ai-disclaimer reveal">
+          <strong>How this works:</strong> there's no external AI model here — this runs entirely in your browser, matching your question against this site's own dataset. It won't know anything outside that data, and it's not a substitute for scholarly or pastoral guidance. See the <a href="index.html#faq">FAQ</a> for details.
+        </div>
+
+        <div class="chat-window reveal" id="chat-window">
+          <div class="chat-message assistant">
+            <div class="chat-bubble">
+              <p>Hi — ask me about a verse, a person, a place, a book, or how you're feeling. Try one of these:</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-suggestions" id="chat-suggestions">
+          <button class="filter-chip" data-q="Who was Moses?">Who was Moses?</button>
+          <button class="filter-chip" data-q="What happened at Mount Sinai?">What happened at Mount Sinai?</button>
+          <button class="filter-chip" data-q="Tell me about John 3:16">Tell me about John 3:16</button>
+          <button class="filter-chip" data-q="I feel anxious">I feel anxious</button>
+        </div>
+
+        <form class="chat-input-row" id="chat-form">
+          <input type="text" id="chat-input" placeholder="Ask a question…" autocomplete="off" aria-label="Ask the AI Bible Assistant a question">
+          <button type="submit" class="btn btn-primary">Ask</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/ai-engine.js"></script>
+  <script src="js/assistant.js"></script>
+</body>
+</html>

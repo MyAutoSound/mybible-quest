@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyBible.quest — Understand the Bible like never before</title>
+  <meta name="description" content="Daily verses, historical context, guided emotional journeys, and an interactive explorer to help you understand the Bible — clearly, and at your own pace.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MyBible.quest — Understand the Bible like never before">
+  <meta property="og:description" content="Daily verses, historical context, guided emotional journeys, an interactive map and timeline, and an AI assistant grounded entirely in cited sources.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MyBible.quest — Understand the Bible like never before">
+  <meta name="twitter:description" content="Daily verses, historical context, guided emotional journeys, and an interactive explorer to help you understand the Bible.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main id="main-content">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="eyebrow reveal">✦ A calmer way to read scripture</span>
+        <h1 class="reveal">Understand the Bible<br>like never before.</h1>
+        <p class="subtitle reveal">Daily verses, history, and culture — plus guided journeys, an interactive
+          context explorer, and honest search. Built for clarity, not conclusions.</p>
+        <div class="hero-actions reveal">
+          <a href="quests.html" class="btn btn-primary">Start your journey</a>
+          <a href="explorer.html" class="btn btn-secondary">Explore the context</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="hero-stat"><strong id="stat-verses">—</strong><span>Verses in context</span></div>
+          <div class="hero-stat"><strong id="stat-quests">6</strong><span>Guided quests</span></div>
+          <div class="hero-stat"><strong id="stat-places">—</strong><span>Places &amp; events mapped</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VERSE OF THE DAY ================= -->
+    <section id="verse-of-day">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Today</span>
+          <h2>Your verse of the day</h2>
+          <p>One passage, read slowly — with the history and reasoning behind why it still matters.</p>
+        </div>
+        <div class="verse-card reveal" id="verse-card">
+          <!-- injected by js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EMOTIONS ================= -->
+    <section id="how-are-you" style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Start from where you are</span>
+          <h2>How are you feeling today?</h2>
+          <p>Pick what's true right now — we'll route you to a short, honest quest built around it.</p>
+        </div>
+        <div class="emotion-row reveal" id="emotion-row"><!-- injected --></div>
+      </div>
+    </section>
+
+    <!-- ================= QUESTS TEASER ================= -->
+    <section id="quests-teaser">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Guided Quests</span>
+          <h2>Short journeys through scripture</h2>
+          <p>Each quest is five verses deep — enough to sit with an idea, not enough to overwhelm you.</p>
+        </div>
+        <div class="grid grid-3" id="quest-teaser-grid"><!-- injected --></div>
+        <div class="text-center reveal" style="margin-top:32px">
+          <a href="quests.html" class="btn-ghost">View all quests →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BIBLE MAPS ================= -->
+    <section id="maps" style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="feature-split">
+          <div>
+            <span class="eyebrow reveal">✦ Bible Maps</span>
+            <h2 class="reveal" style="margin:12px 0 16px">See the story move.</h2>
+            <p class="reveal" style="margin-bottom:20px">An interactive map of biblical places — plus toggleable routes for the Exodus, the life of Jesus, and Paul's missionary journeys, so you can trace how the story actually moved across the ancient world.</p>
+            <a href="explorer.html#map" class="btn btn-secondary reveal">Open the map →</a>
+          </div>
+          <div class="feature-visual reveal" id="map-preview">
+            <div class="skeleton-block" style="height:220px"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HISTORICAL CONTEXT / TIMELINE ================= -->
+    <section id="timeline-teaser">
+      <div class="container">
+        <div class="feature-split reverse">
+          <div>
+            <span class="eyebrow reveal">✦ Historical Context &amp; Timeline</span>
+            <h2 class="reveal" style="margin:12px 0 16px">From Creation to the early church.</h2>
+            <p class="reveal" style="margin-bottom:20px">A filterable timeline spanning Creation, the patriarchs, the Exodus, the kings, the exile, and the life of Jesus — so every verse has a place in the bigger story, not just its own page.</p>
+            <a href="explorer.html#timeline" class="btn btn-secondary reveal">Explore the timeline →</a>
+          </div>
+          <div class="feature-visual reveal" id="timeline-preview">
+            <div class="skeleton-line" style="width:40%"></div>
+            <div class="skeleton-line" style="width:80%"></div>
+            <div class="skeleton-line" style="width:40%"></div>
+            <div class="skeleton-line" style="width:70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= AI ASSISTANT ================= -->
+    <section id="ai-assistant-teaser" style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="feature-split">
+          <div>
+            <span class="eyebrow reveal">✦ AI Bible Assistant</span>
+            <h2 class="reveal" style="margin:12px 0 16px">Ask a question, get a cited answer.</h2>
+            <p class="reveal" style="margin-bottom:20px">No external model, no hallucinated verses — this assistant only answers from the site's own curated data, always shows its sources, and always separates fact from scholarly debate from interpretation.</p>
+            <a href="assistant.html" class="btn btn-secondary reveal">Ask the assistant →</a>
+          </div>
+          <div class="feature-visual reveal">
+            <div class="chat-message assistant" style="margin-bottom:0">
+              <div class="chat-bubble">
+                <p><strong>You:</strong> Who was Jeremiah?</p>
+                <p>Jeremiah was a prophet who warned Jerusalem of coming destruction for decades before it happened...</p>
+                <div class="ai-sources"><span class="tag">person: Jeremiah</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COMMUNITY ================= -->
+    <section id="community-teaser">
+      <div class="container">
+        <div class="feature-split reverse">
+          <div>
+            <span class="eyebrow reveal">✦ Community &amp; Progress</span>
+            <h2 class="reveal" style="margin:12px 0 16px">Built to notice you came back.</h2>
+            <p class="reveal" style="margin-bottom:20px">Favorite verses, write private notes, keep a daily streak, earn XP and badges as you go — all stored locally on your device, no account required.</p>
+            <a href="profile.html" class="btn btn-secondary reveal">View your profile →</a>
+          </div>
+          <div class="feature-visual reveal">
+            <div class="stats-grid" style="grid-template-columns:1fr 1fr">
+              <div class="stat-card"><strong>7</strong><span>Day streak</span></div>
+              <div class="stat-card"><strong>Lv 4</strong><span>Reader level</span></div>
+              <div class="stat-card"><strong>12</strong><span>Favorites</span></div>
+              <div class="stat-card"><strong>5</strong><span>Badges</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= READING PLANS ================= -->
+    <section id="reading-plans-teaser" style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Reading Plans</span>
+          <h2>Multi-day journeys, day by day</h2>
+          <p>Structured plans that walk through a book or a theme one short reading at a time.</p>
+        </div>
+        <div class="grid grid-3" id="plans-teaser-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================= ARCHAEOLOGY ================= -->
+    <section id="archaeology-teaser">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Archaeology</span>
+          <h2>Evidence from the ground</h2>
+          <p>Real discoveries that intersect with the biblical text — presented with an honest read on scholarly consensus.</p>
+        </div>
+        <div class="grid grid-3" id="archaeology-teaser-grid"></div>
+        <div class="text-center reveal" style="margin-top:32px">
+          <a href="explorer.html#archaeology" class="btn-ghost">See all discoveries →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED STUDIES ================= -->
+    <section id="studies-teaser" style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Featured Studies</span>
+          <h2>Deep dives, handled honestly</h2>
+          <p>Longer reads that always separate what's established from what's debated from what's interpretation.</p>
+        </div>
+        <div class="grid grid-3" id="studies-teaser-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-head center reveal" style="margin-left:auto;margin-right:auto">
+          <span class="eyebrow">Readers</span>
+          <h2>What people are saying</h2>
+        </div>
+        <div class="grid grid-3" id="testimonials-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section id="faq" style="background:var(--bg-subtle)">
+      <div class="container" style="max-width:760px">
+        <div class="section-head center reveal" style="margin-left:auto;margin-right:auto">
+          <span class="eyebrow">Questions</span>
+          <h2>Frequently asked</h2>
+        </div>
+        <div class="accordion reveal" id="faq-accordion"></div>
+      </div>
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+    <section id="newsletter">
+      <div class="container">
+        <div class="newsletter-box reveal">
+          <span class="eyebrow">Stay in the loop</span>
+          <h2 style="margin:12px 0 6px">One quiet email, occasionally.</h2>
+          <p>New quests, studies, and features — no spam, unsubscribe anytime.</p>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" id="newsletter-email" placeholder="you@example.com" required aria-label="Email address">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <p id="newsletter-note" style="font-size:0.78rem;margin-top:12px;color:var(--text-tertiary)">Stored locally for this demo — no data leaves your browser.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section id="cta">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Ready to begin?</h2>
+          <p>No account, no sign-up. Just pick a feeling or a verse and start reading.</p>
+          <a href="quests.html" class="btn btn-primary">Start your journey</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

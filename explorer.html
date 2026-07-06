@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bible Context Explorer — MyBible.quest</title>
+  <meta name="description" content="An interactive map of biblical places, a timeline of major events, and profiles of the Bible's authors and figures.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="main-content">
+    <section class="hero" style="padding-bottom:20px">
+      <div class="container hero-inner">
+        <span class="eyebrow reveal">✦ Bible Context Explorer</span>
+        <h1 class="reveal">The where, when,<br>and who behind the text.</h1>
+        <p class="subtitle reveal">Scripture was written across centuries, in real places, by real people. Explore the map, follow the timeline, and meet the authors and figures who shaped it.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:10px">
+      <div class="container">
+        <div class="explorer-tabs reveal">
+          <button class="explorer-tab active" data-tab="map">Map</button>
+          <button class="explorer-tab" data-tab="timeline">Timeline</button>
+          <button class="explorer-tab" data-tab="books">Books</button>
+          <button class="explorer-tab" data-tab="people">People</button>
+          <button class="explorer-tab" data-tab="archaeology">Archaeology</button>
+        </div>
+
+        <div class="explorer-panel" id="panel-map">
+          <div class="map-layer-toggles" id="map-layer-toggles"></div>
+          <div class="map-wrap reveal" id="map-wrap"></div>
+          <div class="place-detail reveal" id="place-detail">
+            <p style="color:var(--text-tertiary)">Click a pin on the map to learn about that place, or turn on a route above to trace a journey.</p>
+          </div>
+        </div>
+
+        <div class="explorer-panel" id="panel-timeline" style="display:none;max-width:760px">
+          <div class="search-filters reveal" id="timeline-filters" style="margin-top:0"></div>
+          <div class="timeline reveal" id="timeline-list"></div>
+        </div>
+
+        <div class="explorer-panel" id="panel-books" style="display:none">
+          <div class="grid grid-3" id="books-grid"></div>
+        </div>
+
+        <div class="explorer-panel" id="panel-people" style="display:none">
+          <div class="people-grid reveal" id="people-grid"></div>
+        </div>
+
+        <div class="explorer-panel" id="panel-archaeology" style="display:none">
+          <div class="grid grid-3" id="archaeology-grid"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/explorer.js"></script>
+</body>
+</html>

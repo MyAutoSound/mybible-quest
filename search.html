@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search — MyBible.quest</title>
+  <meta name="description" content="Search Bible verses, themes, and biblical figures with plain-language context.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="main-content">
+    <section class="hero search-hero">
+      <div class="container hero-inner">
+        <span class="eyebrow reveal">✦ Search</span>
+        <h1 class="reveal">Find a verse, a theme,<br>or a person.</h1>
+        <p class="subtitle reveal">Search across every verse, quest theme, and biblical figure on the site — with context included, not just a citation.</p>
+        <div class="search-box reveal">
+          <span style="width:20px;height:20px;color:var(--text-tertiary)" id="search-icon"></span>
+          <input type="text" id="search-input" placeholder="Try “John 3:16”, “grief”, or “Moses”…" autocomplete="off">
+        </div>
+        <div class="search-filters reveal" id="search-filters">
+          <span class="filter-chip active" data-filter="all">All</span>
+          <span class="filter-chip" data-filter="verse">Verses</span>
+          <span class="filter-chip" data-filter="theme">Themes</span>
+          <span class="filter-chip" data-filter="person">People</span>
+          <span class="filter-chip" data-filter="place">Places</span>
+          <span class="filter-chip" data-filter="book">Books</span>
+          <span class="filter-chip" data-filter="study">Studies</span>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:10px">
+      <div class="container" style="max-width:780px">
+        <div id="search-results"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

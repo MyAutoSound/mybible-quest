@@ -1,0 +1,44 @@
+[
+  {
+    "id": "exodus",
+    "label": "The Exodus",
+    "color": "gold",
+    "description": "The route the book of Exodus describes the Israelites taking out of slavery in Egypt, through the wilderness, to the edge of Canaan.",
+    "waypoints": [
+      { "placeId": "egypt", "note": "Starting point: the Israelites, enslaved in Egypt, prepare to leave under Moses's leadership." },
+      { "placeId": "red-sea-crossing", "note": "Exodus describes the Israelites crossing a body of water on dry ground as Pharaoh's army pursues them; the exact location is debated among scholars." },
+      { "placeId": "sinai", "note": "Moses receives the Ten Commandments and the covenant law at the mountain, per the biblical account." },
+      { "placeId": "kadesh-barnea", "note": "The Israelites camp for much of their 40 years of wilderness wandering, including a failed initial attempt to enter Canaan." },
+      { "placeId": "jordan-river", "note": "After a generation passes, the Israelites cross the Jordan into Canaan under Joshua's leadership." }
+    ]
+  },
+  {
+    "id": "jesus-life",
+    "label": "The Life of Jesus",
+    "color": "blue",
+    "description": "Key locations from the Gospel accounts of Jesus's birth, upbringing, ministry, and death.",
+    "waypoints": [
+      { "placeId": "bethlehem", "note": "Jesus is born in Bethlehem, according to Matthew and Luke, during the reign of Herod the Great." },
+      { "placeId": "egypt", "note": "Matthew describes Jesus's family briefly fleeing to Egypt as infants to escape Herod's violence." },
+      { "placeId": "nazareth", "note": "Jesus grows up in this modest Galilean village, largely outside the Gospel narratives until adulthood." },
+      { "placeId": "galilee", "note": "Much of Jesus's early public teaching and many of his recruited disciples are centered around this lake." },
+      { "placeId": "jordan-river", "note": "Jesus is baptized by John, an event described in all four Gospels as marking the start of his public ministry." },
+      { "placeId": "jerusalem", "note": "Jesus's later ministry, crucifixion, and, per the Gospels, resurrection take place in and around this city." }
+    ]
+  },
+  {
+    "id": "paul-journeys",
+    "label": "Paul's Missionary Journeys",
+    "color": "gold",
+    "description": "A broad narrative sequence of places associated with Paul's life and travels as described in Acts and his letters, not a precise year-by-year itinerary.",
+    "waypoints": [
+      { "placeId": "tarsus", "note": "Paul's hometown in Cilicia, a Roman provincial capital in Asia Minor." },
+      { "placeId": "antioch", "note": "The Syrian city that served as the launching point for Paul's missionary journeys and where believers were first called 'Christians.'" },
+      { "placeId": "damascus", "note": "The site of Paul's dramatic conversion experience described in Acts, while he was traveling to persecute Christians there." },
+      { "placeId": "ephesus", "note": "A major Asia Minor city where Paul spent an extended period establishing a large Christian community." },
+      { "placeId": "philippi", "note": "A Roman colony in Macedonia, traditionally regarded as the site of the first Christian community in Europe." },
+      { "placeId": "corinth", "note": "A wealthy Greek port city where Paul founded a church and later wrote several letters addressing internal disputes." },
+      { "placeId": "rome", "note": "The imperial capital where Paul's letters and later imprisonment mark a culmination of his ministry recorded in the New Testament." }
+    ]
+  }
+]

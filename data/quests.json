@@ -1,0 +1,182 @@
+[
+  {
+    "id": "anxiety",
+    "title": "Anxiety & Stress",
+    "icon": "wave",
+    "tagline": "For the moments your mind won't slow down",
+    "description": "Five short stops exploring how the Bible speaks to worry, fear, and overwhelm — not by dismissing them, but by offering a different place to put them.",
+    "color": "blue",
+    "steps": [
+      {
+        "verseId": "psalm-46-1",
+        "reflection": "The psalm names the worst-case scenario directly instead of avoiding it. What is the specific worry you're carrying today — can you name it as plainly as this verse does?"
+      },
+      {
+        "verseId": "philippians-4-6",
+        "reflection": "Notice the sequence: bring the request, then thanksgiving. Try writing down one worry and one unrelated thing you're grateful for, side by side."
+      },
+      {
+        "verseId": "isaiah-41-10",
+        "reflection": "Fear is acknowledged here, not shamed. What would change if you treated your anxiety as information rather than a failure?"
+      },
+      {
+        "verseId": "matthew-11-28",
+        "reflection": "A 'yoke' was shared weight, not weight removed. Who or what might you let share the load you're currently carrying alone?"
+      },
+      {
+        "verseId": "isaiah-40-31",
+        "reflection": "Soaring, running, walking — three different paces for three different seasons. Which pace matches where you are right now, and is that okay?"
+      }
+    ]
+  },
+  {
+    "id": "hope",
+    "title": "Hope",
+    "icon": "sun",
+    "tagline": "For when the future feels uncertain",
+    "description": "A guided walk through passages that treat hope as something grounded in history and character, not wishful thinking.",
+    "color": "gold",
+    "steps": [
+      {
+        "verseId": "jeremiah-29-11",
+        "reflection": "This was written to people in exile, not people already safe at home. Where in your life are you waiting, and what would it mean to settle in rather than just endure?"
+      },
+      {
+        "verseId": "romans-8-28",
+        "reflection": "This doesn't say all things are good — it says they can be worked into something. Is there a difficult chapter you're only now able to see differently?"
+      },
+      {
+        "verseId": "psalm-30-5",
+        "reflection": "Grief is given a night, not forever. What would it look like to expect morning without rushing tonight?"
+      },
+      {
+        "verseId": "genesis-50-20",
+        "reflection": "Joseph could name the harm and still see a larger outcome. Is there a hard situation in your own story you can hold both truths about?"
+      },
+      {
+        "verseId": "revelation-21-4",
+        "reflection": "This is a long-range hope, not a quick fix. What helps you hold onto a bigger picture when the present moment is hard?"
+      }
+    ]
+  },
+  {
+    "id": "grief",
+    "title": "Grief",
+    "icon": "dove",
+    "tagline": "For loss, sadness, and heavy seasons",
+    "description": "These passages don't rush past sorrow — they sit with it, then point toward what comes after.",
+    "color": "blue",
+    "steps": [
+      {
+        "verseId": "ecclesiastes-3-1",
+        "reflection": "Mourning is named as its own season here, not a detour from life. What would it look like to let this season simply be what it is right now?"
+      },
+      {
+        "verseId": "psalm-13-1",
+        "reflection": "The psalmist asks 'how long' without getting an immediate answer. What questions are you sitting with that don't have answers yet?"
+      },
+      {
+        "verseId": "psalm-34-18",
+        "reflection": "Closeness is described here, not distance. Where have you felt supported, even in small ways, during a hard time?"
+      },
+      {
+        "verseId": "matthew-11-28",
+        "reflection": "Rest is offered as an invitation, not a demand to feel better quickly. What would genuine rest look like for you this week?"
+      },
+      {
+        "verseId": "revelation-21-4",
+        "reflection": "Pain is framed as temporary, not denied. What helps you hold onto that perspective without minimizing what you've lost?"
+      }
+    ]
+  },
+  {
+    "id": "faith",
+    "title": "Faith Building",
+    "icon": "sprout",
+    "tagline": "For doubt, questions, and growing trust",
+    "description": "A path through some of the Bible's most honest moments of doubt, showing that questioning and belief can coexist.",
+    "color": "gold",
+    "steps": [
+      {
+        "verseId": "mark-9-24",
+        "reflection": "This father holds belief and doubt in the same sentence. Is there an area where you feel both at once?"
+      },
+      {
+        "verseId": "hebrews-11-1",
+        "reflection": "Faith is described as confidence, not certainty about visible proof. What is something you're trusting without being able to fully verify it?"
+      },
+      {
+        "verseId": "psalm-13-1",
+        "reflection": "Honest questioning appears throughout the Bible's poetry. What would it look like to bring your real questions rather than a polished version of them?"
+      },
+      {
+        "verseId": "proverbs-3-5",
+        "reflection": "This asks for humility about your own understanding, not the absence of thinking. Where might you be leaning too hard on having it all figured out?"
+      },
+      {
+        "verseId": "james-1-5",
+        "reflection": "Wisdom here is requested, not innate. What is one honest question you could sit with this week instead of resolving it immediately?"
+      }
+    ]
+  },
+  {
+    "id": "direction",
+    "title": "Life Direction",
+    "icon": "compass",
+    "tagline": "For decisions and finding your way",
+    "description": "Guidance for the in-between moments — when the next step matters more than seeing the whole road.",
+    "color": "blue",
+    "steps": [
+      {
+        "verseId": "proverbs-3-5",
+        "reflection": "Notice this asks for trust 'in all your ways,' not just the big decisions. What is one small daily choice this could apply to?"
+      },
+      {
+        "verseId": "psalm-119-105",
+        "reflection": "A lamp lights the next step, not the whole road. What is the very next decision in front of you, rather than the entire plan?"
+      },
+      {
+        "verseId": "james-1-5",
+        "reflection": "Asking for wisdom is treated as a normal, expected request. What decision could you approach with more openness to being wrong?"
+      },
+      {
+        "verseId": "jeremiah-29-11",
+        "reflection": "This promise came with a call to build a life in an unwanted place, not to wait it out passively. What would 'building where you are' look like right now?"
+      },
+      {
+        "verseId": "romans-8-28",
+        "reflection": "Purpose is described as something formed over time. Looking back, what has shaped your direction more than you realized in the moment?"
+      }
+    ]
+  },
+  {
+    "id": "forgiveness",
+    "title": "Forgiveness",
+    "icon": "hands",
+    "tagline": "For grudges, hurt, and reconciliation",
+    "description": "A look at forgiveness as an ongoing practice — realistic about harm, but oriented toward release rather than resentment.",
+    "color": "gold",
+    "steps": [
+      {
+        "verseId": "genesis-50-20",
+        "reflection": "Joseph names the harm plainly before extending grace. Can you name what was actually done to you, clearly and without minimizing it?"
+      },
+      {
+        "verseId": "colossians-3-13",
+        "reflection": "Forgiveness is framed as an ongoing practice, not a single moment. Is there a smaller, recurring grievance this might apply to more than a dramatic one?"
+      },
+      {
+        "verseId": "matthew-6-14",
+        "reflection": "This connects forgiving others with receiving forgiveness yourself. Does thinking about your own need for grace change how you see someone else's failure?"
+      },
+      {
+        "verseId": "psalm-30-5",
+        "reflection": "Some hurts need a night before morning comes. Is there a timeline you're forcing that might need more space?"
+      },
+      {
+        "verseId": "romans-8-28",
+        "reflection": "This doesn't ask you to pretend the harm was good. What might it look like to release resentment without denying that something wrong happened?"
+      }
+    ]
+  }
+]

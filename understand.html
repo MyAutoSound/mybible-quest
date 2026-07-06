@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Understand — MyBible.quest</title>
+  <meta name="description" content="What MyBible.quest is for: a neutral, educational space to understand the Bible's history, culture, and meaning.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="main-content">
+    <section class="hero" style="padding-bottom:30px">
+      <div class="container hero-inner">
+        <span class="eyebrow reveal">✦ Understand</span>
+        <h1 class="reveal">Why this site exists.</h1>
+        <p class="subtitle reveal">MyBible.quest was built on a simple idea: the Bible is easier to understand — and more meaningful — when you can see the history, culture, and human experience behind it.</p>
+      </div>
+    </section>
+
+    <section id="approach" style="padding-top:10px">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our approach</span>
+          <h2>Three lenses, one text</h2>
+          <p>Every verse on this site is read through three angles, so context is never an afterthought.</p>
+        </div>
+        <div class="pillar-grid">
+          <div class="pillar reveal">
+            <div class="pillar-num">01</div>
+            <h3>Historical</h3>
+            <p>Who wrote this, when, and what was happening around them? Scripture was written by real people in specific circumstances — exile, empire, occupation, community — and that background shapes what the words meant first.</p>
+          </div>
+          <div class="pillar reveal">
+            <div class="pillar-num">02</div>
+            <h3>Cultural</h3>
+            <p>Ancient metaphors — shepherds, yokes, lamps, seasons — carried meaning that isn't always obvious today. We unpack the everyday images the original audience would have instantly understood.</p>
+          </div>
+          <div class="pillar reveal">
+            <div class="pillar-num">03</div>
+            <h3>Spiritual</h3>
+            <p>Beyond history and culture, these texts have shaped how millions of people process grief, hope, doubt, and meaning. We treat that human dimension seriously, without insisting on a single interpretation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What guides us</span>
+          <h2>A few commitments</h2>
+        </div>
+        <div class="value-list">
+          <div class="value-item reveal">
+            <span class="check"></span>
+            <div>
+              <h3 style="font-size:1.05rem;margin-bottom:6px">Educational, not persuasive</h3>
+              <p>We explain context and history rather than argue for a particular theology or denomination.</p>
+            </div>
+          </div>
+          <div class="value-item reveal">
+            <span class="check"></span>
+            <div>
+              <h3 style="font-size:1.05rem;margin-bottom:6px">Open to everyone</h3>
+              <p>Whether you grew up with this text, are curious about it, or are returning to it after time away, the explanations here don't assume prior belief.</p>
+            </div>
+          </div>
+          <div class="value-item reveal">
+            <span class="check"></span>
+            <div>
+              <h3 style="font-size:1.05rem;margin-bottom:6px">Honest about complexity</h3>
+              <p>Where scholars disagree — on authorship, dating, or interpretation — we say so, rather than presenting one view as settled fact.</p>
+            </div>
+          </div>
+          <div class="value-item reveal">
+            <span class="check"></span>
+            <div>
+              <h3 style="font-size:1.05rem;margin-bottom:6px">Not a replacement for care</h3>
+              <p>This is a reading and learning tool, not therapy, counseling, or pastoral guidance. Please seek qualified support for those needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Curious where to start?</h2>
+          <p>Try today's verse, pick a feeling, or explore the map of biblical places and eras.</p>
+          <a href="index.html" class="btn btn-primary">Back to today's verse</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.querySelectorAll('.value-item .check').forEach(el => { el.innerHTML = ICONS.check; });
+    initScrollReveal();
+  </script>
+</body>
+</html>

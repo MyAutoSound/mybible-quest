@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guided Quests — MyBible.quest</title>
+  <meta name="description" content="Guided reading journeys through the Bible for anxiety, hope, grief, faith, life direction, and forgiveness.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="main-content">
+    <section class="hero" style="padding-bottom:40px">
+      <div class="container hero-inner">
+        <span class="eyebrow reveal">✦ Guided Quests</span>
+        <h1 class="reveal">A path for however<br>you're feeling today.</h1>
+        <p class="subtitle reveal">Each quest is five verses long, with plain-language context and a short reflection prompt for every step. Pick one up, put it down, come back whenever you like — your progress is saved on this device.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+        <div class="explorer-tabs reveal">
+          <button class="explorer-tab active" data-mode="quests">Guided Quests</button>
+          <button class="explorer-tab" data-mode="plans">Reading Plans</button>
+        </div>
+        <div id="mode-quests">
+          <div class="grid grid-3" id="quests-grid"><!-- injected --></div>
+        </div>
+        <div id="mode-plans" style="display:none">
+          <div class="grid grid-3" id="plans-grid"><!-- injected --></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="section-head center reveal" style="margin-left:auto;margin-right:auto">
+          <span class="eyebrow">A note on approach</span>
+          <h2>Not therapy, not a diagnosis</h2>
+          <p>These quests are an educational, reflective way to sit with scripture alongside how you feel. They're not a substitute for professional support — if you're in crisis, please reach out to a counselor, doctor, or local support line.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/store.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/quests.js"></script>
+</body>
+</html>

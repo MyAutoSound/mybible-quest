@@ -1,0 +1,62 @@
+[
+  {
+    "id": "first-steps",
+    "name": "First Steps",
+    "description": "Complete your first guided quest.",
+    "icon": "sprout"
+  },
+  {
+    "id": "consistent-reader",
+    "name": "Consistent Reader",
+    "description": "Visit the site 3 days in a row.",
+    "icon": "sun"
+  },
+  {
+    "id": "devoted",
+    "name": "Devoted",
+    "description": "Reach a 7-day reading streak.",
+    "icon": "wave"
+  },
+  {
+    "id": "quest-master",
+    "name": "Quest Master",
+    "description": "Complete all 6 guided quests.",
+    "icon": "compass"
+  },
+  {
+    "id": "deep-diver",
+    "name": "Deep Diver",
+    "description": "Open 10 full verse studies.",
+    "icon": "book"
+  },
+  {
+    "id": "historian",
+    "name": "Historian",
+    "description": "Visit every tab in the Bible Context Explorer.",
+    "icon": "map"
+  },
+  {
+    "id": "note-taker",
+    "name": "Note Taker",
+    "description": "Write 5 personal notes.",
+    "icon": "hands"
+  },
+  {
+    "id": "collector",
+    "name": "Collector",
+    "description": "Favorite 10 verses.",
+    "icon": "dove"
+  },
+  {
+    "id": "cartographer",
+    "name": "Cartographer",
+    "description": "Explore 10 different places on the map.",
+    "icon": "compass"
+  },
+  {
+    "id": "scholar",
+    "name": "Scholar",
+    "description": "Complete a full reading plan.",
+    "icon": "sprout"
+  }
+]
