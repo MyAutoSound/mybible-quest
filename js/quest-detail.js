@@ -6,16 +6,20 @@ function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
 
-let state = { quest: null, verses: null, stepIndex: 0 };
+let state = { quest: null, verses: null, stepIndex: 0, completed: false, viewingComplete: false };
 
-function renderTracker() {
-  const tracker = document.getElementById("step-tracker");
-  tracker.innerHTML = state.quest.steps.map((_, i) => {
-    let cls = "step-dot";
-    if (i < state.stepIndex) cls += " done";
-    else if (i === state.stepIndex) cls += " current";
-    return `<div class="${cls}"></div>`;
-  }).join("");
+function renderTrail() {
+  renderMountainTrail(document.getElementById("mountain-trail"), {
+    totalSteps: state.quest.steps.length,
+    currentIndex: state.stepIndex,
+    completed: state.completed,
+    onSelect: (i) => {
+      state.stepIndex = i;
+      state.viewingComplete = false;
+      renderStep();
+      window.scrollTo({ top: document.getElementById("mountain-trail").offsetTop - 80, behavior: "smooth" });
+    },
+  });
 }
 
 function renderStep() {
@@ -45,37 +49,39 @@ function renderStep() {
   document.getElementById("prev-btn").addEventListener("click", () => {
     if (state.stepIndex > 0) {
       state.stepIndex--;
-      renderTracker();
+      renderTrail();
       renderStep();
-      window.scrollTo({ top: document.getElementById("step-panel").offsetTop - 100, behavior: "smooth" });
+      window.scrollTo({ top: document.getElementById("mountain-trail").offsetTop - 80, behavior: "smooth" });
     }
   });
 
   document.getElementById("next-btn").addEventListener("click", () => {
     if (isLast) {
       Store.completeQuest(state.quest.id);
+      state.completed = true;
       showToast("Quest complete — +30 XP", "default");
       renderComplete();
     } else {
       state.stepIndex++;
       Store.setQuestStep(state.quest.id, state.stepIndex);
-      renderTracker();
+      renderTrail();
       renderStep();
-      window.scrollTo({ top: document.getElementById("step-panel").offsetTop - 100, behavior: "smooth" });
+      window.scrollTo({ top: document.getElementById("mountain-trail").offsetTop - 80, behavior: "smooth" });
     }
   });
 
-  renderTracker();
+  renderTrail();
 }
 
 function renderComplete() {
-  document.getElementById("step-tracker").innerHTML = state.quest.steps.map(() => `<div class="step-dot done"></div>`).join("");
+  state.viewingComplete = true;
+  renderTrail();
   const panel = document.getElementById("step-panel");
   panel.innerHTML = `
     <div style="text-align:center;padding:20px 0">
       <div style="width:56px;height:56px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">${ICONS.check}</div>
-      <h3 style="margin-bottom:12px">Quest complete</h3>
-      <p style="max-width:420px;margin:0 auto 28px">You've walked through all five verses in "${state.quest.title}". Come back anytime — the passages will still be here.</p>
+      <h3 style="margin-bottom:12px">Summit reached</h3>
+      <p style="max-width:420px;margin:0 auto 28px">You've walked through all five verses in "${state.quest.title}". Come back anytime — the passages will still be here, or tap any waypoint above to revisit a step.</p>
       <div class="flex gap-3" style="justify-content:center;flex-wrap:wrap">
         <button class="btn btn-secondary" id="restart-btn">Restart this quest</button>
         <a href="quests.html" class="btn btn-primary">Choose another quest</a>
@@ -85,7 +91,9 @@ function renderComplete() {
   `;
   document.getElementById("restart-btn").addEventListener("click", () => {
     state.stepIndex = 0;
+    state.completed = false;
     Store.setQuestStep(state.quest.id, 0);
+    renderTrail();
     renderStep();
   });
 }
@@ -103,10 +111,11 @@ async function init() {
   document.getElementById("quest-description").textContent = quest.description;
 
   const progress = Store.getQuestProgress(quest.id);
+  state.completed = !!progress.completed;
   if (!progress.completed && progress.step > 0 && progress.step < quest.steps.length) {
     state.stepIndex = progress.step;
   } else {
-    state.stepIndex = 0;
+    state.stepIndex = progress.completed ? quest.steps.length - 1 : 0;
   }
 
   if (progress.completed) {

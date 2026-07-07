@@ -2,16 +2,19 @@
    Reading Plan detail / day flow
    ========================================================================== */
 
-let planState = { plan: null, dayIndex: 0 };
+let planState = { plan: null, dayIndex: 0, completed: false };
 
-function renderPlanTracker() {
-  const tracker = document.getElementById("step-tracker");
-  tracker.innerHTML = planState.plan.days.map((_, i) => {
-    let cls = "step-dot";
-    if (i < planState.dayIndex) cls += " done";
-    else if (i === planState.dayIndex) cls += " current";
-    return `<div class="${cls}"></div>`;
-  }).join("");
+function renderPlanTrail() {
+  renderMountainTrail(document.getElementById("mountain-trail"), {
+    totalSteps: planState.plan.days.length,
+    currentIndex: planState.dayIndex,
+    completed: planState.completed,
+    onSelect: (i) => {
+      planState.dayIndex = i;
+      renderDay();
+      window.scrollTo({ top: document.getElementById("mountain-trail").offsetTop - 80, behavior: "smooth" });
+    },
+  });
 }
 
 function renderDay() {
@@ -36,7 +39,7 @@ function renderDay() {
   document.getElementById("prev-btn").addEventListener("click", () => {
     if (planState.dayIndex > 0) {
       planState.dayIndex--;
-      renderPlanTracker();
+      renderPlanTrail();
       renderDay();
     }
   });
@@ -44,27 +47,28 @@ function renderDay() {
   document.getElementById("next-btn").addEventListener("click", () => {
     if (isLast) {
       Store.setReadingPlanDay(planState.plan.id, planState.plan.durationDays, planState.plan.durationDays);
+      planState.completed = true;
       showToast("Reading plan complete — +40 XP", "default");
       renderPlanComplete();
     } else {
       planState.dayIndex++;
       Store.setReadingPlanDay(planState.plan.id, planState.dayIndex, planState.plan.durationDays);
-      renderPlanTracker();
+      renderPlanTrail();
       renderDay();
     }
-    window.scrollTo({ top: document.getElementById("step-panel").offsetTop - 100, behavior: "smooth" });
+    window.scrollTo({ top: document.getElementById("mountain-trail").offsetTop - 80, behavior: "smooth" });
   });
 
-  renderPlanTracker();
+  renderPlanTrail();
 }
 
 function renderPlanComplete() {
-  document.getElementById("step-tracker").innerHTML = planState.plan.days.map(() => `<div class="step-dot done"></div>`).join("");
+  renderPlanTrail();
   document.getElementById("step-panel").innerHTML = `
     <div style="text-align:center;padding:20px 0">
       <div style="width:56px;height:56px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">${ICONS.check}</div>
-      <h3 style="margin-bottom:12px">Plan complete</h3>
-      <p style="max-width:420px;margin:0 auto 28px">You've finished "${planState.plan.title}".</p>
+      <h3 style="margin-bottom:12px">Summit reached</h3>
+      <p style="max-width:420px;margin:0 auto 28px">You've finished "${planState.plan.title}". Tap any waypoint above to revisit a day.</p>
       <div class="flex gap-3" style="justify-content:center;flex-wrap:wrap">
         <a href="quests.html" class="btn btn-primary">Choose another plan</a>
         <a href="profile.html" class="btn-ghost">View your badges →</a>
@@ -87,7 +91,10 @@ async function init() {
   `;
 
   const progress = Store.getReadingPlanProgress(plan.id);
-  planState.dayIndex = (!progress.completed && progress.day > 0 && progress.day < plan.days.length) ? progress.day : 0;
+  planState.completed = !!progress.completed;
+  planState.dayIndex = (!progress.completed && progress.day > 0 && progress.day < plan.days.length)
+    ? progress.day
+    : (progress.completed ? plan.days.length - 1 : 0);
 
   if (progress.completed) renderPlanComplete();
   else renderDay();
