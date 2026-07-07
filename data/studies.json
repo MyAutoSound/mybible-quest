@@ -1,5 +1,46 @@
 [
   {
+    "id": "character-of-jesus-example",
+    "title": "The Character of Jesus: Qualities and the Example He Calls Us To",
+    "category": "Character & Faith",
+    "summary": "Across all four Gospels, a strikingly consistent portrait emerges: compassion, humility, forgiveness, and service. Here's what that portrait looks like, and how the New Testament itself frames it as more than something to admire.",
+    "readingTimeMinutes": 9,
+    "sections": [
+      {
+        "heading": "A portrait drawn from four accounts",
+        "body": "Everything we know about Jesus's character comes from the four Gospels, written as theological accounts intended to build faith, not neutral biographies in the modern sense. That said, historians studying Jesus as a first-century figure, regardless of their own beliefs, generally agree the four Gospels present a remarkably consistent ethical portrait of him — one centered on compassion, humility, and service rather than status or self-interest."
+      },
+      {
+        "heading": "Compassion",
+        "body": "The Gospels repeatedly describe Jesus responding to people with compassion before anything else: \"When he saw the crowds, he had compassion on them, because they were harassed and helpless, like sheep without a shepherd\" (Matthew 9:36). He is described eating with people his society had pushed to the margins — tax collectors, people with contagious illness, those considered sinners — rather than keeping his distance from them."
+      },
+      {
+        "heading": "Humility",
+        "body": "At what the Gospel of John describes as his final meal with his disciples, Jesus takes on the task of a household servant and washes their feet, then tells them: \"I have set you an example, that you should do as I have done for you\" (John 13:1-17). Paul's letter to the Philippians, written decades later, reflects on this same quality in poetic form: he \"made himself nothing, taking the very nature of a servant\" (Philippians 2:5-8) — an early theological meditation on Jesus's humility rather than a firsthand account."
+      },
+      {
+        "heading": "Forgiveness",
+        "body": "Even in his final hours, the Gospel of Luke describes Jesus asking forgiveness for the people executing him: \"Father, forgive them, for they do not know what they are doing\" (Luke 23:34). Earlier, in John's account of a woman accused of adultery and facing execution by an angry crowd, he neither condemns her nor pretends the accusation doesn't matter, telling her simply to \"go now and leave your life of sin\" (John 8:1-11)."
+      },
+      {
+        "heading": "Service over status",
+        "body": "Asked directly about greatness by his own followers, Jesus reframes the question rather than answering it on their terms: \"whoever wants to become great among you must be your servant... just as the Son of Man did not come to be served, but to serve\" (Mark 10:43-45). This runs through his teaching consistently — status is repeatedly redirected toward service."
+      },
+      {
+        "heading": "Integrity under pressure",
+        "body": "The Gospels describe Jesus maintaining the same message and conduct whether speaking to crowds, confronting religious authorities, or facing his own trial and execution, without softening his teaching to avoid conflict or recanting it under pressure. Whether every recorded exchange reflects precise word-for-word history is a question historians debate like any ancient text, but the consistency of the portrait across independent sources is itself notable."
+      },
+      {
+        "heading": "\"As I have done, you should also do\": the call to imitate",
+        "body": "The New Testament doesn't only describe Jesus's character — several writers explicitly frame it as a model to be followed, not just admired. Beyond John 13:15 quoted above, 1 Peter tells its readers Christ \"suffered for you, leaving you an example, that you should follow in his steps\" (1 Peter 2:21), and 1 John states plainly that \"whoever claims to live in him must live as Jesus did\" (1 John 2:6). This theme, sometimes called imitatio Christi ('imitation of Christ') in later Christian tradition, has been read and applied in very different ways by different communities across two thousand years — from lives of radical simplicity and service, to more everyday emphases on humility and forgiveness in ordinary relationships."
+      },
+      {
+        "heading": "A note on interpretation",
+        "body": "That the Gospels portray Jesus this way, and that the New Testament frames him as an example to follow, are observations about the text itself. Whether — and how — an individual reader takes up that call is a matter of personal conviction and faith that this site doesn't presume to answer. What can be said neutrally is that the invitation to imitate, rather than simply admire, is embedded in the New Testament's own language, not a later add-on."
+      }
+    ]
+  },
+  {
     "id": "who-wrote-the-gospels",
     "title": "Who Really Wrote the Gospels?",
     "category": "History & Authorship",
