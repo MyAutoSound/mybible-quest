@@ -742,5 +742,36 @@
       "scholarlyDebate": "Scholars debate the precise historical occasion behind the psalm's heading and whether it reflects an original composition or a later liturgical repurposing.",
       "interpretation": "Many readers interpret 'weeping...for the night' as a general principle about the temporary nature of grief, though its original setting may reference a specific personal crisis such as illness or recovery."
     }
+  },
+  {
+    "id": "ephesians-6-10",
+    "reference": "Ephesians 6:10-18",
+    "text": "Put on the full armor of God, so that you can take your stand against the schemes of the devil... Stand firm, with the belt of truth buckled around your waist, the breastplate of righteousness in place, and your feet fitted with the readiness of the gospel of peace. Take up the shield of faith, the helmet of salvation, and the sword of the Spirit, which is the word of God.",
+    "context": "Written near the end of Paul's letter to the church in Ephesus, likely composed while he was under Roman custody. He draws on the visible equipment of the soldiers guarding him, turning a familiar daily sight into a extended metaphor for spiritual resilience.",
+    "importance": "This passage reframes moral and spiritual struggle using concrete, wearable imagery rather than abstract terms, giving readers six distinct qualities to actively 'put on' rather than a vague call to simply 'be strong.'",
+    "themes": ["protection", "spiritual warfare", "truth", "readiness"],
+    "emotions": ["anxiety", "faith", "direction"],
+    "author": "Paul",
+    "dateApprox": "c. AD 60-62, during Paul's imprisonment in Rome",
+    "place": "Rome",
+    "audience": "The church in Ephesus, and likely churches across the surrounding region",
+    "politicalSituation": "Paul was held in some form of Roman custody at the time, guarded around the clock by Roman soldiers whose equipment would have been constantly visible to him.",
+    "culturalNote": "Each piece named corresponds to actual Roman infantry equipment of the period. A soldier's belt anchored the rest of the gear, the breastplate protected vital organs, and sturdy hobnailed sandals (caligae) let a soldier hold his footing in close combat rather than slip.",
+    "keyWords": [
+      { "word": "panoplia (full armor)", "meaning": "The complete set of a heavily-armed soldier's equipment, not a single piece — the passage describes a coordinated whole rather than one isolated defense." },
+      { "word": "stand firm (histemi)", "meaning": "A defensive, ground-holding posture rather than an offensive charge — the repeated emphasis is on staying steady, not attacking." }
+    ],
+    "modernApplication": "The passage suggests resilience is built from several distinct, ordinary habits — honesty, integrity, preparation, trust, and familiarity with foundational texts — rather than a single dramatic effort.",
+    "relatedVerseIds": ["isaiah-41-10", "psalm-46-1", "hebrews-11-1"],
+    "reflectionQuestions": [
+      "Which of these qualities already feels 'on' for you right now, and which feels hardest to put on?",
+      "The passage emphasizes standing firm rather than attacking — where in your life is holding steady more relevant right now than taking bold action?"
+    ],
+    "suggestedPrayer": "Help me build these qualities into ordinary habits rather than waiting for a crisis to need them. Where I feel exposed or unprepared, give me the patience to put on what's missing, one piece at a time.",
+    "historicityNote": {
+      "established": "Roman soldiers of this period wore standardized equipment matching each item Paul names, and Paul's letters describe him as being held in Roman custody around the time this letter was likely written.",
+      "scholarlyDebate": "Scholars debate whether Ephesians was written directly by Paul or by a close associate writing in his name and tradition after his death, a question raised about several New Testament letters attributed to him; they also debate whether it was addressed specifically to the Ephesian church or circulated more broadly as a general letter.",
+      "interpretation": "Many readers interpret the 'armor' as internal spiritual qualities to develop gradually, while others read it as pointing to specific practices, like prayer and scripture reading, to actively take up during moments of difficulty. The text supports both readings without clearly favoring one."
+    }
   }
 ]
