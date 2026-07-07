@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { href: "index.html", label: "Home", key: "home" },
   { href: "quests.html", label: "Quests", key: "quests" },
   { href: "explorer.html", label: "Explorer", key: "explorer" },
+  { href: "studies.html", label: "Studies", key: "studies" },
   { href: "assistant.html", label: "Assistant", key: "assistant" },
   { href: "understand.html", label: "Understand", key: "understand" },
 ];
@@ -45,7 +46,8 @@ function currentPageKey() {
     "explorer.html": "explorer", "book.html": "explorer", "person.html": "explorer",
     "assistant.html": "assistant",
     "search.html": "search",
-    "understand.html": "understand", "studies.html": "understand", "study.html": "understand",
+    "understand.html": "understand",
+    "studies.html": "studies", "study.html": "studies",
     "profile.html": "profile",
     "verse.html": "home",
   };
@@ -94,6 +96,7 @@ function renderHeader() {
   mobileMenu.innerHTML = `
     <button class="icon-btn mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">${ICONS.close}</button>
     ${NAV_LINKS.map(l => `<a href="${l.href}" class="${l.key === active ? "active" : ""}">${l.label}</a>`).join("")}
+    <a href="search.html" class="${active === "search" ? "active" : ""}">Search</a>
     <a href="profile.html" class="${active === "profile" ? "active" : ""}">Profile</a>
   `;
   header.after(mobileMenu);
