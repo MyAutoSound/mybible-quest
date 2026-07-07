@@ -183,9 +183,18 @@ function initNewsletter() {
   });
 }
 
+function renderHowItWorksTrail() {
+  renderMountainTrail(document.getElementById("how-it-works-trail"), {
+    totalSteps: 5,
+    currentIndex: 2,
+    completed: false,
+  });
+}
+
 (async function init() {
   renderEmotionRow();
   initNewsletter();
+  renderHowItWorksTrail();
   await Promise.all([
     renderVerseOfDay(), renderQuestTeasers(), renderStats(),
     renderMapPreview(), renderTimelinePreview(), renderPlansTeaser(),

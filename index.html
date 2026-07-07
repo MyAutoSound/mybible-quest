@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyBible.quest — Understand the Bible like never before</title>
-  <meta name="description" content="Daily verses, historical context, guided emotional journeys, and an interactive explorer to help you understand the Bible — clearly, and at your own pace.">
+  <title>MyBible.quest — A guided quest through the Bible, step by step</title>
+  <meta name="description" content="Pick a feeling or a topic, follow a guided quest through scripture one step at a time, and watch your progress climb — plus historical context, an interactive explorer, and honest search.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="MyBible.quest — Understand the Bible like never before">
-  <meta property="og:description" content="Daily verses, historical context, guided emotional journeys, an interactive map and timeline, and an AI assistant grounded entirely in cited sources.">
+  <meta property="og:title" content="MyBible.quest — A guided quest through the Bible, step by step">
+  <meta property="og:description" content="Pick a feeling or a topic, follow a guided quest through scripture one step at a time, and watch your progress climb — plus historical context, an interactive map and timeline, and an AI assistant grounded entirely in cited sources.">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="MyBible.quest — Understand the Bible like never before">
-  <meta name="twitter:description" content="Daily verses, historical context, guided emotional journeys, and an interactive explorer to help you understand the Bible.">
+  <meta name="twitter:title" content="MyBible.quest — A guided quest through the Bible, step by step">
+  <meta name="twitter:description" content="Pick a feeling or a topic, follow a guided quest through scripture one step at a time, and watch your progress climb.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,18 +20,44 @@
     <!-- ================= HERO ================= -->
     <section class="hero">
       <div class="container hero-inner">
-        <span class="eyebrow reveal">✦ A calmer way to read scripture</span>
-        <h1 class="reveal">Understand the Bible<br>like never before.</h1>
-        <p class="subtitle reveal">Daily verses, history, and culture — plus guided journeys, an interactive
-          context explorer, and honest search.</p>
+        <span class="eyebrow reveal">✦ A guided quest through scripture</span>
+        <h1 class="reveal">Explore the Bible,<br>one step at a time.</h1>
+        <p class="subtitle reveal">MyBible.quest turns reading into a real journey: pick how you feel or what
+          you're facing, follow a guided quest step by step, and watch your progress climb — literally, up a mountain trail.</p>
         <div class="hero-actions reveal">
-          <a href="quests.html" class="btn btn-primary">Start your journey</a>
+          <a href="quests.html" class="btn btn-primary">Start your quest</a>
           <a href="explorer.html" class="btn btn-secondary">Explore the context</a>
         </div>
         <div class="hero-stats reveal">
           <div class="hero-stat"><strong id="stat-verses">—</strong><span>Verses in context</span></div>
           <div class="hero-stat"><strong id="stat-quests">6</strong><span>Guided quests</span></div>
           <div class="hero-stat"><strong id="stat-places">—</strong><span>Places &amp; events mapped</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section id="how-it-works" style="background:var(--bg-subtle)">
+      <div class="container">
+        <div class="feature-split">
+          <div>
+            <span class="eyebrow reveal">✦ How it works</span>
+            <h2 class="reveal" style="margin:12px 0 20px">A quest, not just a reading list.</h2>
+            <div class="reveal" style="display:flex;gap:16px;margin-bottom:20px">
+              <div style="flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fdfcfa;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:var(--font-serif)">1</div>
+              <div><strong>Choose your path.</strong><br><span style="color:var(--text-secondary);font-size:0.95rem">Pick how you're feeling — anxious, hopeful, grieving, doubting — and we match you to a guided quest built around it.</span></div>
+            </div>
+            <div class="reveal" style="display:flex;gap:16px;margin-bottom:20px">
+              <div style="flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fdfcfa;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:var(--font-serif)">2</div>
+              <div><strong>Walk it step by step.</strong><br><span style="color:var(--text-secondary);font-size:0.95rem">Each quest is five short waypoints: a verse, its context, and a moment to reflect — one at a time, no rushing.</span></div>
+            </div>
+            <div class="reveal" style="display:flex;gap:16px;margin-bottom:24px">
+              <div style="flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--gold);color:#2a1f04;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:var(--font-serif)">3</div>
+              <div><strong>Watch your progress climb.</strong><br><span style="color:var(--text-secondary);font-size:0.95rem">Your path up the mountain is saved automatically — pick up right where you left off, any day.</span></div>
+            </div>
+            <a href="quests.html" class="btn btn-secondary reveal">See all guided quests →</a>
+          </div>
+          <div class="trail-card reveal" id="how-it-works-trail" style="margin-bottom:0"></div>
         </div>
       </div>
     </section>
@@ -240,9 +266,9 @@
     <section id="cta">
       <div class="container">
         <div class="cta-band reveal">
-          <h2>Ready to begin?</h2>
-          <p>No account, no sign-up. Just pick a feeling or a verse and start reading.</p>
-          <a href="quests.html" class="btn btn-primary">Start your journey</a>
+          <h2>Ready to begin your quest?</h2>
+          <p>No account, no sign-up. Just pick a feeling, take the first step, and watch your trail unfold.</p>
+          <a href="quests.html" class="btn btn-primary">Start your quest</a>
         </div>
       </div>
     </section>
@@ -250,6 +276,7 @@
 
   <script src="js/store.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/mountain-trail.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>
