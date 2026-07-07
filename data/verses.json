@@ -2259,5 +2259,36 @@
       "scholarlyDebate": "Scholars debate the original scope of 'neighbor' in this verse, whether it was intended to apply primarily within the Israelite community or more broadly, a question with significant interpretive history.",
       "interpretation": "Many readers interpret this verse, especially alongside Jesus' later teaching, as establishing a universal ethic of neighborly love extending well beyond its original in-group context."
     }
+  },
+  {
+    "id": "1-john-1-9",
+    "reference": "1 John 1:9",
+    "text": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+    "context": "Part of a short letter traditionally attributed to the apostle John, written to reassure a community facing internal division over false teaching, likely including some who claimed to be beyond sin altogether.",
+    "importance": "This verse pairs an honest naming of wrongdoing with an immediate offer of forgiveness, functioning as a practical counterweight to any biblical list of sins: the text doesn't leave the naming of wrong without a stated response to it.",
+    "themes": ["forgiveness", "confession", "grace"],
+    "emotions": ["forgiveness", "hope", "doubt"],
+    "author": "Traditionally John",
+    "dateApprox": "c. AD 85-95, authorship and dating debated",
+    "place": "Likely Ephesus, according to early church tradition",
+    "audience": "A Christian community facing internal disagreement, possibly including teaching that denied genuine sinfulness",
+    "politicalSituation": "Written during a period of relative stability for the letter's likely audience, with the more pressing conflict being internal, doctrinal, and communal rather than external persecution.",
+    "culturalNote": "Confession here is described as a stated, active practice, not a private feeling, reflecting a broader ancient Near Eastern and Greco-Roman assumption that wrongdoing needed to be openly acknowledged, not merely felt, before a relationship could be repaired.",
+    "keyWords": [
+      { "word": "homologeo (confess)", "meaning": "Literally 'to say the same thing' — to agree with, in this case, agreeing with God's assessment of one's own actions rather than disputing it." },
+      { "word": "faithful and just (pistos kai dikaios)", "meaning": "Forgiveness is grounded here in God's own consistency and fairness, not merely in leniency or overlooking wrongdoing." }
+    ],
+    "modernApplication": "The verse suggests naming a specific wrong plainly, rather than only feeling vaguely guilty about it, as a meaningful part of moving past it.",
+    "relatedVerseIds": ["matthew-6-14", "genesis-50-20", "colossians-3-13"],
+    "reflectionQuestions": [
+      "Is there something you've been feeling guilty about without ever naming it plainly, even to yourself?",
+      "The verse pairs honesty about wrongdoing directly with forgiveness — does that pairing change how you think about confession?"
+    ],
+    "suggestedPrayer": "Help me be honest about where I've fallen short, without minimizing it or spiraling into shame over it. Thank you for meeting honesty with forgiveness rather than punishment.",
+    "historicityNote": {
+      "established": "1 John is widely dated to the late first century and shares distinctive vocabulary and themes with the Gospel of John, indicating a close relationship between the two texts.",
+      "scholarlyDebate": "Scholars debate whether 1 John was written by the same author as the Gospel of John, by a later member of a shared Johannine community and tradition, or by someone else entirely; the letter itself does not name its author.",
+      "interpretation": "Many readers interpret 'purify us from all unrighteousness' as pointing to a complete, ongoing cleansing rather than a one-time transaction, though traditions differ on exactly how they understand that process."
+    }
   }
 ]

@@ -1,5 +1,51 @@
 [
   {
+    "id": "understanding-sin-in-the-bible",
+    "title": "Understanding Sin in the Bible: What the Text Actually Lists",
+    "category": "Character & Faith",
+    "summary": "The Bible names wrongdoing in several distinct lists, from the Ten Commandments to Paul's letters. Here's what those lists actually say, and why the well-known \"Seven Deadly Sins\" aren't one of them.",
+    "readingTimeMinutes": 9,
+    "relatedVerseIds": ["1-john-1-9", "matthew-6-14", "genesis-50-20"],
+    "sections": [
+      {
+        "heading": "What \"sin\" actually means",
+        "body": "The Hebrew word most often translated \"sin\" (chata) and its Greek New Testament counterpart (hamartia) both come from archery: to miss a target. The underlying image is falling short of a mark, not simply breaking an arbitrary rule — a distinction that shapes how the concept functions throughout the text."
+      },
+      {
+        "heading": "The Ten Commandments",
+        "body": "The foundational list in Exodus 20:1-17 covers worship (no other gods, no idols, honoring God's name and a day of rest), family and social conduct (honoring parents, prohibitions on murder, adultery, theft, false testimony), and an internal state — coveting — alongside external acts."
+      },
+      {
+        "heading": "Jesus reframes sin as internal, not just behavioral",
+        "body": "In the Sermon on the Mount, Jesus repeatedly extends commandments inward: anger is linked to the same root as murder, and lust to the same root as adultery (Matthew 5:21-30). The shift in emphasis is from the external act alone to the internal state that produces it."
+      },
+      {
+        "heading": "Paul's list: \"works of the flesh\"",
+        "body": "Writing to the church in Galatia, Paul lists sexual immorality, idolatry, hatred, discord, jealousy, envy, drunkenness, and similar behaviors as \"works of the flesh\" (Galatians 5:19-21), explicitly contrasting them in the same passage with a list of positive qualities he calls the \"fruit of the Spirit\" — love, joy, peace, patience, and others."
+      },
+      {
+        "heading": "Proverbs' list: what the Lord hates",
+        "body": "Proverbs 6:16-19 names seven things: a proud look, a lying tongue, hands that shed innocent blood, a heart that plots evil, feet quick to do wrong, a false witness, and one who stirs up conflict among people — a wisdom-literature list focused heavily on dishonesty and social harm."
+      },
+      {
+        "heading": "The \"Seven Deadly Sins\" — not actually a Bible list",
+        "body": "Pride, greed, envy, wrath, lust, gluttony, and sloth are frequently assumed to be a biblical list, but this specific set doesn't appear anywhere in the Bible as such. It developed from a list of eight \"evil thoughts\" described by the monk Evagrius Ponticus in the 4th century, later condensed to seven by Pope Gregory I around 590 AD as a tool for Christian self-examination and confession — a later theological framework that draws on biblical themes without being a direct biblical text itself."
+      },
+      {
+        "heading": "What's consistent across these lists",
+        "body": "Despite covering different eras and genres, the biblical lists above overlap heavily on a few themes: dishonesty, harm to others, and misplaced priorities (worship or desire directed at the wrong thing). None of them are presented as exhaustive, and none appear in the text as a neat, ranked top-seven."
+      },
+      {
+        "heading": "The other half: grace and forgiveness",
+        "body": "Every list above sits inside a text that also repeatedly pairs naming wrongdoing with an offer of forgiveness, for example 1 John 1:9: \"If we confess our sins, he is faithful and just and will forgive us.\" The Bible's sin lists are consistently presented alongside a stated response to them, not left standing alone."
+      },
+      {
+        "heading": "A note on interpretation",
+        "body": "That these specific passages exist and say what they say is a textual fact. How different Christian traditions categorize, rank, or apply them — including later doctrinal distinctions like \"mortal\" versus \"venial\" sin in some traditions — is a matter of theological development this site describes rather than adjudicates."
+      }
+    ]
+  },
+  {
     "id": "armor-of-god",
     "title": "The Armor of God: What Each Piece Means",
     "category": "Character & Faith",
