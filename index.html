@@ -19,19 +19,88 @@
   <main id="main-content">
     <!-- ================= HERO ================= -->
     <section class="hero">
-      <div class="container hero-inner">
-        <span class="eyebrow reveal">✦ A guided quest through scripture</span>
-        <h1 class="reveal">Explore the Bible,<br>one step at a time.</h1>
-        <p class="subtitle reveal">MyBible.quest turns reading into a real journey: pick how you feel or what
-          you're facing, follow a guided quest step by step, and watch your progress climb — literally, up a mountain trail.</p>
-        <div class="hero-actions reveal">
-          <a href="quests.html" class="btn btn-primary">Start your quest</a>
-          <a href="explorer.html" class="btn btn-secondary">Explore the context</a>
+      <div class="container hero-grid">
+        <div class="hero-inner">
+          <span class="eyebrow reveal">✦ A guided quest through scripture</span>
+          <h1 class="reveal">Explore the Bible,<br>one step at a time.</h1>
+          <p class="subtitle reveal">MyBible.quest turns reading into a real journey: pick how you feel or what
+            you're facing, follow a guided quest step by step, and watch your progress climb — literally, up a mountain trail.</p>
+          <div class="hero-actions reveal">
+            <a href="quests.html" class="btn btn-primary">Start your quest</a>
+            <a href="explorer.html" class="btn btn-secondary">Explore the context</a>
+          </div>
+          <div class="hero-stats reveal">
+            <div class="hero-stat"><strong id="stat-verses">—</strong><span>Verses in context</span></div>
+            <div class="hero-stat"><strong id="stat-quests">6</strong><span>Guided quests</span></div>
+            <div class="hero-stat"><strong id="stat-places">—</strong><span>Places &amp; events mapped</span></div>
+          </div>
         </div>
-        <div class="hero-stats reveal">
-          <div class="hero-stat"><strong id="stat-verses">—</strong><span>Verses in context</span></div>
-          <div class="hero-stat"><strong id="stat-quests">6</strong><span>Guided quests</span></div>
-          <div class="hero-stat"><strong id="stat-places">—</strong><span>Places &amp; events mapped</span></div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <svg viewBox="0 0 520 560" class="hero-visual-svg" focusable="false">
+            <defs>
+              <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="var(--gold)" stop-opacity="0.35"></stop>
+                <stop offset="100%" stop-color="var(--gold)" stop-opacity="0"></stop>
+              </radialGradient>
+              <linearGradient id="tabletFill" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="var(--gold-soft)"></stop>
+                <stop offset="100%" stop-color="var(--gold)" stop-opacity="0.5"></stop>
+              </linearGradient>
+              <linearGradient id="phoneScreen" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="var(--accent)"></stop>
+                <stop offset="100%" stop-color="var(--accent-hover)"></stop>
+              </linearGradient>
+            </defs>
+
+            <!-- ambient glow -->
+            <circle cx="260" cy="280" r="230" fill="url(#heroGlow)"></circle>
+
+            <!-- radiating light rays -->
+            <g stroke="var(--gold)" stroke-opacity="0.25" stroke-width="2">
+              <line x1="260" y1="60" x2="260" y2="10"></line>
+              <line x1="370" y1="90" x2="405" y2="55"></line>
+              <line x1="150" y1="90" x2="115" y2="55"></line>
+              <line x1="410" y1="180" x2="455" y2="165"></line>
+              <line x1="110" y1="180" x2="65" y2="165"></line>
+            </g>
+
+            <!-- classic stone tablet -->
+            <g transform="translate(120,90) rotate(-9)">
+              <path d="M0,40 C0,15 20,0 50,0 C80,0 100,15 100,40 L100,300 C100,315 88,327 73,327 L27,327 C12,327 0,315 0,300 Z"
+                    fill="url(#tabletFill)" stroke="var(--gold)" stroke-width="2.5"></path>
+              <line x1="20" y1="70" x2="80" y2="70" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.8"></line>
+              <line x1="20" y1="95" x2="80" y2="95" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.8"></line>
+              <line x1="20" y1="120" x2="65" y2="120" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.8"></line>
+              <line x1="20" y1="160" x2="80" y2="160" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.65"></line>
+              <line x1="20" y1="185" x2="70" y2="185" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.65"></line>
+              <line x1="20" y1="210" x2="80" y2="210" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.5"></line>
+              <line x1="20" y1="235" x2="60" y2="235" stroke="var(--bg-elevated)" stroke-width="5" stroke-linecap="round" opacity="0.5"></line>
+            </g>
+
+            <!-- connecting spark trail -->
+            <g fill="var(--gold)">
+              <circle cx="245" cy="255" r="5"></circle>
+              <circle cx="275" cy="235" r="3.5" opacity="0.8"></circle>
+              <circle cx="300" cy="270" r="4.5" opacity="0.9"></circle>
+              <circle cx="285" cy="305" r="3" opacity="0.7"></circle>
+              <circle cx="255" cy="200" r="2.5" opacity="0.6"></circle>
+            </g>
+
+            <!-- modern smartphone -->
+            <g transform="translate(300,230) rotate(8)">
+              <rect x="0" y="0" width="140" height="270" rx="26" fill="var(--bg-elevated)" stroke="var(--accent)" stroke-width="3"></rect>
+              <rect x="10" y="14" width="120" height="242" rx="16" fill="url(#phoneScreen)"></rect>
+              <rect x="55" y="4" width="30" height="6" rx="3" fill="var(--accent)"></rect>
+              <line x1="28" y1="55" x2="112" y2="55" stroke="#fdfcfa" stroke-width="5" stroke-linecap="round" opacity="0.9"></line>
+              <line x1="28" y1="78" x2="100" y2="78" stroke="#fdfcfa" stroke-width="5" stroke-linecap="round" opacity="0.75"></line>
+              <line x1="28" y1="101" x2="108" y2="101" stroke="#fdfcfa" stroke-width="5" stroke-linecap="round" opacity="0.6"></line>
+              <circle cx="70" cy="145" r="18" fill="var(--gold)" opacity="0.9"></circle>
+              <line x1="28" y1="185" x2="112" y2="185" stroke="#fdfcfa" stroke-width="5" stroke-linecap="round" opacity="0.5"></line>
+              <line x1="28" y1="208" x2="90" y2="208" stroke="#fdfcfa" stroke-width="5" stroke-linecap="round" opacity="0.4"></line>
+              <rect x="55" y="248" width="30" height="4" rx="2" fill="var(--bg-elevated)" opacity="0.8"></rect>
+            </g>
+          </svg>
         </div>
       </div>
     </section>
