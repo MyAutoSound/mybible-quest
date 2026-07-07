@@ -73,3 +73,67 @@ function renderMountainTrail(container, { totalSteps, currentIndex, completed, o
   `;
   group.appendChild(summitG);
 }
+
+/**
+ * The "journey" trail used on the Profile page — an open-ended path for
+ * overall level progression, with no visible summit. Past your current
+ * level, the trail (and the mountain itself) fades into fog: what's ahead
+ * is deliberately unknown rather than a fixed, visible endpoint.
+ * @param {HTMLElement} container
+ * @param {Object} opts
+ * @param {number} opts.level - 1-based current level
+ * @param {number} opts.maxLevel - total number of level waypoints to lay out
+ */
+function renderJourneyTrail(container, { level, maxLevel }) {
+  container.innerHTML = mountainTrailSVGMarkup();
+  const svg = container.querySelector(".trail-svg");
+  const pathEl = container.querySelector("#trail-path-line");
+  const group = container.querySelector("#trail-waypoints");
+  const totalLen = pathEl.getTotalLength();
+
+  const fracFor = (i) => maxLevel === 1 ? 0.5 : 0.06 + (0.8 * i) / (maxLevel - 1);
+
+  for (let i = 0; i < maxLevel; i++) {
+    const lvl = i + 1;
+    const pt = pathEl.getPointAtLength(fracFor(i) * totalLen);
+    const state = lvl < level ? "done" : lvl === level ? "current" : "locked";
+
+    const g = document.createElementNS(SVG_NS, "g");
+    g.setAttribute("class", `trail-waypoint ${state}`);
+    g.setAttribute("transform", `translate(${pt.x}, ${pt.y})`);
+    g.setAttribute("aria-label", state === "done" ? `Level ${lvl} — reached` : state === "current" ? `Level ${lvl} — current` : "A future level — not yet revealed");
+    g.innerHTML = `
+      ${state === "current" ? '<circle class="pulse-ring" r="15"></circle>' : ""}
+      <circle class="waypoint-circle" r="15"></circle>
+      ${state === "done"
+        ? '<path class="waypoint-check" d="M-5,0.5 L-1.5,4.5 L6,-5"></path>'
+        : `<text class="waypoint-num" dy="5">${state === "current" ? lvl : "?"}</text>`}
+    `;
+    group.appendChild(g);
+  }
+
+  // Fog: fully transparent up to just past the current level, then ramps to
+  // fully opaque — obscuring both the remaining waypoints and the mountain/
+  // summit behind them, so the path visibly disappears rather than ending.
+  const fogStart = Math.min(0.94, fracFor(Math.max(0, level - 1)) + 0.09);
+  const fogEnd = Math.min(1, fogStart + 0.24);
+  const defs = document.createElementNS(SVG_NS, "defs");
+  defs.innerHTML = `
+    <linearGradient id="journey-fog" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-opacity="0" style="stop-color:var(--bg-elevated)"></stop>
+      <stop offset="${fogStart}" stop-opacity="0" style="stop-color:var(--bg-elevated)"></stop>
+      <stop offset="${fogEnd}" stop-opacity="0.94" style="stop-color:var(--bg-elevated)"></stop>
+      <stop offset="1" stop-opacity="1" style="stop-color:var(--bg-elevated)"></stop>
+    </linearGradient>
+  `;
+  svg.insertBefore(defs, svg.firstChild);
+
+  const fogRect = document.createElementNS(SVG_NS, "rect");
+  fogRect.setAttribute("x", "0");
+  fogRect.setAttribute("y", "0");
+  fogRect.setAttribute("width", "1000");
+  fogRect.setAttribute("height", "380");
+  fogRect.setAttribute("fill", "url(#journey-fog)");
+  fogRect.setAttribute("pointer-events", "none");
+  svg.appendChild(fogRect);
+}

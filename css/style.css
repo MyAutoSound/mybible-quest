@@ -983,6 +983,24 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .badge-card h4 { font-size: 0.88rem; margin-bottom: 4px; }
 .badge-card p { font-size: 0.76rem; }
 
+.badge-card.mystery {
+  opacity: 1;
+  filter: none;
+  border-style: dashed;
+  border-color: var(--border-strong);
+  background: var(--bg-subtle);
+}
+.badge-card.mystery .badge-icon {
+  background: var(--bg-elevated);
+  color: var(--text-tertiary);
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 1px dashed var(--border-strong);
+}
+.badge-card.mystery h4 { color: var(--text-tertiary); }
+.badge-card.mystery p { color: var(--text-tertiary); }
+
 .level-card { display: flex; align-items: center; gap: 20px; }
 .level-ring-value { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700; color: var(--accent); }
 .xp-bar { flex: 1; height: 10px; border-radius: 100px; background: var(--bg-subtle); overflow: hidden; }

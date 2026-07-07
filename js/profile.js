@@ -18,6 +18,11 @@ function renderLevelCard() {
   `;
 }
 
+function renderProfileJourney() {
+  const { level } = Store.getLevelProgress();
+  renderJourneyTrail(document.getElementById("journey-trail"), { level, maxLevel: XP_LEVELS.length });
+}
+
 function renderStats() {
   const s = Store.getStats();
   const items = [
@@ -40,8 +45,17 @@ async function renderBadges() {
   const unlocked = Store.getBadges();
   document.getElementById("badge-grid").innerHTML = badges.map(b => {
     const isUnlocked = unlocked.includes(b.id);
+    if (!isUnlocked) {
+      return `
+        <div class="badge-card locked mystery">
+          <div class="badge-icon">?</div>
+          <h4>Unknown badge</h4>
+          <p>Keep going — you'll find out.</p>
+        </div>
+      `;
+    }
     return `
-      <div class="badge-card ${isUnlocked ? "" : "locked"}">
+      <div class="badge-card">
         <div class="badge-icon">${ICONS[b.icon] || ICONS.star}</div>
         <h4>${b.name}</h4>
         <p>${b.description}</p>
@@ -88,6 +102,7 @@ function renderNotes() {
 
 (async function init() {
   renderLevelCard();
+  renderProfileJourney();
   renderStats();
   await Promise.all([renderBadges(), renderFavorites()]);
   renderNotes();
