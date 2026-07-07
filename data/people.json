@@ -3,25 +3,68 @@
     "id": "moses",
     "name": "Moses",
     "role": "Leader & traditional author",
-    "books": ["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy"],
+    "books": [
+      "Genesis",
+      "Exodus",
+      "Leviticus",
+      "Numbers",
+      "Deuteronomy"
+    ],
     "description": "Raised in the Egyptian royal household before fleeing into exile, Moses is described as returning to lead the Israelites out of slavery and receiving the Ten Commandments at Mount Sinai. Jewish and Christian tradition credits him as the author of the Torah's first five books, though scholars debate how much reached final form later.",
     "born": "Traditionally born in Egypt to Hebrew slave parents, c. 13th century BC (dating debated among scholars)",
     "timeline": [
-      { "era": "Infancy", "text": "Hidden as an infant and, according to the text, drawn from the Nile and raised in Pharaoh's household." },
-      { "era": "Exile in Midian", "text": "Flees Egypt after killing an Egyptian overseer and spends decades as a shepherd in Midian." },
-      { "era": "The call", "text": "Reports an encounter with God at a burning bush and returns to Egypt to confront Pharaoh." },
-      { "era": "Exodus & Sinai", "text": "Leads the Israelites out of Egypt and receives the law at Mount Sinai." },
-      { "era": "Wilderness years", "text": "Guides the people for forty years in the wilderness, dying within sight of Canaan." }
+      {
+        "era": "Infancy",
+        "text": "Hidden as an infant and, according to the text, drawn from the Nile and raised in Pharaoh's household."
+      },
+      {
+        "era": "Exile in Midian",
+        "text": "Flees Egypt after killing an Egyptian overseer and spends decades as a shepherd in Midian."
+      },
+      {
+        "era": "The call",
+        "text": "Reports an encounter with God at a burning bush and returns to Egypt to confront Pharaoh."
+      },
+      {
+        "era": "Exodus & Sinai",
+        "text": "Leads the Israelites out of Egypt and receives the law at Mount Sinai."
+      },
+      {
+        "era": "Wilderness years",
+        "text": "Guides the people for forty years in the wilderness, dying within sight of Canaan."
+      }
     ],
     "relations": [
-      { "name": "Aaron", "relation": "Brother" },
-      { "name": "Miriam", "relation": "Sister" },
-      { "name": "Zipporah", "relation": "Wife" },
-      { "name": "Amram", "relation": "Father" },
-      { "name": "Jochebed", "relation": "Mother" },
-      { "name": "Joshua", "relation": "Successor" }
+      {
+        "name": "Aaron",
+        "relation": "Brother"
+      },
+      {
+        "name": "Miriam",
+        "relation": "Sister"
+      },
+      {
+        "name": "Zipporah",
+        "relation": "Wife"
+      },
+      {
+        "name": "Amram",
+        "relation": "Father"
+      },
+      {
+        "name": "Jochebed",
+        "relation": "Mother"
+      },
+      {
+        "name": "Joshua",
+        "relation": "Successor"
+      }
     ],
-    "placesVisited": ["egypt", "sinai", "jordan-river"],
+    "placesVisited": [
+      "egypt",
+      "sinai",
+      "jordan-river"
+    ],
     "keyVerseIds": [],
     "importance": "As the figure at the center of the Exodus and the traditional lawgiver of Israel, Moses is foundational to Jewish identity and law, and his story of liberation from slavery has resonated far beyond its original context."
   },
@@ -29,253 +72,619 @@
     "id": "david",
     "name": "David",
     "role": "King & psalmist",
-    "books": ["Psalms (many)"],
+    "books": [
+      "Psalms (many)"
+    ],
     "description": "A shepherd who became Israel's second king, David is remembered both for uniting the kingdom and establishing Jerusalem as its capital, and for deeply personal, often raw poetry describing fear, guilt, and trust — many of the Psalms are attributed to him.",
     "born": "Born in Bethlehem, traditionally c. 1040 BC, the youngest son of Jesse",
     "timeline": [
-      { "era": "Shepherd & anointing", "text": "Works as a shepherd and is reportedly anointed by the prophet Samuel as Saul's eventual successor." },
-      { "era": "Rise at court", "text": "Gains fame after reportedly defeating the Philistine champion Goliath and serves in King Saul's court." },
-      { "era": "Fugitive years", "text": "Flees for years as an outlaw after Saul turns against him out of jealousy." },
-      { "era": "King of Israel", "text": "Becomes king, unites the tribes, and captures Jerusalem, making it his capital." },
-      { "era": "Later reign", "text": "Faces family strife and a reported affair with Bathsheba, later succeeded by his son Solomon." }
+      {
+        "era": "Shepherd & anointing",
+        "text": "Works as a shepherd and is reportedly anointed by the prophet Samuel as Saul's eventual successor."
+      },
+      {
+        "era": "Rise at court",
+        "text": "Gains fame after reportedly defeating the Philistine champion Goliath and serves in King Saul's court."
+      },
+      {
+        "era": "Fugitive years",
+        "text": "Flees for years as an outlaw after Saul turns against him out of jealousy."
+      },
+      {
+        "era": "King of Israel",
+        "text": "Becomes king, unites the tribes, and captures Jerusalem, making it his capital."
+      },
+      {
+        "era": "Later reign",
+        "text": "Faces family strife and a reported affair with Bathsheba, later succeeded by his son Solomon."
+      }
     ],
     "relations": [
-      { "name": "Jesse", "relation": "Father" },
-      { "name": "Bathsheba", "relation": "Wife" },
-      { "name": "Solomon", "relation": "Son" },
-      { "name": "Saul", "relation": "Predecessor & father-in-law" },
-      { "name": "Jonathan", "relation": "Close friend" }
+      {
+        "name": "Jesse",
+        "relation": "Father"
+      },
+      {
+        "name": "Bathsheba",
+        "relation": "Wife"
+      },
+      {
+        "name": "Solomon",
+        "relation": "Son"
+      },
+      {
+        "name": "Saul",
+        "relation": "Predecessor & father-in-law"
+      },
+      {
+        "name": "Jonathan",
+        "relation": "Close friend"
+      }
     ],
-    "placesVisited": ["bethlehem", "jerusalem"],
-    "keyVerseIds": ["psalm-23-1", "psalm-13-1"],
+    "placesVisited": [
+      "bethlehem",
+      "jerusalem"
+    ],
+    "keyVerseIds": [
+      "psalm-23-1",
+      "psalm-13-1"
+    ],
     "importance": "As Israel's paradigmatic king and the reputed author of much of the Psalter, David's reign and poetry shaped later messianic expectation and remain a major source of the Bible's devotional language."
   },
   {
     "id": "solomon",
     "name": "Solomon",
     "role": "King & wisdom writer",
-    "books": ["Proverbs", "Ecclesiastes", "Song of Songs"],
+    "books": [
+      "Proverbs",
+      "Ecclesiastes",
+      "Song of Songs"
+    ],
     "description": "David's son and successor, known in biblical tradition for his wisdom and for building the first Jerusalem Temple. Several of the Bible's wisdom books are attributed to him, though like much ancient wisdom literature, some material may have been added by later editors under his name.",
     "born": "Born in Jerusalem, traditionally c. 990 BC, son of David and Bathsheba",
     "timeline": [
-      { "era": "Succession", "text": "Succeeds his father David as king of Israel amid a contested transition." },
-      { "era": "Request for wisdom", "text": "Reportedly asks God for wisdom rather than wealth early in his reign." },
-      { "era": "Temple building", "text": "Builds the first Jerusalem Temple and expands trade and diplomatic ties, including a visit from the Queen of Sheba." },
-      { "era": "Later years", "text": "Later chapters describe numerous marriages and a reported turn toward other gods, contributing to the kingdom's later division." }
+      {
+        "era": "Succession",
+        "text": "Succeeds his father David as king of Israel amid a contested transition."
+      },
+      {
+        "era": "Request for wisdom",
+        "text": "Reportedly asks God for wisdom rather than wealth early in his reign."
+      },
+      {
+        "era": "Temple building",
+        "text": "Builds the first Jerusalem Temple and expands trade and diplomatic ties, including a visit from the Queen of Sheba."
+      },
+      {
+        "era": "Later years",
+        "text": "Later chapters describe numerous marriages and a reported turn toward other gods, contributing to the kingdom's later division."
+      }
     ],
     "relations": [
-      { "name": "David", "relation": "Father" },
-      { "name": "Bathsheba", "relation": "Mother" },
-      { "name": "Rehoboam", "relation": "Son" }
+      {
+        "name": "David",
+        "relation": "Father"
+      },
+      {
+        "name": "Bathsheba",
+        "relation": "Mother"
+      },
+      {
+        "name": "Rehoboam",
+        "relation": "Son"
+      }
     ],
-    "placesVisited": ["jerusalem"],
-    "keyVerseIds": ["proverbs-3-5", "ecclesiastes-3-1"],
+    "placesVisited": [
+      "jerusalem"
+    ],
+    "keyVerseIds": [
+      "proverbs-3-5",
+      "ecclesiastes-3-1"
+    ],
     "importance": "Credited with much of Israel's wisdom literature and the Temple's construction, Solomon's reign is portrayed as the kingdom's political and cultural high point before its later split into two kingdoms."
   },
   {
     "id": "isaiah",
     "name": "Isaiah",
     "role": "Prophet",
-    "books": ["Isaiah"],
+    "books": [
+      "Isaiah"
+    ],
     "description": "A prophet active in Jerusalem during a period of Assyrian threat, Isaiah's book combines warnings about political alliances with some of the Bible's most quoted passages of comfort and future hope, addressed to a frightened nation.",
     "born": "Traditionally born in or near Jerusalem, 8th century BC",
     "timeline": [
-      { "era": "Call to prophesy", "text": "Reports a visionary call to prophetic ministry in the year King Uzziah died." },
-      { "era": "Royal advisor", "text": "Advises Judah's kings during the Assyrian crisis, warning against risky foreign alliances." },
-      { "era": "Warnings of judgment", "text": "Delivers oracles warning Jerusalem of coming judgment for injustice and idolatry." },
-      { "era": "Words of comfort", "text": "Later chapters, which many scholars think were shaped by later writers building on his legacy, turn to comfort and promised restoration." }
+      {
+        "era": "Call to prophesy",
+        "text": "Reports a visionary call to prophetic ministry in the year King Uzziah died."
+      },
+      {
+        "era": "Royal advisor",
+        "text": "Advises Judah's kings during the Assyrian crisis, warning against risky foreign alliances."
+      },
+      {
+        "era": "Warnings of judgment",
+        "text": "Delivers oracles warning Jerusalem of coming judgment for injustice and idolatry."
+      },
+      {
+        "era": "Words of comfort",
+        "text": "Later chapters, which many scholars think were shaped by later writers building on his legacy, turn to comfort and promised restoration."
+      }
     ],
     "relations": [
-      { "name": "Shear-jashub", "relation": "Son" },
-      { "name": "Maher-shalal-hash-baz", "relation": "Son" }
+      {
+        "name": "Shear-jashub",
+        "relation": "Son"
+      },
+      {
+        "name": "Maher-shalal-hash-baz",
+        "relation": "Son"
+      }
     ],
-    "placesVisited": ["jerusalem"],
-    "keyVerseIds": ["isaiah-41-10", "isaiah-40-31"],
+    "placesVisited": [
+      "jerusalem"
+    ],
+    "keyVerseIds": [
+      "isaiah-41-10",
+      "isaiah-40-31"
+    ],
     "importance": "Isaiah's book bridges warning and hope, and its language of comfort and future restoration became some of the most quoted material in later Jewish and Christian tradition."
   },
   {
     "id": "jeremiah",
     "name": "Jeremiah",
     "role": "Prophet",
-    "books": ["Jeremiah", "Lamentations"],
+    "books": [
+      "Jeremiah",
+      "Lamentations"
+    ],
     "description": "Known as the 'weeping prophet,' Jeremiah warned Jerusalem of coming destruction for decades before it happened, then continued writing during and after the Babylonian conquest, including a letter of encouragement to those taken into exile.",
     "born": "Born in Anathoth, near Jerusalem, 7th century BC",
     "timeline": [
-      { "era": "Early call", "text": "Called to prophesy as a young man during the reign of King Josiah." },
-      { "era": "Decades of warning", "text": "Warns Jerusalem's leaders of coming Babylonian conquest for decades, often facing hostility." },
-      { "era": "Fall of Jerusalem", "text": "Witnesses the city's fall and the Temple's destruction in 586 BC." },
-      { "era": "Exile correspondence", "text": "Writes a letter of encouragement to those taken into exile in Babylon." },
-      { "era": "Later years", "text": "Tradition holds he was later taken to Egypt by fellow survivors against his wishes." }
+      {
+        "era": "Early call",
+        "text": "Called to prophesy as a young man during the reign of King Josiah."
+      },
+      {
+        "era": "Decades of warning",
+        "text": "Warns Jerusalem's leaders of coming Babylonian conquest for decades, often facing hostility."
+      },
+      {
+        "era": "Fall of Jerusalem",
+        "text": "Witnesses the city's fall and the Temple's destruction in 586 BC."
+      },
+      {
+        "era": "Exile correspondence",
+        "text": "Writes a letter of encouragement to those taken into exile in Babylon."
+      },
+      {
+        "era": "Later years",
+        "text": "Tradition holds he was later taken to Egypt by fellow survivors against his wishes."
+      }
     ],
     "relations": [
-      { "name": "Baruch", "relation": "Scribe & companion" }
+      {
+        "name": "Baruch",
+        "relation": "Scribe & companion"
+      }
     ],
-    "placesVisited": ["jerusalem", "babylon", "egypt"],
-    "keyVerseIds": ["jeremiah-29-11"],
+    "placesVisited": [
+      "jerusalem",
+      "babylon",
+      "egypt"
+    ],
+    "keyVerseIds": [
+      "jeremiah-29-11"
+    ],
     "importance": "As a witness to the trauma of Jerusalem's destruction, Jeremiah's laments and letters shaped how later generations processed national loss and the hope of eventual return."
   },
   {
     "id": "joseph",
     "name": "Joseph",
     "role": "Character (Genesis)",
-    "books": ["Genesis"],
+    "books": [
+      "Genesis"
+    ],
     "description": "Sold into slavery in Egypt by his own brothers, Joseph rises to become a senior official under Pharaoh. His eventual choice to forgive his brothers rather than seek revenge is one of the Bible's most detailed accounts of reconciliation after real harm.",
     "born": "Born in Paddan-aram, son of Jacob and Rachel",
     "timeline": [
-      { "era": "Favored son", "text": "Given a special coat by his father Jacob, drawing the resentment of his brothers." },
-      { "era": "Sold into slavery", "text": "Sold by his brothers into slavery and taken to Egypt." },
-      { "era": "Prison years", "text": "Serves in an official's household, then is imprisoned on false charges." },
-      { "era": "Rise to power", "text": "Rises to become Pharaoh's vizier after interpreting his dreams and organizing famine relief." },
-      { "era": "Reconciliation", "text": "Reunites with and forgives his brothers when they come to Egypt seeking grain." }
+      {
+        "era": "Favored son",
+        "text": "Given a special coat by his father Jacob, drawing the resentment of his brothers."
+      },
+      {
+        "era": "Sold into slavery",
+        "text": "Sold by his brothers into slavery and taken to Egypt."
+      },
+      {
+        "era": "Prison years",
+        "text": "Serves in an official's household, then is imprisoned on false charges."
+      },
+      {
+        "era": "Rise to power",
+        "text": "Rises to become Pharaoh's vizier after interpreting his dreams and organizing famine relief."
+      },
+      {
+        "era": "Reconciliation",
+        "text": "Reunites with and forgives his brothers when they come to Egypt seeking grain."
+      }
     ],
     "relations": [
-      { "name": "Jacob", "relation": "Father" },
-      { "name": "Rachel", "relation": "Mother" },
-      { "name": "Benjamin", "relation": "Brother" },
-      { "name": "Reuben", "relation": "Brother" },
-      { "name": "Judah", "relation": "Brother" }
+      {
+        "name": "Jacob",
+        "relation": "Father"
+      },
+      {
+        "name": "Rachel",
+        "relation": "Mother"
+      },
+      {
+        "name": "Benjamin",
+        "relation": "Brother"
+      },
+      {
+        "name": "Reuben",
+        "relation": "Brother"
+      },
+      {
+        "name": "Judah",
+        "relation": "Brother"
+      }
     ],
-    "placesVisited": ["egypt"],
-    "keyVerseIds": ["genesis-50-20"],
+    "placesVisited": [
+      "egypt"
+    ],
+    "keyVerseIds": [
+      "genesis-50-20"
+    ],
     "importance": "His story of enslavement, rise to power, and forgiveness is one of the Bible's fullest accounts of reconciliation after injustice, and it sets up Israel's eventual settlement in and departure from Egypt."
   },
   {
     "id": "paul",
     "name": "Paul",
     "role": "Missionary & letter writer",
-    "books": ["Romans", "1-2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians", "1-2 Thessalonians", "and others"],
+    "books": [
+      "Romans",
+      "1-2 Corinthians",
+      "Galatians",
+      "Ephesians",
+      "Philippians",
+      "Colossians",
+      "1-2 Thessalonians",
+      "and others"
+    ],
     "description": "Originally a persecutor of early Christians, Paul described a dramatic change of course and became one of the most active missionaries of the first-century church, writing practical, personal letters to communities he had founded or hoped to visit, many of which form a large part of the New Testament.",
     "born": "Born in Tarsus (in modern-day Turkey), a Roman citizen by birth",
     "timeline": [
-      { "era": "Training as a Pharisee", "text": "Trained in Jewish law and reportedly participates in the persecution of early Christians." },
-      { "era": "Road to Damascus", "text": "Describes a sudden, transformative encounter on the road to Damascus that redirects his life." },
-      { "era": "Missionary journeys", "text": "Undertakes multiple journeys founding and visiting churches across Asia Minor and Greece." },
-      { "era": "Letter writing", "text": "Writes practical, personal letters to the communities he founded or hoped to visit." },
-      { "era": "Final years", "text": "Tradition holds he was imprisoned and later martyred in Rome." }
+      {
+        "era": "Training as a Pharisee",
+        "text": "Trained in Jewish law and reportedly participates in the persecution of early Christians."
+      },
+      {
+        "era": "Road to Damascus",
+        "text": "Describes a sudden, transformative encounter on the road to Damascus that redirects his life."
+      },
+      {
+        "era": "Missionary journeys",
+        "text": "Undertakes multiple journeys founding and visiting churches across Asia Minor and Greece."
+      },
+      {
+        "era": "Letter writing",
+        "text": "Writes practical, personal letters to the communities he founded or hoped to visit."
+      },
+      {
+        "era": "Final years",
+        "text": "Tradition holds he was imprisoned and later martyred in Rome."
+      }
     ],
     "relations": [
-      { "name": "Barnabas", "relation": "Missionary companion" },
-      { "name": "Timothy", "relation": "Protégé" },
-      { "name": "Silas", "relation": "Companion" }
+      {
+        "name": "Barnabas",
+        "relation": "Missionary companion"
+      },
+      {
+        "name": "Timothy",
+        "relation": "Protégé"
+      },
+      {
+        "name": "Silas",
+        "relation": "Companion"
+      }
     ],
-    "placesVisited": ["damascus", "ephesus", "rome", "jerusalem"],
-    "keyVerseIds": ["romans-8-28", "philippians-4-6"],
+    "placesVisited": [
+      "damascus",
+      "ephesus",
+      "rome",
+      "jerusalem"
+    ],
+    "keyVerseIds": [
+      "romans-8-28",
+      "philippians-4-6"
+    ],
     "importance": "His letters make up a large portion of the New Testament and were central to spreading early Christianity beyond Jewish communities across the wider Roman world."
   },
   {
     "id": "john",
     "name": "John",
     "role": "Disciple & traditional author",
-    "books": ["Gospel of John", "1-3 John", "Revelation (traditionally)"],
+    "books": [
+      "Gospel of John",
+      "1-3 John",
+      "Revelation (traditionally)"
+    ],
     "description": "One of Jesus's twelve disciples, John is traditionally credited with a Gospel notably different in style from the other three, along with several letters and the visionary book of Revelation, written while exiled on the island of Patmos.",
     "born": "Traditionally born in Galilee, son of Zebedee, a fisherman by trade",
     "timeline": [
-      { "era": "Called by Jesus", "text": "Leaves the family fishing trade with his brother James to follow Jesus." },
-      { "era": "Inner circle", "text": "Described in the Gospels as part of Jesus's closest circle of disciples." },
-      { "era": "Church leadership", "text": "Tradition holds he later led a Christian community in Ephesus." },
-      { "era": "Exile on Patmos", "text": "Exiled to the island of Patmos, where the visions recorded in Revelation are set." },
-      { "era": "Old age", "text": "Traditionally remembered as the last surviving member of the twelve disciples." }
+      {
+        "era": "Called by Jesus",
+        "text": "Leaves the family fishing trade with his brother James to follow Jesus."
+      },
+      {
+        "era": "Inner circle",
+        "text": "Described in the Gospels as part of Jesus's closest circle of disciples."
+      },
+      {
+        "era": "Church leadership",
+        "text": "Tradition holds he later led a Christian community in Ephesus."
+      },
+      {
+        "era": "Exile on Patmos",
+        "text": "Exiled to the island of Patmos, where the visions recorded in Revelation are set."
+      },
+      {
+        "era": "Old age",
+        "text": "Traditionally remembered as the last surviving member of the twelve disciples."
+      }
     ],
     "relations": [
-      { "name": "Zebedee", "relation": "Father" },
-      { "name": "James", "relation": "Brother" },
-      { "name": "Jesus", "relation": "Teacher" }
+      {
+        "name": "Zebedee",
+        "relation": "Father"
+      },
+      {
+        "name": "James",
+        "relation": "Brother"
+      },
+      {
+        "name": "Jesus",
+        "relation": "Teacher"
+      }
     ],
-    "placesVisited": ["galilee", "ephesus", "jerusalem"],
-    "keyVerseIds": ["john-3-16", "revelation-21-4"],
+    "placesVisited": [
+      "galilee",
+      "ephesus",
+      "jerusalem"
+    ],
+    "keyVerseIds": [
+      "john-3-16",
+      "revelation-21-4"
+    ],
     "importance": "Traditionally credited with a Gospel, three letters, and Revelation, John's writings shape both the New Testament's theological reflection and its apocalyptic imagery."
   },
   {
     "id": "james",
     "name": "James",
     "role": "Early church leader & letter writer",
-    "books": ["James"],
+    "books": [
+      "James"
+    ],
     "description": "Likely a leader of the Jerusalem church in its early years, James's short letter focuses on practical wisdom and everyday conduct, including guidance on facing hardship and asking for wisdom in decision-making.",
     "born": "Traditionally identified as a brother of Jesus, raised in Nazareth",
     "timeline": [
-      { "era": "Early skepticism", "text": "Tradition suggests he was initially skeptical of his brother Jesus's ministry." },
-      { "era": "Jerusalem leadership", "text": "Becomes a leader of the Jerusalem church in the years after Jesus's death." },
-      { "era": "Jerusalem council", "text": "Described in Acts as presiding over a key council addressing how Gentile believers should be received." },
-      { "era": "Letter writing", "text": "Writes a short letter emphasizing practical faith and everyday conduct." },
-      { "era": "Martyrdom", "text": "Tradition holds he was later martyred in Jerusalem." }
+      {
+        "era": "Early skepticism",
+        "text": "Tradition suggests he was initially skeptical of his brother Jesus's ministry."
+      },
+      {
+        "era": "Jerusalem leadership",
+        "text": "Becomes a leader of the Jerusalem church in the years after Jesus's death."
+      },
+      {
+        "era": "Jerusalem council",
+        "text": "Described in Acts as presiding over a key council addressing how Gentile believers should be received."
+      },
+      {
+        "era": "Letter writing",
+        "text": "Writes a short letter emphasizing practical faith and everyday conduct."
+      },
+      {
+        "era": "Martyrdom",
+        "text": "Tradition holds he was later martyred in Jerusalem."
+      }
     ],
     "relations": [
-      { "name": "Jesus", "relation": "Brother (per tradition)" },
-      { "name": "Mary", "relation": "Mother (per tradition)" }
+      {
+        "name": "Jesus",
+        "relation": "Brother (per tradition)"
+      },
+      {
+        "name": "Mary",
+        "relation": "Mother (per tradition)"
+      }
     ],
-    "placesVisited": ["jerusalem", "nazareth"],
-    "keyVerseIds": ["james-1-5"],
+    "placesVisited": [
+      "jerusalem",
+      "nazareth"
+    ],
+    "keyVerseIds": [
+      "james-1-5"
+    ],
     "importance": "James represents the continuation of Jewish-Christian leadership centered in Jerusalem, and his letter offers some of the New Testament's most direct, practical ethical instruction."
   },
   {
     "id": "jesus",
     "name": "Jesus",
     "role": "Central figure of the New Testament",
-    "books": ["Matthew", "Mark", "Luke", "John"],
+    "books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ],
     "description": "A Jewish teacher from Nazareth whose roughly three years of public ministry, crucifixion, and reported resurrection form the center of the New Testament. His teaching style relied heavily on parables and direct address, described from four distinct perspectives in the Gospels.",
     "born": "Traditionally born in Bethlehem, c. 6-4 BC",
     "timeline": [
-      { "era": "Birth & childhood", "text": "Born in Bethlehem and raised in Nazareth, according to the Gospel accounts." },
-      { "era": "Baptism & ministry begins", "text": "Baptized by John in the Jordan River and begins public ministry in Galilee around age thirty." },
-      { "era": "Teaching & healing", "text": "Teaches through parables, performs reported healings, and gathers twelve disciples." },
-      { "era": "Jerusalem & crucifixion", "text": "Travels to Jerusalem, where he is arrested and crucified under Roman authority." },
-      { "era": "Resurrection", "text": "Followers report his resurrection three days later, an event central to the New Testament's message." }
+      {
+        "era": "Birth & childhood",
+        "text": "Born in Bethlehem and raised in Nazareth, according to the Gospel accounts."
+      },
+      {
+        "era": "Baptism & ministry begins",
+        "text": "Baptized by John in the Jordan River and begins public ministry in Galilee around age thirty."
+      },
+      {
+        "era": "Teaching & healing",
+        "text": "Teaches through parables, performs reported healings, and gathers twelve disciples."
+      },
+      {
+        "era": "Jerusalem & crucifixion",
+        "text": "Travels to Jerusalem, where he is arrested and crucified under Roman authority."
+      },
+      {
+        "era": "Resurrection",
+        "text": "Followers report his resurrection three days later, an event central to the New Testament's message."
+      }
     ],
     "relations": [
-      { "name": "Mary", "relation": "Mother" },
-      { "name": "Joseph", "relation": "Legal father" },
-      { "name": "James", "relation": "Brother (per tradition)" },
-      { "name": "Peter", "relation": "Disciple" },
-      { "name": "John", "relation": "Disciple" }
+      {
+        "name": "Mary",
+        "relation": "Mother"
+      },
+      {
+        "name": "Joseph",
+        "relation": "Legal father"
+      },
+      {
+        "name": "James",
+        "relation": "Brother (per tradition)"
+      },
+      {
+        "name": "Peter",
+        "relation": "Disciple"
+      },
+      {
+        "name": "John",
+        "relation": "Disciple"
+      }
     ],
-    "placesVisited": ["bethlehem", "nazareth", "galilee", "jerusalem", "jordan-river"],
-    "keyVerseIds": ["john-3-16", "matthew-11-28"],
+    "placesVisited": [
+      "bethlehem",
+      "nazareth",
+      "galilee",
+      "jerusalem",
+      "jordan-river"
+    ],
+    "keyVerseIds": [
+      "john-3-16",
+      "matthew-11-28"
+    ],
     "importance": "As the central figure of Christianity, Jesus's life, teaching, death, and reported resurrection form the foundation of the New Testament and remain the most examined life in the Christian tradition."
   },
   {
     "id": "abraham",
     "name": "Abraham",
     "role": "Patriarch",
-    "books": ["Genesis"],
+    "books": [
+      "Genesis"
+    ],
     "description": "Called by God to leave his homeland for an unknown land, Abraham (originally Abram) is regarded as the founding patriarch of Israel and, in Jewish, Christian, and Islamic tradition, a model of faith and obedience despite long delays in the fulfillment of God's promises.",
     "born": "Born in Ur of the Chaldeans, in Mesopotamia, traditionally c. 2000 BC",
     "timeline": [
-      { "era": "Call & migration", "text": "Called to leave Ur, then Haran, for the land of Canaan, according to the Genesis narrative." },
-      { "era": "Covenant promises", "text": "Receives repeated promises of descendants and land, forming the basis of a covenant relationship." },
-      { "era": "Ishmael & Isaac", "text": "Fathers Ishmael through Hagar and, in old age, Isaac through his wife Sarah." },
-      { "era": "The binding of Isaac", "text": "Tested, in a well-known and much-discussed episode, by a command to sacrifice Isaac on a mountain." }
+      {
+        "era": "Call & migration",
+        "text": "Called to leave Ur, then Haran, for the land of Canaan, according to the Genesis narrative."
+      },
+      {
+        "era": "Covenant promises",
+        "text": "Receives repeated promises of descendants and land, forming the basis of a covenant relationship."
+      },
+      {
+        "era": "Ishmael & Isaac",
+        "text": "Fathers Ishmael through Hagar and, in old age, Isaac through his wife Sarah."
+      },
+      {
+        "era": "The binding of Isaac",
+        "text": "Tested, in a well-known and much-discussed episode, by a command to sacrifice Isaac on a mountain."
+      }
     ],
     "relations": [
-      { "name": "Sarah", "relation": "Wife" },
-      { "name": "Isaac", "relation": "Son" },
-      { "name": "Ishmael", "relation": "Son" },
-      { "name": "Lot", "relation": "Nephew" },
-      { "name": "Hagar", "relation": "Servant & mother of Ishmael" }
+      {
+        "name": "Sarah",
+        "relation": "Wife"
+      },
+      {
+        "name": "Isaac",
+        "relation": "Son"
+      },
+      {
+        "name": "Ishmael",
+        "relation": "Son"
+      },
+      {
+        "name": "Lot",
+        "relation": "Nephew"
+      },
+      {
+        "name": "Hagar",
+        "relation": "Servant & mother of Ishmael"
+      }
     ],
-    "placesVisited": ["egypt", "jerusalem"],
-    "keyVerseIds": ["hebrews-11-1"],
+    "placesVisited": [
+      "egypt",
+      "jerusalem"
+    ],
+    "keyVerseIds": [
+      "hebrews-11-1"
+    ],
     "importance": "Regarded as the founding ancestor of Israel and a central figure of faith across Judaism, Christianity, and Islam, Abraham's covenant narrative underlies the promises that later biblical history builds upon."
   },
   {
     "id": "sarah",
     "name": "Sarah",
     "role": "Matriarch",
-    "books": ["Genesis"],
+    "books": [
+      "Genesis"
+    ],
     "description": "Abraham's wife and companion through decades of travel, Sarah faced the long disappointment of infertility before giving birth to Isaac in old age, a moment the text treats as central to the fulfillment of God's covenant promise.",
     "born": "Born in Ur of the Chaldeans, described in Genesis as Abraham's half-sister and wife",
     "timeline": [
-      { "era": "Migration", "text": "Leaves Ur, then Haran, with Abraham for the land of Canaan." },
-      { "era": "Passed off as sister", "text": "Presented as Abraham's sister rather than wife during stays in Egypt and Gerar for safety." },
-      { "era": "Hagar & Ishmael", "text": "Gives her servant Hagar to Abraham to bear a child on her behalf after years of infertility." },
-      { "era": "Birth of Isaac", "text": "Reportedly laughs at the promise of a son in her old age, then gives birth to Isaac." }
+      {
+        "era": "Migration",
+        "text": "Leaves Ur, then Haran, with Abraham for the land of Canaan."
+      },
+      {
+        "era": "Passed off as sister",
+        "text": "Presented as Abraham's sister rather than wife during stays in Egypt and Gerar for safety."
+      },
+      {
+        "era": "Hagar & Ishmael",
+        "text": "Gives her servant Hagar to Abraham to bear a child on her behalf after years of infertility."
+      },
+      {
+        "era": "Birth of Isaac",
+        "text": "Reportedly laughs at the promise of a son in her old age, then gives birth to Isaac."
+      }
     ],
     "relations": [
-      { "name": "Abraham", "relation": "Husband" },
-      { "name": "Isaac", "relation": "Son" },
-      { "name": "Hagar", "relation": "Servant" },
-      { "name": "Ishmael", "relation": "Stepson" }
+      {
+        "name": "Abraham",
+        "relation": "Husband"
+      },
+      {
+        "name": "Isaac",
+        "relation": "Son"
+      },
+      {
+        "name": "Hagar",
+        "relation": "Servant"
+      },
+      {
+        "name": "Ishmael",
+        "relation": "Stepson"
+      }
     ],
-    "placesVisited": ["egypt"],
+    "placesVisited": [
+      "egypt"
+    ],
     "keyVerseIds": [],
     "importance": "Her long wait for a promised child and the eventual birth of Isaac became a recurring biblical example of an unlikely fulfillment of a divine promise against long odds."
   },
@@ -283,25 +692,62 @@
     "id": "jacob",
     "name": "Jacob",
     "role": "Patriarch (also called Israel)",
-    "books": ["Genesis"],
+    "books": [
+      "Genesis"
+    ],
     "description": "Twin brother of Esau, Jacob obtains his father's blessing through deception, then spends years laboring for his uncle Laban before a reported nighttime encounter leaves him renamed Israel. His twelve sons become the traditional ancestors of the twelve tribes of Israel.",
     "born": "Born in Canaan, twin son of Isaac and Rebekah",
     "timeline": [
-      { "era": "Birth & birthright", "text": "Born grasping his twin brother Esau's heel, later buying Esau's birthright for a meal." },
-      { "era": "Stolen blessing", "text": "Deceives his aging father Isaac to receive the blessing intended for Esau, then flees his brother's anger." },
-      { "era": "Years with Laban", "text": "Works for years for his uncle Laban in Haran, marrying both Leah and Rachel." },
-      { "era": "Renamed Israel", "text": "Reports wrestling with a mysterious figure at Peniel and is renamed Israel." },
-      { "era": "Reconciliation & Egypt", "text": "Reconciles with Esau and later reunites with his son Joseph in Egypt during a famine." }
+      {
+        "era": "Birth & birthright",
+        "text": "Born grasping his twin brother Esau's heel, later buying Esau's birthright for a meal."
+      },
+      {
+        "era": "Stolen blessing",
+        "text": "Deceives his aging father Isaac to receive the blessing intended for Esau, then flees his brother's anger."
+      },
+      {
+        "era": "Years with Laban",
+        "text": "Works for years for his uncle Laban in Haran, marrying both Leah and Rachel."
+      },
+      {
+        "era": "Renamed Israel",
+        "text": "Reports wrestling with a mysterious figure at Peniel and is renamed Israel."
+      },
+      {
+        "era": "Reconciliation & Egypt",
+        "text": "Reconciles with Esau and later reunites with his son Joseph in Egypt during a famine."
+      }
     ],
     "relations": [
-      { "name": "Isaac", "relation": "Father" },
-      { "name": "Rebekah", "relation": "Mother" },
-      { "name": "Esau", "relation": "Brother" },
-      { "name": "Rachel", "relation": "Wife" },
-      { "name": "Leah", "relation": "Wife" },
-      { "name": "Joseph", "relation": "Son" }
+      {
+        "name": "Isaac",
+        "relation": "Father"
+      },
+      {
+        "name": "Rebekah",
+        "relation": "Mother"
+      },
+      {
+        "name": "Esau",
+        "relation": "Brother"
+      },
+      {
+        "name": "Rachel",
+        "relation": "Wife"
+      },
+      {
+        "name": "Leah",
+        "relation": "Wife"
+      },
+      {
+        "name": "Joseph",
+        "relation": "Son"
+      }
     ],
-    "placesVisited": ["egypt"],
+    "placesVisited": [
+      "egypt"
+    ],
     "keyVerseIds": [],
     "importance": "His twelve sons become the traditional namesakes of Israel's twelve tribes, making Jacob a pivotal ancestral link between the patriarchal narratives and the nation of Israel."
   },
@@ -309,21 +755,46 @@
     "id": "ruth",
     "name": "Ruth",
     "role": "Moabite woman",
-    "books": ["Ruth"],
+    "books": [
+      "Ruth"
+    ],
     "description": "A Moabite widow who chooses to stay with her Israelite mother-in-law Naomi rather than return to her own people, Ruth's loyalty and eventual marriage to Boaz place a foreign-born woman in the ancestral line of David.",
     "born": "Born in Moab",
     "timeline": [
-      { "era": "Marriage & widowhood", "text": "Marries into an Israelite family living in Moab and is widowed alongside her mother-in-law Naomi." },
-      { "era": "Loyalty to Naomi", "text": "Pledges to stay with Naomi and return with her to Bethlehem rather than remain in Moab." },
-      { "era": "Gleaning in Bethlehem", "text": "Gleans leftover grain in the fields of Boaz, a relative of Naomi's late husband." },
-      { "era": "Marriage to Boaz", "text": "Marries Boaz under a custom of family redemption and becomes the great-grandmother of David." }
+      {
+        "era": "Marriage & widowhood",
+        "text": "Marries into an Israelite family living in Moab and is widowed alongside her mother-in-law Naomi."
+      },
+      {
+        "era": "Loyalty to Naomi",
+        "text": "Pledges to stay with Naomi and return with her to Bethlehem rather than remain in Moab."
+      },
+      {
+        "era": "Gleaning in Bethlehem",
+        "text": "Gleans leftover grain in the fields of Boaz, a relative of Naomi's late husband."
+      },
+      {
+        "era": "Marriage to Boaz",
+        "text": "Marries Boaz under a custom of family redemption and becomes the great-grandmother of David."
+      }
     ],
     "relations": [
-      { "name": "Naomi", "relation": "Mother-in-law" },
-      { "name": "Boaz", "relation": "Husband" },
-      { "name": "Obed", "relation": "Son" }
+      {
+        "name": "Naomi",
+        "relation": "Mother-in-law"
+      },
+      {
+        "name": "Boaz",
+        "relation": "Husband"
+      },
+      {
+        "name": "Obed",
+        "relation": "Son"
+      }
     ],
-    "placesVisited": ["bethlehem"],
+    "placesVisited": [
+      "bethlehem"
+    ],
     "keyVerseIds": [],
     "importance": "Her inclusion as a Moabite ancestor of King David is often read as a notable example of loyalty and openness to outsiders within Israel's larger story."
   },
@@ -331,21 +802,46 @@
     "id": "esther",
     "name": "Esther",
     "role": "Queen of Persia",
-    "books": ["Esther"],
+    "books": [
+      "Esther"
+    ],
     "description": "A Jewish woman who becomes queen of Persia without initially revealing her heritage, Esther risks her position to intervene when a court official plots to destroy the empire's Jewish population, an act commemorated in the festival of Purim.",
     "born": "Born in the Persian Empire, a Jewish orphan raised by her cousin Mordecai",
     "timeline": [
-      { "era": "Upbringing", "text": "Orphaned young and raised in Persia by her cousin Mordecai." },
-      { "era": "Becomes queen", "text": "Selected to become queen of Persia after a kingdom-wide search for a new consort." },
-      { "era": "Discovering the plot", "text": "Learns through Mordecai of a court official's plan to destroy the empire's Jewish population." },
-      { "era": "Risking her position", "text": "Approaches the king uninvited, at personal risk, to expose the plot." },
-      { "era": "Deliverance & Purim", "text": "Her intervention leads to the community's deliverance, commemorated afterward at the festival of Purim." }
+      {
+        "era": "Upbringing",
+        "text": "Orphaned young and raised in Persia by her cousin Mordecai."
+      },
+      {
+        "era": "Becomes queen",
+        "text": "Selected to become queen of Persia after a kingdom-wide search for a new consort."
+      },
+      {
+        "era": "Discovering the plot",
+        "text": "Learns through Mordecai of a court official's plan to destroy the empire's Jewish population."
+      },
+      {
+        "era": "Risking her position",
+        "text": "Approaches the king uninvited, at personal risk, to expose the plot."
+      },
+      {
+        "era": "Deliverance & Purim",
+        "text": "Her intervention leads to the community's deliverance, commemorated afterward at the festival of Purim."
+      }
     ],
     "relations": [
-      { "name": "Mordecai", "relation": "Cousin & guardian" },
-      { "name": "Ahasuerus (Xerxes)", "relation": "Husband, king of Persia" }
+      {
+        "name": "Mordecai",
+        "relation": "Cousin & guardian"
+      },
+      {
+        "name": "Ahasuerus (Xerxes)",
+        "relation": "Husband, king of Persia"
+      }
     ],
-    "placesVisited": ["babylon"],
+    "placesVisited": [
+      "babylon"
+    ],
     "keyVerseIds": [],
     "importance": "Her story is notable for never mentioning God directly while still being read as an account of hidden providence, and it anchors the origin of the Jewish festival of Purim."
   },
@@ -353,21 +849,47 @@
     "id": "daniel",
     "name": "Daniel",
     "role": "Exile & prophet in Babylon",
-    "books": ["Daniel"],
+    "books": [
+      "Daniel"
+    ],
     "description": "Taken from Jerusalem to Babylon as part of the Babylonian conquest, Daniel rises to a position of influence in the royal court while maintaining his religious practices under pressure, and the book attributed to him combines court narratives with visionary prophecy about future kingdoms.",
     "born": "Traditionally born in Judah, taken into Babylonian exile as a young man",
     "timeline": [
-      { "era": "Deportation", "text": "Deported to Babylon as a young noble following Jerusalem's conquest." },
-      { "era": "Rise in the court", "text": "Rises in the royal court after interpreting King Nebuchadnezzar's dreams." },
-      { "era": "The lions' den", "text": "Reportedly survives being thrown into a den of lions under a later king's decree." },
-      { "era": "Visions of the future", "text": "Receives a series of visions concerning the rise and fall of future empires." },
-      { "era": "Transition of empires", "text": "Continues serving through the transition from Babylonian to Persian rule." }
+      {
+        "era": "Deportation",
+        "text": "Deported to Babylon as a young noble following Jerusalem's conquest."
+      },
+      {
+        "era": "Rise in the court",
+        "text": "Rises in the royal court after interpreting King Nebuchadnezzar's dreams."
+      },
+      {
+        "era": "The lions' den",
+        "text": "Reportedly survives being thrown into a den of lions under a later king's decree."
+      },
+      {
+        "era": "Visions of the future",
+        "text": "Receives a series of visions concerning the rise and fall of future empires."
+      },
+      {
+        "era": "Transition of empires",
+        "text": "Continues serving through the transition from Babylonian to Persian rule."
+      }
     ],
     "relations": [
-      { "name": "Nebuchadnezzar", "relation": "King he served" },
-      { "name": "Shadrach, Meshach, and Abednego", "relation": "Companions" }
+      {
+        "name": "Nebuchadnezzar",
+        "relation": "King he served"
+      },
+      {
+        "name": "Shadrach, Meshach, and Abednego",
+        "relation": "Companions"
+      }
     ],
-    "placesVisited": ["babylon", "jerusalem"],
+    "placesVisited": [
+      "babylon",
+      "jerusalem"
+    ],
     "keyVerseIds": [],
     "importance": "His combination of steadfast personal conviction under a foreign empire and apocalyptic visions of future kingdoms strongly influenced later Jewish and Christian apocalyptic literature."
   },
@@ -375,22 +897,51 @@
     "id": "elijah",
     "name": "Elijah",
     "role": "Prophet",
-    "books": ["1 Kings", "2 Kings"],
+    "books": [
+      "1 Kings",
+      "2 Kings"
+    ],
     "description": "A prophet who confronts King Ahab and the prophets of Baal during a period of state-sponsored idolatry, Elijah is remembered for the dramatic contest on Mount Carmel and for reportedly being taken up to heaven in a whirlwind rather than dying.",
     "born": "From Tishbe in Gilead; little is documented of his life before his prophetic appearance",
     "timeline": [
-      { "era": "Sudden appearance", "text": "Appears announcing a drought as judgment on King Ahab's Israel." },
-      { "era": "Sustained in famine", "text": "Reportedly sustained by ravens and later by a widow during the famine he announced." },
-      { "era": "Mount Carmel", "text": "Confronts and defeats the prophets of Baal in a public contest on Mount Carmel." },
-      { "era": "Flight to Sinai", "text": "Flees in despair to Mount Sinai (Horeb) after threats from Queen Jezebel." },
-      { "era": "Ascension", "text": "Reportedly ascends in a whirlwind, passing his prophetic role to his successor Elisha." }
+      {
+        "era": "Sudden appearance",
+        "text": "Appears announcing a drought as judgment on King Ahab's Israel."
+      },
+      {
+        "era": "Sustained in famine",
+        "text": "Reportedly sustained by ravens and later by a widow during the famine he announced."
+      },
+      {
+        "era": "Mount Carmel",
+        "text": "Confronts and defeats the prophets of Baal in a public contest on Mount Carmel."
+      },
+      {
+        "era": "Flight to Sinai",
+        "text": "Flees in despair to Mount Sinai (Horeb) after threats from Queen Jezebel."
+      },
+      {
+        "era": "Ascension",
+        "text": "Reportedly ascends in a whirlwind, passing his prophetic role to his successor Elisha."
+      }
     ],
     "relations": [
-      { "name": "Elisha", "relation": "Successor" },
-      { "name": "Ahab", "relation": "King he confronted" },
-      { "name": "Jezebel", "relation": "Opponent" }
+      {
+        "name": "Elisha",
+        "relation": "Successor"
+      },
+      {
+        "name": "Ahab",
+        "relation": "King he confronted"
+      },
+      {
+        "name": "Jezebel",
+        "relation": "Opponent"
+      }
     ],
-    "placesVisited": ["sinai"],
+    "placesVisited": [
+      "sinai"
+    ],
     "keyVerseIds": [],
     "importance": "Regarded in Jewish and Christian tradition as a paradigmatic prophet, Elijah's expected return became linked to messianic expectation, and he appears alongside Moses in the Gospels' Transfiguration account."
   },
@@ -398,47 +949,904 @@
     "id": "peter",
     "name": "Peter",
     "role": "Disciple & apostle",
-    "books": ["Gospels", "Acts", "1-2 Peter (traditionally)"],
+    "books": [
+      "Gospels",
+      "Acts",
+      "1-2 Peter (traditionally)"
+    ],
     "description": "A fisherman called alongside his brother Andrew to follow Jesus, Peter becomes a leading figure among the twelve disciples despite a reported denial of Jesus during the crucifixion, later emerging as a prominent leader in the early Jerusalem church described in Acts, with two New Testament letters traditionally attributed to him.",
     "born": "Born in Bethsaida, a fisherman by trade",
     "timeline": [
-      { "era": "Called by Jesus", "text": "Called from his fishing trade in Galilee, along with his brother Andrew, to follow Jesus." },
-      { "era": "Leading disciple", "text": "Identified across the Gospels as an outspoken, leading member of the twelve disciples." },
-      { "era": "Denial", "text": "Denies knowing Jesus three times during the night of the crucifixion, a moment of reported deep regret." },
-      { "era": "Early church leadership", "text": "Becomes a leading voice in the early church, notably at Pentecost as described in Acts." },
-      { "era": "Later years", "text": "Tradition holds he was later martyred in Rome." }
+      {
+        "era": "Called by Jesus",
+        "text": "Called from his fishing trade in Galilee, along with his brother Andrew, to follow Jesus."
+      },
+      {
+        "era": "Leading disciple",
+        "text": "Identified across the Gospels as an outspoken, leading member of the twelve disciples."
+      },
+      {
+        "era": "Denial",
+        "text": "Denies knowing Jesus three times during the night of the crucifixion, a moment of reported deep regret."
+      },
+      {
+        "era": "Early church leadership",
+        "text": "Becomes a leading voice in the early church, notably at Pentecost as described in Acts."
+      },
+      {
+        "era": "Later years",
+        "text": "Tradition holds he was later martyred in Rome."
+      }
     ],
     "relations": [
-      { "name": "Andrew", "relation": "Brother" },
-      { "name": "Jesus", "relation": "Teacher" },
-      { "name": "John", "relation": "Fellow disciple" }
+      {
+        "name": "Andrew",
+        "relation": "Brother"
+      },
+      {
+        "name": "Jesus",
+        "relation": "Teacher"
+      },
+      {
+        "name": "John",
+        "relation": "Fellow disciple"
+      }
     ],
-    "placesVisited": ["galilee", "jerusalem", "rome"],
-    "keyVerseIds": ["mark-9-24"],
+    "placesVisited": [
+      "galilee",
+      "jerusalem",
+      "rome"
+    ],
+    "keyVerseIds": [
+      "mark-9-24"
+    ],
     "importance": "Presented in the Gospels and Acts as a leading figure among the apostles and the early Jerusalem church, Peter is closely associated by later tradition with the founding of the church at Rome."
   },
   {
     "id": "mary",
     "name": "Mary (mother of Jesus)",
     "role": "Mother of Jesus",
-    "books": ["Matthew", "Luke", "John", "Acts (briefly)"],
+    "books": [
+      "Matthew",
+      "Luke",
+      "John",
+      "Acts (briefly)"
+    ],
     "description": "A young woman from Nazareth described as receiving an angelic announcement that she would bear a child conceived by the Holy Spirit, Mary's brief but pivotal appearances in the Gospels include Jesus's birth, moments during his ministry, and his crucifixion.",
     "born": "Traditionally from Nazareth, a young Jewish woman betrothed to Joseph",
     "timeline": [
-      { "era": "The announcement", "text": "Betrothed to Joseph in Nazareth when reportedly visited by the angel Gabriel with news of a coming child." },
-      { "era": "Bethlehem", "text": "Travels to Bethlehem with Joseph for Jesus's birth during a Roman census." },
-      { "era": "Flight to Egypt", "text": "Described as fleeing with the family to Egypt to escape a threat from King Herod." },
-      { "era": "During Jesus's ministry", "text": "Appears at points during Jesus's public ministry, including at a wedding in Cana." },
-      { "era": "Crucifixion & early church", "text": "Present at the crucifixion in Jerusalem and later mentioned among early believers in Acts." }
+      {
+        "era": "The announcement",
+        "text": "Betrothed to Joseph in Nazareth when reportedly visited by the angel Gabriel with news of a coming child."
+      },
+      {
+        "era": "Bethlehem",
+        "text": "Travels to Bethlehem with Joseph for Jesus's birth during a Roman census."
+      },
+      {
+        "era": "Flight to Egypt",
+        "text": "Described as fleeing with the family to Egypt to escape a threat from King Herod."
+      },
+      {
+        "era": "During Jesus's ministry",
+        "text": "Appears at points during Jesus's public ministry, including at a wedding in Cana."
+      },
+      {
+        "era": "Crucifixion & early church",
+        "text": "Present at the crucifixion in Jerusalem and later mentioned among early believers in Acts."
+      }
     ],
     "relations": [
-      { "name": "Joseph", "relation": "Husband" },
-      { "name": "Jesus", "relation": "Son" },
-      { "name": "James", "relation": "Son (per tradition)" },
-      { "name": "Elizabeth", "relation": "Relative" }
+      {
+        "name": "Joseph",
+        "relation": "Husband"
+      },
+      {
+        "name": "Jesus",
+        "relation": "Son"
+      },
+      {
+        "name": "James",
+        "relation": "Son (per tradition)"
+      },
+      {
+        "name": "Elizabeth",
+        "relation": "Relative"
+      }
     ],
-    "placesVisited": ["nazareth", "bethlehem", "egypt", "jerusalem"],
+    "placesVisited": [
+      "nazareth",
+      "bethlehem",
+      "egypt",
+      "jerusalem"
+    ],
     "keyVerseIds": [],
     "importance": "Central to the Gospel nativity accounts, Mary holds a significant place across Christian tradition, though the degree of theological reflection on her role varies widely between different traditions."
+  },
+  {
+    "id": "noah",
+    "name": "Noah",
+    "role": "Patriarch (Genesis)",
+    "books": [
+      "Genesis"
+    ],
+    "description": "Noah is presented in Genesis as a righteous man in a corrupt generation, chosen to build an ark and preserve his family and representatives of animal life through a catastrophic flood. After the flood recedes, he becomes a new starting point for humanity and receives a covenant symbolized by the rainbow. The narrative also includes an account of Noah's drunkenness and his sons' differing responses to it.",
+    "born": "The text places Noah's origin in the genealogies of early Genesis as a descendant of Seth; no historical date or location is given, and many scholars treat the flood narrative as part of Genesis's primeval history rather than a strictly historical chronicle.",
+    "timeline": [
+      {
+        "era": "Early life",
+        "text": "Genesis describes Noah as the son of Lamech and a righteous man 'blameless among the people of his time.'"
+      },
+      {
+        "era": "Building the ark",
+        "text": "Warned of a coming flood, Noah builds an ark according to detailed instructions and gathers his family and animals aboard."
+      },
+      {
+        "era": "The flood",
+        "text": "The flood destroys all other land life while Noah's family survives on the ark for over a year, according to the text's chronology."
+      },
+      {
+        "era": "After the flood",
+        "text": "Noah offers sacrifice, receives a covenant marked by the rainbow, and becomes, in the narrative, the ancestor of all later humanity through his three sons."
+      },
+      {
+        "era": "Later years",
+        "text": "Genesis briefly records an episode of Noah's drunkenness and his sons' differing reactions to it before his death at an advanced age."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Lamech",
+        "relation": "Father"
+      },
+      {
+        "name": "Shem",
+        "relation": "Son"
+      },
+      {
+        "name": "Ham",
+        "relation": "Son"
+      },
+      {
+        "name": "Japheth",
+        "relation": "Son"
+      }
+    ],
+    "placesVisited": [
+      "ararat"
+    ],
+    "keyVerseIds": [],
+    "importance": "Noah functions in Genesis as a new-beginning figure for humanity after judgment, and the covenant made with him is presented as extending to all living creatures. His story has become a widely referenced narrative about divine judgment, mercy, and renewal across Jewish, Christian, and Islamic tradition."
+  },
+  {
+    "id": "samuel",
+    "name": "Samuel",
+    "role": "Prophet and judge (1 Samuel)",
+    "books": [
+      "1 Samuel"
+    ],
+    "description": "Samuel is portrayed as the last of Israel's judges and a prophet who anoints both Saul and David as king, marking the transition from the era of judges to the monarchy. Dedicated to service at the sanctuary at Shiloh from childhood, he becomes a central religious and political authority in Israel, and his narrative bridges the book of Judges and the establishment of kingship.",
+    "born": "According to 1 Samuel, born in Ramah to Elkanah and Hannah after Hannah's prayer for a child; dedicated to service at the sanctuary from infancy.",
+    "timeline": [
+      {
+        "era": "Birth and dedication",
+        "text": "Hannah, previously childless, dedicates the young Samuel to service at the Shiloh sanctuary under the priest Eli."
+      },
+      {
+        "era": "Rise as prophet",
+        "text": "Samuel receives a prophetic call as a boy and grows into a recognized prophet and judge over Israel."
+      },
+      {
+        "era": "Anointing Saul",
+        "text": "In response to the people's demand for a king, Samuel anoints Saul as Israel's first king."
+      },
+      {
+        "era": "Anointing David",
+        "text": "After Saul's disobedience, Samuel privately anoints David, a shepherd from Bethlehem, as king-designate."
+      },
+      {
+        "era": "Death",
+        "text": "Samuel dies before Saul's reign ends; 1 Samuel later recounts Saul consulting a medium in an attempt to summon Samuel's spirit."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Elkanah",
+        "relation": "Father"
+      },
+      {
+        "name": "Hannah",
+        "relation": "Mother"
+      },
+      {
+        "name": "Eli",
+        "relation": "Mentor"
+      },
+      {
+        "name": "Saul",
+        "relation": "Anointed as king by Samuel"
+      },
+      {
+        "name": "David",
+        "relation": "Anointed as king by Samuel"
+      }
+    ],
+    "placesVisited": [],
+    "keyVerseIds": [],
+    "importance": "Samuel represents the pivotal transition in Israel's national life from tribal judges to centralized monarchy, and his role in selecting and later rebuking Saul, then anointing David, establishes a template for prophetic oversight of kings that recurs throughout the historical books."
+  },
+  {
+    "id": "saul",
+    "name": "Saul",
+    "role": "First king of Israel (1 Samuel)",
+    "books": [
+      "1 Samuel"
+    ],
+    "description": "Saul, son of Kish of the tribe of Benjamin, is anointed by the prophet Samuel as Israel's first king in response to the people's request for a monarchy. His reign is marked by early military success but also by a deteriorating relationship with Samuel following acts of disobedience, and by growing rivalry with David. The narrative traces his psychological decline and eventual death in battle.",
+    "born": "According to 1 Samuel, from the tribe of Benjamin, son of Kish; no date is given in the text, though scholars using biblical chronology conventionally place his reign in the 11th century BCE.",
+    "timeline": [
+      {
+        "era": "Selection as king",
+        "text": "Samuel anoints Saul, described as an imposing young man, as Israel's first king after the people demand a monarchy like other nations."
+      },
+      {
+        "era": "Early reign",
+        "text": "Saul leads successful military campaigns against the Philistines and neighboring peoples."
+      },
+      {
+        "era": "Disobedience and rejection",
+        "text": "After failing to follow instructions regarding sacrifice and the treatment of the Amalekites, Saul is told by Samuel that his dynasty will not continue."
+      },
+      {
+        "era": "Rivalry with David",
+        "text": "As David's popularity grows, Saul's reign is marked by suspicion, jealousy, and repeated attempts to kill David."
+      },
+      {
+        "era": "Death",
+        "text": "Saul dies by his own sword after being wounded in battle against the Philistines at Mount Gilboa, according to 1 Samuel."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Kish",
+        "relation": "Father"
+      },
+      {
+        "name": "Jonathan",
+        "relation": "Son"
+      },
+      {
+        "name": "Michal",
+        "relation": "Daughter (wife of David)"
+      },
+      {
+        "name": "David",
+        "relation": "Rival and son-in-law"
+      },
+      {
+        "name": "Samuel",
+        "relation": "Prophet who anointed and later rebuked him"
+      }
+    ],
+    "placesVisited": [],
+    "keyVerseIds": [],
+    "importance": "Saul's reign establishes the Israelite monarchy and sets up the central dynamic of the following narrative: the contrast between a king rejected for disobedience and David, the king chosen to replace him, a contrast that shapes the theological and literary structure of the books of Samuel."
+  },
+  {
+    "id": "deborah",
+    "name": "Deborah",
+    "role": "Judge and prophetess (Judges)",
+    "books": [
+      "Judges"
+    ],
+    "description": "Deborah is described in Judges as a prophetess and the only female judge among Israel's judges, who holds court under a palm tree and directs military strategy against a Canaanite army led by Sisera. She commissions the general Barak to lead Israel's forces and is credited, together with Barak, with a victory celebrated in the 'Song of Deborah,' one of the oldest poetic texts in the Hebrew Bible.",
+    "born": "The text gives no birth details; she is introduced in Judges simply as 'a prophetess, the wife of Lappidoth,' active during a period of Canaanite oppression of Israel.",
+    "timeline": [
+      {
+        "era": "Introduction as judge",
+        "text": "Judges introduces Deborah as a prophetess who judges Israel and holds court beneath a palm tree between Ramah and Bethel."
+      },
+      {
+        "era": "Commissioning Barak",
+        "text": "Deborah summons Barak and instructs him to muster troops against the Canaanite commander Sisera."
+      },
+      {
+        "era": "Battle and victory",
+        "text": "Israelite forces defeat Sisera's army near the Kishon River; Sisera is later killed by Jael, a Kenite woman, in her tent."
+      },
+      {
+        "era": "The Song of Deborah",
+        "text": "Judges 5 records a victory poem attributed jointly to Deborah and Barak, celebrating the triumph and naming several tribes and individuals."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Lappidoth",
+        "relation": "Husband"
+      },
+      {
+        "name": "Barak",
+        "relation": "Military commander she commissions"
+      }
+    ],
+    "placesVisited": [
+      "galilee"
+    ],
+    "keyVerseIds": [],
+    "importance": "Deborah stands out in the book of Judges as a rare figure combining prophetic, judicial, and military authority, and her story, along with the accompanying song, is one of the earliest examples of Hebrew poetry and a notable instance of women's leadership within the biblical text."
+  },
+  {
+    "id": "gideon",
+    "name": "Gideon",
+    "role": "Judge (Judges)",
+    "books": [
+      "Judges"
+    ],
+    "description": "Gideon is called in Judges as a reluctant military leader who delivers Israel from Midianite oppression. After testing his call with the sign of the fleece, he reduces his army to three hundred men so that Israel's victory could not be attributed to numerical strength, and defeats the Midianites in a night raid. He later refuses an offer of kingship but sets up a controversial gold ephod that becomes an object of idolatry.",
+    "born": "According to Judges, from the clan of Abiezer within the tribe of Manasseh, son of Joash; no historical date is given.",
+    "timeline": [
+      {
+        "era": "Call to lead",
+        "text": "An angel appears to Gideon while he is threshing wheat in hiding from Midianite raiders and calls him to deliver Israel."
+      },
+      {
+        "era": "Tearing down the altar",
+        "text": "Gideon destroys his father's altar to Baal and an Asherah pole, provoking opposition from his own townspeople."
+      },
+      {
+        "era": "Testing and battle",
+        "text": "After testing his call with the sign of the fleece, Gideon leads a reduced force of three hundred men to a surprise night victory over the Midianite camp."
+      },
+      {
+        "era": "Later life",
+        "text": "Gideon declines the people's offer to make him and his descendants hereditary rulers, but makes a gold ephod that Judges says became a snare to Israel."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Joash",
+        "relation": "Father"
+      },
+      {
+        "name": "Abimelech",
+        "relation": "Son (later ruled briefly as king over Shechem)"
+      }
+    ],
+    "placesVisited": [],
+    "keyVerseIds": [],
+    "importance": "Gideon's story emphasizes a recurring theme in Judges that victory comes through divine action rather than military strength, and his refusal of kingship, contrasted with his son Abimelech's violent grasp for power afterward, foreshadows the book's broader critique of leadership without proper sanction."
+  },
+  {
+    "id": "samson",
+    "name": "Samson",
+    "role": "Judge and Nazirite (Judges)",
+    "books": [
+      "Judges"
+    ],
+    "description": "Samson is portrayed in Judges as an Israelite judge of extraordinary physical strength, set apart from birth as a Nazirite, whose strength is tied to his uncut hair. His story centers on a series of conflicts with the Philistines and his relationships with Philistine women, most notably Delilah, who discovers the secret of his strength and enables his capture.",
+    "born": "According to Judges, born in Zorah to Manoah of the tribe of Dan, following an angelic announcement to his previously childless mother; dedicated as a Nazirite from birth.",
+    "timeline": [
+      {
+        "era": "Birth and calling",
+        "text": "An angel announces Samson's birth to his mother and instructs that he be raised as a Nazirite, never cutting his hair."
+      },
+      {
+        "era": "Conflicts with the Philistines",
+        "text": "Samson's marriage to a Philistine woman and a series of personal grievances lead to repeated violent clashes with the Philistines."
+      },
+      {
+        "era": "Delilah and capture",
+        "text": "Delilah, paid by Philistine leaders, persuades Samson to reveal that his strength is tied to his hair; he is captured, blinded, and enslaved after it is cut."
+      },
+      {
+        "era": "Final act",
+        "text": "His strength restored as his hair regrows, Samson pulls down the pillars of a Philistine temple, killing himself along with many Philistines, according to Judges."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Manoah",
+        "relation": "Father"
+      },
+      {
+        "name": "Delilah",
+        "relation": "Romantic partner who betrays him"
+      }
+    ],
+    "placesVisited": [],
+    "keyVerseIds": [],
+    "importance": "Samson's narrative closes the cycle of judges in the book with a story of remarkable but flawed strength, illustrating the book's broader theme of Israel's leaders being personally compromised even as they serve as instruments of deliverance; his story has become one of the most culturally referenced episodes in the Hebrew Bible."
+  },
+  {
+    "id": "nehemiah",
+    "name": "Nehemiah",
+    "role": "Governor of Judah (Nehemiah)",
+    "books": [
+      "Nehemiah",
+      "Ezra"
+    ],
+    "description": "Nehemiah, a Jewish official serving as cupbearer to the Persian king Artaxerxes I, is granted permission to return to Jerusalem to rebuild its walls, which had lain in ruins since the Babylonian destruction of the city. He organizes the rebuilding effort despite opposition from surrounding officials and later serves as governor, implementing social and religious reforms among the returned Jewish community.",
+    "born": "The text does not give a birthplace; Nehemiah is introduced as living in the Persian capital of Susa, serving in the royal court, likely born to a family living in exile.",
+    "timeline": [
+      {
+        "era": "Royal service",
+        "text": "Nehemiah serves as cupbearer to King Artaxerxes I in the Persian capital of Susa."
+      },
+      {
+        "era": "Request and journey",
+        "text": "Distressed by news of Jerusalem's ruined walls, Nehemiah requests and receives royal permission and resources to travel to Judah."
+      },
+      {
+        "era": "Rebuilding the walls",
+        "text": "Nehemiah organizes the Jewish community to rebuild Jerusalem's walls despite opposition from regional officials, completing the work in fifty-two days according to the text."
+      },
+      {
+        "era": "Governorship and reform",
+        "text": "Serving as governor of Judah, Nehemiah institutes social and religious reforms, including debt relief and enforcement of Sabbath observance."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Hacaliah",
+        "relation": "Father"
+      },
+      {
+        "name": "Ezra",
+        "relation": "Contemporary religious reformer"
+      }
+    ],
+    "placesVisited": [
+      "jerusalem",
+      "babylon"
+    ],
+    "keyVerseIds": [],
+    "importance": "Nehemiah's leadership in rebuilding Jerusalem's walls and reorganizing the post-exilic community is presented as a decisive step in restoring Jewish civic and religious life after the Babylonian exile, and his memoir is one of the few first-person administrative narratives in the Hebrew Bible."
+  },
+  {
+    "id": "ezra",
+    "name": "Ezra",
+    "role": "Priest and scribe (Ezra)",
+    "books": [
+      "Ezra",
+      "Nehemiah"
+    ],
+    "description": "Ezra is described as a priest and scribe skilled in the Law of Moses who leads a group of exiles back to Jerusalem from Babylon with authorization from the Persian king to teach and enforce Jewish law. He is credited with public reading and interpretation of the Torah and with efforts to address intermarriage between Jewish returnees and surrounding peoples.",
+    "born": "The text does not specify a birthplace; Ezra is described as living among the Jewish exilic community in Babylon before his return to Jerusalem.",
+    "timeline": [
+      {
+        "era": "Background",
+        "text": "Ezra is introduced as a priest descended from Aaron and a scribe well-versed in the Law of Moses, living in Babylon."
+      },
+      {
+        "era": "Return to Jerusalem",
+        "text": "With authorization and support from the Persian king Artaxerxes, Ezra leads a group of exiles back to Jerusalem."
+      },
+      {
+        "era": "Religious reform",
+        "text": "Ezra confronts the issue of intermarriage with surrounding peoples and leads the community in a covenant renewal."
+      },
+      {
+        "era": "Public reading of the Law",
+        "text": "In Nehemiah 8, Ezra publicly reads and explains the Law to the assembled community at the Water Gate in Jerusalem."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Nehemiah",
+        "relation": "Contemporary religious and civic reformer"
+      }
+    ],
+    "placesVisited": [
+      "jerusalem",
+      "babylon"
+    ],
+    "keyVerseIds": [],
+    "importance": "Ezra is traditionally credited with a central role in shaping the postexilic Jewish community's religious identity around the study and observance of the Torah, and later Jewish tradition regards him as a foundational figure in the development of Judaism as a text-centered faith."
+  },
+  {
+    "id": "job",
+    "name": "Job",
+    "role": "Central figure of wisdom literature (Job)",
+    "books": [
+      "Job"
+    ],
+    "description": "Job is the central figure of the book bearing his name, described as a wealthy and upright man from the land of Uz who suffers catastrophic loss of family, wealth, and health. The book explores his dialogues with three friends (later joined by a fourth) over the meaning of his suffering, before a divine speech from a whirlwind and Job's eventual restoration. Many scholars read Job less as a strict historical account than as a wisdom-literature narrative framework built to explore the problem of suffering.",
+    "born": "The book locates Job in 'the land of Uz,' a location outside Israel whose exact identification is uncertain; no historical date is given, and the story reads, in form, as a timeless setting rather than a dated chronicle.",
+    "timeline": [
+      {
+        "era": "Prosperity",
+        "text": "Job is introduced as a blameless and upright man, wealthy in livestock and family, living in the land of Uz."
+      },
+      {
+        "era": "Sudden loss",
+        "text": "In quick succession Job loses his livestock, servants, and all ten of his children, and is afflicted with painful sores."
+      },
+      {
+        "era": "Dialogues with friends",
+        "text": "Job's friends Eliphaz, Bildad, and Zophar, later joined by Elihu, engage him in extended poetic dialogues debating the cause of his suffering."
+      },
+      {
+        "era": "Divine response",
+        "text": "God speaks to Job from a whirlwind, questioning him about the order of creation rather than directly explaining his suffering."
+      },
+      {
+        "era": "Restoration",
+        "text": "The book's closing chapter describes Job's health, wealth, and family being restored, with new children born to him."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Eliphaz",
+        "relation": "Friend"
+      },
+      {
+        "name": "Bildad",
+        "relation": "Friend"
+      },
+      {
+        "name": "Zophar",
+        "relation": "Friend"
+      }
+    ],
+    "placesVisited": [],
+    "keyVerseIds": [],
+    "importance": "The book of Job is one of the most sustained biblical treatments of the problem of innocent suffering, and its refusal to offer a simple explanation for why the righteous suffer has made it a central text in later philosophical and theological reflection on theodicy."
+  },
+  {
+    "id": "jonah",
+    "name": "Jonah",
+    "role": "Prophet (Jonah)",
+    "books": [
+      "Jonah",
+      "2 Kings"
+    ],
+    "description": "Jonah is a prophet, also mentioned briefly in 2 Kings, who is commanded to preach repentance to the Assyrian city of Nineveh but instead flees by ship in the opposite direction. After being thrown overboard during a storm and swallowed by a great fish, he is delivered and ultimately carries out his mission, though the book ends with his displeasure at Nineveh's repentance and God's mercy toward it.",
+    "born": "According to 2 Kings, Jonah son of Amittai was from Gath Hepher in the territory of Zebulun; no further biographical detail is given.",
+    "timeline": [
+      {
+        "era": "Call and flight",
+        "text": "Commanded to preach against Nineveh, Jonah instead boards a ship heading for Tarshish in the opposite direction."
+      },
+      {
+        "era": "Storm and the great fish",
+        "text": "A violent storm leads the sailors to throw Jonah overboard at his own request; he is swallowed by a great fish and survives three days before being brought back to land."
+      },
+      {
+        "era": "Preaching in Nineveh",
+        "text": "Jonah delivers his warning to Nineveh, and the city's people and king respond with repentance, leading God to relent from the threatened destruction."
+      },
+      {
+        "era": "Final dialogue",
+        "text": "The book closes with Jonah's anger at Nineveh's sparing and a rebuke questioning his lack of compassion."
+      }
+    ],
+    "relations": [],
+    "placesVisited": [],
+    "keyVerseIds": [],
+    "importance": "Jonah's story is unusual among the prophetic books for its narrative, almost satirical form and its focus on divine mercy extended to a foreign, hostile nation, raising questions about the scope of compassion beyond Israel that later readers have found significant."
+  },
+  {
+    "id": "barnabas",
+    "name": "Barnabas",
+    "role": "Early Christian missionary (Acts)",
+    "books": [
+      "Acts"
+    ],
+    "description": "Barnabas, born Joseph, is a Levite from Cyprus and an early member of the Jerusalem church who is given the nickname 'Barnabas,' meaning 'son of encouragement,' in Acts. He vouches for the newly converted Paul to the wary Jerusalem apostles, is sent to oversee the growing church at Antioch, and becomes Paul's companion on the first missionary journey before the two separate over a disagreement about John Mark.",
+    "born": "According to Acts, born a Levite on the island of Cyprus; no date is given in the text.",
+    "timeline": [
+      {
+        "era": "Early role in Jerusalem",
+        "text": "Acts introduces Barnabas as a generous member of the early Jerusalem community who sells property to support fellow believers."
+      },
+      {
+        "era": "Advocate for Paul",
+        "text": "Barnabas vouches for Paul's conversion to the skeptical apostles in Jerusalem, enabling his acceptance into the community."
+      },
+      {
+        "era": "Ministry in Antioch",
+        "text": "Sent by the Jerusalem church to Antioch, Barnabas helps lead the growing community and brings Paul to assist him there."
+      },
+      {
+        "era": "First missionary journey",
+        "text": "Barnabas and Paul are commissioned together by the Antioch church and travel through Cyprus and Asia Minor preaching."
+      },
+      {
+        "era": "Separation from Paul",
+        "text": "A sharp disagreement over whether to bring John Mark on a further journey leads Barnabas and Paul to part ways, with Barnabas continuing on with Mark."
+      }
+    ],
+    "relations": [
+      {
+        "name": "John Mark",
+        "relation": "Cousin (by tradition) and travel companion"
+      },
+      {
+        "name": "Paul",
+        "relation": "Missionary companion"
+      }
+    ],
+    "placesVisited": [
+      "jerusalem",
+      "antioch"
+    ],
+    "keyVerseIds": [],
+    "importance": "Barnabas plays a bridging role in Acts between the Jerusalem church and the wider Gentile mission, both by vouching for Paul at a critical early moment and by helping establish Antioch as a base for cross-cultural Christian outreach, making him a key though often understated figure in the early spread of Christianity."
+  },
+  {
+    "id": "stephen",
+    "name": "Stephen",
+    "role": "Deacon and martyr (Acts)",
+    "books": [
+      "Acts"
+    ],
+    "description": "Stephen is described in Acts as one of seven men chosen to oversee the distribution of food to widows in the early Jerusalem church, noted for his faith and the wonders he performs. After a lengthy speech before the Jewish council reviewing Israel's history and accusing his hearers of resisting the Holy Spirit, he is stoned to death, becoming, in the text's account, the first Christian martyr.",
+    "born": "The text gives no biographical background beyond his selection as one of the seven in Jerusalem's early Christian community.",
+    "timeline": [
+      {
+        "era": "Selection as one of the seven",
+        "text": "Acts records Stephen being chosen, along with six others, to manage practical needs within the growing Jerusalem church."
+      },
+      {
+        "era": "Public disputes",
+        "text": "Known for performing signs and wonders, Stephen debates members of a local synagogue who cannot withstand his arguments."
+      },
+      {
+        "era": "Trial before the council",
+        "text": "Accused of speaking against the Temple and the Law, Stephen delivers a long speech reviewing Israel's history before the Sanhedrin."
+      },
+      {
+        "era": "Martyrdom",
+        "text": "Stephen is dragged out of the city and stoned to death; Acts notes that a young man named Saul, later Paul, approved of his killing and watched over the coats of those who stoned him."
+      }
+    ],
+    "relations": [],
+    "placesVisited": [
+      "jerusalem"
+    ],
+    "keyVerseIds": [],
+    "importance": "Stephen's martyrdom marks a turning point in Acts, triggering a wave of persecution that scatters believers and spreads the Christian message beyond Jerusalem, and it introduces Saul, later Paul, into the narrative as a witness to his death well before Paul's own conversion."
+  },
+  {
+    "id": "timothy",
+    "name": "Timothy",
+    "role": "Missionary companion of Paul (Acts, epistles)",
+    "books": [
+      "Acts",
+      "1 Timothy",
+      "2 Timothy",
+      "Philippians",
+      "1 Thessalonians"
+    ],
+    "description": "Timothy is a younger companion and coworker of the apostle Paul, born to a Jewish mother and Greek father in Lystra, who joins Paul's missionary travels and is later addressed as the recipient of two New Testament letters attributed to Paul. He serves as Paul's trusted representative to several churches, including Ephesus, where tradition holds he served as a leader.",
+    "born": "According to Acts, born in Lystra in Asia Minor to a Jewish mother, Eunice, and a Greek father; raised in the Jewish scriptures from childhood according to 2 Timothy.",
+    "timeline": [
+      {
+        "era": "Early life",
+        "text": "Acts describes Timothy as a disciple in Lystra with a Jewish mother and Greek father, well spoken of by local believers."
+      },
+      {
+        "era": "Joining Paul",
+        "text": "Paul recruits Timothy as a traveling companion, having him circumcised to ease relations with Jewish communities in the region."
+      },
+      {
+        "era": "Missionary service",
+        "text": "Timothy accompanies Paul on his journeys and is repeatedly sent as Paul's representative to churches such as Thessalonica and Corinth."
+      },
+      {
+        "era": "Leadership at Ephesus",
+        "text": "The letters addressed to Timothy depict him receiving instruction for pastoral leadership, traditionally associated with the church at Ephesus."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Eunice",
+        "relation": "Mother"
+      },
+      {
+        "name": "Lois",
+        "relation": "Grandmother"
+      },
+      {
+        "name": "Paul",
+        "relation": "Mentor"
+      }
+    ],
+    "placesVisited": [
+      "ephesus",
+      "corinth",
+      "philippi"
+    ],
+    "keyVerseIds": [],
+    "importance": "Timothy represents the next generation of leadership in the early Christian movement after its founding apostles, and the letters addressed to him became foundational texts for later Christian teaching on church leadership and pastoral responsibility."
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "role": "Disciple of Jesus (Gospels)",
+    "books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John",
+      "Acts"
+    ],
+    "description": "Thomas is one of the twelve disciples of Jesus, most prominently featured in the Gospel of John, where he initially doubts reports of Jesus's resurrection until he is invited to touch Jesus's wounds, an episode that gave rise to the phrase 'doubting Thomas.' John also records other statements from Thomas showing loyalty and blunt questioning.",
+    "born": "The Gospels give no birth details; he is called 'Thomas, also known as Didymus' in John, both names meaning 'twin.'",
+    "timeline": [
+      {
+        "era": "Calling as disciple",
+        "text": "Thomas appears among the lists of the twelve disciples called by Jesus in the Synoptic Gospels."
+      },
+      {
+        "era": "Statements during Jesus's ministry",
+        "text": "John records Thomas expressing willingness to die with Jesus before the raising of Lazarus, and later asking Jesus how to know 'the way' during the Last Supper discourse."
+      },
+      {
+        "era": "Doubt and resurrection appearance",
+        "text": "Absent when the risen Jesus first appears to the other disciples, Thomas declares he will not believe without physical proof; a week later Jesus appears again and invites him to touch his wounds, prompting Thomas's declaration 'My Lord and my God.'"
+      },
+      {
+        "era": "Later tradition",
+        "text": "Thomas is listed among the apostles present at the ascension in Acts 1; later Christian tradition, not found in the New Testament itself, associates him with missionary work in Parthia and India."
+      }
+    ],
+    "relations": [],
+    "placesVisited": [
+      "jerusalem",
+      "galilee"
+    ],
+    "keyVerseIds": [],
+    "importance": "Thomas's episode of doubt followed by confession in John's Gospel is often read as a model for the tension between faith and evidence, and his declaration about Jesus is one of the Gospel's clearest statements of Jesus's identity."
+  },
+  {
+    "id": "mary-magdalene",
+    "name": "Mary Magdalene",
+    "role": "Follower of Jesus (Gospels)",
+    "books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ],
+    "description": "Mary Magdalene, named for her hometown of Magdala in Galilee, is described in the Gospels as a woman from whom Jesus cast out seven demons and who subsequently became one of his followers, supporting his ministry and accompanying him to the crucifixion. She is named in all four Gospels as among the first witnesses to the empty tomb and, in John's account, the first person to see the risen Jesus.",
+    "born": "The Gospels give no birth details; she is associated by name with Magdala, a town on the Sea of Galilee.",
+    "timeline": [
+      {
+        "era": "Introduction",
+        "text": "Luke describes Mary Magdalene as one of several women healed of evil spirits and illnesses who then travel with Jesus and help support his ministry financially."
+      },
+      {
+        "era": "At the crucifixion",
+        "text": "All four Gospels place Mary Magdalene among the women who witness Jesus's crucifixion, in contrast to most of the male disciples who had fled."
+      },
+      {
+        "era": "At the tomb",
+        "text": "The Gospels describe Mary Magdalene visiting Jesus's tomb after his burial and discovering it empty."
+      },
+      {
+        "era": "Resurrection witness",
+        "text": "In John's account, the risen Jesus appears first to Mary Magdalene, who then reports the resurrection to the other disciples."
+      }
+    ],
+    "relations": [],
+    "placesVisited": [
+      "galilee",
+      "jerusalem"
+    ],
+    "keyVerseIds": [],
+    "importance": "Mary Magdalene holds a distinctive place in the Gospels as the first witness named to encounter the risen Jesus, a role of considerable significance given the limited legal standing of women's testimony in the period. A later Western church tradition conflated her with an unnamed 'sinful woman' in Luke 7 and with Mary of Bethany, an identification not supported by the Gospel texts themselves and rejected by most modern scholars."
+  },
+  {
+    "id": "martha",
+    "name": "Martha",
+    "role": "Follower of Jesus, sister of Lazarus (Luke, John)",
+    "books": [
+      "Luke",
+      "John"
+    ],
+    "description": "Martha, a resident of Bethany near Jerusalem, is the sister of Mary and Lazarus and is described in Luke as hosting Jesus in her home and being distracted by household preparations while her sister Mary listens to his teaching. In John, Martha plays a central role in the account of Lazarus's raising from death, expressing a notable declaration of faith in Jesus.",
+    "born": "The Gospels give no birth details; she is identified as a resident of Bethany, a village near Jerusalem.",
+    "timeline": [
+      {
+        "era": "Hosting Jesus",
+        "text": "Luke describes Martha welcoming Jesus into her home and being occupied with serving while her sister Mary sits listening to him; Jesus gently responds to her complaint about the imbalance."
+      },
+      {
+        "era": "Death of Lazarus",
+        "text": "When their brother Lazarus falls ill and dies, Martha goes out to meet Jesus on his arrival and affirms her belief in the resurrection and in Jesus as the Messiah."
+      },
+      {
+        "era": "Raising of Lazarus",
+        "text": "Martha is present when Jesus calls Lazarus out of the tomb four days after his death, according to John."
+      },
+      {
+        "era": "Later appearance",
+        "text": "John records Martha serving at a dinner in Jesus's honor in Bethany shortly before his crucifixion."
+      }
+    ],
+    "relations": [
+      {
+        "name": "Mary of Bethany",
+        "relation": "Sister"
+      },
+      {
+        "name": "Lazarus",
+        "relation": "Brother"
+      }
+    ],
+    "placesVisited": [
+      "jerusalem"
+    ],
+    "keyVerseIds": [],
+    "importance": "Martha's exchanges with Jesus, particularly her confession of faith before Lazarus's raising, present her as a figure of both practical devotion and theological insight, and her story is frequently discussed alongside her sister Mary's as an illustration of differing but complementary responses to Jesus's presence."
+  },
+  {
+    "id": "nicodemus",
+    "name": "Nicodemus",
+    "role": "Pharisee, member of the Sanhedrin (John)",
+    "books": [
+      "John"
+    ],
+    "description": "Nicodemus is a Pharisee and member of the Jewish ruling council who visits Jesus at night early in John's Gospel, prompting Jesus's teaching on being 'born again' or 'born from above.' He reappears twice more in John, cautiously defending Jesus's right to a fair hearing before the council and later assisting with Jesus's burial.",
+    "born": "The text gives no birth details; he is identified as 'a ruler of the Jews' and a Pharisee in Jerusalem.",
+    "timeline": [
+      {
+        "era": "Night visit to Jesus",
+        "text": "Nicodemus comes to Jesus at night, addressing him as a teacher from God, and receives Jesus's teaching about being born again by water and the Spirit."
+      },
+      {
+        "era": "Defending due process",
+        "text": "When the Jewish leadership moves against Jesus, Nicodemus questions whether their law permits judging a man without first hearing him, drawing rebuke from his colleagues."
+      },
+      {
+        "era": "At Jesus's burial",
+        "text": "After the crucifixion, Nicodemus brings a large quantity of myrrh and aloes and assists Joseph of Arimathea in preparing Jesus's body for burial."
+      }
+    ],
+    "relations": [],
+    "placesVisited": [
+      "jerusalem"
+    ],
+    "keyVerseIds": [],
+    "importance": "Nicodemus represents a sympathetic but cautious figure among the Jewish religious establishment in John's Gospel, and his gradual movement from a secret nighttime inquirer to an open participant in Jesus's burial is often read as an illustration of a slow, developing faith."
+  },
+  {
+    "id": "pontius-pilate",
+    "name": "Pontius Pilate",
+    "role": "Roman governor (prefect) of Judea",
+    "books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ],
+    "description": "Pontius Pilate served as the Roman prefect of Judea from about 26 to 36 CE and presided over the trial of Jesus, ultimately ordering his crucifixion despite the Gospels' portrayal of him finding no legal basis for the charges. He is a well-attested historical figure: the 'Pilate Stone,' a Latin inscription discovered at Caesarea Maritima in 1961, confirms his name and title. Non-biblical sources such as Josephus and Philo describe him in harsher terms as a governor prone to provoking and violently suppressing the Judean population, a portrayal that sits in some tension with the more hesitant figure depicted in the Gospels.",
+    "born": "Historical sources give no record of Pilate's birthplace or date; he is thought to have come from an Italian equestrian, non-senatorial, family, based on his name and career pattern.",
+    "timeline": [
+      {
+        "era": "Appointment as prefect",
+        "text": "Pilate is appointed Roman prefect of Judea around 26 CE, serving under the emperor Tiberius and answering to the Roman governor of Syria."
+      },
+      {
+        "era": "Tensions with the Jewish population",
+        "text": "Non-biblical sources including Josephus and Philo describe several episodes in which Pilate's actions, such as introducing military standards into Jerusalem or using Temple funds for an aqueduct, provoked strong protest and, at times, violent suppression."
+      },
+      {
+        "era": "Trial of Jesus",
+        "text": "The Gospels describe Pilate presiding over Jesus's trial, questioning him personally, expressing reluctance to condemn him, and ultimately authorizing crucifixion under pressure from Jewish leaders and the crowd."
+      },
+      {
+        "era": "Removal from office",
+        "text": "According to Josephus, Pilate was recalled to Rome around 36 CE after his harsh suppression of a Samaritan gathering; the biblical text does not record his later fate."
+      }
+    ],
+    "relations": [],
+    "placesVisited": [
+      "jerusalem",
+      "rome"
+    ],
+    "keyVerseIds": [],
+    "importance": "Pilate's decision to authorize Jesus's execution places him at the center of the Gospels' passion narratives, and the differing portrayals of his character between the Gospels and independent historical sources like Josephus and Philo make him a frequently discussed case study in comparing biblical and extra-biblical historical evidence."
   }
 ]

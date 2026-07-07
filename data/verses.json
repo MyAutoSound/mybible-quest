@@ -5,8 +5,15 @@
     "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
     "context": "Spoken by Jesus during a private conversation with Nicodemus, a Jewish religious leader who came to him at night. It sits within a broader teaching about being 'born again' and God's intent to save rather than condemn the world.",
     "importance": "This single sentence is often called a summary of the entire Christian message: a statement about the motive (love), the method (a gift), and the outcome (life) at the heart of the Bible's narrative.",
-    "themes": ["love", "salvation", "faith"],
-    "emotions": ["hope", "faith"],
+    "themes": [
+      "love",
+      "salvation",
+      "faith"
+    ],
+    "emotions": [
+      "hope",
+      "faith"
+    ],
     "author": "Traditionally attributed to John the Apostle, or the Johannine community associated with him.",
     "dateApprox": "Most scholars date the Gospel of John to roughly AD 85-95, though some argue for an earlier date.",
     "place": "Likely composed in or near Ephesus, in Asia Minor, according to early church tradition.",
@@ -14,11 +21,21 @@
     "politicalSituation": "Roman rule governed Judea and the wider Mediterranean world, and by the time of writing, Jerusalem's Temple had already been destroyed in AD 70, reshaping Jewish and Christian identity alike.",
     "culturalNote": "A nighttime visit, like Nicodemus's, could signal a wish to avoid public association with a controversial teacher; 'born again' language draws on Jewish ideas of purification and new beginnings.",
     "keyWords": [
-      {"word": "agape (love)", "meaning": "Describes a deliberate, self-giving love rather than mere affection or emotion."},
-      {"word": "monogenes (one and only)", "meaning": "Often rendered 'only begotten,' emphasizing a unique relationship rather than strictly biological origin."}
+      {
+        "word": "agape (love)",
+        "meaning": "Describes a deliberate, self-giving love rather than mere affection or emotion."
+      },
+      {
+        "word": "monogenes (one and only)",
+        "meaning": "Often rendered 'only begotten,' emphasizing a unique relationship rather than strictly biological origin."
+      }
     ],
     "modernApplication": "Readers often use this verse to reconsider whether they picture the divine as motivated primarily by love rather than judgment, which can reshape how they approach their own faith or doubt.",
-    "relatedVerseIds": ["romans-8-28", "revelation-21-4", "hebrews-11-1"],
+    "relatedVerseIds": [
+      "romans-8-28",
+      "revelation-21-4",
+      "hebrews-11-1"
+    ],
     "reflectionQuestions": [
       "What would it mean for you to see this verse as describing a motive rather than a demand?",
       "How does the idea of eternal life as a 'gift' change how you think about faith?"
@@ -36,8 +53,16 @@
     "text": "The Lord is my shepherd, I lack nothing. He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul.",
     "context": "Written by David, a former shepherd, this psalm uses the everyday image of a shepherd caring for sheep to describe a sense of security and provision. It was likely composed as a personal song of trust rather than a public liturgy.",
     "importance": "It is one of the most widely read passages in times of anxiety or uncertainty because it reframes vulnerability as something that can be met with guidance and rest rather than fear.",
-    "themes": ["comfort", "provision", "trust"],
-    "emotions": ["anxiety", "grief", "hope"],
+    "themes": [
+      "comfort",
+      "provision",
+      "trust"
+    ],
+    "emotions": [
+      "anxiety",
+      "grief",
+      "hope"
+    ],
     "author": "Traditionally attributed to David; the psalm's heading names him, though such attributions are ancient tradition rather than verifiable fact.",
     "dateApprox": "If Davidic, roughly the 10th century BC; many scholars view the psalm's final written form as harder to pin down given its likely oral origins.",
     "place": "Unspecified; tradition places David composing it during his years as a shepherd or later as king in the region of Judah.",
@@ -45,11 +70,21 @@
     "politicalSituation": "If Davidic, this falls within the united monarchy of Israel, a period marked by conflict with neighboring peoples such as the Philistines.",
     "culturalNote": "Shepherding in the ancient Near East meant leading flocks to scarce water and grazing land and defending them from predators and thieves, using a rod and staff for both guidance and protection.",
     "keyWords": [
-      {"word": "ra'ah (shepherd)", "meaning": "Can describe a literal herder or, metaphorically, a king or leader responsible for a people's wellbeing."},
-      {"word": "nephesh (soul)", "meaning": "Refers to the whole living self, not just an inner spiritual part, encompassing body, breath, and life."}
+      {
+        "word": "ra'ah (shepherd)",
+        "meaning": "Can describe a literal herder or, metaphorically, a king or leader responsible for a people's wellbeing."
+      },
+      {
+        "word": "nephesh (soul)",
+        "meaning": "Refers to the whole living self, not just an inner spiritual part, encompassing body, breath, and life."
+      }
     ],
     "modernApplication": "The psalm is often read slowly and meditatively during stress, inviting a reader to picture rest and provision rather than immediately trying to solve their anxiety.",
-    "relatedVerseIds": ["isaiah-41-10", "psalm-46-1", "matthew-11-28"],
+    "relatedVerseIds": [
+      "isaiah-41-10",
+      "psalm-46-1",
+      "matthew-11-28"
+    ],
     "reflectionQuestions": [
       "What would 'lying down in green pastures' look like in your current season of life?",
       "Where do you find it hardest to trust that your needs will be met?"
@@ -67,8 +102,15 @@
     "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds.",
     "context": "Paul wrote this letter from prison, addressing a community he cared for deeply. Despite his own uncertain situation, he encourages them toward calm rather than worry.",
     "importance": "The instruction is notable because it comes from someone in genuine hardship, not a distant idealist. It offers a practical process for worry: naming the concern and exchanging it for gratitude.",
-    "themes": ["peace", "prayer", "worry"],
-    "emotions": ["anxiety", "gratitude"],
+    "themes": [
+      "peace",
+      "prayer",
+      "worry"
+    ],
+    "emotions": [
+      "anxiety",
+      "gratitude"
+    ],
     "author": "Paul the Apostle, writing jointly in the letter's opening with Timothy, though the voice throughout is Paul's own.",
     "dateApprox": "c. AD 60-62, during Paul's imprisonment, traditionally placed in Rome.",
     "place": "Written from prison, traditionally identified as Rome, though some scholars propose Ephesus or Caesarea instead.",
@@ -76,11 +118,21 @@
     "politicalSituation": "The Roman Empire under Nero governed the region; Philippi held special status as a Roman colony populated partly by retired soldiers.",
     "culturalNote": "Philippi's identity as a Roman colony meant its residents took pride in Roman citizenship and law, a status Paul plays on elsewhere in the letter when describing believers' 'citizenship' as being in heaven.",
     "keyWords": [
-      {"word": "eucharistia (thanksgiving)", "meaning": "Denotes an active expression of gratitude, not merely a private feeling."},
-      {"word": "eirene (peace)", "meaning": "Echoes the Hebrew concept of shalom, a wholeness and wellbeing beyond mere absence of conflict."}
+      {
+        "word": "eucharistia (thanksgiving)",
+        "meaning": "Denotes an active expression of gratitude, not merely a private feeling."
+      },
+      {
+        "word": "eirene (peace)",
+        "meaning": "Echoes the Hebrew concept of shalom, a wholeness and wellbeing beyond mere absence of conflict."
+      }
     ],
     "modernApplication": "The verse suggests a concrete practice for anxiety: naming a specific worry, pairing it with something one is thankful for, and voicing both rather than keeping them as vague internal noise.",
-    "relatedVerseIds": ["psalm-46-1", "matthew-11-28", "1-thessalonians-5-18"],
+    "relatedVerseIds": [
+      "psalm-46-1",
+      "matthew-11-28",
+      "1-thessalonians-5-18"
+    ],
     "reflectionQuestions": [
       "What specific worry could you try naming and 'handing over' today?",
       "What is one thing you're thankful for even in the middle of a difficult situation?"
@@ -98,8 +150,15 @@
     "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
     "context": "Written to Israelites exiled in Babylon after the fall of Jerusalem, this letter countered false prophets who promised a quick return home. Jeremiah instead urged the exiles to settle in and trust a longer timeline.",
     "importance": "The verse is frequently quoted about personal futures, but its original context is about enduring displacement with patience, which gives it added weight as a statement about long-term hope during hardship.",
-    "themes": ["hope", "future", "trust"],
-    "emotions": ["hope", "direction"],
+    "themes": [
+      "hope",
+      "future",
+      "trust"
+    ],
+    "emotions": [
+      "hope",
+      "direction"
+    ],
     "author": "The prophet Jeremiah, with the letter possibly recorded by a scribe such as Baruch, who is described elsewhere as writing down his words.",
     "dateApprox": "c. 597-587 BC, in the early years of the Babylonian exile.",
     "place": "Written from Jerusalem and sent to exiles already living in Babylon.",
@@ -107,11 +166,21 @@
     "politicalSituation": "The Neo-Babylonian Empire under Nebuchadnezzar II had conquered Judah and deported segments of its population, ending Judah's political independence.",
     "culturalNote": "Exile meant loss of land, temple, and national identity all at once; Jeremiah's advice to 'build houses' and 'plant gardens' (v.5-7) was a radical call to settle in rather than wait passively for rescue.",
     "keyWords": [
-      {"word": "shalom (peace/welfare)", "meaning": "Appears in the surrounding passage urging exiles to seek the shalom of their captor city, a broad idea of flourishing and wellbeing."},
-      {"word": "tiqvah (hope/future)", "meaning": "Can evoke the image of a cord stretched taut in expectation, suggesting hope with a tangible, forward pull."}
+      {
+        "word": "shalom (peace/welfare)",
+        "meaning": "Appears in the surrounding passage urging exiles to seek the shalom of their captor city, a broad idea of flourishing and wellbeing."
+      },
+      {
+        "word": "tiqvah (hope/future)",
+        "meaning": "Can evoke the image of a cord stretched taut in expectation, suggesting hope with a tangible, forward pull."
+      }
     ],
     "modernApplication": "The verse is often applied to personal setbacks, though its original context suggests patience with a longer timeline rather than an expectation of quick resolution, a distinction worth keeping in mind.",
-    "relatedVerseIds": ["isaiah-40-31", "romans-8-28", "psalm-30-5"],
+    "relatedVerseIds": [
+      "isaiah-40-31",
+      "romans-8-28",
+      "psalm-30-5"
+    ],
     "reflectionQuestions": [
       "How do you respond when hope requires patience over a long, uncertain timeline?",
       "What would it look like to 'settle in' to a hard season rather than only waiting for it to end?"
@@ -129,8 +198,16 @@
     "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
     "context": "Part of Paul's letter to the church in Rome, this verse follows a passage about suffering and groaning creation, framing hardship within a larger perspective rather than denying its reality.",
     "importance": "It is often cited alongside grief or setbacks, not as a denial of pain but as an assurance that difficult chapters can still be woven into a coherent, purposeful story.",
-    "themes": ["purpose", "suffering", "providence"],
-    "emotions": ["grief", "hope", "direction"],
+    "themes": [
+      "purpose",
+      "suffering",
+      "providence"
+    ],
+    "emotions": [
+      "grief",
+      "hope",
+      "direction"
+    ],
     "author": "Paul the Apostle.",
     "dateApprox": "c. AD 57, before Paul's final journey to Jerusalem.",
     "place": "Likely written from Corinth or nearby Cenchreae.",
@@ -138,11 +215,21 @@
     "politicalSituation": "Rome was the seat of imperial power under Nero, and the Jewish community there had recently experienced an expulsion under Emperor Claudius, affecting the church's makeup.",
     "culturalNote": "The verses just before this one describe creation itself 'groaning,' an image drawing on childbirth language familiar in the ancient world to describe a painful process leading toward something new.",
     "keyWords": [
-      {"word": "synergei (works together)", "meaning": "Suggests active cooperation of multiple elements toward an outcome, rather than passive coincidence."},
-      {"word": "prothesis (purpose)", "meaning": "Can carry the sense of a deliberate plan laid out in advance."}
+      {
+        "word": "synergei (works together)",
+        "meaning": "Suggests active cooperation of multiple elements toward an outcome, rather than passive coincidence."
+      },
+      {
+        "word": "prothesis (purpose)",
+        "meaning": "Can carry the sense of a deliberate plan laid out in advance."
+      }
     ],
     "modernApplication": "This verse is often leaned on during hardship, not as a denial of pain, but as an invitation to hold present suffering loosely within a longer, unfinished story.",
-    "relatedVerseIds": ["jeremiah-29-11", "genesis-50-20", "psalm-30-5"],
+    "relatedVerseIds": [
+      "jeremiah-29-11",
+      "genesis-50-20",
+      "psalm-30-5"
+    ],
     "reflectionQuestions": [
       "Can you think of a past hardship that later became part of something meaningful?",
       "How do you hold both real pain and a sense of larger purpose at the same time?"
@@ -160,8 +247,15 @@
     "text": "Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.",
     "context": "A yoke was a wooden frame binding two oxen for shared labor. Jesus uses this familiar agricultural image to contrast a harsh, exhausting way of living with one he describes as lighter.",
     "importance": "This passage speaks directly to burnout and fatigue, offering rest not as escape from responsibility but as a different, gentler way of carrying it.",
-    "themes": ["rest", "burden", "gentleness"],
-    "emotions": ["anxiety", "grief"],
+    "themes": [
+      "rest",
+      "burden",
+      "gentleness"
+    ],
+    "emotions": [
+      "anxiety",
+      "grief"
+    ],
     "author": "Traditionally attributed to the Apostle Matthew, though many scholars view the Gospel as anonymous and later attributed to him.",
     "dateApprox": "Most scholars date Matthew's Gospel to roughly AD 80-90.",
     "place": "Likely composed in or near Antioch in Syria, according to many scholars, based on early citations and community context.",
@@ -169,11 +263,21 @@
     "politicalSituation": "Written after the Roman destruction of the Jerusalem Temple in AD 70, a traumatic event reshaping both Jewish and Christian communities.",
     "culturalNote": "A yoke was a wooden crossbar joining two draft animals so they could pull a plow or cart together; rabbis also used 'yoke' figuratively for the discipline of following a particular teacher's interpretation of the law.",
     "keyWords": [
-      {"word": "anapausis (rest)", "meaning": "Denotes a cessation from labor or burden, used elsewhere in Greek literature for relief after toil."},
-      {"word": "praus (gentle)", "meaning": "Describes strength held under control, rather than weakness or passivity."}
+      {
+        "word": "anapausis (rest)",
+        "meaning": "Denotes a cessation from labor or burden, used elsewhere in Greek literature for relief after toil."
+      },
+      {
+        "word": "praus (gentle)",
+        "meaning": "Describes strength held under control, rather than weakness or passivity."
+      }
     ],
     "modernApplication": "For readers experiencing burnout, this passage suggests that healthy rest may come not from escaping responsibility altogether but from finding a different, less punishing way of carrying it.",
-    "relatedVerseIds": ["psalm-23-1", "isaiah-40-31", "psalm-46-1"],
+    "relatedVerseIds": [
+      "psalm-23-1",
+      "isaiah-40-31",
+      "psalm-46-1"
+    ],
     "reflectionQuestions": [
       "What 'yoke' or way of striving feels heaviest for you right now?",
       "What would a gentler way of carrying your responsibilities look like?"
@@ -191,8 +295,15 @@
     "text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
     "context": "Spoken to a fearful, displaced community facing hostile neighboring nations. The prophet Isaiah delivers this as encouragement amid real geopolitical threat, not abstract comfort.",
     "importance": "The repeated command 'do not fear' acknowledges fear as a real, reasonable response, then offers presence and support as the answer rather than a denial of danger.",
-    "themes": ["fear", "strength", "presence"],
-    "emotions": ["anxiety", "hope"],
+    "themes": [
+      "fear",
+      "strength",
+      "presence"
+    ],
+    "emotions": [
+      "anxiety",
+      "hope"
+    ],
     "author": "Attributed to the prophet Isaiah; many scholars believe the book of Isaiah reflects multiple authors or editors across centuries (often labeled First, Second, and Third Isaiah).",
     "dateApprox": "This section (often called 'Second Isaiah') is widely dated by scholars to the 6th century BC, during or near the end of the Babylonian exile.",
     "place": "Likely addressed to exiles in Babylon, though the prophetic voice itself may originate elsewhere.",
@@ -200,11 +311,21 @@
     "politicalSituation": "The Babylonian Empire was being challenged and would soon fall to Cyrus of Persia, a shift bringing both upheaval and eventual opportunity for exiles to return.",
     "culturalNote": "The 'right hand' in the ancient Near East commonly symbolized strength, favor, and protective power, often used in royal and legal contexts to describe support or vindication.",
     "keyWords": [
-      {"word": "chazaq (strengthen)", "meaning": "Conveys making firm or resolute, often used of reinforcing something weak or wavering."},
-      {"word": "tsedeq (righteous)", "meaning": "Carries a sense of rightness or justice, here applied to God's supportive action as reliable and just."}
+      {
+        "word": "chazaq (strengthen)",
+        "meaning": "Conveys making firm or resolute, often used of reinforcing something weak or wavering."
+      },
+      {
+        "word": "tsedeq (righteous)",
+        "meaning": "Carries a sense of rightness or justice, here applied to God's supportive action as reliable and just."
+      }
     ],
     "modernApplication": "The repeated 'do not fear' can serve as a grounding phrase in moments of acute anxiety, acknowledging fear honestly while offering a sense of accompaniment rather than denial.",
-    "relatedVerseIds": ["psalm-46-1", "psalm-23-1", "isaiah-40-31"],
+    "relatedVerseIds": [
+      "psalm-46-1",
+      "psalm-23-1",
+      "isaiah-40-31"
+    ],
     "reflectionQuestions": [
       "What situation is currently making you feel afraid or dismayed?",
       "What would it mean for you to feel 'upheld' rather than solely reliant on your own strength?"
@@ -222,8 +343,14 @@
     "text": "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
     "context": "Tradition links this psalm to a moment when David feigned madness to escape a dangerous king, a low and humiliating point in his life. It reads as reflection written after surviving a personal low.",
     "importance": "It reframes brokenness not as distance from the divine but as a place of particular closeness, which resonates strongly with readers experiencing grief or depression.",
-    "themes": ["comfort", "brokenness", "closeness"],
-    "emotions": ["grief"],
+    "themes": [
+      "comfort",
+      "brokenness",
+      "closeness"
+    ],
+    "emotions": [
+      "grief"
+    ],
     "author": "Traditionally attributed to David; psalm headings are ancient tradition rather than verified authorship.",
     "dateApprox": "If Davidic, roughly the 10th century BC; the psalm's final written form may be later.",
     "place": "Tradition links it to the region of Gath, where David reportedly fled from King Saul.",
@@ -231,11 +358,21 @@
     "politicalSituation": "If linked to the David narrative, this falls during his years fleeing King Saul, prior to becoming king, when he had no political power or security of his own.",
     "culturalNote": "The heading connects this psalm to an episode where David feigned insanity before a Philistine king to escape danger, a humiliating survival tactic rather than a moment of strength.",
     "keyWords": [
-      {"word": "leshabure-lev (brokenhearted)", "meaning": "A Hebrew idiom for deep emotional devastation, describing the heart itself as shattered."},
-      {"word": "dakka (crushed)", "meaning": "Used elsewhere for something ground down or pulverized, conveying severe inward distress."}
+      {
+        "word": "leshabure-lev (brokenhearted)",
+        "meaning": "A Hebrew idiom for deep emotional devastation, describing the heart itself as shattered."
+      },
+      {
+        "word": "dakka (crushed)",
+        "meaning": "Used elsewhere for something ground down or pulverized, conveying severe inward distress."
+      }
     ],
     "modernApplication": "This verse can offer comfort to someone in depression or grief by suggesting that their pain does not put them at a distance from support, but rather within reach of it.",
-    "relatedVerseIds": ["psalm-13-1", "revelation-21-4", "psalm-30-5"],
+    "relatedVerseIds": [
+      "psalm-13-1",
+      "revelation-21-4",
+      "psalm-30-5"
+    ],
     "reflectionQuestions": [
       "Where do you feel 'crushed' or brokenhearted right now?",
       "What would it mean for you to feel accompanied rather than isolated in that pain?"
@@ -253,8 +390,14 @@
     "text": "There is a time for everything, and a season for every activity under the heavens... a time to weep and a time to laugh, a time to mourn and a time to dance.",
     "context": "Part of a philosophical reflection traditionally attributed to Solomon, exploring the rhythms and limits of human life with unusual honesty about life's repetitive and uncertain nature.",
     "importance": "It gives grief explicit permission to exist as its own season, rather than something to rush past, which many readers find validating during loss.",
-    "themes": ["seasons", "mourning", "life"],
-    "emotions": ["grief"],
+    "themes": [
+      "seasons",
+      "mourning",
+      "life"
+    ],
+    "emotions": [
+      "grief"
+    ],
     "author": "Traditionally attributed to Solomon (referred to as 'Qoheleth' or 'the Teacher'); many scholars doubt direct Solomonic authorship based on the book's language and style.",
     "dateApprox": "Traditionally linked to Solomon's reign (10th century BC); many scholars date the book's language to a later period, possibly post-exilic (5th-3rd century BC).",
     "place": "The setting is traditionally Jerusalem, associated with a royal figure's court.",
@@ -262,11 +405,21 @@
     "politicalSituation": "If post-exilic as many scholars suggest, the community lived under Persian imperial rule after returning from Babylonian exile, without full political independence.",
     "culturalNote": "Ancient Near Eastern wisdom literature often used lists and observations about life's patterns to teach acceptance of realities beyond human control, rather than offering solutions to change them.",
     "keyWords": [
-      {"word": "et (time/season)", "meaning": "A general Hebrew term for an appointed or fitting occasion, used repeatedly to structure the poem's list of opposites."},
-      {"word": "hevel (vanity/breath)", "meaning": "A key term throughout Ecclesiastes meaning 'vapor' or 'breath,' conveying fleetingness rather than pure meaninglessness."}
+      {
+        "word": "et (time/season)",
+        "meaning": "A general Hebrew term for an appointed or fitting occasion, used repeatedly to structure the poem's list of opposites."
+      },
+      {
+        "word": "hevel (vanity/breath)",
+        "meaning": "A key term throughout Ecclesiastes meaning 'vapor' or 'breath,' conveying fleetingness rather than pure meaninglessness."
+      }
     ],
     "modernApplication": "This passage gives permission to fully experience grief or difficulty as its own legitimate season, rather than feeling pressure to move past it quickly.",
-    "relatedVerseIds": ["psalm-30-5", "psalm-13-1", "revelation-21-4"],
+    "relatedVerseIds": [
+      "psalm-30-5",
+      "psalm-13-1",
+      "revelation-21-4"
+    ],
     "reflectionQuestions": [
       "What 'season' do you feel you're in right now, and how does it feel to name it?",
       "Is there a feeling you've been rushing past that deserves more space?"
@@ -284,8 +437,15 @@
     "text": "He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away.",
     "context": "Written by John while exiled on the island of Patmos, this is part of a vision describing a renewed creation, offered to a persecuted early Christian community as a long-range hope.",
     "importance": "It is one of the Bible's clearest statements that pain is viewed as temporary rather than final, a perspective many find grounding during prolonged grief.",
-    "themes": ["hope", "renewal", "comfort"],
-    "emotions": ["grief", "hope"],
+    "themes": [
+      "hope",
+      "renewal",
+      "comfort"
+    ],
+    "emotions": [
+      "grief",
+      "hope"
+    ],
     "author": "Traditionally attributed to John the Apostle; some scholars distinguish this 'John of Patmos' from the author of the Gospel of John.",
     "dateApprox": "Most scholars date Revelation to around AD 95, during the reign of Emperor Domitian, though some propose an earlier date under Nero.",
     "place": "Written on the island of Patmos, a small island in the Aegean Sea used by Rome for exile.",
@@ -293,11 +453,21 @@
     "politicalSituation": "The Roman Empire, particularly under emperors who encouraged or required displays of loyalty such as emperor worship, created pressure and occasional persecution for Christians who refused to participate.",
     "culturalNote": "Wiping away tears was an image of a comforting figure personally and directly removing another's grief, rather than grief simply fading with time on its own.",
     "keyWords": [
-      {"word": "apokalypsis (revelation)", "meaning": "Means an 'unveiling' or disclosure, the genre name for this kind of vivid symbolic vision literature."},
-      {"word": "kainos (new)", "meaning": "Refers to newness in kind or quality, not merely new in sequence."}
+      {
+        "word": "apokalypsis (revelation)",
+        "meaning": "Means an 'unveiling' or disclosure, the genre name for this kind of vivid symbolic vision literature."
+      },
+      {
+        "word": "kainos (new)",
+        "meaning": "Refers to newness in kind or quality, not merely new in sequence."
+      }
     ],
     "modernApplication": "For those in prolonged grief, this passage offers a long-range hope that current pain is viewed as temporary rather than permanent, which can provide perspective without dismissing present suffering.",
-    "relatedVerseIds": ["psalm-30-5", "psalm-34-18", "romans-8-28"],
+    "relatedVerseIds": [
+      "psalm-30-5",
+      "psalm-34-18",
+      "romans-8-28"
+    ],
     "reflectionQuestions": [
       "How does picturing pain as ultimately temporary change how you experience it now?",
       "What would it feel like to have your specific grief personally acknowledged and addressed?"
@@ -315,8 +485,15 @@
     "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
     "context": "This verse opens a long chapter that reviews figures from Israel's history who acted on trust before seeing outcomes, functioning as a definition before the examples that follow.",
     "importance": "It gives language to faith as something active and reasoned rather than blind, useful for readers wrestling with uncertainty or doubt.",
-    "themes": ["faith", "hope", "trust"],
-    "emotions": ["doubt", "faith"],
+    "themes": [
+      "faith",
+      "hope",
+      "trust"
+    ],
+    "emotions": [
+      "doubt",
+      "faith"
+    ],
     "author": "Unknown; the letter does not name its author, and early traditions proposing Paul, Barnabas, or Apollos are debated by scholars.",
     "dateApprox": "Most scholars date the letter to before AD 70, given its detailed discussion of temple sacrifice without mentioning the Temple's destruction, though some propose a later date.",
     "place": "Unknown; possibly written to a community in or connected with Rome.",
@@ -324,11 +501,21 @@
     "politicalSituation": "The letter may reflect pressures on Jewish Christians navigating tension between Roman society, Jewish community identity, and their newer Christian commitments.",
     "culturalNote": "The chapter that follows reviews figures such as Abraham and Sarah as a 'hall of examples,' a rhetorical technique common in ancient moral exhortation to inspire an audience through past models.",
     "keyWords": [
-      {"word": "hypostasis (confidence/substance)", "meaning": "Can denote an underlying reality or foundation, suggesting hope has a kind of concrete grounding rather than being purely wishful."},
-      {"word": "elenchos (assurance/conviction)", "meaning": "Used in legal contexts for proof or evidence, here applied to unseen realities."}
+      {
+        "word": "hypostasis (confidence/substance)",
+        "meaning": "Can denote an underlying reality or foundation, suggesting hope has a kind of concrete grounding rather than being purely wishful."
+      },
+      {
+        "word": "elenchos (assurance/conviction)",
+        "meaning": "Used in legal contexts for proof or evidence, here applied to unseen realities."
+      }
     ],
     "modernApplication": "This definition can help readers wrestling with doubt see faith as an active stance taken despite incomplete evidence, rather than requiring total certainty first.",
-    "relatedVerseIds": ["mark-9-24", "psalm-13-1", "proverbs-3-5"],
+    "relatedVerseIds": [
+      "mark-9-24",
+      "psalm-13-1",
+      "proverbs-3-5"
+    ],
     "reflectionQuestions": [
       "What are you currently hoping for without being able to fully 'see' it yet?",
       "How do you distinguish faith from simply pretending to be certain?"
@@ -346,8 +533,14 @@
     "text": "Immediately the boy's father exclaimed, 'I do believe; help me overcome my unbelief!'",
     "context": "A father brings his son, who experiences seizures, to Jesus after the disciples were unable to help. His response is raw and unfiltered, spoken under real distress.",
     "importance": "It is one of the Bible's most honest expressions of doubt coexisting with belief, often cited to show that faith does not require the absence of uncertainty.",
-    "themes": ["doubt", "honesty", "faith"],
-    "emotions": ["doubt"],
+    "themes": [
+      "doubt",
+      "honesty",
+      "faith"
+    ],
+    "emotions": [
+      "doubt"
+    ],
     "author": "Traditionally attributed to John Mark, an associate of Peter, according to early church tradition; the Gospel itself is anonymous.",
     "dateApprox": "Widely regarded as the earliest written Gospel, most scholars date it to around AD 65-75.",
     "place": "Possibly written in or for a community in Rome, based on early tradition, though this is debated.",
@@ -355,11 +548,21 @@
     "politicalSituation": "If written around the Jewish-Roman War (AD 66-73) or Nero's persecution of Christians, the community would have faced significant instability and danger.",
     "culturalNote": "Seeking healing from a traveling teacher was common in the ancient world, and the father's blunt admission of doubt while requesting help reflects an unusually candid moment rarely preserved in ancient religious texts.",
     "keyWords": [
-      {"word": "pisteuo (believe)", "meaning": "Denotes trust or reliance, not merely intellectual assent to a fact."},
-      {"word": "apistia (unbelief)", "meaning": "The direct opposite of pistis (faith/trust), here acknowledged openly rather than hidden."}
+      {
+        "word": "pisteuo (believe)",
+        "meaning": "Denotes trust or reliance, not merely intellectual assent to a fact."
+      },
+      {
+        "word": "apistia (unbelief)",
+        "meaning": "The direct opposite of pistis (faith/trust), here acknowledged openly rather than hidden."
+      }
     ],
     "modernApplication": "This verse can reassure readers that expressing doubt honestly, even while trying to trust, is a legitimate and recorded posture rather than a disqualifying failure.",
-    "relatedVerseIds": ["hebrews-11-1", "psalm-13-1", "proverbs-3-5"],
+    "relatedVerseIds": [
+      "hebrews-11-1",
+      "psalm-13-1",
+      "proverbs-3-5"
+    ],
     "reflectionQuestions": [
       "Where do you notice both belief and doubt coexisting in you right now?",
       "What would it look like to voice your doubt honestly rather than hiding it?"
@@ -377,8 +580,15 @@
     "text": "How long, Lord? Will you forget me forever? How long will you hide your face from me? How long must I wrestle with my thoughts?",
     "context": "One of many 'lament psalms' attributed to David, written during an unspecified period of prolonged distress, expressed as a direct, unfiltered question rather than resolved certainty.",
     "importance": "It models questioning as a legitimate form of engagement rather than a failure of belief, which is often reassuring to readers experiencing doubt.",
-    "themes": ["lament", "questioning", "honesty"],
-    "emotions": ["doubt", "grief"],
+    "themes": [
+      "lament",
+      "questioning",
+      "honesty"
+    ],
+    "emotions": [
+      "doubt",
+      "grief"
+    ],
     "author": "Traditionally attributed to David.",
     "dateApprox": "If Davidic, roughly the 10th century BC; the exact date is undetermined.",
     "place": "Unknown specific location; part of the broader Israelite psalm tradition.",
@@ -386,11 +596,21 @@
     "politicalSituation": "No specific political crisis is named in the text itself; the psalm reflects personal distress rather than a documented historical event.",
     "culturalNote": "Lament psalms like this one follow a recognizable ancient pattern of complaint, request, and often a turn toward trust, reflecting an accepted way of expressing distress within worship rather than suppressing it.",
     "keyWords": [
-      {"word": "ad-anah (how long)", "meaning": "A repeated Hebrew phrase expressing urgent, unresolved waiting, appearing four times in the opening verses."},
-      {"word": "nephesh (soul/thoughts)", "meaning": "Refers to one's inner self or being, here described as wrestling internally."}
+      {
+        "word": "ad-anah (how long)",
+        "meaning": "A repeated Hebrew phrase expressing urgent, unresolved waiting, appearing four times in the opening verses."
+      },
+      {
+        "word": "nephesh (soul/thoughts)",
+        "meaning": "Refers to one's inner self or being, here described as wrestling internally."
+      }
     ],
     "modernApplication": "This psalm can validate the experience of prolonged uncertainty or waiting, modeling honest questioning as compatible with ongoing faith rather than opposed to it.",
-    "relatedVerseIds": ["mark-9-24", "psalm-34-18", "hebrews-11-1"],
+    "relatedVerseIds": [
+      "mark-9-24",
+      "psalm-34-18",
+      "hebrews-11-1"
+    ],
     "reflectionQuestions": [
       "What repeated 'how long' question have you been carrying?",
       "Is there space in your own practice of faith for honest complaint like this?"
@@ -408,8 +628,14 @@
     "text": "Rejoice always, pray continually, give thanks in all circumstances; for this is God's will for you in Christ Jesus.",
     "context": "Part of Paul's closing instructions to a young church, delivered as brief, practical exhortations rather than a systematic argument.",
     "importance": "The phrase 'in all circumstances' rather than 'for all circumstances' is a notable distinction: gratitude is framed as a posture carried through hardship, not a claim that everything is good.",
-    "themes": ["gratitude", "prayer", "joy"],
-    "emotions": ["gratitude"],
+    "themes": [
+      "gratitude",
+      "prayer",
+      "joy"
+    ],
+    "emotions": [
+      "gratitude"
+    ],
     "author": "Paul, along with Silas and Timothy named as co-senders of the letter.",
     "dateApprox": "c. AD 50-51, among the earliest of Paul's surviving letters.",
     "place": "Likely written from Corinth, shortly after Paul's initial visit to Thessalonica.",
@@ -417,11 +643,21 @@
     "politicalSituation": "Thessalonica was a prosperous Roman provincial capital, and the new Christian community faced social pressure from neighbors for abandoning traditional religious practices.",
     "culturalNote": "Public, ongoing gratitude and joy in the ancient world was often tied to a patron's favor or a god's blessing; Paul reframes this into a habitual, internal posture rather than one dependent on circumstance.",
     "keyWords": [
-      {"word": "eucharisteite (give thanks)", "meaning": "An imperative verb form calling for an ongoing action rather than a one-time feeling."},
-      {"word": "adialeiptos (continually/without ceasing)", "meaning": "Describes something recurring persistently, like a repeated cough, rather than being literally nonstop."}
+      {
+        "word": "eucharisteite (give thanks)",
+        "meaning": "An imperative verb form calling for an ongoing action rather than a one-time feeling."
+      },
+      {
+        "word": "adialeiptos (continually/without ceasing)",
+        "meaning": "Describes something recurring persistently, like a repeated cough, rather than being literally nonstop."
+      }
     ],
     "modernApplication": "The phrase 'in all circumstances' rather than 'for all circumstances' can help readers practice gratitude without pretending every situation itself is good.",
-    "relatedVerseIds": ["philippians-4-6", "psalm-107-1", "romans-8-28"],
+    "relatedVerseIds": [
+      "philippians-4-6",
+      "psalm-107-1",
+      "romans-8-28"
+    ],
     "reflectionQuestions": [
       "What is something you can be thankful for today, even within a hard circumstance?",
       "How might regular gratitude change your outlook without denying real difficulty?"
@@ -439,8 +675,14 @@
     "text": "Give thanks to the Lord, for he is good; his love endures forever.",
     "context": "This psalm opens a section often read as a communal thanksgiving, recounting several groups of people rescued from distress (wanderers, prisoners, the sick, sailors) as reasons for gratitude.",
     "importance": "It ties gratitude to specific memory of past help rather than abstract positivity, offering a practical pattern: recall, then give thanks.",
-    "themes": ["gratitude", "goodness", "memory"],
-    "emotions": ["gratitude"],
+    "themes": [
+      "gratitude",
+      "goodness",
+      "memory"
+    ],
+    "emotions": [
+      "gratitude"
+    ],
     "author": "Unknown; the psalm carries no named author in its heading.",
     "dateApprox": "Many scholars date this psalm to the post-exilic period, after Israelites began returning from Babylon (roughly the 6th-5th century BC), based on its themes of gathering scattered people.",
     "place": "Likely used in communal worship in Jerusalem after the return from exile.",
@@ -448,11 +690,21 @@
     "politicalSituation": "If post-exilic, the community lived under Persian imperial rule while rebuilding Jerusalem and its Temple after decades of displacement.",
     "culturalNote": "The psalm structures thanksgiving around four vivid group scenarios (wanderers, prisoners, the sick, and sailors), a literary technique that let worshipers see their own specific experience reflected and validated.",
     "keyWords": [
-      {"word": "hodu (give thanks)", "meaning": "An imperative inviting public acknowledgment of gratitude, often used to open communal songs."},
-      {"word": "chesed (love/steadfast love)", "meaning": "A rich term describing loyal, covenant love that endures despite circumstances, often translated 'lovingkindness.'"}
+      {
+        "word": "hodu (give thanks)",
+        "meaning": "An imperative inviting public acknowledgment of gratitude, often used to open communal songs."
+      },
+      {
+        "word": "chesed (love/steadfast love)",
+        "meaning": "A rich term describing loyal, covenant love that endures despite circumstances, often translated 'lovingkindness.'"
+      }
     ],
     "modernApplication": "The psalm's pattern, recalling a specific past rescue before giving thanks, offers a concrete practice: remembering a particular time help arrived rather than only general positivity.",
-    "relatedVerseIds": ["1-thessalonians-5-18", "philippians-4-6", "genesis-50-20"],
+    "relatedVerseIds": [
+      "1-thessalonians-5-18",
+      "philippians-4-6",
+      "genesis-50-20"
+    ],
     "reflectionQuestions": [
       "What is a specific past moment of help or rescue you can recall and give thanks for?",
       "How does remembering the past shape your gratitude in the present?"
@@ -470,8 +722,14 @@
     "text": "Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you.",
     "context": "Part of Paul's practical instructions to a diverse church community in Colossae made up of people from very different backgrounds who needed guidance on living together.",
     "importance": "It frames forgiveness as an ongoing practice within community life rather than a single dramatic act, useful for everyday relational conflict.",
-    "themes": ["forgiveness", "community", "grace"],
-    "emotions": ["forgiveness"],
+    "themes": [
+      "forgiveness",
+      "community",
+      "grace"
+    ],
+    "emotions": [
+      "forgiveness"
+    ],
     "author": "Traditionally Paul, though some modern scholars question direct Pauline authorship of Colossians based on stylistic differences from his undisputed letters.",
     "dateApprox": "If genuinely Pauline, c. AD 60-62 during his imprisonment; if written by a later associate, possibly the AD 70s-80s.",
     "place": "Written from prison, traditionally identified as Rome.",
@@ -479,11 +737,21 @@
     "politicalSituation": "Colossae was a relatively minor city in the Roman province of Asia, and the letter addresses internal community tensions rather than direct political persecution.",
     "culturalNote": "Colossae's population included diverse ethnic and religious backgrounds, and Paul's list of virtues (compassion, kindness, humility) directly opposes social hierarchies common in Greco-Roman households of the time.",
     "keyWords": [
-      {"word": "anechomenoi (bear with)", "meaning": "Implies patient tolerance of another's shortcomings over time, not a single act."},
-      {"word": "charizomenoi (forgive)", "meaning": "Related to the word for grace or gift, framing forgiveness as an undeserved gift given to another."}
+      {
+        "word": "anechomenoi (bear with)",
+        "meaning": "Implies patient tolerance of another's shortcomings over time, not a single act."
+      },
+      {
+        "word": "charizomenoi (forgive)",
+        "meaning": "Related to the word for grace or gift, framing forgiveness as an undeserved gift given to another."
+      }
     ],
     "modernApplication": "This verse frames forgiveness as an ongoing skill practiced repeatedly in relationships, useful for everyday friction rather than only rare, dramatic offenses.",
-    "relatedVerseIds": ["matthew-6-14", "genesis-50-20", "romans-8-28"],
+    "relatedVerseIds": [
+      "matthew-6-14",
+      "genesis-50-20",
+      "romans-8-28"
+    ],
     "reflectionQuestions": [
       "Is there an ongoing grievance in a relationship where you could practice 'bearing with' someone?",
       "What does it mean to you to give forgiveness as a gift rather than something earned?"
@@ -501,8 +769,14 @@
     "text": "For if you forgive other people when they sin against you, your heavenly Father will also forgive you. But if you do not forgive others their sins, your Father will not forgive your sins.",
     "context": "Part of the Sermon on the Mount, immediately following the Lord's Prayer, in which Jesus expands on the line 'forgive us our debts, as we also have forgiven our debtors.'",
     "importance": "It presents forgiving others and being forgiven as linked, challenging readers to see forgiveness as reciprocal rather than one-directional.",
-    "themes": ["forgiveness", "prayer", "reciprocity"],
-    "emotions": ["forgiveness"],
+    "themes": [
+      "forgiveness",
+      "prayer",
+      "reciprocity"
+    ],
+    "emotions": [
+      "forgiveness"
+    ],
     "author": "Traditionally attributed to Matthew; many scholars view the Gospel as anonymous.",
     "dateApprox": "c. AD 80-90, per widespread scholarly estimate.",
     "place": "Likely composed in or near Antioch in Syria, according to many scholars.",
@@ -510,11 +784,21 @@
     "politicalSituation": "Written in the shadow of the Temple's destruction in AD 70, a period of redefinition for both Jewish and Christian communities.",
     "culturalNote": "The Lord's Prayer, which this passage follows, used the image of financial 'debts' for sin, a common ancient Near Eastern metaphor reflecting real social practices of debt and debt-forgiveness.",
     "keyWords": [
-      {"word": "aphiemi (forgive)", "meaning": "Can also mean to 'let go' or release, as with a debt, suggesting forgiveness as releasing a claim on someone."},
-      {"word": "paraptomata (trespasses/sins)", "meaning": "Literally 'false steps,' describing wrongdoing as a deviation rather than an identity."}
+      {
+        "word": "aphiemi (forgive)",
+        "meaning": "Can also mean to 'let go' or release, as with a debt, suggesting forgiveness as releasing a claim on someone."
+      },
+      {
+        "word": "paraptomata (trespasses/sins)",
+        "meaning": "Literally 'false steps,' describing wrongdoing as a deviation rather than an identity."
+      }
     ],
     "modernApplication": "This verse invites reflection on whether withholding forgiveness from others might be connected to one's own sense of being forgiven, a reciprocal rather than one-directional idea.",
-    "relatedVerseIds": ["colossians-3-13", "genesis-50-20", "1-thessalonians-5-18"],
+    "relatedVerseIds": [
+      "colossians-3-13",
+      "genesis-50-20",
+      "1-thessalonians-5-18"
+    ],
     "reflectionQuestions": [
       "Is there someone you are currently withholding forgiveness from?",
       "How does the idea of reciprocal forgiveness sit with you?"
@@ -532,8 +816,15 @@
     "text": "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives.",
     "context": "Spoken by Joseph to the brothers who had sold him into slavery years earlier, after he had risen to power in Egypt and was in a position to take revenge instead.",
     "importance": "It is one of the Bible's clearest models of forgiveness that does not minimize the wrong done, while still choosing not to repay harm with harm.",
-    "themes": ["forgiveness", "providence", "reconciliation"],
-    "emotions": ["forgiveness", "hope"],
+    "themes": [
+      "forgiveness",
+      "providence",
+      "reconciliation"
+    ],
+    "emotions": [
+      "forgiveness",
+      "hope"
+    ],
     "author": "Unknown; traditionally attributed in part to Moses, though most modern scholars view Genesis as a composite text developed over centuries.",
     "dateApprox": "The narrative setting is traditionally placed around the 2nd millennium BC; the text's written form is dated much later by most scholars, with substantial disagreement over specifics.",
     "place": "Spoken in Egypt, where Joseph had risen to a position of authority.",
@@ -541,11 +832,21 @@
     "politicalSituation": "Ancient Egypt at the time was ruled by a Pharaoh, and Joseph is depicted holding a high administrative position managing famine relief, reflecting Egypt's centralized grain-storage economy.",
     "culturalNote": "In the ancient world, someone in Joseph's position of power had the accepted right to retaliate against those who had wronged him; his choice not to do so would have been a striking departure from expected behavior.",
     "keyWords": [
-      {"word": "chashab (intended/planned)", "meaning": "Used twice in this verse for both the brothers' and God's 'intending,' contrasting two different plans working through the same events."},
-      {"word": "tovah (good)", "meaning": "A broad term for goodness or benefit, here contrasted directly with the harm intended by the brothers."}
+      {
+        "word": "chashab (intended/planned)",
+        "meaning": "Used twice in this verse for both the brothers' and God's 'intending,' contrasting two different plans working through the same events."
+      },
+      {
+        "word": "tovah (good)",
+        "meaning": "A broad term for goodness or benefit, here contrasted directly with the harm intended by the brothers."
+      }
     ],
     "modernApplication": "This verse offers a model for reframing past harm done to us, not by minimizing it, but by choosing not to let it dictate present retaliation.",
-    "relatedVerseIds": ["colossians-3-13", "romans-8-28", "matthew-6-14"],
+    "relatedVerseIds": [
+      "colossians-3-13",
+      "romans-8-28",
+      "matthew-6-14"
+    ],
     "reflectionQuestions": [
       "Is there a past wrong you're being invited to reframe without pretending it didn't happen?",
       "What would choosing not to retaliate look like in a specific relationship for you?"
@@ -563,8 +864,15 @@
     "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
     "context": "Part of a father's collected wisdom sayings to a son, a common literary form in the ancient Near East meant to pass down practical guidance for decision-making.",
     "importance": "It is frequently referenced by people facing major life decisions, offering a posture of humility about one's own certainty rather than a specific formula.",
-    "themes": ["guidance", "trust", "wisdom"],
-    "emotions": ["direction", "doubt"],
+    "themes": [
+      "guidance",
+      "trust",
+      "wisdom"
+    ],
+    "emotions": [
+      "direction",
+      "doubt"
+    ],
     "author": "Traditionally attributed to Solomon; scholars widely view Proverbs as a compiled anthology drawing on multiple sources and periods.",
     "dateApprox": "Traditionally linked to Solomon's reign (10th century BC); many scholars date the book's final compilation later, possibly during or after the exile.",
     "place": "The setting is a father's household instruction, a common literary framing in ancient Near Eastern wisdom texts.",
@@ -572,11 +880,21 @@
     "politicalSituation": "No specific political event is referenced; the passage belongs to a genre of general wisdom instruction common across the ancient Near East, including Egypt and Mesopotamia.",
     "culturalNote": "Father-to-son wisdom instruction was a widespread literary convention in the ancient Near East, appearing in Egyptian and Mesopotamian texts as well, used to pass down practical and moral guidance across generations.",
     "keyWords": [
-      {"word": "batach (trust)", "meaning": "Conveys a sense of leaning one's full weight on something, implying reliance rather than mere belief."},
-      {"word": "yashar (straight)", "meaning": "Used for paths, describing them as level or direct rather than literally straight-lined."}
+      {
+        "word": "batach (trust)",
+        "meaning": "Conveys a sense of leaning one's full weight on something, implying reliance rather than mere belief."
+      },
+      {
+        "word": "yashar (straight)",
+        "meaning": "Used for paths, describing them as level or direct rather than literally straight-lined."
+      }
     ],
     "modernApplication": "This passage is often used by people facing major decisions, suggesting a posture of humility about one's own certainty rather than offering a specific formula for choices.",
-    "relatedVerseIds": ["james-1-5", "psalm-119-105", "hebrews-11-1"],
+    "relatedVerseIds": [
+      "james-1-5",
+      "psalm-119-105",
+      "hebrews-11-1"
+    ],
     "reflectionQuestions": [
       "Where are you currently leaning too heavily on your own understanding?",
       "What would it look like to hold your own certainty more humbly in a current decision?"
@@ -594,8 +912,14 @@
     "text": "Your word is a lamp for my feet, a light on my path.",
     "context": "Part of the longest chapter in the Bible, an extended acrostic poem meditating on the value of guidance and instruction, likely composed for personal or communal reflection.",
     "importance": "The image of a lamp rather than a floodlight is notable: it suggests guidance enough for the next step, not the entire journey at once, which speaks to gradual rather than total clarity.",
-    "themes": ["guidance", "wisdom", "direction"],
-    "emotions": ["direction"],
+    "themes": [
+      "guidance",
+      "wisdom",
+      "direction"
+    ],
+    "emotions": [
+      "direction"
+    ],
     "author": "Unknown; the psalm carries no attribution in its heading.",
     "dateApprox": "Many scholars date this psalm to the post-exilic period, given its highly developed acrostic structure and focus on written law and instruction.",
     "place": "Unknown specific location; used within the broader Israelite worship tradition.",
@@ -603,11 +927,21 @@
     "politicalSituation": "If post-exilic, the community had returned from Babylon and increasingly centered communal identity around written scripture rather than an independent monarchy.",
     "culturalNote": "Small oil lamps in the ancient world cast only a short circle of light, enough to see the next few steps of a dark path rather than the entire distance, a detail that shapes the verse's meaning.",
     "keyWords": [
-      {"word": "ner (lamp)", "meaning": "A small, portable oil lamp, providing limited but sufficient light for immediate steps."},
-      {"word": "davar (word)", "meaning": "Can mean 'word,' 'thing,' or 'matter,' broadly encompassing spoken instruction or command."}
+      {
+        "word": "ner (lamp)",
+        "meaning": "A small, portable oil lamp, providing limited but sufficient light for immediate steps."
+      },
+      {
+        "word": "davar (word)",
+        "meaning": "Can mean 'word,' 'thing,' or 'matter,' broadly encompassing spoken instruction or command."
+      }
     ],
     "modernApplication": "The image of a lamp rather than a floodlight suggests it's normal to receive guidance gradually, one step at a time, rather than seeing an entire future path all at once.",
-    "relatedVerseIds": ["proverbs-3-5", "james-1-5", "jeremiah-29-11"],
+    "relatedVerseIds": [
+      "proverbs-3-5",
+      "james-1-5",
+      "jeremiah-29-11"
+    ],
     "reflectionQuestions": [
       "What is the 'next step' you can see clearly right now, even if the whole path isn't visible?",
       "How do you respond when you want more clarity than you currently have?"
@@ -625,8 +959,15 @@
     "text": "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.",
     "context": "Written to Jewish Christians scattered outside their homeland, facing practical hardship and difficult decisions about how to live under pressure.",
     "importance": "It presents wisdom as something requested rather than innately possessed, encouraging humility when facing uncertain choices about direction.",
-    "themes": ["wisdom", "guidance", "prayer"],
-    "emotions": ["direction", "doubt"],
+    "themes": [
+      "wisdom",
+      "guidance",
+      "prayer"
+    ],
+    "emotions": [
+      "direction",
+      "doubt"
+    ],
     "author": "Traditionally attributed to James, identified in Christian tradition as the brother of Jesus and a leader in the Jerusalem church; some scholars question direct authorship.",
     "dateApprox": "If written by James the brother of Jesus, likely before his death around AD 62; some scholars propose a later date if written by another author using his name.",
     "place": "Possibly written from Jerusalem, where James is traditionally described as a leader of the early church.",
@@ -634,11 +975,21 @@
     "politicalSituation": "Jewish communities across the Roman Empire faced varying degrees of social and economic pressure, compounded for Jewish Christians navigating both Jewish and Roman societal expectations.",
     "culturalNote": "Wisdom literature in Jewish tradition, echoing books like Proverbs, treated wisdom as something granted by God for practical living, not merely abstract intelligence or philosophical knowledge.",
     "keyWords": [
-      {"word": "sophia (wisdom)", "meaning": "In this context refers to practical, godly discernment for living well, rather than purely academic knowledge."},
-      {"word": "haplos (generously)", "meaning": "Can also mean 'simply' or 'without complication,' describing giving that is straightforward and without hidden conditions."}
+      {
+        "word": "sophia (wisdom)",
+        "meaning": "In this context refers to practical, godly discernment for living well, rather than purely academic knowledge."
+      },
+      {
+        "word": "haplos (generously)",
+        "meaning": "Can also mean 'simply' or 'without complication,' describing giving that is straightforward and without hidden conditions."
+      }
     ],
     "modernApplication": "This verse encourages readers to ask for guidance directly when facing uncertainty, rather than assuming they must already possess all the answers on their own.",
-    "relatedVerseIds": ["proverbs-3-5", "psalm-119-105", "hebrews-11-1"],
+    "relatedVerseIds": [
+      "proverbs-3-5",
+      "psalm-119-105",
+      "hebrews-11-1"
+    ],
     "reflectionQuestions": [
       "What decision or uncertainty could you bring more directly and honestly in prayer?",
       "How comfortable are you with asking for help rather than relying only on yourself?"
@@ -656,8 +1007,15 @@
     "text": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.",
     "context": "Addressed to exiles who felt forgotten and exhausted, this passage follows a description of God's vast power over creation as a contrast to human weariness.",
     "importance": "The progression from soaring to running to walking suggests endurance matters as much as dramatic breakthroughs, a reassurance for long seasons of struggle.",
-    "themes": ["strength", "hope", "endurance"],
-    "emotions": ["hope", "anxiety"],
+    "themes": [
+      "strength",
+      "hope",
+      "endurance"
+    ],
+    "emotions": [
+      "hope",
+      "anxiety"
+    ],
     "author": "Attributed to the prophet Isaiah; many scholars attribute this section (Second Isaiah) to a different, later prophetic voice than chapters 1-39.",
     "dateApprox": "Widely dated by scholars to the latter part of the Babylonian exile, roughly the mid-6th century BC.",
     "place": "Addressed to exiles in Babylon, anticipating release as Persian power rose.",
@@ -665,11 +1023,21 @@
     "politicalSituation": "The Babylonian Empire was weakening as Cyrus of Persia's power grew, eventually leading to a Persian policy allowing exiled peoples, including the Jews, to return home.",
     "culturalNote": "Eagles were widely admired in the ancient Near East for their strength and soaring flight, often used as a symbol of renewed vigor or a nation's restored strength.",
     "keyWords": [
-      {"word": "qavah (hope/wait)", "meaning": "Carries the sense of waiting with tension, like a stretched cord, rather than passive idleness."},
-      {"word": "koach (strength)", "meaning": "Refers to physical or vital power, here described as being renewed rather than self-generated."}
+      {
+        "word": "qavah (hope/wait)",
+        "meaning": "Carries the sense of waiting with tension, like a stretched cord, rather than passive idleness."
+      },
+      {
+        "word": "koach (strength)",
+        "meaning": "Refers to physical or vital power, here described as being renewed rather than self-generated."
+      }
     ],
     "modernApplication": "The progression from soaring to running to walking suggests that enduring daily faithfulness matters as much as dramatic breakthroughs, offering reassurance during long, unglamorous seasons of struggle.",
-    "relatedVerseIds": ["psalm-46-1", "matthew-11-28", "jeremiah-29-11"],
+    "relatedVerseIds": [
+      "psalm-46-1",
+      "matthew-11-28",
+      "jeremiah-29-11"
+    ],
     "reflectionQuestions": [
       "Which stage feels most true for you right now: soaring, running, or simply walking without fainting?",
       "What would 'renewed strength' look like practically in your daily life today?"
@@ -687,8 +1055,14 @@
     "text": "God is our refuge and strength, an ever-present help in trouble. Therefore we will not fear, though the earth give way and the mountains fall into the heart of the sea.",
     "context": "Likely composed during a period of national threat, using dramatic, almost apocalyptic imagery of geological collapse to describe worst-case scenarios.",
     "importance": "By naming the most extreme scenario imaginable, the psalm argues that stability can be found even if every external circumstance fails, a strong statement for acute anxiety.",
-    "themes": ["refuge", "fear", "stability"],
-    "emotions": ["anxiety"],
+    "themes": [
+      "refuge",
+      "fear",
+      "stability"
+    ],
+    "emotions": [
+      "anxiety"
+    ],
     "author": "Attributed to 'the sons of Korah,' a Levitical group associated with temple musicians, rather than a single named individual.",
     "dateApprox": "Date uncertain; some scholars link it to a specific historical crisis such as the Assyrian siege of Jerusalem under King Hezekiah (8th century BC), though this is debated.",
     "place": "Likely used in Temple worship in Jerusalem.",
@@ -696,11 +1070,21 @@
     "politicalSituation": "If linked to the Assyrian crisis, Jerusalem faced the threat of siege by one of the ancient world's most powerful and feared military empires.",
     "culturalNote": "The imagery of mountains falling into the sea reflects a common ancient Near Eastern way of describing total cosmic upheaval, used here to represent the worst imaginable catastrophe as a contrast to God's stability.",
     "keyWords": [
-      {"word": "machaseh (refuge)", "meaning": "Describes a place of shelter or protection, often literal, such as a cave or fortress, applied here metaphorically."},
-      {"word": "me'od (very/greatly)", "meaning": "An intensifying word, here emphasizing that help is not just present but abundantly so ('very present help')."}
+      {
+        "word": "machaseh (refuge)",
+        "meaning": "Describes a place of shelter or protection, often literal, such as a cave or fortress, applied here metaphorically."
+      },
+      {
+        "word": "me'od (very/greatly)",
+        "meaning": "An intensifying word, here emphasizing that help is not just present but abundantly so ('very present help')."
+      }
     ],
     "modernApplication": "By naming an extreme worst-case scenario, the psalm suggests that a sense of stability can be found even if every visible circumstance seems to be collapsing, which can help with acute anxiety.",
-    "relatedVerseIds": ["isaiah-41-10", "matthew-11-28", "psalm-23-1"],
+    "relatedVerseIds": [
+      "isaiah-41-10",
+      "matthew-11-28",
+      "psalm-23-1"
+    ],
     "reflectionQuestions": [
       "What would it mean for you to feel secure even in a worst-case scenario?",
       "Where in your life do you most need a sense of refuge right now?"
@@ -718,8 +1102,15 @@
     "text": "Weeping may stay for the night, but rejoicing comes in the morning.",
     "context": "Traditionally attributed to David upon the dedication of his house, reflecting on a past illness or crisis he had survived, written retrospectively rather than in the middle of the pain.",
     "importance": "It offers a realistic timeline for grief: not immediate resolution, but the expectation that sorrow has a natural end point.",
-    "themes": ["grief", "hope", "restoration"],
-    "emotions": ["grief", "hope"],
+    "themes": [
+      "grief",
+      "hope",
+      "restoration"
+    ],
+    "emotions": [
+      "grief",
+      "hope"
+    ],
     "author": "Traditionally attributed to David, described in its heading as being for the dedication of the temple or house.",
     "dateApprox": "If Davidic, roughly the 10th century BC; the psalm's heading connecting it to a 'dedication' has an uncertain precise date.",
     "place": "Tradition connects it with David's house, though later Jewish tradition also associated it with Temple dedication.",
@@ -727,11 +1118,21 @@
     "politicalSituation": "If Davidic, this falls within the era of the united monarchy, a time of relative consolidation of Israelite rule under David.",
     "culturalNote": "Night and morning were common poetic metaphors in the ancient Near East for distress followed by relief, rooted in the daily, reliable rhythm of sunset and sunrise as a natural picture of hope.",
     "keyWords": [
-      {"word": "bekiy (weeping)", "meaning": "Describes audible crying or lament, a normal and expected expression of grief in ancient Israelite culture."},
-      {"word": "rinnah (rejoicing)", "meaning": "Often associated with a joyful shout or ringing cry, contrasting sharply with quiet weeping."}
+      {
+        "word": "bekiy (weeping)",
+        "meaning": "Describes audible crying or lament, a normal and expected expression of grief in ancient Israelite culture."
+      },
+      {
+        "word": "rinnah (rejoicing)",
+        "meaning": "Often associated with a joyful shout or ringing cry, contrasting sharply with quiet weeping."
+      }
     ],
     "modernApplication": "This verse offers a realistic timeline for grief, not promising instant relief but suggesting that sorrow, like night, has a natural and expected end point.",
-    "relatedVerseIds": ["psalm-34-18", "ecclesiastes-3-1", "revelation-21-4"],
+    "relatedVerseIds": [
+      "psalm-34-18",
+      "ecclesiastes-3-1",
+      "revelation-21-4"
+    ],
     "reflectionQuestions": [
       "What 'night' are you currently waiting to pass?",
       "How do you hold onto hope for morning without rushing or denying the weeping of tonight?"
@@ -749,8 +1150,17 @@
     "text": "Put on the full armor of God, so that you can take your stand against the schemes of the devil... Stand firm, with the belt of truth buckled around your waist, the breastplate of righteousness in place, and your feet fitted with the readiness of the gospel of peace. Take up the shield of faith, the helmet of salvation, and the sword of the Spirit, which is the word of God.",
     "context": "Written near the end of Paul's letter to the church in Ephesus, likely composed while he was under Roman custody. He draws on the visible equipment of the soldiers guarding him, turning a familiar daily sight into a extended metaphor for spiritual resilience.",
     "importance": "This passage reframes moral and spiritual struggle using concrete, wearable imagery rather than abstract terms, giving readers six distinct qualities to actively 'put on' rather than a vague call to simply 'be strong.'",
-    "themes": ["protection", "spiritual warfare", "truth", "readiness"],
-    "emotions": ["anxiety", "faith", "direction"],
+    "themes": [
+      "protection",
+      "spiritual warfare",
+      "truth",
+      "readiness"
+    ],
+    "emotions": [
+      "anxiety",
+      "faith",
+      "direction"
+    ],
     "author": "Paul",
     "dateApprox": "c. AD 60-62, during Paul's imprisonment in Rome",
     "place": "Rome",
@@ -758,11 +1168,21 @@
     "politicalSituation": "Paul was held in some form of Roman custody at the time, guarded around the clock by Roman soldiers whose equipment would have been constantly visible to him.",
     "culturalNote": "Each piece named corresponds to actual Roman infantry equipment of the period. A soldier's belt anchored the rest of the gear, the breastplate protected vital organs, and sturdy hobnailed sandals (caligae) let a soldier hold his footing in close combat rather than slip.",
     "keyWords": [
-      { "word": "panoplia (full armor)", "meaning": "The complete set of a heavily-armed soldier's equipment, not a single piece — the passage describes a coordinated whole rather than one isolated defense." },
-      { "word": "stand firm (histemi)", "meaning": "A defensive, ground-holding posture rather than an offensive charge — the repeated emphasis is on staying steady, not attacking." }
+      {
+        "word": "panoplia (full armor)",
+        "meaning": "The complete set of a heavily-armed soldier's equipment, not a single piece — the passage describes a coordinated whole rather than one isolated defense."
+      },
+      {
+        "word": "stand firm (histemi)",
+        "meaning": "A defensive, ground-holding posture rather than an offensive charge — the repeated emphasis is on staying steady, not attacking."
+      }
     ],
     "modernApplication": "The passage suggests resilience is built from several distinct, ordinary habits — honesty, integrity, preparation, trust, and familiarity with foundational texts — rather than a single dramatic effort.",
-    "relatedVerseIds": ["isaiah-41-10", "psalm-46-1", "hebrews-11-1"],
+    "relatedVerseIds": [
+      "isaiah-41-10",
+      "psalm-46-1",
+      "hebrews-11-1"
+    ],
     "reflectionQuestions": [
       "Which of these qualities already feels 'on' for you right now, and which feels hardest to put on?",
       "The passage emphasizes standing firm rather than attacking — where in your life is holding steady more relevant right now than taking bold action?"
@@ -772,6 +1192,1072 @@
       "established": "Roman soldiers of this period wore standardized equipment matching each item Paul names, and Paul's letters describe him as being held in Roman custody around the time this letter was likely written.",
       "scholarlyDebate": "Scholars debate whether Ephesians was written directly by Paul or by a close associate writing in his name and tradition after his death, a question raised about several New Testament letters attributed to him; they also debate whether it was addressed specifically to the Ephesian church or circulated more broadly as a general letter.",
       "interpretation": "Many readers interpret the 'armor' as internal spiritual qualities to develop gradually, while others read it as pointing to specific practices, like prayer and scripture reading, to actively take up during moments of difficulty. The text supports both readings without clearly favoring one."
+    }
+  },
+  {
+    "id": "numbers-6-24",
+    "reference": "Numbers 6:24-26",
+    "text": "May the Lord bless you and keep you. May the Lord make his face shine on you and be gracious to you. May the Lord look upon you with favor and give you peace.",
+    "context": "This is a formal blessing God instructs Moses to give Aaron and his sons, the priests, to pronounce over the Israelite community. It appears within the book's early laws governing priestly duties and worship in the wilderness camp.",
+    "importance": "It is one of the oldest liturgical texts in the Bible, still used today in Jewish and Christian worship as a closing benediction, valued for its rhythmic structure and its focus on divine presence rather than a list of requests.",
+    "themes": [
+      "blessing",
+      "protection",
+      "peace"
+    ],
+    "emotions": [
+      "hope",
+      "gratitude"
+    ],
+    "author": "Attributed to Moses as recorder, with the words given to Aaron and the priests to speak over the people.",
+    "dateApprox": "Traditionally associated with the wilderness period, roughly the 13th century BC; many scholars view the text's final written form as coming later, during the composition of the Pentateuch.",
+    "place": "Spoken in the wilderness encampment, during Israel's journey after leaving Egypt.",
+    "audience": "The Israelite community as a whole, blessed collectively by the priests on God's behalf.",
+    "politicalSituation": "Israel was a newly formed people without a permanent homeland, organized as tribal encampments under Moses' leadership following the exodus from Egypt.",
+    "culturalNote": "In the ancient Near East, a blessing pronounced by a priest or elder was considered to carry real, effective power, not merely a nice sentiment; the threefold structure, each line longer than the last, was likely designed for memorable, formal recitation.",
+    "keyWords": [
+      {
+        "word": "barak (bless)",
+        "meaning": "Suggests an active bestowing of favor and empowerment, not just a wish or nice words."
+      },
+      {
+        "word": "shalom (peace)",
+        "meaning": "A rich concept of wholeness, wellbeing, and completeness, not merely the absence of conflict."
+      }
+    ],
+    "modernApplication": "Many people still use this blessing to close a service, a letter, or a difficult conversation, finding that its simple structure gives words to a hope for someone's wellbeing when personal words feel inadequate.",
+    "relatedVerseIds": [
+      "psalm-46-1",
+      "isaiah-41-10",
+      "zephaniah-3-17"
+    ],
+    "reflectionQuestions": [
+      "What would it mean for you to receive this blessing today rather than just read it?",
+      "Who in your life could you offer a similar blessing to this week?"
+    ],
+    "suggestedPrayer": "I ask for your presence and peace over my life today. Help me notice the ways I am already cared for. Let that peace extend to the people around me too.",
+    "historicityNote": {
+      "established": "This blessing, sometimes called the Priestly Blessing or Aaronic Blessing, has been found inscribed on small silver scrolls (the Ketef Hinnom amulets) dating to around the 7th century BC, among the oldest known biblical texts discovered.",
+      "scholarlyDebate": "Scholars debate when this passage was incorporated into the larger Numbers text and how its liturgical use may have evolved separately from its narrative setting.",
+      "interpretation": "Many readers interpret the blessing's structure, each line adding a further layer of favor, as intentionally building toward peace as the fullest expression of divine care."
+    }
+  },
+  {
+    "id": "deuteronomy-6-4",
+    "reference": "Deuteronomy 6:4-5",
+    "text": "Hear, O Israel: the Lord our God, the Lord is one. Love the Lord your God with all your heart, all your soul, and all your strength.",
+    "context": "Presented as part of Moses' farewell address to the Israelites before they enter the promised land, this passage, known as the Shema, forms the core confession of Israel's faith and its central command.",
+    "importance": "It became the most repeated daily declaration in Jewish practice and is frequently cited in the New Testament as the greatest commandment, making it one of the most influential single passages in the Bible's history.",
+    "themes": [
+      "devotion",
+      "love",
+      "identity"
+    ],
+    "emotions": [
+      "faith",
+      "direction"
+    ],
+    "author": "Attributed to Moses in his final speeches to Israel before his death.",
+    "dateApprox": "Set in the late wilderness period, traditionally the 13th century BC; many scholars date the book's final composition to centuries later, possibly during the monarchy or exile.",
+    "place": "Spoken on the plains of Moab, east of the Jordan River, just before Israel's entry into Canaan.",
+    "audience": "The Israelite people as a whole, poised to enter and settle a new land.",
+    "politicalSituation": "Israel stood at the edge of Canaan, a region already occupied by numerous city-states and peoples, about to shift from a wandering community to a settled nation.",
+    "culturalNote": "The word 'hear' (shema) implies more than listening; it calls for attentive obedience, and this passage became so central that observant Jews recite it daily and often affix it, in a small container called a mezuzah, to doorframes.",
+    "keyWords": [
+      {
+        "word": "shema (hear)",
+        "meaning": "Implies not just perceiving sound but responding with attentive obedience and action."
+      },
+      {
+        "word": "echad (one)",
+        "meaning": "Affirms the singular, undivided nature of God, foundational to Israel's monotheism among neighboring polytheistic cultures."
+      }
+    ],
+    "modernApplication": "The call to love with heart, soul, and strength invites a reader to consider whether their devotion is compartmentalized or integrated across their whole life, emotions, decisions, and daily effort alike.",
+    "relatedVerseIds": [
+      "proverbs-3-5",
+      "psalm-119-105",
+      "matthew-6-14"
+    ],
+    "reflectionQuestions": [
+      "What would it look like to love with your 'strength,' not just your heart or mind?",
+      "Is there an area of your life you tend to keep separate from your core values?"
+    ],
+    "suggestedPrayer": "I want my whole life, not just my private thoughts, to reflect what matters most to me. Help me love with consistency across my heart, mind, and actions. Keep me from dividing my devotion.",
+    "historicityNote": {
+      "established": "The Shema is attested in some of the oldest Jewish texts, including fragments among the Dead Sea Scrolls, and remains central to Jewish liturgy to this day.",
+      "scholarlyDebate": "Scholars debate the dating and authorship of Deuteronomy, with many proposing it reached its final form well after Moses, possibly connected to religious reforms under King Josiah in the 7th century BC.",
+      "interpretation": "Many readers interpret Jesus' later citation of this passage as the 'greatest commandment' as affirming its centrality across both Jewish and Christian ethical traditions."
+    }
+  },
+  {
+    "id": "joshua-1-9",
+    "reference": "Joshua 1:9",
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "context": "Spoken by God to Joshua immediately after Moses' death, as Joshua takes on leadership of Israel and prepares to lead the people into the promised land, a daunting task after decades under Moses.",
+    "importance": "As a charge to a new, uncertain leader facing a formidable task, it has become a widely quoted verse for anyone facing a transition, challenge, or fear of inadequacy.",
+    "themes": [
+      "courage",
+      "leadership",
+      "presence"
+    ],
+    "emotions": [
+      "anxiety",
+      "faith",
+      "hope"
+    ],
+    "author": "Presented as God's direct words to Joshua, recorded within the narrative traditionally associated with Joshua or later editors.",
+    "dateApprox": "Traditionally placed around the 13th-12th century BC, at the start of Israel's conquest and settlement of Canaan; the book's final written form is generally dated later by scholars.",
+    "place": "Spoken near the Jordan River, just before Israel's crossing into Canaan.",
+    "audience": "Joshua personally, as the newly appointed successor to Moses.",
+    "politicalSituation": "Canaan at the time was divided among numerous fortified city-states, and Israel faced the prospect of entering and settling a contested, already-inhabited land.",
+    "culturalNote": "Succession after a towering leader like Moses would have carried enormous anxiety in the ancient world, where a nation's fortunes were closely tied to its leader's perceived favor with the divine.",
+    "keyWords": [
+      {
+        "word": "chazaq (be strong)",
+        "meaning": "Conveys physical and inner firmness, often used of steeling oneself for a difficult task."
+      },
+      {
+        "word": "amets (courageous)",
+        "meaning": "Suggests resolve and boldness, frequently paired with chazaq for emphasis in moments requiring resolve."
+      }
+    ],
+    "modernApplication": "The repeated command not to be afraid, paired with a promise of presence rather than an easier path, offers a model for facing a new job, move, or responsibility: courage grounded in not being alone rather than in certainty.",
+    "relatedVerseIds": [
+      "isaiah-41-10",
+      "psalm-46-1",
+      "ephesians-6-10"
+    ],
+    "reflectionQuestions": [
+      "What situation in your life right now calls for courage rather than certainty?",
+      "How does knowing you are not facing something alone change your sense of fear?"
+    ],
+    "suggestedPrayer": "I feel uncertain about what's ahead of me. Help me find courage even without knowing every outcome. Remind me that I don't have to face this alone.",
+    "historicityNote": {
+      "established": "The book of Joshua is part of a larger historical narrative that scholars often group with Judges, Samuel, and Kings, sometimes called the Deuteronomistic History.",
+      "scholarlyDebate": "Archaeologists and historians debate the extent to which the conquest narrative in Joshua reflects a rapid military campaign versus a more gradual settlement process, based on ambiguous archaeological evidence.",
+      "interpretation": "Many readers interpret this verse as a template for facing any daunting transition, applying the promise of divine presence well beyond its original military context."
+    }
+  },
+  {
+    "id": "ruth-1-16",
+    "reference": "Ruth 1:16",
+    "text": "Do not urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.",
+    "context": "Spoken by Ruth, a Moabite widow, to her mother-in-law Naomi, who has urged her two widowed daughters-in-law to return to their own families rather than follow her back to Bethlehem after the deaths of their husbands.",
+    "importance": "The declaration is celebrated as one of the Bible's most moving expressions of loyalty and chosen family, made more striking because Ruth is a foreigner freely choosing Naomi's people and God despite having no obligation to do so.",
+    "themes": [
+      "loyalty",
+      "love",
+      "belonging"
+    ],
+    "emotions": [
+      "grief",
+      "faith"
+    ],
+    "author": "The words of Ruth, a Moabite woman, recorded within the book that bears her name, traditionally associated with an unnamed later author or editor.",
+    "dateApprox": "Set during the period of the Judges, roughly 1200-1000 BC; most scholars date the book's composition considerably later, possibly during or after the monarchy.",
+    "place": "Spoken on the road between Moab and Bethlehem, in the region of Judah.",
+    "audience": "Naomi, Ruth's mother-in-law, following the deaths of Naomi's husband and both her sons.",
+    "politicalSituation": "This was the era of the Judges, a loosely organized period before Israel had a king, marked by famine, tribal instability, and tension between Israel and neighboring peoples such as Moab.",
+    "culturalNote": "Moabites and Israelites had a fraught history, and a widow with no children or land had little social security in this world; Ruth's choice meant giving up her own family, homeland, and gods for an uncertain future with an aging widow.",
+    "keyWords": [
+      {
+        "word": "chesed (loyal love)",
+        "meaning": "A covenantal kindness that goes beyond obligation, central to the book's portrayal of both Ruth and Boaz."
+      },
+      {
+        "word": "am (people)",
+        "meaning": "Refers to a whole community or nation, so Ruth's promise means adopting an entire identity, not just a personal relationship."
+      }
+    ],
+    "modernApplication": "Ruth's words are often used at weddings and to describe deep loyalty in friendships or chosen family, illustrating that commitment can be chosen freely rather than merely inherited by blood or obligation.",
+    "relatedVerseIds": [
+      "genesis-50-20",
+      "colossians-3-13",
+      "psalm-107-1"
+    ],
+    "reflectionQuestions": [
+      "Who has shown you the kind of loyalty Ruth shows Naomi, and how did it affect you?",
+      "What would it mean to choose commitment to someone even without guaranteed security?"
+    ],
+    "suggestedPrayer": "I am grateful for the people who have chosen to stay with me through hard times. Help me offer that same loyalty to others. Give me courage to commit even when the future is uncertain.",
+    "historicityNote": {
+      "established": "The book of Ruth is a short narrative set in the era of the Judges but widely regarded by scholars as a carefully crafted literary work, notable for its focus on ordinary, non-royal characters.",
+      "scholarlyDebate": "Scholars debate the book's date and purpose, with some proposing it was written to promote inclusion of foreigners like Ruth, possibly countering stricter exclusionary policies seen elsewhere in the Hebrew Bible.",
+      "interpretation": "Many readers interpret Ruth's declaration as a model of chosen loyalty and faith, and note that she is later listed among the ancestors of King David."
+    }
+  },
+  {
+    "id": "1-samuel-16-7",
+    "reference": "1 Samuel 16:7",
+    "text": "The Lord does not look at the things people look at. People look at the outward appearance, but the Lord looks at the heart.",
+    "context": "God speaks these words to the prophet Samuel as he is sent to Bethlehem to anoint the next king of Israel among Jesse's sons, after Samuel is initially drawn to the oldest son's impressive appearance.",
+    "importance": "This line reorients how leadership and worth are measured within the biblical narrative, setting up the surprising choice of David, the youngest and least likely son, as king.",
+    "themes": [
+      "character",
+      "discernment",
+      "identity"
+    ],
+    "emotions": [
+      "doubt",
+      "faith"
+    ],
+    "author": "Presented as God's words to the prophet Samuel, recorded within the books of Samuel, traditionally linked to Samuel and later prophetic circles.",
+    "dateApprox": "Traditionally set around the 11th century BC, during Israel's transition from judges to monarchy; the book's final written form is generally dated later.",
+    "place": "Spoken in Bethlehem, at the household of Jesse.",
+    "audience": "The prophet Samuel, during his private mission to anoint Israel's next king.",
+    "politicalSituation": "Israel was ruled by Saul, its first king, whose reign was already unraveling due to disobedience, prompting God to direct Samuel toward a successor from an unexpected family.",
+    "culturalNote": "In the ancient world, kings were typically chosen for stature, strength, and visible presence, much like Saul himself was described as standing head and shoulders above others; God's choice of the youngest, a shepherd boy, upended that expectation entirely.",
+    "keyWords": [
+      {
+        "word": "mar'eh (appearance)",
+        "meaning": "Refers to outward, visible form, the very thing Samuel is warned not to rely on."
+      },
+      {
+        "word": "lebab (heart)",
+        "meaning": "In Hebrew thought, denotes the center of will, character, and intention, not merely emotion."
+      }
+    ],
+    "modernApplication": "This verse challenges the instinct to judge people, including oneself, by appearance, credentials, or first impressions, inviting a slower, more honest look at character and intention instead.",
+    "relatedVerseIds": [
+      "proverbs-3-5",
+      "james-1-5",
+      "1-john-4-18"
+    ],
+    "reflectionQuestions": [
+      "Where in your life are you tempted to judge by appearance rather than character?",
+      "What would it look like to evaluate your own heart the way this verse describes?"
+    ],
+    "suggestedPrayer": "I don't always see people, or myself, clearly. Help me look past appearances to what really matters. Shape my heart into something honest and good.",
+    "historicityNote": {
+      "established": "The books of Samuel are widely studied as part of Israel's foundational narrative about its transition to monarchy, and David, introduced in this chapter, is one of the most historically attested figures in the Hebrew Bible, referenced later on the Tel Dan inscription.",
+      "scholarlyDebate": "Scholars debate how much of the Samuel narratives reflect court records or later theological shaping meant to justify David's dynasty.",
+      "interpretation": "Many readers interpret this verse as a broader statement about how God values inner character over outward status, a theme echoed throughout the biblical narrative."
+    }
+  },
+  {
+    "id": "job-19-25",
+    "reference": "Job 19:25",
+    "text": "I know that my redeemer lives, and that in the end he will stand on the earth.",
+    "context": "Job speaks these words in the middle of his prolonged suffering, after losing his family, health, and wealth, and while his friends insist his suffering must be punishment for hidden sin. This is a rare moment of hope within his otherwise anguished speeches.",
+    "importance": "It stands out as an unexpected declaration of trust from someone in the depths of grief and confusion, making it a touchstone for anyone wrestling with faith amid suffering they cannot explain.",
+    "themes": [
+      "hope",
+      "suffering",
+      "trust"
+    ],
+    "emotions": [
+      "grief",
+      "doubt",
+      "hope"
+    ],
+    "author": "Attributed to Job within the poetic dialogue that forms most of the book; the book's actual author is unknown.",
+    "dateApprox": "The story is set in a patriarchal-like era, possibly contemporary with or before Abraham, but the book's composition is widely thought by scholars to have occurred much later, and its literary genre makes precise dating difficult.",
+    "place": "Set in the land of Uz, a location whose exact geography is uncertain but generally placed east of Israel, possibly near Edom.",
+    "audience": "Spoken aloud to Job's three friends who have come to console him but end up arguing that his suffering must be deserved.",
+    "politicalSituation": "The narrative is largely detached from a specific national or political context, set among a wealthy household rather than within Israel's own political history, which has led many scholars to treat it as wisdom literature rather than strict history.",
+    "culturalNote": "The idea of a 'redeemer' (go'el) drew on the ancient Israelite custom of a family member who was obligated to defend a relative's rights, avenge wrongs, or reclaim lost property, and Job applies that image to someone who will ultimately vindicate him.",
+    "keyWords": [
+      {
+        "word": "go'el (redeemer)",
+        "meaning": "A kinsman-defender responsible for protecting a family member's rights, land, or name, here applied to a hoped-for divine advocate."
+      },
+      {
+        "word": "chai (lives)",
+        "meaning": "Emphasizes ongoing, active life, contrasting with the death and decay Job feels surrounded by."
+      }
+    ],
+    "modernApplication": "This verse gives language to holding onto hope even without answers, useful for anyone facing illness, loss, or injustice they cannot make sense of in the moment.",
+    "relatedVerseIds": [
+      "psalm-13-1",
+      "mark-9-24",
+      "hebrews-11-1"
+    ],
+    "reflectionQuestions": [
+      "What does it look like for you to hope even when your questions remain unanswered?",
+      "Who or what has been a source of steady hope for you during a hard season?"
+    ],
+    "suggestedPrayer": "I don't understand why I'm going through this, but I still want to hold on to hope. Be near to me in my confusion and pain. Help me trust that this isn't the end of my story.",
+    "historicityNote": {
+      "established": "The book of Job is widely classified among the Bible's wisdom literature, alongside Proverbs and Ecclesiastes, known for its poetic structure and philosophical exploration of suffering.",
+      "scholarlyDebate": "Scholars widely debate whether Job is meant to be read as a historical account, a parable, or a theological thought experiment, given its unusual literary framing and setting outside Israel.",
+      "interpretation": "Many readers interpret this verse as an early expression of hope in ultimate vindication or resurrection, though its precise original meaning within Job's own context is debated among interpreters."
+    }
+  },
+  {
+    "id": "song-of-songs-8-6",
+    "reference": "Song of Songs 8:6-7",
+    "text": "Place me like a seal over your heart; love is as strong as death. Many waters cannot quench love, nor can rivers wash it away.",
+    "context": "These words come near the close of the Song of Songs, a collection of love poetry exchanged between two lovers, here as the woman speaks of the permanence and intensity of their love.",
+    "importance": "It is often considered the theological high point of the Song, offering one of the Bible's most direct and poetic reflections on the power and endurance of love itself.",
+    "themes": [
+      "love",
+      "devotion",
+      "endurance"
+    ],
+    "emotions": [
+      "hope",
+      "faith"
+    ],
+    "author": "Traditionally attributed to Solomon, though many scholars view the poems as a collection possibly compiled and expanded by multiple unnamed poets over time.",
+    "dateApprox": "Traditionally linked to Solomon's era, around the 10th century BC, though many scholars date the language and final compilation considerably later, some as late as the postexilic period.",
+    "place": "The setting shifts throughout the book between countryside, vineyards, and Jerusalem, without a single fixed location.",
+    "audience": "Framed as intimate dialogue between two lovers, without a specified external audience.",
+    "politicalSituation": "If linked to Solomon's reign, this falls within the united monarchy's height of prosperity and trade, though the poem itself contains little direct political content.",
+    "culturalNote": "A seal, often worn on a cord around the neck or as a ring, was used to stamp a person's identity or authority onto documents and goods; asking to be set 'as a seal' over the heart expresses a wish for permanent, exclusive belonging.",
+    "keyWords": [
+      {
+        "word": "chotam (seal)",
+        "meaning": "An imprint of ownership and identity, evoking permanence and personal claim."
+      },
+      {
+        "word": "shalhevetyah (mighty flame)",
+        "meaning": "Some scholars read this phrase, sometimes translated 'flame of the Lord,' as connecting love's intensity directly to the divine."
+      }
+    ],
+    "modernApplication": "The poem's celebration of committed, embodied love offers a counterpoint to more transactional views of relationships, inviting reflection on what it means to love with permanence and depth rather than convenience.",
+    "relatedVerseIds": [
+      "ecclesiastes-3-1",
+      "1-john-4-18",
+      "psalm-107-1"
+    ],
+    "reflectionQuestions": [
+      "What does 'love as strong as death' mean to you in your own relationships?",
+      "Where in your life do you long for the kind of permanence this passage describes?"
+    ],
+    "suggestedPrayer": "Thank you for the love in my life that has stayed steady through hard times. Help me love others with that same depth and endurance. Teach me what lasting love really looks like.",
+    "historicityNote": {
+      "established": "Song of Songs is one of the few biblical books that never explicitly mentions God's name (aside from a debated phrase in this verse), and it is grouped among the Bible's wisdom and poetic literature.",
+      "scholarlyDebate": "Scholars debate whether the book should be read primarily as human love poetry, as an allegory for God's love for Israel or the Church, or as both simultaneously.",
+      "interpretation": "Many readers interpret this passage as elevating human romantic love as inherently valuable and even reflective of the divine, rather than requiring an allegorical reading to carry spiritual weight."
+    }
+  },
+  {
+    "id": "lamentations-3-22",
+    "reference": "Lamentations 3:22-23",
+    "text": "Because of the Lord's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.",
+    "context": "These verses sit at the emotional turning point of Lamentations, a book of grief over the destruction of Jerusalem, where the speaker pauses from despair to voice an unexpected note of hope and trust.",
+    "importance": "Set against a book almost entirely devoted to raw grief and loss, this passage is treasured precisely because hope emerges from the middle of devastation rather than from comfort or safety.",
+    "themes": [
+      "hope",
+      "faithfulness",
+      "grief"
+    ],
+    "emotions": [
+      "grief",
+      "hope",
+      "faith"
+    ],
+    "author": "Traditionally attributed to the prophet Jeremiah, though the book itself is anonymous and many scholars are cautious about assigning it to a single named author.",
+    "dateApprox": "Widely dated to shortly after the fall of Jerusalem in 586 BC, during or just after the Babylonian conquest.",
+    "place": "Likely composed in or near the ruins of Jerusalem, or possibly among the exiled community.",
+    "audience": "The surviving Judean community grappling with the destruction of their city and temple.",
+    "politicalSituation": "The Babylonian Empire under Nebuchadnezzar had recently destroyed Jerusalem and its temple, ending Judah's monarchy and deporting much of its population.",
+    "culturalNote": "Lamentations is written as a series of acrostic poems, each stanza beginning with successive letters of the Hebrew alphabet, a structured form that may have helped communities process overwhelming grief in an ordered, expressible way.",
+    "keyWords": [
+      {
+        "word": "chesed (great love)",
+        "meaning": "A steadfast, covenantal love or loyalty that endures despite circumstance."
+      },
+      {
+        "word": "emunah (faithfulness)",
+        "meaning": "Denotes reliability and steadiness, often translated 'faithfulness,' the root behind the word 'amen.'"
+      }
+    ],
+    "modernApplication": "This passage offers language for holding grief and hope together, useful for anyone in mourning who wants permission to feel both devastation and a flicker of trust at the same time.",
+    "relatedVerseIds": [
+      "psalm-30-5",
+      "psalm-13-1",
+      "revelation-21-4"
+    ],
+    "reflectionQuestions": [
+      "How might grief and hope coexist in your own life right now?",
+      "What does 'new every morning' suggest to you about starting again after loss?"
+    ],
+    "suggestedPrayer": "In the middle of my grief, help me notice small signs of hope. Thank you for mercy that renews each day. Give me strength to face this morning, even if I can't see far ahead yet.",
+    "historicityNote": {
+      "established": "Lamentations is structured as a series of acrostic poems and is traditionally read on the Jewish fast day of Tisha B'Av, commemorating the destruction of the Temple.",
+      "scholarlyDebate": "Scholars debate the book's authorship, since it never names Jeremiah directly, and its literary artistry has led some to view it as a communal or professionally composed lament rather than a single eyewitness account.",
+      "interpretation": "Many readers interpret this passage's turn toward hope as demonstrating that faith and unresolved grief are not mutually exclusive, a reading widely applied well beyond the book's original setting."
+    }
+  },
+  {
+    "id": "ezekiel-36-26",
+    "reference": "Ezekiel 36:26",
+    "text": "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh.",
+    "context": "Spoken by God through the prophet Ezekiel to the exiled community in Babylon, this promise comes within a larger vision of restoration for Israel after the devastation of exile.",
+    "importance": "The image of an inner transformation, not just an external return from exile, made this passage central to later ideas about spiritual renewal and is frequently referenced in discussions of change and inner healing.",
+    "themes": [
+      "renewal",
+      "transformation",
+      "hope"
+    ],
+    "emotions": [
+      "hope",
+      "forgiveness"
+    ],
+    "author": "The prophet Ezekiel, a priest taken into exile, who recorded these words as a message from God.",
+    "dateApprox": "Roughly 593-571 BC, during the Babylonian exile, based on dated oracles within the book itself.",
+    "place": "Spoken among the Judean exiles settled near the Kebar River in Babylon.",
+    "audience": "The Israelite exiles in Babylon, addressing their despair over Jerusalem's destruction and their hope for eventual restoration.",
+    "politicalSituation": "Judah had been conquered and its population partly deported by the Neo-Babylonian Empire, leaving the exiled community without a homeland, temple, or king.",
+    "culturalNote": "A 'heart of stone' versus 'heart of flesh' plays on the heart as the ancient seat of will and understanding; stone implies stubborn unresponsiveness, while flesh implies something soft, alive, and capable of feeling and responding.",
+    "keyWords": [
+      {
+        "word": "leb chadash (new heart)",
+        "meaning": "Signals not moral improvement alone but a fundamental inner renewal of will and capacity to respond."
+      },
+      {
+        "word": "ruach (spirit)",
+        "meaning": "Can mean breath, wind, or spirit, suggesting a life-giving, animating force given anew."
+      }
+    ],
+    "modernApplication": "This passage speaks to anyone who feels stuck in old patterns, suggesting that lasting change is often described in Scripture as something received rather than purely self-generated through willpower alone.",
+    "relatedVerseIds": [
+      "2-corinthians-5-17",
+      "romans-8-28",
+      "hosea-6-6"
+    ],
+    "reflectionQuestions": [
+      "What would a 'new heart' look like in an area where you feel stuck?",
+      "Where do you find it hard to believe change is possible for you?"
+    ],
+    "suggestedPrayer": "I want to change but often feel stuck in old patterns. Help me become more open and responsive rather than hardened. Give me the willingness to be renewed.",
+    "historicityNote": {
+      "established": "The book of Ezekiel contains some of the most precisely dated oracles in the Hebrew Bible, anchored to specific years of the Babylonian exile.",
+      "scholarlyDebate": "Scholars debate how much of the book reflects Ezekiel's own words versus later editorial shaping, given its complex structure and vivid, sometimes disputed imagery.",
+      "interpretation": "Many readers interpret this promise of a new heart as pointing toward an inward spiritual renewal, a theme later picked up in New Testament discussions of transformation."
+    }
+  },
+  {
+    "id": "hosea-6-6",
+    "reference": "Hosea 6:6",
+    "text": "I desire mercy, not sacrifice, and acknowledgment of God rather than burnt offerings.",
+    "context": "The prophet Hosea delivers this message to the northern kingdom of Israel, criticizing a people who maintained religious rituals while neglecting genuine loyalty and compassion toward God and one another.",
+    "importance": "The verse reframes what God values most, prioritizing relationship and ethical faithfulness over ritual performance, and it is quoted twice by Jesus in the Gospels to make a similar point.",
+    "themes": [
+      "mercy",
+      "sincerity",
+      "relationship"
+    ],
+    "emotions": [
+      "forgiveness",
+      "doubt"
+    ],
+    "author": "The prophet Hosea, who used his own difficult marriage as a living illustration of Israel's unfaithfulness to God.",
+    "dateApprox": "Roughly the 8th century BC, during the final decades of the northern kingdom of Israel before its fall to Assyria.",
+    "place": "Delivered within the northern kingdom of Israel, likely around its capital region.",
+    "audience": "The people and leadership of the northern kingdom of Israel, criticized for empty religious observance alongside social injustice.",
+    "politicalSituation": "The northern kingdom faced political instability and the growing threat of the Assyrian Empire, which would eventually conquer it in 722 BC.",
+    "culturalNote": "Sacrificial offerings were central to Israelite worship, so declaring that God preferred mercy over sacrifice was a striking challenge, suggesting that ritual without ethical substance had become hollow.",
+    "keyWords": [
+      {
+        "word": "chesed (mercy/steadfast love)",
+        "meaning": "A relational loyalty and kindness, the same word used to describe God's covenant faithfulness to Israel."
+      },
+      {
+        "word": "da'at (acknowledgment/knowledge)",
+        "meaning": "Implies intimate, relational knowing, not merely intellectual awareness of God's existence."
+      }
+    ],
+    "modernApplication": "This verse challenges the instinct to substitute outward religious or good-appearing actions for genuine compassion and honest relationship, whether in faith practice or everyday interactions.",
+    "relatedVerseIds": [
+      "micah-6-8",
+      "matthew-6-14",
+      "colossians-3-13"
+    ],
+    "reflectionQuestions": [
+      "Where might you be relying on outward actions instead of genuine care for others?",
+      "What does 'knowing God' relationally, rather than just formally, look like for you?"
+    ],
+    "suggestedPrayer": "I don't want my actions to become empty routine. Help me care genuinely for others, not just appear to do the right thing. Teach me what real mercy looks like.",
+    "historicityNote": {
+      "established": "Hosea is grouped among the Minor Prophets and is notable for its extended marriage metaphor illustrating the relationship between God and Israel.",
+      "scholarlyDebate": "Scholars debate how literally to read Hosea's marriage narrative, whether it describes an actual biographical event or serves primarily as a symbolic device.",
+      "interpretation": "Many readers interpret this verse as establishing a lasting biblical priority of compassion and authentic relationship over ritual performance, a theme echoed by later prophets and by Jesus."
+    }
+  },
+  {
+    "id": "micah-6-8",
+    "reference": "Micah 6:8",
+    "text": "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly, to love mercy, and to walk humbly with your God.",
+    "context": "The prophet Micah presents this as God's answer to a rhetorical question about what kind of offerings could satisfy divine expectations, concluding that ethical living matters more than elaborate ritual.",
+    "importance": "It is often regarded as one of the clearest summaries in the Hebrew Bible of what a life of faith practically requires, distilling complex religious expectation into three memorable priorities.",
+    "themes": [
+      "justice",
+      "humility",
+      "mercy"
+    ],
+    "emotions": [
+      "direction",
+      "faith"
+    ],
+    "author": "The prophet Micah, a contemporary of Isaiah, who addressed both the northern and southern kingdoms.",
+    "dateApprox": "Roughly the 8th century BC, during the reigns of several Judean kings including Hezekiah.",
+    "place": "Delivered in or addressed to Judah, likely from Micah's hometown region of Moresheth in the countryside.",
+    "audience": "The leaders and people of Judah and Israel, criticized for social injustice and superficial religious devotion.",
+    "politicalSituation": "This period saw growing Assyrian threat and internal social inequality in Judah, with wealthy landowners exploiting poorer farmers, concerns Micah repeatedly addresses.",
+    "culturalNote": "The preceding verses mock the idea of ever-escalating sacrifices, even a firstborn child, as sufficient atonement, making this concise ethical summary a deliberate contrast to excessive ritualism.",
+    "keyWords": [
+      {
+        "word": "mishpat (justice)",
+        "meaning": "Refers to fair, right treatment of others, especially the vulnerable, within community and legal life."
+      },
+      {
+        "word": "tsana (humbly)",
+        "meaning": "Suggests a careful, modest way of walking through life, attentive rather than self-important."
+      }
+    ],
+    "modernApplication": "This verse offers a simple, practical checklist for daily ethical living: fairness toward others, genuine compassion, and a grounded, unpretentious posture toward life and the divine.",
+    "relatedVerseIds": [
+      "hosea-6-6",
+      "proverbs-3-5",
+      "james-1-5"
+    ],
+    "reflectionQuestions": [
+      "Which of the three, justice, mercy, or humility, do you find hardest to practice?",
+      "What would it look like to 'walk humbly' in a specific relationship or situation this week?"
+    ],
+    "suggestedPrayer": "Help me act fairly toward others, even when it's inconvenient. Teach me to love mercy rather than judgment. Keep me humble as I try to live well.",
+    "historicityNote": {
+      "established": "Micah is grouped among the Minor Prophets and shares thematic overlap with his contemporary Isaiah, particularly around social justice and future hope.",
+      "scholarlyDebate": "Scholars debate whether the entire book reflects Micah's own words or includes later additions and editing, particularly around some of its more hopeful, restorative passages.",
+      "interpretation": "Many readers interpret this verse as a concise ethical summary of the entire prophetic tradition's core concerns, prioritizing character and action over ritual observance."
+    }
+  },
+  {
+    "id": "habakkuk-3-17",
+    "reference": "Habakkuk 3:17-19",
+    "text": "Though the fig tree does not bud and there are no grapes on the vines, yet I will rejoice in the Lord, I will be joyful in God my Savior.",
+    "context": "The prophet Habakkuk closes his book with this declaration after wrestling openly with God about injustice and the coming judgment of Judah, choosing trust even while anticipating total agricultural and economic collapse.",
+    "importance": "It is valued as a rare biblical example of choosing praise and trust in the absence of any visible reason for it, distinguishing hope from mere optimism about circumstances improving.",
+    "themes": [
+      "trust",
+      "resilience",
+      "joy"
+    ],
+    "emotions": [
+      "doubt",
+      "faith",
+      "hope"
+    ],
+    "author": "The prophet Habakkuk, known for an unusually direct dialogue format questioning God about injustice.",
+    "dateApprox": "Likely composed shortly before the Babylonian invasion of Judah, around the late 7th century BC.",
+    "place": "Addressed to Judah, likely composed in or near Jerusalem.",
+    "audience": "The people of Judah, facing the looming threat of Babylonian conquest as a consequence of internal injustice.",
+    "politicalSituation": "Judah faced imminent invasion by the rising Neo-Babylonian Empire, a period of acute national anxiety and impending loss of independence.",
+    "culturalNote": "Fig trees, vines, olive crops, and flocks represented the entire economic and agricultural base of ancient Judean life; listing their total failure meant imagining complete material ruin, not a minor setback.",
+    "keyWords": [
+      {
+        "word": "alaz (rejoice)",
+        "meaning": "Describes an active, exultant joy, chosen deliberately rather than a response to good circumstances."
+      },
+      {
+        "word": "yesha (savior/salvation)",
+        "meaning": "Refers to deliverance or rescue, here applied to God as the source of security beyond material provision."
+      }
+    ],
+    "modernApplication": "This passage offers language for maintaining hope during financial hardship, job loss, or other total upheavals, modeling a trust rooted in relationship rather than favorable circumstances.",
+    "relatedVerseIds": [
+      "philippians-4-6",
+      "1-thessalonians-5-18",
+      "psalm-30-5"
+    ],
+    "reflectionQuestions": [
+      "What would it mean for you to find joy that isn't dependent on your circumstances improving?",
+      "What 'fig tree' in your life feels like it isn't budding right now?"
+    ],
+    "suggestedPrayer": "Even when things aren't going well, I want to hold on to hope. Help me find steadiness that doesn't depend on my circumstances. Be my strength when everything else feels uncertain.",
+    "historicityNote": {
+      "established": "Habakkuk is distinctive among the prophets for its structure as a direct dialogue between the prophet and God, questioning divine justice rather than only delivering God's message to the people.",
+      "scholarlyDebate": "Scholars debate the precise historical events Habakkuk references, since the text alludes to a 'ruthless nation' without naming a specific invasion, though most link it to the Babylonian threat.",
+      "interpretation": "Many readers interpret this closing passage as one of the Bible's strongest statements of faith that persists independent of outward blessing, a distinction some describe as joy versus happiness."
+    }
+  },
+  {
+    "id": "zephaniah-3-17",
+    "reference": "Zephaniah 3:17",
+    "text": "The Lord your God is with you, the Mighty Warrior who saves. He will take great delight in you; he will rejoice over you with singing.",
+    "context": "This verse comes at the close of Zephaniah's prophecy, shifting from earlier warnings of judgment to a vision of restoration, describing God's joyful presence among a renewed and gathered people.",
+    "importance": "It offers an unusually tender picture within the prophetic books, portraying God not just as a judge but as someone who delights in and sings over his people.",
+    "themes": [
+      "delight",
+      "presence",
+      "restoration"
+    ],
+    "emotions": [
+      "hope",
+      "gratitude"
+    ],
+    "author": "The prophet Zephaniah, described as a descendant of King Hezekiah, active during the reign of King Josiah.",
+    "dateApprox": "Roughly the late 7th century BC, during the reign of King Josiah of Judah.",
+    "place": "Addressed to Jerusalem and the kingdom of Judah.",
+    "audience": "The people of Judah, following earlier warnings, now offered a vision of future joy and restoration.",
+    "politicalSituation": "This period fell under King Josiah's reforms, a time of religious renewal in Judah, though the wider region remained under the shadow of larger empires like Assyria and, soon after, Babylon.",
+    "culturalNote": "The image of God 'singing' over his people uses the language of celebration typically associated with weddings or victories, portraying an intimate joy rather than distant or purely judicial approval.",
+    "keyWords": [
+      {
+        "word": "gibbor (mighty warrior)",
+        "meaning": "A term for a strong, valiant fighter, here applied to God's protective strength on behalf of his people."
+      },
+      {
+        "word": "sus (rejoice/delight)",
+        "meaning": "Conveys an exuberant gladness, paired here with singing to intensify the sense of joyful celebration."
+      }
+    ],
+    "modernApplication": "This verse offers a picture of being delighted in rather than merely tolerated, which can reshape how someone relates to guilt, self-worth, or the idea of unconditional acceptance.",
+    "relatedVerseIds": [
+      "numbers-6-24",
+      "psalm-34-18",
+      "isaiah-41-10"
+    ],
+    "reflectionQuestions": [
+      "How does it feel to imagine being delighted in rather than just accepted?",
+      "What would change in your life if you believed you were genuinely rejoiced over?"
+    ],
+    "suggestedPrayer": "Help me believe that I am cared for with joy, not just tolerated. Quiet my anxious thoughts with the idea of being delighted in. Thank you for being present with me.",
+    "historicityNote": {
+      "established": "Zephaniah is grouped among the Minor Prophets and situates itself explicitly during the reign of King Josiah, a period of documented religious reform in Judah.",
+      "scholarlyDebate": "Scholars debate how much of the book's oracles of hope reflect Zephaniah's original message versus later editorial additions offering comfort after the exile.",
+      "interpretation": "Many readers interpret this verse as one of the Bible's most vivid pictures of God's emotional delight in humanity, contrasting with more distant or solely judicial portrayals elsewhere."
+    }
+  },
+  {
+    "id": "nehemiah-8-10",
+    "reference": "Nehemiah 8:10",
+    "text": "Do not grieve, for the joy of the Lord is your strength.",
+    "context": "Spoken by Nehemiah and Ezra to the returned Jewish exiles after they wept upon hearing the Law read aloud publicly for the first time in generations, encouraging celebration rather than mourning.",
+    "importance": "The phrase reframes joy not as a fleeting emotion but as a source of resilience, making it a frequently quoted line for encouragement during hardship or renewal.",
+    "themes": [
+      "joy",
+      "strength",
+      "renewal"
+    ],
+    "emotions": [
+      "grief",
+      "gratitude",
+      "hope"
+    ],
+    "author": "Attributed jointly to Nehemiah, governor of the returned community, and Ezra the priest and scribe, within the book traditionally linked to Nehemiah's own memoirs.",
+    "dateApprox": "Roughly the mid-5th century BC, during the postexilic restoration of Jerusalem.",
+    "place": "Spoken in Jerusalem, following the rebuilding of the city walls.",
+    "audience": "The Jewish community that had returned from Babylonian exile to resettle Jerusalem.",
+    "politicalSituation": "Judah was a small province under the Persian Empire, and the returned exiles were working to rebuild Jerusalem's walls and reestablish community life under foreign rule.",
+    "culturalNote": "The public reading of the Law was a significant communal event, and the people's weeping likely reflected both conviction over past failures and the emotional weight of reconnecting with their heritage after exile.",
+    "keyWords": [
+      {
+        "word": "chedvah (joy)",
+        "meaning": "A gladness described here as a source of practical strength, not merely a passing feeling."
+      },
+      {
+        "word": "ma'oz (strength/stronghold)",
+        "meaning": "Can describe a physical fortress, here applied metaphorically to joy as a source of protective resilience."
+      }
+    ],
+    "modernApplication": "This verse suggests that intentional gratitude or joy can be a genuine resource during grief or hard work, not a denial of difficulty but a source of stamina to keep going.",
+    "relatedVerseIds": [
+      "1-thessalonians-5-18",
+      "psalm-30-5",
+      "ephesians-6-10"
+    ],
+    "reflectionQuestions": [
+      "What has been a source of joy that also gave you strength during a hard time?",
+      "How might grief and joy coexist for you right now?"
+    ],
+    "suggestedPrayer": "Even when I feel weary, help me find genuine joy that strengthens me. Thank you for moments of gladness in the middle of hard work. Renew my energy today.",
+    "historicityNote": {
+      "established": "Nehemiah is closely linked with Ezra in describing the postexilic restoration of Jerusalem, and portions of the book are written in a first-person memoir style attributed to Nehemiah himself.",
+      "scholarlyDebate": "Scholars debate the precise relationship and chronology between Ezra and Nehemiah's respective missions, as the biblical account's ordering is not entirely straightforward.",
+      "interpretation": "Many readers interpret this verse as distinguishing sustainable joy from mere circumstantial happiness, framing it as an active source of endurance."
+    }
+  },
+  {
+    "id": "2-corinthians-5-17",
+    "reference": "2 Corinthians 5:17",
+    "text": "Therefore, if anyone is in Christ, the new creation has come: the old has gone, the new is here!",
+    "context": "Paul writes this within a broader defense of his ministry to the Corinthian church, explaining that a relationship with Christ fundamentally reorients how a person understands identity and purpose.",
+    "importance": "The declaration is central to Christian teaching about transformation and identity, often cited as a foundational statement about personal change and starting over.",
+    "themes": [
+      "transformation",
+      "identity",
+      "renewal"
+    ],
+    "emotions": [
+      "hope",
+      "forgiveness"
+    ],
+    "author": "Paul the Apostle, writing to the church in Corinth.",
+    "dateApprox": "Roughly AD 55-56, during Paul's missionary travels.",
+    "place": "Likely written from Macedonia, following Paul's earlier, more strained correspondence with the Corinthian church.",
+    "audience": "The Christian community in Corinth, a cosmopolitan Greek city, amid ongoing tension over Paul's authority and legitimacy as an apostle.",
+    "politicalSituation": "Corinth was a wealthy, diverse Roman colony under the Roman Empire, known for its commerce, cultural pluralism, and competing philosophical and religious ideas.",
+    "culturalNote": "Corinthian culture prized rhetorical skill, status, and social standing, and part of Paul's argument throughout the letter pushes back against valuing outward credentials over inward transformation.",
+    "keyWords": [
+      {
+        "word": "kaine ktisis (new creation)",
+        "meaning": "Echoes creation language, suggesting not incremental improvement but a fundamentally new state of being."
+      },
+      {
+        "word": "en Christo (in Christ)",
+        "meaning": "A key Pauline phrase describing a person's identity as bound up with and defined by their relationship to Christ."
+      }
+    ],
+    "modernApplication": "This verse is often used to encourage people who feel defined by their past mistakes, suggesting that identity can be reshaped rather than permanently fixed by prior failures.",
+    "relatedVerseIds": [
+      "ezekiel-36-26",
+      "romans-8-28",
+      "colossians-3-13"
+    ],
+    "reflectionQuestions": [
+      "What part of your past do you find hardest to imagine as truly 'gone'?",
+      "What would it look like to live today as though real change is possible?"
+    ],
+    "suggestedPrayer": "Help me let go of the parts of my past that keep weighing me down. I want to believe real change is possible for me. Give me hope for who I can still become.",
+    "historicityNote": {
+      "established": "2 Corinthians is widely regarded by scholars as an authentic Pauline letter, though many propose it may be a compilation of two or more originally separate letters.",
+      "scholarlyDebate": "Scholars debate the letter's exact composition history, given noticeable shifts in tone between its opening and later chapters, and how these sections were assembled.",
+      "interpretation": "Many readers interpret this verse as describing an immediate, decisive spiritual transformation, though how thoroughly that transformation is experienced varies widely across individual testimony."
+    }
+  },
+  {
+    "id": "2-corinthians-12-9",
+    "reference": "2 Corinthians 12:9",
+    "text": "My grace is sufficient for you, for my power is made perfect in weakness. Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me.",
+    "context": "Paul describes an unspecified physical or personal affliction he calls a 'thorn in the flesh,' which he repeatedly asked God to remove, and records this as God's response when the affliction was not taken away.",
+    "importance": "It offers a counterintuitive framework for suffering and limitation, presenting weakness as a place where strength can be found rather than something purely to be overcome or hidden.",
+    "themes": [
+      "weakness",
+      "grace",
+      "strength"
+    ],
+    "emotions": [
+      "doubt",
+      "faith",
+      "hope"
+    ],
+    "author": "Paul the Apostle, writing to the church in Corinth.",
+    "dateApprox": "Roughly AD 55-56, during Paul's ongoing correspondence with the Corinthian church.",
+    "place": "Likely written from Macedonia.",
+    "audience": "The Christian community in Corinth, amid Paul's defense of his apostolic credibility against rival teachers.",
+    "politicalSituation": "Corinth existed under Roman imperial rule, a context that prized visible strength, honor, and rhetorical prowess, values Paul's argument directly challenges.",
+    "culturalNote": "In a culture that highly valued strength, status, and self-sufficiency, boasting about weakness was a deliberately countercultural move, subverting typical standards for what made a leader credible.",
+    "keyWords": [
+      {
+        "word": "charis (grace)",
+        "meaning": "Denotes unearned favor or gift, here described as sufficient regardless of ongoing hardship."
+      },
+      {
+        "word": "astheneia (weakness)",
+        "meaning": "Can refer to physical illness, limitation, or general human frailty, embraced here rather than hidden."
+      }
+    ],
+    "modernApplication": "This passage offers a reframe for chronic illness, disability, or ongoing struggle, suggesting that limitation does not disqualify someone from meaning or purpose, and can even become a place of unexpected strength.",
+    "relatedVerseIds": [
+      "philippians-4-6",
+      "psalm-34-18",
+      "isaiah-40-31"
+    ],
+    "reflectionQuestions": [
+      "What weakness or limitation in your life have you tried hardest to hide?",
+      "How might that same weakness become a place of unexpected strength or connection with others?"
+    ],
+    "suggestedPrayer": "I struggle with feeling weak or inadequate. Help me trust that I don't have to be strong on my own. Let your strength be enough for me today.",
+    "historicityNote": {
+      "established": "2 Corinthians is one of the more personally revealing of Paul's letters, offering rare autobiographical detail, including this account of an unresolved personal affliction.",
+      "scholarlyDebate": "Scholars have long debated what exactly Paul's 'thorn in the flesh' refers to, with proposals ranging from a chronic illness to persecution to a spiritual struggle, with no consensus reached.",
+      "interpretation": "Many readers interpret this passage as reframing suffering not as punishment or failure, but as a potential site of deeper reliance on divine strength."
+    }
+  },
+  {
+    "id": "colossians-3-23",
+    "reference": "Colossians 3:23",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "context": "Paul offers this instruction within a section of practical household and workplace guidance, addressed originally to enslaved workers within the Colossian church, though its principle is framed broadly about the spirit behind all labor.",
+    "importance": "It has become widely applied well beyond its original context to any form of work, offering a framework for finding meaning and integrity in daily labor regardless of who is immediately overseeing it.",
+    "themes": [
+      "work",
+      "integrity",
+      "purpose"
+    ],
+    "emotions": [
+      "direction",
+      "faith"
+    ],
+    "author": "Paul the Apostle, writing to the church in Colossae, likely with Timothy's assistance.",
+    "dateApprox": "Roughly AD 60-62, during Paul's imprisonment.",
+    "place": "Written from prison, traditionally identified as Rome, though some scholars propose Ephesus.",
+    "audience": "The Christian community in Colossae, a city in Asia Minor, within a section addressing household relationships including enslaved persons and their overseers.",
+    "politicalSituation": "The letter was written under Roman imperial rule, within a social structure that included widespread slavery, a system the letter does not overturn outright but reframes ethically for its readers.",
+    "culturalNote": "Ancient household codes typically outlined expected duties for those in subordinate roles; Paul's instruction to work 'as for the Lord' offered enslaved workers, who had little control over their circumstances, a source of dignity and purpose despite an unjust social system.",
+    "keyWords": [
+      {
+        "word": "ek psyches (from the soul/heart)",
+        "meaning": "Suggests wholehearted engagement, work done from genuine inner motivation rather than mere outward compliance."
+      },
+      {
+        "word": "kyrios (Lord/master)",
+        "meaning": "Deliberately plays on the same word used for human masters, redirecting ultimate accountability toward God instead."
+      }
+    ],
+    "modernApplication": "This verse is often applied to everyday work, suggesting that even unglamorous or unrecognized tasks can carry meaning when approached with integrity and effort, rather than reduced to a transaction of obligation.",
+    "relatedVerseIds": [
+      "proverbs-3-5",
+      "ecclesiastes-3-1",
+      "2-timothy-1-7"
+    ],
+    "reflectionQuestions": [
+      "How does your current work or daily tasks feel different when framed as meaningful rather than obligatory?",
+      "What would 'wholehearted' effort look like in a task you've been going through the motions on?"
+    ],
+    "suggestedPrayer": "Help me bring genuine effort and care to my work today, even in small or unnoticed tasks. Give me a sense of purpose in what I do. Keep me from just going through the motions.",
+    "historicityNote": {
+      "established": "Colossians addresses a real first-century church in Asia Minor and includes household guidance typical of the letter-writing conventions of its time.",
+      "scholarlyDebate": "Scholars debate whether Colossians was written directly by Paul or by a later follower writing in his name, based on differences in vocabulary and style compared to his undisputed letters.",
+      "interpretation": "Many readers interpret this verse as dignifying all forms of labor with spiritual meaning, while some also note the passage's original context within a slaveholding society requires careful, honest historical framing rather than uncritical modern application."
+    }
+  },
+  {
+    "id": "2-timothy-1-7",
+    "reference": "2 Timothy 1:7",
+    "text": "For the Spirit God gave us does not make us timid, but gives us power, love, and self-discipline.",
+    "context": "Paul writes to Timothy, a younger colleague and church leader, encouraging him not to be ashamed or fearful in the face of hardship and possible persecution as he carries on ministry work.",
+    "importance": "The verse is frequently cited for encouragement against fear and self-doubt, offering a positive description of what confidence rooted in faith can look like rather than simply commanding courage.",
+    "themes": [
+      "courage",
+      "power",
+      "self-discipline"
+    ],
+    "emotions": [
+      "anxiety",
+      "faith",
+      "hope"
+    ],
+    "author": "Paul the Apostle, writing to his younger colleague Timothy.",
+    "dateApprox": "Roughly AD 64-67, traditionally considered one of Paul's final letters, written near the end of his life.",
+    "place": "Likely written from prison in Rome.",
+    "audience": "Timothy, a younger leader in the early church whom Paul had mentored, facing discouragement and potential persecution.",
+    "politicalSituation": "The letter is traditionally dated close to Emperor Nero's persecution of Christians in Rome, a dangerous period for public association with the Christian movement.",
+    "culturalNote": "Timothy is described elsewhere as somewhat timid or prone to anxiety, and this letter, written as Paul faced likely execution, carries the weight of a mentor's final encouragement to someone stepping into greater responsibility alone.",
+    "keyWords": [
+      {
+        "word": "deilia (timidity/fear)",
+        "meaning": "Describes cowardice or fearfulness, explicitly named as not originating from the Spirit God gives."
+      },
+      {
+        "word": "sophronismos (self-discipline)",
+        "meaning": "Suggests a sound mind and self-control, a steady, well-ordered inner state rather than impulsiveness."
+      }
+    ],
+    "modernApplication": "This verse offers a helpful distinction for anxiety: naming fear as something to move through rather than an identity, and pointing toward power, love, and discipline as available resources instead.",
+    "relatedVerseIds": [
+      "joshua-1-9",
+      "isaiah-41-10",
+      "ephesians-6-10"
+    ],
+    "reflectionQuestions": [
+      "Where does fear currently hold you back from something you feel called to do?",
+      "What would it look like to respond to that fear with love and discipline instead of avoidance?"
+    ],
+    "suggestedPrayer": "I feel timid about what's ahead of me. Help me find courage rooted in love rather than pressure. Give me a clear and steady mind today.",
+    "historicityNote": {
+      "established": "2 Timothy is traditionally regarded as among the last of Paul's letters, written shortly before his death, and has a notably personal, intimate tone compared to his other correspondence.",
+      "scholarlyDebate": "Scholars debate whether 2 Timothy, along with 1 Timothy and Titus, was written directly by Paul or by a later author writing in his name and tradition, based on differences in vocabulary and church structure described.",
+      "interpretation": "Many readers interpret this verse as a personal, pastoral encouragement against fear that remains widely applicable to anxiety and self-doubt today."
+    }
+  },
+  {
+    "id": "hebrews-12-1",
+    "reference": "Hebrews 12:1-2",
+    "text": "Let us run with perseverance the race marked out for us, fixing our eyes on Jesus, the pioneer and perfecter of faith.",
+    "context": "This passage follows an extended list of examples of faithful figures from Israel's history in the previous chapter, urging readers to persevere in their own faith journey while looking to Jesus as the ultimate example.",
+    "importance": "It is a widely quoted call to endurance, using the athletic image of a race to describe faith as an ongoing effort rather than a single moment of decision.",
+    "themes": [
+      "perseverance",
+      "faith",
+      "endurance"
+    ],
+    "emotions": [
+      "hope",
+      "faith",
+      "direction"
+    ],
+    "author": "Unknown; the letter to the Hebrews does not name its author, and early traditions proposing Paul are widely doubted by modern scholars.",
+    "dateApprox": "Most scholars date the letter to before AD 70, given its detailed discussion of temple sacrificial practices, though the exact date remains uncertain.",
+    "place": "The letter's place of composition is unknown; various locations, including Rome or Alexandria, have been proposed.",
+    "audience": "A Jewish-Christian community, possibly facing pressure to abandon their faith and return to more familiar religious practices amid hardship.",
+    "politicalSituation": "The letter was likely written under Roman rule during a period of social pressure or persecution against the early Christian movement, though specific details are not given.",
+    "culturalNote": "The image of a race draws on the well-known Greco-Roman tradition of athletic competitions, where a runner would strip away anything heavy or restrictive to compete effectively, an image the passage applies to shedding sin and distraction.",
+    "keyWords": [
+      {
+        "word": "hypomone (perseverance)",
+        "meaning": "Describes steady endurance under pressure, not passive waiting but active persistence."
+      },
+      {
+        "word": "archegos (pioneer)",
+        "meaning": "Can mean founder, leader, or trailblazer, describing Jesus as the one who goes first and opens the way."
+      }
+    ],
+    "modernApplication": "This passage offers encouragement for long, difficult efforts, whether personal, professional, or spiritual, suggesting that endurance matters more than a fast start, and that a clear focal point helps sustain it.",
+    "relatedVerseIds": [
+      "philippians-4-6",
+      "isaiah-40-31",
+      "1-thessalonians-5-18"
+    ],
+    "reflectionQuestions": [
+      "What 'weight' or distraction is slowing you down in something you're trying to persevere through?",
+      "Who or what serves as your 'fixed point' when you feel like giving up?"
+    ],
+    "suggestedPrayer": "Give me endurance for the race I'm currently running. Help me let go of what's weighing me down. Keep my focus steady even when I feel tired.",
+    "historicityNote": {
+      "established": "Hebrews is notable among New Testament letters for its anonymous authorship and its extensive use of Old Testament sacrificial imagery to explain Jesus' significance.",
+      "scholarlyDebate": "Scholars have long debated the letter's authorship, with proposals including Paul, Barnabas, Apollos, and Priscilla, though no candidate commands consensus and the author remains formally unknown.",
+      "interpretation": "Many readers interpret the 'great cloud of witnesses' mentioned just before this passage as encouraging believers with the examples of those who persevered before them, though the extent of the metaphor, such as whether it implies literal spectatorship, is debated."
+    }
+  },
+  {
+    "id": "1-peter-5-7",
+    "reference": "1 Peter 5:7",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "context": "Peter writes this within a letter of encouragement to Christians scattered across Asia Minor who were facing social hostility and hardship, urging humility and trust in the middle of difficult circumstances.",
+    "importance": "Its brevity and directness have made it one of the most quoted verses for dealing with worry, offering both an instruction and the underlying reason: being genuinely cared for.",
+    "themes": [
+      "anxiety",
+      "trust",
+      "care"
+    ],
+    "emotions": [
+      "anxiety",
+      "hope",
+      "faith"
+    ],
+    "author": "Traditionally attributed to the Apostle Peter, though some scholars debate direct authorship given the letter's polished Greek style.",
+    "dateApprox": "If Petrine, likely the early-to-mid 60s AD; some scholars propose a later date, closer to AD 70-90, if written by a later associate in Peter's name.",
+    "place": "The letter identifies itself as written from 'Babylon,' widely understood as a coded reference to Rome.",
+    "audience": "Christian communities scattered across the Roman provinces of Asia Minor, facing social ostracism and possible persecution for their faith.",
+    "politicalSituation": "Christians in this period faced growing social suspicion and occasional persecution within the Roman Empire, though widespread systematic persecution had not yet fully developed.",
+    "culturalNote": "The verb 'cast' evokes physically throwing off a burden, and it directly follows an instruction to 'humble yourselves,' suggesting that releasing anxiety is tied to trusting someone else with genuine care rather than self-reliance.",
+    "keyWords": [
+      {
+        "word": "merimna (anxiety)",
+        "meaning": "Refers to a distracted, divided concern or worry that pulls attention away from present trust."
+      },
+      {
+        "word": "epiripto (cast)",
+        "meaning": "A vivid verb meaning to throw something onto someone else, used elsewhere of throwing a cloak over an animal."
+      }
+    ],
+    "modernApplication": "This verse offers a simple, repeatable practice for anxiety: consciously naming a worry and imagining handing it over rather than carrying it alone, paired with the reminder of being cared for.",
+    "relatedVerseIds": [
+      "philippians-4-6",
+      "psalm-34-18",
+      "matthew-11-28"
+    ],
+    "reflectionQuestions": [
+      "What specific anxiety would it help you to 'cast' rather than carry today?",
+      "How does the idea of genuinely being cared for change how you hold your worries?"
+    ],
+    "suggestedPrayer": "I'm carrying worries I don't want to hold onto anymore. Help me trust that I am genuinely cared for. Give me a sense of relief and peace today.",
+    "historicityNote": {
+      "established": "1 Peter identifies itself as written to specific Roman provinces in Asia Minor and reflects real social pressures faced by early Christian minority communities there.",
+      "scholarlyDebate": "Scholars debate whether the letter's sophisticated Greek suggests it was written by Peter directly, dictated through a secretary, or composed later by a follower in his name and tradition.",
+      "interpretation": "Many readers interpret this verse as a foundational biblical teaching on releasing worry through trust, often paired practically with the verse's own preceding call to humility."
+    }
+  },
+  {
+    "id": "1-john-4-18",
+    "reference": "1 John 4:18",
+    "text": "There is no fear in love. But perfect love drives out fear, because fear has to do with punishment. The one who fears is not yet made perfect in love.",
+    "context": "Written within a letter addressing a community facing internal division over false teaching, this passage sits in a broader discussion of what it means to know and reflect God's love in relationships with others.",
+    "importance": "It offers a widely referenced psychological and spiritual insight into the relationship between fear and love, often applied both to one's sense of the divine and to human relationships marked by insecurity.",
+    "themes": [
+      "love",
+      "fear",
+      "security"
+    ],
+    "emotions": [
+      "anxiety",
+      "faith",
+      "hope"
+    ],
+    "author": "Traditionally attributed to John the Apostle, or the Johannine community associated with him, similar to the Gospel of John.",
+    "dateApprox": "Most scholars date 1 John to roughly AD 90-100, similar to or slightly after the Gospel of John.",
+    "place": "Likely composed in or near Ephesus, according to early church tradition.",
+    "audience": "A Christian community facing internal conflict, possibly over teachers denying the full humanity of Jesus.",
+    "politicalSituation": "Written under Roman imperial rule, in a period when Christian communities were increasingly distinct from Jewish synagogue life and faced internal doctrinal disputes as well as external social pressure.",
+    "culturalNote": "The letter repeatedly ties love for God to observable love for other people, pushing back against any purely abstract or private claim to spiritual experience disconnected from real relationships.",
+    "keyWords": [
+      {
+        "word": "teleios (perfect/complete)",
+        "meaning": "Suggests maturity or completeness rather than flawlessness, describing love that has fully developed."
+      },
+      {
+        "word": "phobos (fear)",
+        "meaning": "Can describe both general anxiety and specifically the fear of punishment or rejection addressed directly in this verse."
+      }
+    ],
+    "modernApplication": "This verse offers a lens for examining relationships, including one's relationship to the divine, asking whether they are motivated by security and love or by anxiety and fear of punishment.",
+    "relatedVerseIds": [
+      "1-samuel-16-7",
+      "song-of-songs-8-6",
+      "romans-8-28"
+    ],
+    "reflectionQuestions": [
+      "Where in your life does fear, rather than security, still shape how you relate to others or to God?",
+      "What would it look like for love to gradually replace fear in one specific relationship?"
+    ],
+    "suggestedPrayer": "Help me let go of fear rooted in feeling like I have to earn love. Teach me to rest in being genuinely loved. Let that security shape how I treat others too.",
+    "historicityNote": {
+      "established": "1 John shares strong stylistic and thematic similarities with the Gospel of John, leading most scholars to associate them with the same author or community, even if not identical authorship.",
+      "scholarlyDebate": "Scholars debate the exact identity of 'John' behind the letter, whether the Apostle John himself, a disciple known as John the Elder, or a wider Johannine community writing in his tradition.",
+      "interpretation": "Many readers interpret this verse as describing a maturing process, where a growing experience of being loved gradually displaces fear, rather than a single, instant switch."
+    }
+  },
+  {
+    "id": "leviticus-19-18",
+    "reference": "Leviticus 19:18",
+    "text": "Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as yourself.",
+    "context": "This command appears within a broader section of ethical and ritual laws given to Moses for the Israelite community, addressing practical relationships within the community alongside instructions about worship and daily life.",
+    "importance": "Later cited by Jesus as the second greatest commandment alongside loving God, this verse became a foundational ethical principle across both Jewish and Christian tradition for how to treat others.",
+    "themes": [
+      "love",
+      "neighbor",
+      "justice"
+    ],
+    "emotions": [
+      "forgiveness",
+      "faith"
+    ],
+    "author": "Attributed to Moses as the one who received and delivered these laws to Israel.",
+    "dateApprox": "Traditionally associated with the wilderness period, roughly the 13th century BC; many scholars view the text's final written form as coming later, during the composition of the Pentateuch.",
+    "place": "Given in the wilderness encampment during Israel's journey after leaving Egypt.",
+    "audience": "The Israelite community as a whole, receiving instructions for communal, ethical, and worship life.",
+    "politicalSituation": "Israel was a newly freed people without a permanent homeland, organized under Moses' leadership as they journeyed toward Canaan.",
+    "culturalNote": "This chapter, often called the Holiness Code, mixes ritual and ethical instructions together, reflecting a worldview in which how people treated their neighbors was inseparable from their relationship with God, not a separate 'secular' category.",
+    "keyWords": [
+      {
+        "word": "rea (neighbor)",
+        "meaning": "Broadly refers to a fellow member of the community, later expanded in Jewish and Christian interpretation to a wider circle of people."
+      },
+      {
+        "word": "naqam (revenge)",
+        "meaning": "Describes retaliatory vengeance, explicitly prohibited here in favor of active goodwill instead."
+      }
+    ],
+    "modernApplication": "This ancient command remains a practical measuring stick for everyday relationships, asking whether someone treats others with the same basic consideration and fairness they would want for themselves.",
+    "relatedVerseIds": [
+      "hosea-6-6",
+      "colossians-3-13",
+      "genesis-50-20"
+    ],
+    "reflectionQuestions": [
+      "Is there a grudge you're currently holding that this verse challenges you to release?",
+      "What would loving a difficult neighbor 'as yourself' look like practically this week?"
+    ],
+    "suggestedPrayer": "Help me let go of grudges I've been holding onto. Teach me to treat others the way I'd want to be treated. Give me patience with the people around me.",
+    "historicityNote": {
+      "established": "Leviticus 19 is part of what scholars often call the Holiness Code, a distinct section of ethical and ritual law within the book, and this specific command is quoted directly by Jesus in the Gospels.",
+      "scholarlyDebate": "Scholars debate the original scope of 'neighbor' in this verse, whether it was intended to apply primarily within the Israelite community or more broadly, a question with significant interpretive history.",
+      "interpretation": "Many readers interpret this verse, especially alongside Jesus' later teaching, as establishing a universal ethic of neighborly love extending well beyond its original in-group context."
     }
   }
 ]

@@ -10,9 +10,21 @@
     "audience": "The people of Israel, to ground their identity in a shared account of creation, ancestry, and covenant.",
     "purpose": "To narrate the origins of the world, humanity, and the nation of Israel, establishing the foundational covenant relationship between God and the patriarchs.",
     "historicalContext": "Genesis was composed and transmitted within an ancient Near Eastern culture that shared literary forms (creation and flood stories) with neighboring civilizations like Mesopotamia and Egypt, while presenting a distinct theological outlook. Its final compilation likely responded to the community's need to preserve identity and history during periods of upheaval, including possibly the Babylonian exile.",
-    "structure": ["Primeval History (chapters 1-11)", "Abraham (chapters 12-25)", "Isaac and Jacob (chapters 25-36)", "Joseph (chapters 37-50)"],
-    "themes": ["creation and order", "covenant", "family and lineage", "providence amid hardship"],
-    "keyVerseIds": ["genesis-50-20"],
+    "structure": [
+      "Primeval History (chapters 1-11)",
+      "Abraham (chapters 12-25)",
+      "Isaac and Jacob (chapters 25-36)",
+      "Joseph (chapters 37-50)"
+    ],
+    "themes": [
+      "creation and order",
+      "covenant",
+      "family and lineage",
+      "providence amid hardship"
+    ],
+    "keyVerseIds": [
+      "genesis-50-20"
+    ],
     "chapters": 50,
     "readingTimeMinutes": 180
   },
@@ -27,10 +39,482 @@
     "audience": "The Israelite community, to preserve the memory of liberation from slavery and the giving of the covenant law.",
     "purpose": "To recount Israel's deliverance from Egyptian bondage and the establishment of covenant law and worship at Sinai.",
     "historicalContext": "The narrative is set against a backdrop of Egyptian imperial power in the Late Bronze Age, though archaeological evidence for the specific events described is debated among historians. The book reflects a community defining its national and religious identity around a formative liberation story.",
-    "structure": ["Bondage and Deliverance (chapters 1-15)", "Wilderness Journey (chapters 16-18)", "Covenant at Sinai (chapters 19-24)", "Tabernacle Instructions and Construction (chapters 25-40)"],
-    "themes": ["liberation", "covenant law", "divine presence", "worship"],
+    "structure": [
+      "Bondage and Deliverance (chapters 1-15)",
+      "Wilderness Journey (chapters 16-18)",
+      "Covenant at Sinai (chapters 19-24)",
+      "Tabernacle Instructions and Construction (chapters 25-40)"
+    ],
+    "themes": [
+      "liberation",
+      "covenant law",
+      "divine presence",
+      "worship"
+    ],
     "keyVerseIds": [],
     "chapters": 40,
+    "readingTimeMinutes": 150
+  },
+  {
+    "id": "leviticus",
+    "title": "Leviticus",
+    "testament": "old",
+    "category": "Law / Pentateuch",
+    "author": "Traditionally attributed to Moses",
+    "authorNote": "Jewish and Christian tradition ascribes Leviticus to Moses as the recipient and transmitter of laws given at Sinai. Many modern scholars, following source-critical approaches such as the Documentary Hypothesis, view the book's priestly ritual material as having been shaped and compiled by priestly circles over an extended period, though the extent, timing, and even validity of this theory remain debated among scholars.",
+    "dateWritten": "Traditionally dated to around the 15th-13th century BCE, during Israel's encampment at Sinai; many critical scholars date the priestly material's compilation to the monarchy period or later, with some proposing a final form as late as the post-exilic era, while others argue substantial portions preserve much older ritual traditions.",
+    "audience": "The Israelite priesthood and wider community encamped at Mount Sinai, and by extension later generations responsible for maintaining Israel's sacrificial and ethical system.",
+    "purpose": "To provide detailed instructions for sacrifice, priestly service, ritual purity, and ethical living so that a holy God could dwell among an imperfect people.",
+    "historicalContext": "Set at Mount Sinai shortly after the tabernacle's construction described in Exodus, the book reflects a broader ancient Near Eastern context in which sacrificial ritual, priesthoods, and purity regulations were widespread features of religious life, while also presenting distinctive theological emphases, such as monotheism and holiness, that set Israel's system apart from its neighbors.",
+    "structure": [
+      "Sacrificial laws (1-7)",
+      "Ordination of the priesthood (8-10)",
+      "Laws of ritual purity (11-15)",
+      "The Day of Atonement (16)",
+      "The Holiness Code (17-26)",
+      "Vows and dedications (27)"
+    ],
+    "themes": [
+      "holiness",
+      "atonement",
+      "sacrifice",
+      "ritual and moral purity",
+      "covenant obedience"
+    ],
+    "keyVerseIds": [
+      "leviticus-19-18"
+    ],
+    "chapters": 27,
+    "readingTimeMinutes": 100
+  },
+  {
+    "id": "numbers",
+    "title": "Numbers",
+    "testament": "old",
+    "category": "Law / Pentateuch",
+    "author": "Traditionally attributed to Moses",
+    "authorNote": "As with the rest of the Torah, Jewish and Christian tradition credits Numbers to Moses. Its combination of census lists, legal material, and travel narratives has led many scholars to see it as a composite work drawing on priestly and other source traditions shaped over a long period, though there is no scholarly consensus on the precise stages of that process.",
+    "dateWritten": "Traditionally set during Israel's forty years of wilderness wandering after the exodus (often dated to the 15th-13th century BCE depending on the chronology used); many critical scholars date the book's final literary form much later, to the monarchy or post-exilic period.",
+    "audience": "The Israelite generation preparing to enter the promised land, along with later generations reading the account as a record of their ancestors' journey and God's covenant faithfulness despite their failures.",
+    "purpose": "To narrate Israel's journey from Sinai to the plains of Moab, recording both the community's organization for that journey and the recurring pattern of rebellion, judgment, and divine provision along the way.",
+    "historicalContext": "The book covers roughly forty years, from the second year after the exodus to Israel's arrival at the edge of Canaan. It reflects the practical challenges of organizing a large, tribally structured community for travel and eventual conquest, set against the backdrop of Late Bronze Age Near Eastern nomadic and tribal life.",
+    "structure": [
+      "Preparations at Sinai (1-10)",
+      "Journey and rebellions in the wilderness (11-20)",
+      "Confrontations with Balak and Balaam (21-25)",
+      "Second census and new legislation (26-30)",
+      "Conquest of Transjordan and final instructions (31-36)"
+    ],
+    "themes": [
+      "wilderness testing",
+      "covenant faithfulness",
+      "leadership",
+      "divine judgment and mercy",
+      "preparation for the land"
+    ],
+    "keyVerseIds": [
+      "numbers-6-24"
+    ],
+    "chapters": 36,
+    "readingTimeMinutes": 120
+  },
+  {
+    "id": "deuteronomy",
+    "title": "Deuteronomy",
+    "testament": "old",
+    "category": "Law / Pentateuch",
+    "author": "Traditionally attributed to Moses",
+    "authorNote": "Deuteronomy is framed as Moses' final speeches to Israel before his death, and tradition holds Moses as author, with the account of his death in chapter 34 attributed to a later hand even in traditional Jewish interpretation. Many scholars associate the book's core with a distinct 'Deuteronomic' literary and theological tradition, and some connect it to the law book discovered during King Josiah's reforms (2 Kings 22), suggesting a substantial editorial history, though views vary on how much reflects genuinely early material.",
+    "dateWritten": "Traditionally dated to around 1400-1200 BCE, near the end of the wilderness period; many critical scholars date its core composition or major editing to the 7th century BCE, around the time of Josiah's reforms, with the book reaching final form during or after the Babylonian exile.",
+    "audience": "The generation of Israelites poised to enter Canaan, and by extension later generations of Israel called to renew covenant loyalty to God.",
+    "purpose": "To renew the covenant with a new generation of Israelites through a restatement of the law, urging exclusive loyalty to God and obedience as the path to life and blessing in the land.",
+    "historicalContext": "Set on the plains of Moab just before Israel's entry into Canaan, the book presents itself as Moses' farewell address. Its treaty-like structure has been compared by scholars to ancient Near Eastern suzerain-vassal treaties, particularly Hittite treaty forms, which some see as supporting an early composition and others read as a literary convention adopted later.",
+    "structure": [
+      "Historical prologue (1-4)",
+      "Restatement of the law (5-26)",
+      "Covenant blessings and curses (27-30)",
+      "Moses' final words, succession, and death (31-34)"
+    ],
+    "themes": [
+      "covenant renewal",
+      "exclusive loyalty to God",
+      "obedience and blessing",
+      "remembrance",
+      "love of God and neighbor"
+    ],
+    "keyVerseIds": [
+      "deuteronomy-6-4"
+    ],
+    "chapters": 34,
+    "readingTimeMinutes": 115
+  },
+  {
+    "id": "joshua",
+    "title": "Joshua",
+    "testament": "old",
+    "category": "History",
+    "author": "Traditionally attributed to Joshua, with later additions",
+    "authorNote": "Jewish tradition (the Talmud) credits Joshua himself with most of the book, though it explicitly notes that later material, including the account of Joshua's death, must have been added by someone else. Most modern scholars regard Joshua as a composite work shaped over time, often linked with Deuteronomy through Kings as part of a larger 'Deuteronomistic History' compiled and edited well after the events it describes.",
+    "dateWritten": "Traditionally dated shortly after the events described, around the 14th-13th century BCE; many scholars date the book's composition or major editing to the monarchy period or later, with some seeing its final form as post-exilic.",
+    "audience": "The Israelite community, written to explain how the tribes came to possess the land of Canaan and to reinforce covenant faithfulness to later generations.",
+    "purpose": "To recount Israel's conquest and settlement of Canaan under Joshua's leadership as a fulfillment of God's promises to the patriarchs, and to call the nation to covenant loyalty in the land.",
+    "historicalContext": "The narrative is set in the Late Bronze to early Iron Age transition in Canaan. The historicity and scale of the conquest described in Joshua is a significant point of scholarly debate: archaeological evidence for a sweeping, unified military conquest at the traditional date is limited or contested at several sites, leading scholars to propose alternative models, such as gradual settlement or indigenous revolt, alongside the traditional conquest reading.",
+    "structure": [
+      "Conquest of the land (1-12)",
+      "Division of the land among the tribes (13-21)",
+      "Covenant renewal and Joshua's farewell (22-24)"
+    ],
+    "themes": [
+      "divine promise and fulfillment",
+      "conquest and inheritance",
+      "covenant faithfulness",
+      "leadership succession",
+      "holiness of the land"
+    ],
+    "keyVerseIds": [
+      "joshua-1-9"
+    ],
+    "chapters": 24,
+    "readingTimeMinutes": 60
+  },
+  {
+    "id": "judges",
+    "title": "Judges",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally associated with Samuel",
+    "authorNote": "Jewish tradition attributes Judges to Samuel, though the book itself names no author. Its recurring literary framework and theological outlook link it closely to the wider Deuteronomistic History, leading most scholars to see it as a compiled work drawing on older hero narratives and oral tradition, edited and given its present shape well after the events described.",
+    "dateWritten": "Traditionally associated with Samuel in the 11th century BCE; most scholars date the book's composition or major editing to the monarchy period, with some seeing further editorial shaping during or after the exile.",
+    "audience": "Israelite readers, likely during or after the establishment of the monarchy, reflecting on the chaotic pre-monarchic period.",
+    "purpose": "To depict Israel's repeated cycle of unfaithfulness, oppression, deliverance through raised-up judges, and relapse, illustrating the consequences of a society 'without a king' and without consistent covenant loyalty.",
+    "historicalContext": "The book covers the turbulent period between Joshua's death and the rise of the monarchy, roughly the 12th-11th centuries BCE, when Israel existed as a loose confederation of tribes frequently threatened by neighboring peoples such as the Canaanites, Midianites, Ammonites, and Philistines.",
+    "structure": [
+      "Incomplete conquest and setting (1-3:6)",
+      "Cycle of the judges (3:7-16)",
+      "Moral and social decline appendices (17-21)"
+    ],
+    "themes": [
+      "cycle of sin and deliverance",
+      "the need for leadership",
+      "covenant unfaithfulness",
+      "divine mercy amid judgment",
+      "moral chaos without central authority"
+    ],
+    "keyVerseIds": [],
+    "chapters": 21,
+    "readingTimeMinutes": 50
+  },
+  {
+    "id": "ruth",
+    "title": "Ruth",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally associated with Samuel",
+    "authorNote": "Jewish tradition attributes Ruth to Samuel, but the book is anonymous and gives no internal claim of authorship. Its polished narrative style and concern with genealogy, culminating in David, lead many scholars to view it as a carefully crafted short story, with proposed dates ranging widely depending on how its language and themes are read.",
+    "dateWritten": "Traditionally dated to the period shortly after the judges, around the 11th century BCE; some scholars argue for a later, post-exilic date based on linguistic features and its interest in intermarriage and inclusion, though this dating remains debated.",
+    "audience": "Israelite readers interested in the ancestry of King David and in questions about loyalty, inclusion of foreigners, and covenant kindness within Israelite society.",
+    "purpose": "To tell the story of Ruth, a Moabite widow whose loyalty and faith lead her into Israel's covenant community, ultimately placing her in the ancestral line of King David.",
+    "historicalContext": "The story is set during the period of the judges, a time of frequent famine and regional instability, and unfolds partly in Moab and partly in Bethlehem. It offers an intimate, family-level counterpoint to the national turmoil described in Judges.",
+    "structure": [
+      "Naomi's loss and Ruth's loyalty (1)",
+      "Ruth gleans in Boaz's field (2)",
+      "Ruth's request at the threshing floor (3)",
+      "Redemption and genealogy (4)"
+    ],
+    "themes": [
+      "loyalty and covenant kindness (hesed)",
+      "redemption",
+      "inclusion of outsiders",
+      "providence",
+      "family and lineage"
+    ],
+    "keyVerseIds": [
+      "ruth-1-16"
+    ],
+    "chapters": 4,
+    "readingTimeMinutes": 12
+  },
+  {
+    "id": "1-samuel",
+    "title": "1 Samuel",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally associated with Samuel, Nathan, and Gad",
+    "authorNote": "Jewish tradition credits Samuel with much of the book, with the account of his own death necessarily added by others, traditionally identified as Nathan and Gad. Modern scholars generally see 1 Samuel as a composite work drawing on multiple older sources and oral traditions about Samuel, Saul, and David, compiled and edited as part of the Deuteronomistic History.",
+    "dateWritten": "Traditionally dated to the 11th-10th century BCE, close to the events described; most scholars place the book's compilation and editing later, during the monarchy, with further shaping possibly continuing into the exilic period.",
+    "audience": "Israelite readers, particularly during or after the monarchy, seeking to understand the transition from tribal confederacy to kingship and the legitimacy of David's dynasty.",
+    "purpose": "To narrate the transition from the era of judges to the monarchy, tracing the careers of Samuel, Saul, and the rise of David, and to explain how David, not Saul, became God's chosen king.",
+    "historicalContext": "The narrative unfolds in the 11th century BCE as Israel faces mounting pressure from the Philistines and other neighbors, prompting the shift from tribal leadership to centralized kingship. This period marks a major political transformation in ancient Israel's history.",
+    "structure": [
+      "Samuel: last of the judges (1-7)",
+      "Saul becomes king (8-15)",
+      "David's rise and conflict with Saul (16-31)"
+    ],
+    "themes": [
+      "kingship and leadership",
+      "obedience versus outward appearance",
+      "divine sovereignty in choosing leaders",
+      "rejection and rise",
+      "covenant faithfulness"
+    ],
+    "keyVerseIds": [
+      "1-samuel-16-7"
+    ],
+    "chapters": 31,
+    "readingTimeMinutes": 75
+  },
+  {
+    "id": "2-samuel",
+    "title": "2 Samuel",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally associated with Nathan and Gad",
+    "authorNote": "1 and 2 Samuel were originally a single work in the Hebrew tradition, later divided for length. Tradition points to the prophets Nathan and Gad as contributors, but the book itself is anonymous. Scholars generally view it as compiled from older source material, including what some call a 'Court History' or 'Succession Narrative', shaped into its final form as part of the larger Deuteronomistic History.",
+    "dateWritten": "Traditionally dated close to the events, in the 10th century BCE; most scholars date the compilation and editing of the book to the later monarchy period, with the Deuteronomistic History likely reaching its current form during or after the exile.",
+    "audience": "Israelite readers concerned with the establishment and legitimacy of David's kingship and dynasty, including its promise of a lasting royal line.",
+    "purpose": "To recount David's reign as king over Israel, including his triumphs, the establishment of Jerusalem and the Davidic covenant, and the personal and national consequences of his moral failures.",
+    "historicalContext": "The book covers David's roughly forty-year reign in the 10th century BCE, a period of territorial expansion and political consolidation for Israel, alongside ongoing conflicts with neighboring peoples and significant internal family and court intrigue.",
+    "structure": [
+      "David's rise to power over all Israel (1-5)",
+      "Covenant and military success (6-10)",
+      "David's sin and its consequences (11-20)",
+      "Concluding appendices (21-24)"
+    ],
+    "themes": [
+      "the Davidic covenant",
+      "sin and consequence",
+      "divine grace amid failure",
+      "kingship",
+      "family conflict"
+    ],
+    "keyVerseIds": [],
+    "chapters": 24,
+    "readingTimeMinutes": 55
+  },
+  {
+    "id": "1-kings",
+    "title": "1 Kings",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown",
+    "authorNote": "1 and 2 Kings were originally one continuous work and are anonymous in the text itself. Scholars widely regard Kings as part of the Deuteronomistic History, likely drawing on royal court records, temple archives, and prophetic narratives, compiled and theologically edited, with many arguing for at least two stages: one during Josiah's reign and a final edition during or after the Babylonian exile.",
+    "dateWritten": "The events span the 10th-9th centuries BCE; most scholars date the book's compilation to the late monarchy period, with a final edition completed during or shortly after the exile, since the narrative in 2 Kings extends to that point.",
+    "audience": "Israelite and later Judean readers seeking to understand the reasons behind the kingdom's division and the moral-theological trajectory of its kings.",
+    "purpose": "To trace the reign of Solomon, the division of the kingdom into Israel and Judah, and the succession of kings in both, evaluating each ruler's faithfulness to the covenant as the key to the nation's fortunes.",
+    "historicalContext": "The book covers Solomon's reign and the kingdom's subsequent split, traditionally dated around 930 BCE, into the northern kingdom of Israel and southern kingdom of Judah, set against a backdrop of shifting alliances and growing regional powers such as Egypt and Aram.",
+    "structure": [
+      "Solomon's reign and temple building (1-11)",
+      "Division of the kingdom (12)",
+      "Parallel histories of Israel and Judah's kings, including Elijah's ministry (13-22)"
+    ],
+    "themes": [
+      "covenant faithfulness and kingship",
+      "idolatry and its consequences",
+      "prophetic critique of power",
+      "temple worship",
+      "divided kingdom"
+    ],
+    "keyVerseIds": [],
+    "chapters": 22,
+    "readingTimeMinutes": 50
+  },
+  {
+    "id": "2-kings",
+    "title": "2 Kings",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown",
+    "authorNote": "As the continuation of 1 Kings, 2 Kings is anonymous and shares the same likely compositional history as part of the Deuteronomistic History, drawing on court and temple records and prophetic traditions. Its narration of events up to and including the Babylonian exile suggests its final editing took place during or after that period, though the extent of earlier source material is debated among scholars.",
+    "dateWritten": "Covers events from the 9th century BCE to the Babylonian exile in 586 BCE; most scholars date the book's final compilation to the exilic period, roughly the mid-6th century BCE, though it likely incorporates earlier annalistic sources.",
+    "audience": "Judean readers, likely those experiencing or reflecting on the exile, seeking to understand why the northern and southern kingdoms fell.",
+    "purpose": "To narrate the decline and eventual destruction of both the northern kingdom of Israel, conquered by Assyria, and the southern kingdom of Judah, conquered by Babylon, attributing their downfall primarily to persistent covenant unfaithfulness.",
+    "historicalContext": "The book spans roughly three centuries of ancient Near Eastern history, including the rise of the Assyrian empire, which conquered Israel in 722 BCE, and the Babylonian empire, which conquered Judah and destroyed Jerusalem's temple in 586 BCE, events well attested in extrabiblical sources.",
+    "structure": [
+      "Elisha's ministry and Israel's decline (1-13)",
+      "Parallel histories leading to Israel's fall (14-17)",
+      "Judah's final kings and the fall of Jerusalem (18-25)"
+    ],
+    "themes": [
+      "covenant unfaithfulness and judgment",
+      "prophetic warning",
+      "fall of the northern and southern kingdoms",
+      "exile",
+      "divine patience and its limits"
+    ],
+    "keyVerseIds": [],
+    "chapters": 25,
+    "readingTimeMinutes": 55
+  },
+  {
+    "id": "1-chronicles",
+    "title": "1 Chronicles",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally attributed to Ezra",
+    "authorNote": "Jewish tradition credits Ezra as the compiler of Chronicles, and its priestly, temple-centered concerns fit well with what is known of Ezra's interests, but the book itself names no author. Most scholars agree it was written by a post-exilic figure or group, sometimes called 'the Chronicler', who reworked earlier material, especially Samuel and Kings, from a distinctly priestly and theological perspective rather than a purely historical one.",
+    "dateWritten": "Traditionally associated with Ezra in the 5th century BCE; most scholars date the book to the post-exilic period, roughly the late 5th to 4th century BCE, based on its language, genealogies extending past that point, and its concerns.",
+    "audience": "The post-exilic Jewish community returning from Babylonian captivity, seeking to reconnect with its pre-exilic heritage, temple worship, and Davidic promises.",
+    "purpose": "To retell Israel's history from Adam through David's reign, emphasizing genealogical continuity, the Davidic covenant, and proper temple worship, in order to encourage the restored post-exilic community's identity and faith.",
+    "historicalContext": "Written well after the events it describes, likely for a Jewish community rebuilding its religious and communal identity following the Babylonian exile and the return under Persian rule, Chronicles selectively retells material found in Samuel and Kings, generally omitting or softening David's failures to focus on his role in establishing worship.",
+    "structure": [
+      "Genealogies from Adam to David (1-9)",
+      "Saul's death and David's rise (10-12)",
+      "David's reign and temple preparations (13-29)"
+    ],
+    "themes": [
+      "genealogical continuity",
+      "Davidic covenant",
+      "temple worship",
+      "restoration identity",
+      "faithfulness rewarded"
+    ],
+    "keyVerseIds": [],
+    "chapters": 29,
+    "readingTimeMinutes": 75
+  },
+  {
+    "id": "2-chronicles",
+    "title": "2 Chronicles",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally attributed to Ezra",
+    "authorNote": "As the continuation of 1 Chronicles, this book shares its likely post-exilic authorship by 'the Chronicler,' traditionally identified with Ezra, though this remains a traditional association rather than a certainty. Its retelling of Solomon's reign and Judah's kings selectively emphasizes temple worship and covenant faithfulness, often diverging in focus and detail from the parallel accounts in Kings.",
+    "dateWritten": "Traditionally associated with Ezra in the 5th century BCE; most scholars date the book to the post-exilic period, roughly the late 5th to 4th century BCE.",
+    "audience": "The post-exilic Jewish community, encouraged toward covenant faithfulness and proper worship as it rebuilt its national and religious life.",
+    "purpose": "To retell the history of Solomon's reign and the kingdom of Judah down to the Babylonian exile and the Persian decree of return, highlighting temple worship, faithful kings, and the consequences of covenant unfaithfulness.",
+    "historicalContext": "Composed after the exile, the book focuses exclusively on the southern kingdom of Judah, omitting the northern kingdom's history found in Kings, and concludes with Cyrus of Persia's decree permitting the Jews to return and rebuild the temple, connecting the narrative to the post-exilic present of its likely audience.",
+    "structure": [
+      "Solomon's reign and temple building (1-9)",
+      "Kings of Judah, faithful and unfaithful (10-36:21)",
+      "Cyrus's decree of return (36:22-23)"
+    ],
+    "themes": [
+      "temple worship",
+      "covenant faithfulness and judgment",
+      "reform and revival",
+      "divine sovereignty over nations",
+      "hope of restoration"
+    ],
+    "keyVerseIds": [],
+    "chapters": 36,
+    "readingTimeMinutes": 85
+  },
+  {
+    "id": "ezra",
+    "title": "Ezra",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally attributed to Ezra",
+    "authorNote": "Jewish tradition credits Ezra the scribe with this book, and portions of the text are written in first person as if by Ezra himself. Scholars generally agree the book incorporates genuine official documents and personal memoirs but debate how much of the surrounding narrative was composed or arranged by a later editor, sometimes identified with the same 'Chronicler' associated with 1-2 Chronicles.",
+    "dateWritten": "Traditionally dated to the mid-5th century BCE, during Ezra's own lifetime; most scholars agree on a Persian-period composition, though the precise dating and relationship of Ezra to Nehemiah, originally one combined work in the Hebrew tradition, remains debated.",
+    "audience": "The post-exilic Jewish community in Judah, particularly those concerned with rebuilding the temple and maintaining religious and ethnic identity under Persian rule.",
+    "purpose": "To recount the return of Jewish exiles from Babylon, the rebuilding of the Jerusalem temple, and Ezra's later reforms emphasizing covenant fidelity and separation from surrounding practices seen as compromising that fidelity.",
+    "historicalContext": "Set during the Persian period following Cyrus the Great's decree in 539 BCE allowing exiled peoples to return home, the book reflects the political realities of Judah as a Persian province and the challenges of religious and communal reconstruction after decades of exile.",
+    "structure": [
+      "Return under Zerubbabel and temple rebuilding (1-6)",
+      "Ezra's return and reforms (7-10)"
+    ],
+    "themes": [
+      "restoration",
+      "temple rebuilding",
+      "covenant fidelity",
+      "scripture and law",
+      "communal identity"
+    ],
+    "keyVerseIds": [],
+    "chapters": 10,
+    "readingTimeMinutes": 25
+  },
+  {
+    "id": "nehemiah",
+    "title": "Nehemiah",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown; traditionally attributed to Nehemiah (and Ezra)",
+    "authorNote": "Much of the book is written in first person as Nehemiah's own memoir, lending strong support to his substantial authorship of at least those sections; Jewish tradition also associates Ezra with compiling the final book, which was originally combined with Ezra as a single work. Scholars generally accept a genuine Nehemiah memoir at the core, while debating the extent of later editorial arrangement.",
+    "dateWritten": "Traditionally dated to the mid-to-late 5th century BCE, during Nehemiah's governorship; most scholars accept a Persian-period composition close to the events described, making it one of the more confidently dated Old Testament historical books.",
+    "audience": "The post-exilic Jewish community in Jerusalem, especially those involved in rebuilding the city's walls and reestablishing communal and religious life.",
+    "purpose": "To recount Nehemiah's leadership in rebuilding Jerusalem's walls and his subsequent social and religious reforms aimed at strengthening the post-exilic community's covenant faithfulness and security.",
+    "historicalContext": "Set in the Persian Empire under Artaxerxes I, the book reflects the ongoing challenges facing the small, vulnerable Jewish community in Judah, including opposition from neighboring officials and internal social and economic problems, roughly a century after the first exiles had returned.",
+    "structure": [
+      "Rebuilding Jerusalem's walls (1-7)",
+      "Covenant renewal under Ezra and Nehemiah (8-10)",
+      "Population lists and dedication of the wall (11-12)",
+      "Nehemiah's further reforms (13)"
+    ],
+    "themes": [
+      "rebuilding and restoration",
+      "leadership and perseverance",
+      "covenant renewal",
+      "social justice",
+      "communal identity"
+    ],
+    "keyVerseIds": [
+      "nehemiah-8-10"
+    ],
+    "chapters": 13,
+    "readingTimeMinutes": 30
+  },
+  {
+    "id": "esther",
+    "title": "Esther",
+    "testament": "old",
+    "category": "History",
+    "author": "Author unknown",
+    "authorNote": "The book of Esther names no author, and Jewish tradition offers various suggestions, including the men of the Great Assembly or Mordecai himself, without strong internal support for any single candidate. Its detailed knowledge of Persian court life has led some scholars to argue for composition relatively close to the events, while its literary polish and certain historical difficulties lead others to place it later; both the precise date and the question of how much the story reflects a specific historical event versus historical fiction set in an authentic Persian context remain genuinely debated.",
+    "dateWritten": "The narrative is set in the Persian period, during the reign of a king usually identified with Xerxes I (486-465 BCE); scholarly estimates for the book's composition range from the late Persian to the early Hellenistic period, roughly the 4th-2nd century BCE.",
+    "audience": "Jewish communities living in the Persian diaspora, outside the land of Judah, facing questions of identity, assimilation, and survival as a minority.",
+    "purpose": "To recount how Esther and Mordecai averted a plot to annihilate the Jewish people in the Persian Empire, and to explain the origin of the festival of Purim commemorating that deliverance.",
+    "historicalContext": "Set in the Persian royal court at Susa during the Achaemenid Empire, the book reflects the situation of Jews who remained scattered across the Persian Empire rather than returning to Judah after the exile. No Persian records of a queen named Esther or the specific events described have been identified, which has fueled scholarly debate about the book's precise historical basis, though it accurately reflects many general features of Persian court life and administration.",
+    "structure": [
+      "Vashti deposed and Esther becomes queen (1-2)",
+      "Haman's plot against the Jews (3-4)",
+      "Esther's intervention and Haman's downfall (5-7)",
+      "Deliverance of the Jews and origin of Purim (8-10)"
+    ],
+    "themes": [
+      "providence without explicit divine mention",
+      "courage and reversal",
+      "identity in diaspora",
+      "deliverance",
+      "origins of Purim"
+    ],
+    "keyVerseIds": [],
+    "chapters": 10,
+    "readingTimeMinutes": 22
+  },
+  {
+    "id": "job",
+    "title": "Job",
+    "testament": "old",
+    "category": "Wisdom Literature",
+    "author": "Unknown; traditionally debated",
+    "authorNote": "No author is named in the text, and Jewish tradition variously credits Moses or Job himself, while modern scholars simply regard the author as unknown. Many scholars propose that an older folk-tale framework (the prose prologue and epilogue) was combined with an independently composed poetic dialogue at its core, though this remains a hypothesis rather than a settled fact.",
+    "dateWritten": "Highly uncertain; proposals range from the patriarchal era (early 2nd millennium BC, based on the setting and lack of reference to Israelite institutions) to the exilic or post-exilic period (6th-4th century BC), based on linguistic features and thematic parallels to the suffering of exile.",
+    "audience": "Israelite readers grappling with the problem of suffering, particularly those wrestling with why the righteous suffer despite conventional wisdom that links piety to prosperity.",
+    "purpose": "To explore, through the story of a righteous man's suffering and the debates it provokes, whether suffering can always be explained as divine punishment, and to probe the limits of human understanding of God's ways.",
+    "historicalContext": "The narrative is set outside Israel, in the land of Uz, among a wisdom tradition shared broadly across the ancient Near East, where sages in Egypt, Mesopotamia, and elsewhere also wrestled with the question of unjust suffering. Its canonical placement and themes suggest it may have resonated strongly with communities facing communal catastrophe, such as the Babylonian exile, though its precise historical origin is not established.",
+    "structure": [
+      "Prologue: Job's testing (chapters 1-2)",
+      "Job's opening lament (chapter 3)",
+      "Three cycles of dialogue with his friends (chapters 4-27)",
+      "Poem on wisdom (chapter 28)",
+      "Job's closing monologue (chapters 29-31)",
+      "Elihu's speeches (chapters 32-37)",
+      "God's speeches from the whirlwind and Job's response (chapters 38-42:6)",
+      "Epilogue: Job's restoration (chapter 42:7-17)"
+    ],
+    "themes": [
+      "the problem of suffering",
+      "the limits of human wisdom",
+      "divine sovereignty and mystery",
+      "integrity under trial",
+      "the inadequacy of simple retribution theology"
+    ],
+    "keyVerseIds": [
+      "job-19-25"
+    ],
+    "chapters": 42,
     "readingTimeMinutes": 150
   },
   {
@@ -44,9 +528,28 @@
     "audience": "Worshippers of ancient Israel, used in personal devotion and temple liturgy.",
     "purpose": "To give voice to a full range of human experience before God, including praise, lament, thanksgiving, and reflection.",
     "historicalContext": "The psalms emerged from centuries of Israelite worship life, spanning the united monarchy, divided kingdom, exile, and post-exilic restoration, and were gradually gathered into five books mirroring the structure of the Torah.",
-    "structure": ["Book I (Psalms 1-41)", "Book II (Psalms 42-72)", "Book III (Psalms 73-89)", "Book IV (Psalms 90-106)", "Book V (Psalms 107-150)"],
-    "themes": ["praise and lament", "trust in adversity", "kingship", "creation"],
-    "keyVerseIds": ["psalm-23-1", "psalm-13-1", "psalm-107-1", "psalm-119-105", "psalm-46-1", "psalm-30-5", "psalm-34-18"],
+    "structure": [
+      "Book I (Psalms 1-41)",
+      "Book II (Psalms 42-72)",
+      "Book III (Psalms 73-89)",
+      "Book IV (Psalms 90-106)",
+      "Book V (Psalms 107-150)"
+    ],
+    "themes": [
+      "praise and lament",
+      "trust in adversity",
+      "kingship",
+      "creation"
+    ],
+    "keyVerseIds": [
+      "psalm-23-1",
+      "psalm-13-1",
+      "psalm-107-1",
+      "psalm-119-105",
+      "psalm-46-1",
+      "psalm-30-5",
+      "psalm-34-18"
+    ],
     "chapters": 150,
     "readingTimeMinutes": 240
   },
@@ -61,9 +564,21 @@
     "audience": "Young people and members of the Israelite community seeking practical guidance for a wise and moral life.",
     "purpose": "To instruct readers in practical wisdom, ethical living, and the fear of the Lord as the foundation of knowledge.",
     "historicalContext": "Proverbs reflects the broader ancient Near Eastern wisdom literature tradition, sharing forms and themes with Egyptian and Mesopotamian instructional texts, while framing wisdom within Israel's covenant faith.",
-    "structure": ["Prologue and Praise of Wisdom (chapters 1-9)", "Solomonic Proverb Collections (chapters 10-29)", "Words of Agur (chapter 30)", "Words of Lemuel and the Ideal Wife (chapter 31)"],
-    "themes": ["wisdom versus folly", "discipline", "speech and character", "the fear of the Lord"],
-    "keyVerseIds": ["proverbs-3-5"],
+    "structure": [
+      "Prologue and Praise of Wisdom (chapters 1-9)",
+      "Solomonic Proverb Collections (chapters 10-29)",
+      "Words of Agur (chapter 30)",
+      "Words of Lemuel and the Ideal Wife (chapter 31)"
+    ],
+    "themes": [
+      "wisdom versus folly",
+      "discipline",
+      "speech and character",
+      "the fear of the Lord"
+    ],
+    "keyVerseIds": [
+      "proverbs-3-5"
+    ],
     "chapters": 31,
     "readingTimeMinutes": 90
   },
@@ -78,11 +593,54 @@
     "audience": "Israelite readers grappling with questions of meaning, mortality, and the limits of human achievement.",
     "purpose": "To explore the meaning of life and the limitations of human wisdom, wealth, and pleasure when viewed 'under the sun.'",
     "historicalContext": "The reflective, philosophical tone of Ecclesiastes has led scholars to compare it with wisdom literature from across the ancient Near East and the Hellenistic world, suggesting a setting where Israelite thought engaged with broader philosophical currents.",
-    "structure": ["The Vanity of Life's Pursuits (chapters 1-2)", "Times and Seasons (chapter 3)", "Observations on Toil and Justice (chapters 4-6)", "Wisdom for Living (chapters 7-12)"],
-    "themes": ["the fleetingness of life", "the limits of human wisdom", "enjoying present blessings", "mortality"],
-    "keyVerseIds": ["ecclesiastes-3-1"],
+    "structure": [
+      "The Vanity of Life's Pursuits (chapters 1-2)",
+      "Times and Seasons (chapter 3)",
+      "Observations on Toil and Justice (chapters 4-6)",
+      "Wisdom for Living (chapters 7-12)"
+    ],
+    "themes": [
+      "the fleetingness of life",
+      "the limits of human wisdom",
+      "enjoying present blessings",
+      "mortality"
+    ],
+    "keyVerseIds": [
+      "ecclesiastes-3-1"
+    ],
     "chapters": 12,
     "readingTimeMinutes": 40
+  },
+  {
+    "id": "song-of-songs",
+    "title": "Song of Songs",
+    "testament": "old",
+    "category": "Wisdom Literature",
+    "author": "Traditionally attributed to Solomon",
+    "authorNote": "The superscription attributes the work to Solomon, or possibly dedicates it to him, but the Hebrew phrasing is ambiguous enough that scholars debate whether Solomon is the author, the dedicatee, or simply a literary figure invoked to frame the poetry. Many scholars, noting linguistic features (including some later Hebrew and possible Persian and Greek loanwords), date the final composition well after Solomon's traditional 10th century BC reign.",
+    "dateWritten": "Traditionally linked to Solomon's reign (10th century BC); many scholars date the text's final form to the post-exilic period (5th-3rd century BC) based on linguistic evidence, while allowing that individual poems may be much older.",
+    "audience": "Israelite readers, likely used in wedding celebrations or as a broader meditation on love, though its original social setting is not stated in the text.",
+    "purpose": "To celebrate human love and desire between a man and a woman through vivid poetic imagery, with the text's inclusion in the canon prompting long-standing debate over whether it is meant to be read literally, allegorically, or both.",
+    "historicalContext": "The poetry draws on the imagery, agricultural life, and courtly language of the ancient Near East, and shares stylistic features with Egyptian love poetry from the same broader region and era. Its unusual content for a canonical religious text spurred early rabbinic and later Christian traditions to read it allegorically, as a picture of God's love for Israel or Christ's love for the church, alongside more literal readings of human romantic love.",
+    "structure": [
+      "Mutual longing and praise (chapters 1-2)",
+      "A dream of searching and finding (chapter 3)",
+      "Praise of the bride and consummation (chapters 4-5)",
+      "Separation and renewed longing (chapters 5-6)",
+      "Praise of the beloved and mutual delight (chapters 7-8)"
+    ],
+    "themes": [
+      "romantic and erotic love",
+      "mutual desire and devotion",
+      "the beauty of the created world",
+      "longing and union",
+      "the strength of love"
+    ],
+    "keyVerseIds": [
+      "song-of-songs-8-6"
+    ],
+    "chapters": 8,
+    "readingTimeMinutes": 25
   },
   {
     "id": "isaiah",
@@ -95,9 +653,21 @@
     "audience": "The kingdom of Judah, facing threats from Assyria and later Babylon, and the exilic and post-exilic community.",
     "purpose": "To call Judah to faithfulness amid political crisis and to proclaim both judgment and future hope, including restoration after exile.",
     "historicalContext": "The book addresses the turbulent Assyrian threat to Judah in the 8th century BC and, in its later chapters, speaks to the experience of Babylonian exile and the prospect of return, reflecting a period of profound national upheaval and reflection.",
-    "structure": ["Judgment on Judah and the Nations (chapters 1-39)", "Comfort and Redemption (chapters 40-55)", "Restoration and Future Hope (chapters 56-66)"],
-    "themes": ["judgment and justice", "the coming of a messianic figure", "comfort and restoration", "monotheism"],
-    "keyVerseIds": ["isaiah-41-10", "isaiah-40-31"],
+    "structure": [
+      "Judgment on Judah and the Nations (chapters 1-39)",
+      "Comfort and Redemption (chapters 40-55)",
+      "Restoration and Future Hope (chapters 56-66)"
+    ],
+    "themes": [
+      "judgment and justice",
+      "the coming of a messianic figure",
+      "comfort and restoration",
+      "monotheism"
+    ],
+    "keyVerseIds": [
+      "isaiah-41-10",
+      "isaiah-40-31"
+    ],
     "chapters": 66,
     "readingTimeMinutes": 200
   },
@@ -112,11 +682,86 @@
     "audience": "The kingdom of Judah in its final decades before the Babylonian conquest, and the exiled community afterward.",
     "purpose": "To warn Judah of impending judgment for covenant unfaithfulness and to offer hope of eventual restoration beyond exile.",
     "historicalContext": "Jeremiah prophesied during a period of political turmoil as Judah wavered between alliances with Egypt and Babylon, culminating in Jerusalem's destruction and the exile of its people in 586 BC, an event the book directly addresses.",
-    "structure": ["Calls to Repentance (chapters 1-25)", "Conflict and Confrontation (chapters 26-38)", "Fall of Jerusalem (chapters 39-45)", "Oracles Against the Nations (chapters 46-51)", "Historical Appendix (chapter 52)"],
-    "themes": ["covenant unfaithfulness", "judgment and exile", "the new covenant", "the prophet's personal suffering"],
-    "keyVerseIds": ["jeremiah-29-11"],
+    "structure": [
+      "Calls to Repentance (chapters 1-25)",
+      "Conflict and Confrontation (chapters 26-38)",
+      "Fall of Jerusalem (chapters 39-45)",
+      "Oracles Against the Nations (chapters 46-51)",
+      "Historical Appendix (chapter 52)"
+    ],
+    "themes": [
+      "covenant unfaithfulness",
+      "judgment and exile",
+      "the new covenant",
+      "the prophet's personal suffering"
+    ],
+    "keyVerseIds": [
+      "jeremiah-29-11"
+    ],
     "chapters": 52,
     "readingTimeMinutes": 190
+  },
+  {
+    "id": "lamentations",
+    "title": "Lamentations",
+    "testament": "old",
+    "category": "Major Prophets",
+    "author": "Traditionally attributed to Jeremiah",
+    "authorNote": "Ancient Jewish and early Christian tradition credits the prophet Jeremiah, partly because the Septuagint links the book to him and because 2 Chronicles mentions Jeremiah composing laments. The book itself is anonymous, and many modern scholars regard the authorship as unknown, noting stylistic and theological differences from the book of Jeremiah that make single authorship uncertain.",
+    "dateWritten": "Widely dated shortly after the fall of Jerusalem in 586 BC, given the poems' vivid, firsthand-feeling grief over the city's destruction; some scholars allow for composition over a somewhat longer period afterward.",
+    "audience": "The survivors of Jerusalem's destruction and the Babylonian exile, giving voice to communal grief.",
+    "purpose": "To lament the destruction of Jerusalem and the Temple, giving liturgical expression to collective grief, confession, and the struggle to reconcile suffering with faith in God's justice.",
+    "historicalContext": "The book responds directly to the Babylonian conquest of Jerusalem in 586 BC, which destroyed Solomon's Temple, ended the Davidic monarchy's rule over an independent kingdom, and sent much of the population into exile. Its five poems are carefully crafted acrostics (following the Hebrew alphabet) in the ancient Near Eastern tradition of city-lament poetry known from other cultures.",
+    "structure": [
+      "First lament: the city's desolation (chapter 1)",
+      "Second lament: God's judgment described (chapter 2)",
+      "Third lament: personal suffering and hope (chapter 3)",
+      "Fourth lament: siege and famine recalled (chapter 4)",
+      "Closing prayer for restoration (chapter 5)"
+    ],
+    "themes": [
+      "grief and mourning",
+      "divine judgment",
+      "the fall of Jerusalem",
+      "hope amid despair",
+      "communal lament"
+    ],
+    "keyVerseIds": [
+      "lamentations-3-22"
+    ],
+    "chapters": 5,
+    "readingTimeMinutes": 25
+  },
+  {
+    "id": "ezekiel",
+    "title": "Ezekiel",
+    "testament": "old",
+    "category": "Major Prophets",
+    "author": "Traditionally attributed to the prophet Ezekiel",
+    "authorNote": "The book presents itself as the first-person visions and oracles of the priest-prophet Ezekiel, and most scholars accept a historical core going back to him, though many think later editors shaped, arranged, or supplemented the material as it was transmitted. The degree and extent of later editorial activity remains debated.",
+    "dateWritten": "The book's oracles are internally dated across roughly 593-571 BC, placing its composition during and shortly after the Babylonian exile; some scholars propose later editorial additions extending into the following decades.",
+    "audience": "Judean exiles living in Babylon alongside Ezekiel, as well as, in parts of the book, the population remaining in Jerusalem before its fall.",
+    "purpose": "To confront the exiled community with the reasons for Jerusalem's coming judgment, and later to offer a vision of restoration, a purified people, and a renewed Temple after judgment has fallen.",
+    "historicalContext": "Ezekiel was among the Judean elite deported to Babylon in 597 BC, a decade before Jerusalem's final destruction in 586 BC, and he prophesied from within the exile community itself. His visions and symbolic acts reflect both the trauma of displacement and priestly concerns about Temple purity, worship, and covenant faithfulness that shaped how the exiles understood their catastrophe.",
+    "structure": [
+      "Ezekiel's call and commission (chapters 1-3)",
+      "Oracles of judgment against Jerusalem and Judah (chapters 4-24)",
+      "Oracles against foreign nations (chapters 25-32)",
+      "Oracles of hope and restoration (chapters 33-39)",
+      "Vision of the new Temple and restored land (chapters 40-48)"
+    ],
+    "themes": [
+      "divine judgment and holiness",
+      "the glory and presence of God",
+      "individual responsibility",
+      "exile and restoration",
+      "the renewed Temple and covenant"
+    ],
+    "keyVerseIds": [
+      "ezekiel-36-26"
+    ],
+    "chapters": 48,
+    "readingTimeMinutes": 160
   },
   {
     "id": "daniel",
@@ -129,11 +774,356 @@
     "audience": "Jewish exiles and later communities facing pressure to abandon their faith under foreign rule.",
     "purpose": "To encourage faithfulness to God under foreign domination through stories of courage and visions of God's ultimate sovereignty over history.",
     "historicalContext": "The narrative portions are set in the Babylonian and Persian royal courts of the 6th century BC, while the visionary chapters are widely read as addressing later periods of persecution, including the Hellenistic era under the Seleucid ruler Antiochus IV.",
-    "structure": ["Court Narratives (chapters 1-6)", "Apocalyptic Visions (chapters 7-12)"],
-    "themes": ["faithfulness under persecution", "divine sovereignty over empires", "apocalyptic hope", "resurrection"],
+    "structure": [
+      "Court Narratives (chapters 1-6)",
+      "Apocalyptic Visions (chapters 7-12)"
+    ],
+    "themes": [
+      "faithfulness under persecution",
+      "divine sovereignty over empires",
+      "apocalyptic hope",
+      "resurrection"
+    ],
     "keyVerseIds": [],
     "chapters": 12,
     "readingTimeMinutes": 55
+  },
+  {
+    "id": "hosea",
+    "title": "Hosea",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Hosea",
+    "authorNote": "Hosea is grouped among the twelve 'Minor Prophets,' a label referring to the shorter length of these books rather than their importance. The book is attributed to Hosea son of Beeri, and while most scholars accept a genuine prophetic figure behind the oracles, they debate how much later editing shaped the text's final form, particularly its closing chapter.",
+    "dateWritten": "The superscription places Hosea's ministry in the mid-to-late 8th century BC, spanning the reigns of several kings of Israel and Judah, roughly 750-715 BC.",
+    "audience": "The northern kingdom of Israel, in the turbulent decades before its fall to Assyria in 722 BC.",
+    "purpose": "To confront Israel's unfaithfulness to God, portrayed through the metaphor of marital infidelity, while also promising eventual restoration and renewed covenant love.",
+    "historicalContext": "Hosea prophesied during a period of political instability and rapid royal succession in the northern kingdom, as the rising Assyrian Empire increasingly threatened the region, culminating in Israel's destruction and the exile of its population in 722 BC. The book's central metaphor, drawn from Hosea's own difficult marriage, was shaped by this backdrop of political alliances, idolatry, and impending national collapse.",
+    "structure": [
+      "Hosea's marriage as a symbol of Israel's unfaithfulness (chapters 1-3)",
+      "Oracles of indictment against Israel (chapters 4-13)",
+      "Closing call to repentance and promise of restoration (chapter 14)"
+    ],
+    "themes": [
+      "covenant unfaithfulness",
+      "divine love and judgment",
+      "idolatry",
+      "repentance and restoration",
+      "marriage as metaphor for covenant"
+    ],
+    "keyVerseIds": [
+      "hosea-6-6"
+    ],
+    "chapters": 14,
+    "readingTimeMinutes": 35
+  },
+  {
+    "id": "joel",
+    "title": "Joel",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Joel",
+    "authorNote": "Very little is known about Joel beyond his name and his father Pethuel; the book gives no explicit historical markers such as named kings, making it one of the hardest prophetic books to date with confidence.",
+    "dateWritten": "Highly debated; proposals range from the 9th century BC to the post-exilic period (5th-4th century BC), with many scholars favoring a post-exilic date based on the book's references to Jerusalem's walls, the absence of a king, and language echoing other prophetic texts.",
+    "audience": "The people of Judah and Jerusalem, called to communal repentance in response to a devastating locust plague.",
+    "purpose": "To interpret a catastrophic locust plague and drought as a call to national repentance and a foretaste of the coming 'day of the LORD,' while promising future restoration and outpouring of God's Spirit.",
+    "historicalContext": "The book responds to an actual or symbolically described locust invasion and agricultural devastation that had struck Judah, an event Joel interprets as both a present crisis and a foreshadowing of divine judgment. Its precise historical setting is unclear, which contributes to the wide range of scholarly dating proposals.",
+    "structure": [
+      "The locust plague and call to lament (chapter 1)",
+      "The coming day of the LORD and call to repentance (chapter 2)",
+      "Judgment on the nations and restoration of Judah (chapter 3)"
+    ],
+    "themes": [
+      "the day of the LORD",
+      "repentance and lament",
+      "divine judgment on the nations",
+      "restoration",
+      "the outpouring of God's Spirit"
+    ],
+    "keyVerseIds": [],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "amos",
+    "title": "Amos",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Amos",
+    "authorNote": "The book identifies Amos as a shepherd and farmer from Tekoa in Judah who prophesied in the northern kingdom of Israel; most scholars accept a historical figure behind the core oracles, though some see later editorial shaping, particularly in the closing promise of restoration.",
+    "dateWritten": "The superscription dates Amos's ministry to the reigns of Jeroboam II of Israel and Uzziah of Judah, roughly the mid-8th century BC (around 760-750 BC).",
+    "audience": "The northern kingdom of Israel during a period of relative prosperity and military success under Jeroboam II.",
+    "purpose": "To denounce social injustice, exploitation of the poor, and empty religious ritual in Israel, warning of coming judgment despite the nation's outward prosperity.",
+    "historicalContext": "Amos prophesied during a period of economic prosperity and territorial expansion for Israel under Jeroboam II, a time when growing inequality between wealthy elites and the poor coexisted with confident religious observance at shrines like Bethel. Amos's message directly challenged the assumption that prosperity and religious ritual guaranteed divine favor.",
+    "structure": [
+      "Oracles against the nations, culminating in Israel (chapters 1-2)",
+      "Indictments against Israel's injustice (chapters 3-6)",
+      "Five visions of judgment (chapters 7-9:10)",
+      "Closing promise of restoration (chapter 9:11-15)"
+    ],
+    "themes": [
+      "social justice",
+      "divine judgment on complacency",
+      "the emptiness of ritual without righteousness",
+      "the day of the LORD",
+      "restoration"
+    ],
+    "keyVerseIds": [],
+    "chapters": 9,
+    "readingTimeMinutes": 25
+  },
+  {
+    "id": "obadiah",
+    "title": "Obadiah",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Obadiah",
+    "authorNote": "Almost nothing is known about Obadiah beyond his name, which means 'servant of the LORD'; the book gives no genealogical or geographic details about him, leaving his identity essentially unknown.",
+    "dateWritten": "Debated; most scholars link the book's condemnation of Edom to Edom's participation in or approval of Jerusalem's fall in 586 BC, suggesting a date shortly after, though some propose an earlier 9th century BC setting tied to a different conflict.",
+    "audience": "The people of Judah, offering assurance that Edom's betrayal and hostility would not go unpunished.",
+    "purpose": "To pronounce judgment on Edom for its violence against and betrayal of Judah, particularly in a moment of Judah's distress, and to affirm that the 'day of the LORD' would bring justice.",
+    "historicalContext": "Edom, a neighboring kingdom descended in tradition from Esau, Jacob's brother, had a long and often hostile relationship with Judah; the book's sharpest accusations concern Edom either participating in or standing by during an attack on Jerusalem, most plausibly its destruction by Babylon in 586 BC. This betrayal by a kindred nation shaped the book's intense tone.",
+    "structure": [
+      "Judgment pronounced against Edom (verses 1-14)",
+      "The day of the LORD and restoration of Judah (verses 15-21)"
+    ],
+    "themes": [
+      "divine justice",
+      "judgment on pride and betrayal",
+      "the day of the LORD",
+      "restoration of Judah",
+      "kinship and its violation"
+    ],
+    "keyVerseIds": [],
+    "chapters": 1,
+    "readingTimeMinutes": 5
+  },
+  {
+    "id": "jonah",
+    "title": "Jonah",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Unknown; traditionally associated with the prophet Jonah",
+    "authorNote": "The book is written about Jonah in the third person rather than by him, and its author is not identified. Scholars are genuinely divided on how to classify the book: some read it as historical narrative recounting real events in the life of the prophet Jonah (mentioned briefly in 2 Kings 14:25), while others read it as a didactic short story or parable using a prophetic figure to make a theological point, given its use of exaggeration, satire, and symbolic numbers. Both readings remain actively defended, and this entry does not take a position between them.",
+    "dateWritten": "The setting is the 8th century BC, but many scholars date the book's composition later, to the post-exilic period (5th-4th century BC), based on linguistic features and its universalist themes; others defend an earlier date closer to the events described.",
+    "audience": "An Israelite audience wrestling with questions about God's mercy toward foreign, even hostile, nations.",
+    "purpose": "To challenge narrow nationalism by depicting God's mercy extending even to Nineveh, capital of the feared Assyrian Empire, through the story of a reluctant prophet who resists this very mercy.",
+    "historicalContext": "The narrative is set against the backdrop of Assyria's reputation for military brutality and its eventual role in destroying the northern kingdom of Israel in 722 BC, which makes God's compassion toward Nineveh in the story especially provocative to its original audience. Whether read as history or parable, the book engages seriously with real historical tensions between Israel and Assyria.",
+    "structure": [
+      "Jonah's flight from God's call (chapter 1)",
+      "Jonah's prayer from the fish (chapter 2)",
+      "Nineveh's repentance and God's mercy (chapter 3)",
+      "Jonah's anger and God's rebuke (chapter 4)"
+    ],
+    "themes": [
+      "divine mercy toward all nations",
+      "reluctant obedience",
+      "repentance",
+      "the limits of human judgment",
+      "God's compassion versus human narrowness"
+    ],
+    "keyVerseIds": [],
+    "chapters": 4,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "micah",
+    "title": "Micah",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Micah",
+    "authorNote": "The book identifies Micah as being from Moresheth in Judah; most scholars accept a historical prophet behind the core material, while noting that the book, like several prophetic books, shows signs of later editorial arrangement and possible supplementation, particularly in its oracles of hope.",
+    "dateWritten": "The superscription dates Micah's ministry to the reigns of Jotham, Ahaz, and Hezekiah of Judah, roughly 750-686 BC, spanning the fall of the northern kingdom in 722 BC.",
+    "audience": "The people of Judah and Jerusalem, alongside reference to the northern kingdom of Israel/Samaria.",
+    "purpose": "To warn Judah of coming judgment for social injustice and idolatry, using the recent fall of Samaria as a warning, while also promising eventual restoration and a future ruler from Bethlehem.",
+    "historicalContext": "Micah prophesied during a turbulent period that saw the Assyrian destruction of the northern kingdom of Israel in 722 BC and the later Assyrian invasion of Judah under Sennacherib in 701 BC, events that loomed large over his warnings about Jerusalem's own vulnerability to judgment. His critique of exploitation by wealthy landowners reflects social and economic tensions of the period.",
+    "structure": [
+      "Judgment against Samaria and Judah (chapters 1-3)",
+      "Future restoration and a promised ruler (chapters 4-5)",
+      "God's covenant lawsuit and call to justice (chapter 6)",
+      "Closing lament and hope in God's mercy (chapter 7)"
+    ],
+    "themes": [
+      "social justice",
+      "judgment on corrupt leadership",
+      "the coming ruler from Bethlehem",
+      "true worship versus empty ritual",
+      "restoration and forgiveness"
+    ],
+    "keyVerseIds": [
+      "micah-6-8"
+    ],
+    "chapters": 7,
+    "readingTimeMinutes": 20
+  },
+  {
+    "id": "nahum",
+    "title": "Nahum",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Nahum",
+    "authorNote": "Little is known about Nahum beyond his description as 'the Elkoshite,' and the location of Elkosh itself is uncertain, with several sites proposed by different traditions and scholars.",
+    "dateWritten": "The book's vivid anticipation of Nineveh's fall places its composition sometime between the fall of Thebes in 663 BC (mentioned as already past) and the fall of Nineveh in 612 BC, most likely close to the latter date.",
+    "audience": "The people of Judah, who lived under the shadow of Assyrian dominance for much of the 7th century BC.",
+    "purpose": "To announce the coming destruction of Nineveh, the capital of the Assyrian Empire, as an act of divine justice against a brutal imperial power, offering relief and vindication to its victims.",
+    "historicalContext": "Assyria had dominated the ancient Near East for over a century, including devastating the northern kingdom of Israel in 722 BC and repeatedly threatening Judah; Nahum's oracle anticipates and, depending on its precise date, may respond to Assyria's real historical decline, which culminated in Nineveh's fall to a coalition of Babylonians and Medes in 612 BC.",
+    "structure": [
+      "God's character as judge (chapter 1)",
+      "The siege and fall of Nineveh described (chapter 2)",
+      "Nineveh's guilt and coming ruin (chapter 3)"
+    ],
+    "themes": [
+      "divine justice against oppressive power",
+      "God's sovereignty over nations",
+      "judgment on violence and cruelty",
+      "comfort for the oppressed"
+    ],
+    "keyVerseIds": [],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "habakkuk",
+    "title": "Habakkuk",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Habakkuk",
+    "authorNote": "Almost nothing is known about Habakkuk personally; unlike many prophetic books, this one is structured mainly as a dialogue between the prophet and God rather than a collection of oracles to the people, which makes questions of composition and editing distinct from other minor prophets.",
+    "dateWritten": "Most scholars date the book to the late 7th century BC, shortly before or during the rise of Babylonian (Chaldean) power, likely between 609 and 598 BC, based on its reference to the Babylonians as a coming instrument of judgment.",
+    "audience": "The people of Judah, as the Babylonian Empire was rising and Assyrian power collapsing.",
+    "purpose": "To wrestle openly with the problem of why God would use a violent, godless nation (Babylon) to punish a people less wicked than itself, moving from complaint to an affirmation of trust in God's justice.",
+    "historicalContext": "The book is set against the rapid geopolitical shifts of the late 7th century BC, as the Neo-Babylonian Empire rose to replace Assyria as the dominant regional power, a transition that directly threatened Judah and eventually led to its conquest and exile. Habakkuk's dialogue reflects the theological crisis this posed for a people who saw themselves as God's covenant nation.",
+    "structure": [
+      "Habakkuk's first complaint and God's answer (chapter 1)",
+      "Habakkuk's second complaint and God's response of woes (chapter 2)",
+      "Habakkuk's closing prayer of trust (chapter 3)"
+    ],
+    "themes": [
+      "theodicy and the problem of injustice",
+      "faith amid uncertainty",
+      "divine sovereignty over nations",
+      "trust despite unanswered questions",
+      "'the righteous shall live by faith'"
+    ],
+    "keyVerseIds": [
+      "habakkuk-3-17"
+    ],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "zephaniah",
+    "title": "Zephaniah",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Zephaniah",
+    "authorNote": "The book's superscription traces Zephaniah's genealogy back four generations, possibly to King Hezekiah, which if accurate would make him of royal descent, though this identification is debated among scholars.",
+    "dateWritten": "The superscription dates Zephaniah's ministry to the reign of King Josiah of Judah, roughly 640-609 BC, likely before Josiah's religious reforms were fully underway (traditionally dated around 622 BC).",
+    "audience": "The people of Judah and Jerusalem, prior to or during Josiah's reforms.",
+    "purpose": "To warn Judah of the coming 'day of the LORD' as a day of judgment against idolatry and complacency, while also extending warnings to surrounding nations and promising eventual restoration for a faithful remnant.",
+    "historicalContext": "Zephaniah prophesied during the reign of Josiah, a period that began under the lingering influence of his predecessors' idolatrous practices and Assyrian religious influence, before Josiah's later reforms sought to restore exclusive worship of God. The book's urgency reflects concern that complacent and syncretistic religious practice still pervaded Judahite society.",
+    "structure": [
+      "The coming day of the LORD announced (chapter 1)",
+      "Judgment on Judah and surrounding nations (chapter 2)",
+      "Jerusalem's guilt and promised restoration (chapter 3)"
+    ],
+    "themes": [
+      "the day of the LORD",
+      "judgment on idolatry and complacency",
+      "judgment on the nations",
+      "a purified remnant",
+      "restoration and joy"
+    ],
+    "keyVerseIds": [
+      "zephaniah-3-17"
+    ],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "haggai",
+    "title": "Haggai",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Haggai",
+    "authorNote": "Little is known of Haggai's background; the book is notable among the minor prophets for precisely dating each of its oracles to specific days, giving it an unusually clear historical anchoring compared to many other prophetic books.",
+    "dateWritten": "Precisely dated within the text to 520 BC, the second year of the Persian king Darius I, during the early post-exilic period.",
+    "audience": "The returned Judean exiles in Jerusalem, along with the governor Zerubbabel and the high priest Joshua.",
+    "purpose": "To urge the returned exiles to resume and complete the rebuilding of the Temple, which had stalled, and to link the community's discouragement and economic hardship to this neglect.",
+    "historicalContext": "Haggai prophesied after the Persian king Cyrus's decree permitted Judean exiles to return from Babylon and rebuild Jerusalem, but the Temple reconstruction had stalled for about two decades amid local opposition, economic hardship, and discouragement. Haggai's oracles directly spurred the resumption of building work, alongside the prophet Zechariah.",
+    "structure": [
+      "Call to rebuild the Temple (chapter 1)",
+      "Encouragement, promised glory, and blessing (chapter 2)"
+    ],
+    "themes": [
+      "rebuilding the Temple",
+      "priorities and misplaced priorities",
+      "divine presence with the community",
+      "encouragement amid discouragement",
+      "future glory and blessing"
+    ],
+    "keyVerseIds": [],
+    "chapters": 2,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "zechariah",
+    "title": "Zechariah",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Traditionally attributed to the prophet Zechariah",
+    "authorNote": "The book identifies Zechariah as a priest-prophet who returned from exile; many scholars propose that chapters 1-8 (dated oracles and visions) and chapters 9-14 (undated oracles with a different style and outlook) may come from different hands or periods, a view sometimes called the 'Deutero-Zechariah' hypothesis, though this remains debated rather than settled.",
+    "dateWritten": "Chapters 1-8 are internally dated to 520-518 BC, during the reign of the Persian king Darius I; chapters 9-14 are undated and some scholars propose a later date, possibly extending into the 5th or even 4th century BC, though this is contested.",
+    "audience": "The returned Judean exiles in Jerusalem, alongside the leaders Zerubbabel and Joshua the high priest.",
+    "purpose": "To encourage the rebuilding of the Temple and the moral and spiritual renewal of the returned community through a series of visions, and to look ahead to a future of restored worship and divine kingship.",
+    "historicalContext": "Like Haggai, Zechariah prophesied during the early Persian period as the Judean returnees worked to rebuild the Temple, a project that had faced delays and opposition. The book's later chapters engage more with future hopes, including apocalyptic-style imagery, that some scholars connect to shifting political and religious circumstances later in the Persian or possibly early Hellenistic period.",
+    "structure": [
+      "Call to repentance (chapter 1:1-6)",
+      "Eight night visions (chapters 1:7-6:15)",
+      "Teaching on fasting and true justice (chapters 7-8)",
+      "Oracles concerning future judgment and a coming king (chapters 9-11)",
+      "Oracles concerning Jerusalem's future and God's final kingship (chapters 12-14)"
+    ],
+    "themes": [
+      "restoration of Jerusalem and the Temple",
+      "divine visions and symbolism",
+      "a future messianic figure",
+      "justice and true fasting",
+      "God's ultimate reign"
+    ],
+    "keyVerseIds": [],
+    "chapters": 14,
+    "readingTimeMinutes": 45
+  },
+  {
+    "id": "malachi",
+    "title": "Malachi",
+    "testament": "old",
+    "category": "Minor Prophets",
+    "author": "Uncertain; traditionally attributed to a prophet named Malachi",
+    "authorNote": "The Hebrew word 'malachi' means 'my messenger,' and some scholars debate whether this is a proper name at all or a title, possibly for an anonymous prophet, since it appears nowhere else in the Hebrew Bible as a personal name. Both readings are held by serious scholars, and the book's traditional treatment as a named prophet named Malachi is not universally settled.",
+    "dateWritten": "Generally dated to the mid-5th century BC, during the Persian period, based on references to a functioning Temple and social conditions resembling those addressed by Ezra and Nehemiah.",
+    "audience": "The Judean community in Jerusalem during the Persian period, including priests who had grown lax in Temple worship.",
+    "purpose": "To confront the returned community's spiritual complacency, including corrupt priestly practices, unfaithfulness in marriage, and failure to tithe, while promising a coming messenger who would prepare the way before God's judgment.",
+    "historicalContext": "Malachi likely prophesied after the Temple's rebuilding was complete but during a period of disillusionment, when initial post-exilic enthusiasm had faded into complacency, economic hardship, and lax religious observance, conditions similar to those Ezra and Nehemiah also addressed in the same general period. The book reflects tensions over intermarriage, divorce, and proper worship that were live social issues in the Persian-period Judean community.",
+    "structure": [
+      "God's love for Israel affirmed (chapter 1:1-5)",
+      "Corrupt priests rebuked (chapters 1:6-2:9)",
+      "Unfaithfulness in marriage and covenant (chapter 2:10-16)",
+      "Coming judgment and the messenger of the covenant (chapters 2:17-3:5)",
+      "Call to tithe and return to God (chapter 3:6-18)",
+      "The coming day of the LORD and promised messenger (chapter 4)"
+    ],
+    "themes": [
+      "covenant faithfulness",
+      "corrupt worship and leadership",
+      "marriage and fidelity",
+      "the coming messenger",
+      "the day of the LORD"
+    ],
+    "keyVerseIds": [],
+    "chapters": 4,
+    "readingTimeMinutes": 15
   },
   {
     "id": "matthew",
@@ -146,9 +1136,22 @@
     "audience": "A largely Jewish-Christian audience, given the Gospel's frequent citations of Hebrew scripture and Jewish customs.",
     "purpose": "To present Jesus as the promised Messiah who fulfills Hebrew scripture and to instruct the early Christian community in his teaching.",
     "historicalContext": "The Gospel was likely composed in the wake of the Jewish-Roman war and the temple's destruction, a period in which the early Christian movement was defining its identity in relation to broader Judaism.",
-    "structure": ["Birth and Preparation (chapters 1-4)", "Sermon on the Mount and Ministry (chapters 5-13)", "Growing Opposition (chapters 14-20)", "Jerusalem, Death, and Resurrection (chapters 21-28)"],
-    "themes": ["Jesus as fulfillment of prophecy", "the kingdom of heaven", "discipleship", "the Sermon on the Mount's ethical teaching"],
-    "keyVerseIds": ["matthew-11-28", "matthew-6-14"],
+    "structure": [
+      "Birth and Preparation (chapters 1-4)",
+      "Sermon on the Mount and Ministry (chapters 5-13)",
+      "Growing Opposition (chapters 14-20)",
+      "Jerusalem, Death, and Resurrection (chapters 21-28)"
+    ],
+    "themes": [
+      "Jesus as fulfillment of prophecy",
+      "the kingdom of heaven",
+      "discipleship",
+      "the Sermon on the Mount's ethical teaching"
+    ],
+    "keyVerseIds": [
+      "matthew-11-28",
+      "matthew-6-14"
+    ],
     "chapters": 28,
     "readingTimeMinutes": 110
   },
@@ -163,9 +1166,21 @@
     "audience": "Likely a Gentile Christian community, possibly in Rome, facing persecution.",
     "purpose": "To present a fast-paced narrative of Jesus's actions and identity as the suffering Son of God, encouraging endurance under hardship.",
     "historicalContext": "If composed around the Jewish-Roman war (AD 66-73) or the persecution of Christians under Nero, Mark's emphasis on suffering discipleship would have spoken directly to a community under real threat.",
-    "structure": ["Galilean Ministry (chapters 1-8)", "Journey to Jerusalem (chapters 8-10)", "Jerusalem Ministry and Passion (chapters 11-15)", "Resurrection (chapter 16)"],
-    "themes": ["Jesus as suffering servant", "urgency and action", "the cost of discipleship", "the messianic secret"],
-    "keyVerseIds": ["mark-9-24"],
+    "structure": [
+      "Galilean Ministry (chapters 1-8)",
+      "Journey to Jerusalem (chapters 8-10)",
+      "Jerusalem Ministry and Passion (chapters 11-15)",
+      "Resurrection (chapter 16)"
+    ],
+    "themes": [
+      "Jesus as suffering servant",
+      "urgency and action",
+      "the cost of discipleship",
+      "the messianic secret"
+    ],
+    "keyVerseIds": [
+      "mark-9-24"
+    ],
     "chapters": 16,
     "readingTimeMinutes": 60
   },
@@ -180,8 +1195,18 @@
     "audience": "Addressed to 'Theophilus,' likely representing a Gentile Christian audience seeking an orderly historical account.",
     "purpose": "To provide a carefully researched narrative of Jesus's life emphasizing his compassion for the marginalized and the universal scope of salvation.",
     "historicalContext": "Written for a broader Greco-Roman audience, Luke situates Jesus's story within world history and Roman political context, reflecting the early church's expansion beyond a purely Jewish setting.",
-    "structure": ["Birth and Childhood (chapters 1-2)", "Galilean Ministry (chapters 3-9)", "Journey to Jerusalem (chapters 9-19)", "Jerusalem, Death, and Resurrection (chapters 19-24)"],
-    "themes": ["compassion for the marginalized", "the role of the Holy Spirit", "prayer", "salvation for all people"],
+    "structure": [
+      "Birth and Childhood (chapters 1-2)",
+      "Galilean Ministry (chapters 3-9)",
+      "Journey to Jerusalem (chapters 9-19)",
+      "Jerusalem, Death, and Resurrection (chapters 19-24)"
+    ],
+    "themes": [
+      "compassion for the marginalized",
+      "the role of the Holy Spirit",
+      "prayer",
+      "salvation for all people"
+    ],
     "keyVerseIds": [],
     "chapters": 24,
     "readingTimeMinutes": 100
@@ -197,9 +1222,21 @@
     "audience": "A Christian community, possibly facing tension with a local synagogue, in need of deepened theological understanding of Jesus's identity.",
     "purpose": "To present Jesus as the divine Word made flesh so that readers might believe and find eternal life in his name.",
     "historicalContext": "Composed later than the other Gospels, John reflects a period of developing Christological reflection and possible separation between early Christian and Jewish synagogue communities.",
-    "structure": ["Prologue (chapter 1)", "Book of Signs (chapters 2-12)", "Book of Glory: Upper Room and Passion (chapters 13-19)", "Resurrection Appearances (chapters 20-21)"],
-    "themes": ["Jesus as the divine Word", "belief and eternal life", "signs and symbolism", "love and abiding in Christ"],
-    "keyVerseIds": ["john-3-16"],
+    "structure": [
+      "Prologue (chapter 1)",
+      "Book of Signs (chapters 2-12)",
+      "Book of Glory: Upper Room and Passion (chapters 13-19)",
+      "Resurrection Appearances (chapters 20-21)"
+    ],
+    "themes": [
+      "Jesus as the divine Word",
+      "belief and eternal life",
+      "signs and symbolism",
+      "love and abiding in Christ"
+    ],
+    "keyVerseIds": [
+      "john-3-16"
+    ],
     "chapters": 21,
     "readingTimeMinutes": 95
   },
@@ -214,8 +1251,18 @@
     "audience": "The same audience as Luke's Gospel, likely Gentile Christian readers seeking to understand the church's early growth.",
     "purpose": "To narrate the spread of the early Christian movement from Jerusalem to Rome, driven by the Holy Spirit, through the ministries of Peter and Paul.",
     "historicalContext": "Acts documents the church's expansion within the context of the Roman Empire, including its complex relationship with Jewish communities and Roman authorities across the eastern Mediterranean world.",
-    "structure": ["The Jerusalem Church and Pentecost (chapters 1-7)", "Expansion into Judea and Samaria (chapters 8-12)", "Paul's Missionary Journeys (chapters 13-21)", "Paul's Arrest and Journey to Rome (chapters 21-28)"],
-    "themes": ["the work of the Holy Spirit", "the church's expansion", "witness and mission", "unity amid diversity"],
+    "structure": [
+      "The Jerusalem Church and Pentecost (chapters 1-7)",
+      "Expansion into Judea and Samaria (chapters 8-12)",
+      "Paul's Missionary Journeys (chapters 13-21)",
+      "Paul's Arrest and Journey to Rome (chapters 21-28)"
+    ],
+    "themes": [
+      "the work of the Holy Spirit",
+      "the church's expansion",
+      "witness and mission",
+      "unity amid diversity"
+    ],
     "keyVerseIds": [],
     "chapters": 28,
     "readingTimeMinutes": 110
@@ -231,9 +1278,21 @@
     "audience": "The Christian community in Rome, a congregation Paul had not yet visited.",
     "purpose": "To present a systematic explanation of the gospel, righteousness by faith, and the relationship between Jewish and Gentile believers, in preparation for Paul's planned visit.",
     "historicalContext": "Written to a Roman church made up of both Jewish and Gentile Christians, the letter addresses tensions that arose partly from the expulsion and return of Jewish residents (including Jewish Christians) under earlier imperial edicts.",
-    "structure": ["Sin and the Need for Righteousness (chapters 1-3)", "Justification by Faith (chapters 4-8)", "Israel's Place in God's Plan (chapters 9-11)", "Practical Christian Living (chapters 12-16)"],
-    "themes": ["justification by faith", "grace and law", "unity of Jew and Gentile", "the Christian life"],
-    "keyVerseIds": ["romans-8-28"],
+    "structure": [
+      "Sin and the Need for Righteousness (chapters 1-3)",
+      "Justification by Faith (chapters 4-8)",
+      "Israel's Place in God's Plan (chapters 9-11)",
+      "Practical Christian Living (chapters 12-16)"
+    ],
+    "themes": [
+      "justification by faith",
+      "grace and law",
+      "unity of Jew and Gentile",
+      "the Christian life"
+    ],
+    "keyVerseIds": [
+      "romans-8-28"
+    ],
     "chapters": 16,
     "readingTimeMinutes": 70
   },
@@ -248,11 +1307,51 @@
     "audience": "The Christian community in Corinth, a diverse and cosmopolitan Greek city.",
     "purpose": "To address reports of division, moral confusion, and disorderly worship within the Corinthian church, and to answer questions the congregation had raised in a letter to Paul.",
     "historicalContext": "Corinth was a wealthy, commercially active Roman colony known for its cultural diversity and competitive social climate, factors that contributed to the factionalism and ethical challenges Paul addresses.",
-    "structure": ["Divisions in the Church (chapters 1-4)", "Moral and Ethical Issues (chapters 5-7)", "Worship and Community Order (chapters 8-14)", "The Resurrection (chapter 15)"],
-    "themes": ["church unity", "love", "spiritual gifts", "the resurrection of the body"],
+    "structure": [
+      "Divisions in the Church (chapters 1-4)",
+      "Moral and Ethical Issues (chapters 5-7)",
+      "Worship and Community Order (chapters 8-14)",
+      "The Resurrection (chapter 15)"
+    ],
+    "themes": [
+      "church unity",
+      "love",
+      "spiritual gifts",
+      "the resurrection of the body"
+    ],
     "keyVerseIds": [],
     "chapters": 16,
     "readingTimeMinutes": 65
+  },
+  {
+    "id": "2-corinthians",
+    "title": "2 Corinthians",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "2 Corinthians is among the letters accepted as genuinely Pauline by near-universal scholarly consensus. A significant number of scholars, however, think the letter as it now stands may be a compilation of two or more originally separate Pauline letters or fragments stitched together by an early editor.",
+    "dateWritten": "c. 55-56 CE",
+    "audience": "The Christian community at Corinth, a busy, cosmopolitan Greek port city.",
+    "purpose": "Written to defend Paul's apostolic authority against rival teachers who had gained influence in Corinth, to address a painful personal conflict with the church, and to promote a collection of aid for the Jerusalem church.",
+    "historicalContext": "Paul's relationship with the Corinthian church had grown strained, involving an unrecorded 'painful visit' and a now-lost 'severe letter.' This letter reflects both relief at partial reconciliation and continued tension with outside teachers questioning Paul's credentials.",
+    "structure": [
+      "Reconciliation and the nature of Paul's ministry (1-7)",
+      "The collection for the Jerusalem church (8-9)",
+      "Paul's defense against his opponents (10-13)"
+    ],
+    "themes": [
+      "reconciliation",
+      "suffering and comfort",
+      "generosity",
+      "apostolic authority",
+      "power in weakness"
+    ],
+    "keyVerseIds": [
+      "2-corinthians-5-17",
+      "2-corinthians-12-9"
+    ],
+    "chapters": 13,
+    "readingTimeMinutes": 45
   },
   {
     "id": "galatians",
@@ -265,8 +1364,17 @@
     "audience": "Christian communities in the region of Galatia in Asia Minor, largely Gentile converts.",
     "purpose": "To defend the gospel of salvation by faith against teaching that required Gentile converts to adopt Jewish law observance, particularly circumcision.",
     "historicalContext": "The letter reflects an early and significant controversy in the church over how Gentile believers related to Jewish law, a debate also addressed at the Jerusalem council described in Acts 15.",
-    "structure": ["Paul's Defense of His Gospel and Authority (chapters 1-2)", "Justification by Faith, Not Law (chapters 3-4)", "Freedom and Life in the Spirit (chapters 5-6)"],
-    "themes": ["freedom in Christ", "justification by faith", "law versus grace", "the fruit of the Spirit"],
+    "structure": [
+      "Paul's Defense of His Gospel and Authority (chapters 1-2)",
+      "Justification by Faith, Not Law (chapters 3-4)",
+      "Freedom and Life in the Spirit (chapters 5-6)"
+    ],
+    "themes": [
+      "freedom in Christ",
+      "justification by faith",
+      "law versus grace",
+      "the fruit of the Spirit"
+    ],
     "keyVerseIds": [],
     "chapters": 6,
     "readingTimeMinutes": 25
@@ -282,9 +1390,20 @@
     "audience": "Likely intended as a circular letter to churches in the region of Ephesus and Asia Minor rather than a single congregation.",
     "purpose": "To describe the unity of the church as the body of Christ and to encourage believers toward holy living rooted in that unity.",
     "historicalContext": "The letter addresses a church context in Roman Asia Minor where Jewish and Gentile believers needed to understand their shared identity as one new community in Christ.",
-    "structure": ["The Riches of Christ and the Church (chapters 1-3)", "The Unity and Growth of the Church (chapter 4)", "Christian Household and Conduct (chapters 5-6)"],
-    "themes": ["unity of the church", "grace", "spiritual blessing in Christ", "the armor of God"],
-    "keyVerseIds": [],
+    "structure": [
+      "The Riches of Christ and the Church (chapters 1-3)",
+      "The Unity and Growth of the Church (chapter 4)",
+      "Christian Household and Conduct (chapters 5-6)"
+    ],
+    "themes": [
+      "unity of the church",
+      "grace",
+      "spiritual blessing in Christ",
+      "the armor of God"
+    ],
+    "keyVerseIds": [
+      "ephesians-6-10"
+    ],
     "chapters": 6,
     "readingTimeMinutes": 25
   },
@@ -299,11 +1418,247 @@
     "audience": "The Christian community in Philippi, a Roman colony in Macedonia and one of Paul's earliest European congregations.",
     "purpose": "To thank the Philippian church for their support, encourage joy and unity despite hardship, and warn against false teaching.",
     "historicalContext": "Written from prison, the letter reflects Paul's personal circumstances of confinement while addressing a beloved congregation with whom he had a warm, longstanding relationship.",
-    "structure": ["Thanksgiving and Paul's Circumstances (chapter 1)", "The Example of Christ's Humility (chapter 2)", "Warnings and Paul's Testimony (chapter 3)", "Final Exhortations (chapter 4)"],
-    "themes": ["joy amid suffering", "humility", "contentment", "unity in the gospel"],
-    "keyVerseIds": ["philippians-4-6"],
+    "structure": [
+      "Thanksgiving and Paul's Circumstances (chapter 1)",
+      "The Example of Christ's Humility (chapter 2)",
+      "Warnings and Paul's Testimony (chapter 3)",
+      "Final Exhortations (chapter 4)"
+    ],
+    "themes": [
+      "joy amid suffering",
+      "humility",
+      "contentment",
+      "unity in the gospel"
+    ],
+    "keyVerseIds": [
+      "philippians-4-6"
+    ],
     "chapters": 4,
     "readingTimeMinutes": 20
+  },
+  {
+    "id": "colossians",
+    "title": "Colossians",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "Colossians' authorship is genuinely debated among scholars. Many accept it as authentically Pauline, but a substantial number regard it as deutero-Pauline, pointing to differences in vocabulary, sentence style, and a more developed view of Christ's cosmic role compared to the undisputed letters.",
+    "dateWritten": "c. 60-62 CE if written by Paul during a Roman imprisonment; a later date is proposed by scholars who view it as pseudonymous.",
+    "audience": "The Christian community at Colossae, a small city in the Lycus Valley of Asia Minor, mostly gentile converts.",
+    "purpose": "Written to counter a local blend of philosophical speculation, Jewish ritual practice, and possibly angel veneration, and to affirm Christ's supremacy over all creation and spiritual powers.",
+    "historicalContext": "Colossae was a minor city overshadowed by nearby Laodicea and Hierapolis; the letter responds to a specific local teaching sometimes called the 'Colossian heresy' and is closely linked to the letter to Philemon, which involves the same region and the figure of Onesimus.",
+    "structure": [
+      "Christ's supremacy over creation (1)",
+      "Warning against the Colossian false teaching (2)",
+      "Practical instructions for Christian living and households (3-4)"
+    ],
+    "themes": [
+      "supremacy of Christ",
+      "false teaching",
+      "new life in Christ",
+      "household relationships"
+    ],
+    "keyVerseIds": [
+      "colossians-3-13",
+      "colossians-3-23"
+    ],
+    "chapters": 4,
+    "readingTimeMinutes": 15
+  },
+  {
+    "id": "1-thessalonians",
+    "title": "1 Thessalonians",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "1 Thessalonians is regarded by the great majority of scholars as genuinely Pauline, and is often considered the earliest surviving letter in the New Testament.",
+    "dateWritten": "c. 50-51 CE",
+    "audience": "The Christian community at Thessalonica, a major city in the Roman province of Macedonia.",
+    "purpose": "Written to encourage a young church enduring social pressure and persecution, and to answer questions about the fate of believers who had died before Christ's expected return.",
+    "historicalContext": "Paul founded the Thessalonian church during his second missionary journey but was forced to leave the city prematurely amid opposition; Timothy's later report on the church's steadfastness prompted this warm, pastoral letter.",
+    "structure": [
+      "Thanksgiving and reflection on Paul's ministry there (1-3)",
+      "Instructions for holy living (4:1-12)",
+      "Teaching on the Lord's return (4:13-5:11)",
+      "Final exhortations (5:12-28)"
+    ],
+    "themes": [
+      "the second coming",
+      "hope amid persecution",
+      "holy living",
+      "encouragement"
+    ],
+    "keyVerseIds": [
+      "1-thessalonians-5-18"
+    ],
+    "chapters": 5,
+    "readingTimeMinutes": 15
+  },
+  {
+    "id": "2-thessalonians",
+    "title": "2 Thessalonians",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "2 Thessalonians is one of the more genuinely contested letters in the Pauline corpus. Some scholars point to differences in tone, style, and eschatology from 1 Thessalonians as evidence it was written later by a follower in Paul's name, while others defend Pauline authorship, noting the letter's similar circumstances and shared vocabulary.",
+    "dateWritten": "c. 51-52 CE if genuinely Pauline; some critical scholars propose a later date.",
+    "audience": "The Christian community at Thessalonica.",
+    "purpose": "Written to correct a mistaken belief circulating in the church that the 'day of the Lord' had already arrived, to calm resulting anxiety, and to address believers who had stopped working in anticipation of Christ's imminent return.",
+    "historicalContext": "The letter suggests that some in Thessalonica had been unsettled, possibly by a forged letter or misunderstood teaching, into believing the final judgment had already begun, leading to social and economic disruption within the community.",
+    "structure": [
+      "Thanksgiving and encouragement amid persecution (1)",
+      "The 'man of lawlessness' and the day of the Lord (2)",
+      "Exhortation against idleness (3)"
+    ],
+    "themes": [
+      "the day of the Lord",
+      "perseverance",
+      "false teaching",
+      "diligence and work"
+    ],
+    "keyVerseIds": [],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "1-timothy",
+    "title": "1 Timothy",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "1 Timothy is one of the three 'Pastoral Epistles,' and a majority of critical scholars regard it as deutero-Pauline, written by a later follower using Paul's name and drawing on his letters, based on vocabulary, a more institutionalized church structure, and stylistic differences. Some scholars continue to defend Pauline authorship, possibly through a secretary.",
+    "dateWritten": "c. 62-67 CE if written by Paul; many critical scholars date it later, c. 90-140 CE, if pseudonymous.",
+    "audience": "Framed as a personal letter to Timothy, Paul's younger coworker leading the church in Ephesus, though intended for broader instructional use.",
+    "purpose": "Written to give guidance on church organization, qualifications for leaders, and how to counter emerging false teaching.",
+    "historicalContext": "The letter reflects a church working out more formal structures of leadership, including elders and deacons, and addresses false teachings that had begun to spread within the Ephesian congregation.",
+    "structure": [
+      "Warning against false teachers (1)",
+      "Instructions on worship and church leadership (2-3)",
+      "Combating false teaching (4)",
+      "Pastoral instructions for various groups (5-6)"
+    ],
+    "themes": [
+      "church leadership",
+      "sound doctrine",
+      "godliness",
+      "guarding the faith"
+    ],
+    "keyVerseIds": [],
+    "chapters": 6,
+    "readingTimeMinutes": 20
+  },
+  {
+    "id": "2-timothy",
+    "title": "2 Timothy",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "Like the other Pastoral Epistles, 2 Timothy is widely viewed by critical scholars as deutero-Pauline. Its more personal, testamentary tone leads some scholars to consider it more plausibly authentic, or to contain genuine fragments of Paul's own writing, than 1 Timothy or Titus.",
+    "dateWritten": "c. 64-67 CE if genuine, near the end of Paul's life.",
+    "audience": "Framed as a personal letter to Timothy.",
+    "purpose": "Presented as Paul's final letter, urging Timothy to remain faithful, endure hardship for the gospel, and continue teaching sound doctrine after Paul's death.",
+    "historicalContext": "The letter is set during a Roman imprisonment shortly before Paul's death, giving it a valedictory, personal quality distinct from the more institutional tone of 1 Timothy and Titus.",
+    "structure": [
+      "Call to faithfulness and endurance (1)",
+      "Charge to be a faithful minister (2)",
+      "Warning about the 'last days' (3)",
+      "Paul's final charge and farewell (4)"
+    ],
+    "themes": [
+      "endurance",
+      "faithfulness",
+      "sound teaching",
+      "legacy"
+    ],
+    "keyVerseIds": [
+      "2-timothy-1-7"
+    ],
+    "chapters": 4,
+    "readingTimeMinutes": 15
+  },
+  {
+    "id": "titus",
+    "title": "Titus",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "Titus is the third Pastoral Epistle and is subject to the same authorship debate as 1-2 Timothy; many critical scholars regard it as deutero-Pauline, written by a later follower drawing on Paul's authority and letters.",
+    "dateWritten": "c. 62-66 CE if genuine; a later date is proposed by scholars who view it as pseudonymous.",
+    "audience": "Framed as a personal letter to Titus, Paul's coworker overseeing the churches on Crete.",
+    "purpose": "Written to instruct Titus in appointing qualified elders and promoting orderly, sound teaching among the churches of Crete.",
+    "historicalContext": "The letter addresses the practical needs of newly forming churches on Crete, an island with a mixed and, according to the letter, sometimes unruly population, requiring clear leadership standards.",
+    "structure": [
+      "Qualifications for church leaders (1)",
+      "Instructions for various groups within the church (2)",
+      "Godly living and final instructions (3)"
+    ],
+    "themes": [
+      "church order",
+      "good works",
+      "sound doctrine",
+      "grace"
+    ],
+    "keyVerseIds": [],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "philemon",
+    "title": "Philemon",
+    "testament": "new",
+    "category": "Pauline Epistle",
+    "author": "Traditionally attributed to Paul",
+    "authorNote": "Philemon is essentially undisputed as genuinely Pauline, and is one of the most confidently attributed letters in the entire New Testament.",
+    "dateWritten": "c. 60-62 CE, during a Roman imprisonment.",
+    "audience": "Philemon, a wealthy Christian in Colossae who hosted a house church, along with his household and congregation.",
+    "purpose": "A personal appeal urging Philemon to receive back his runaway slave Onesimus, who had become a Christian under Paul's influence, 'no longer as a slave but... as a brother.'",
+    "historicalContext": "The letter offers a rare, intimate glimpse into how early Christian communities navigated the realities of the Roman slavery system, and is closely tied to the situation addressed in Colossians.",
+    "structure": [
+      "Greeting and thanksgiving (1-7)",
+      "Appeal on behalf of Onesimus (8-20)",
+      "Closing requests and greetings (21-25)"
+    ],
+    "themes": [
+      "forgiveness",
+      "reconciliation",
+      "Christian brotherhood",
+      "slavery and social status"
+    ],
+    "keyVerseIds": [],
+    "chapters": 1,
+    "readingTimeMinutes": 4
+  },
+  {
+    "id": "hebrews",
+    "title": "Hebrews",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Anonymous",
+    "authorNote": "Hebrews is explicitly anonymous in the text itself and was debated even in antiquity. Its polished Greek style, vocabulary, and theological approach differ markedly from Paul's undisputed letters, and mainstream scholarship does not attribute it to Paul despite later church tradition sometimes grouping it with his letters. Other proposed authors, none provable, include Apollos, Barnabas, and Priscilla.",
+    "dateWritten": "c. 60-95 CE; precise dating remains uncertain.",
+    "audience": "Likely a community of Jewish Christians facing pressure or temptation to abandon their new faith and return to traditional Jewish religious practice.",
+    "purpose": "Written to demonstrate Christ's superiority over Jewish institutions, including angels, Moses, the priesthood, and the sacrificial system, and to encourage perseverance amid discouragement or persecution.",
+    "historicalContext": "The letter's extensive use of Jewish scripture and imagery suggests an audience deeply familiar with temple ritual and the Hebrew Bible, apparently tempted by social pressure or hardship to drift away from their commitment to Christ.",
+    "structure": [
+      "Christ superior to angels and Moses (1-4)",
+      "Christ's superior priesthood (5-7)",
+      "Christ's superior sacrifice and covenant (8-10)",
+      "The call to faith and endurance (11-12)",
+      "Closing exhortations (13)"
+    ],
+    "themes": [
+      "superiority of Christ",
+      "faith",
+      "perseverance",
+      "priesthood and sacrifice",
+      "new covenant"
+    ],
+    "keyVerseIds": [
+      "hebrews-11-1",
+      "hebrews-12-1"
+    ],
+    "chapters": 13,
+    "readingTimeMinutes": 50
   },
   {
     "id": "james",
@@ -316,11 +1671,186 @@
     "audience": "Jewish Christians scattered outside Palestine, described as 'the twelve tribes in the dispersion.'",
     "purpose": "To offer practical ethical instruction on living out genuine faith through works, endurance, and wise speech.",
     "historicalContext": "The letter addresses a Jewish Christian audience navigating economic hardship, social favoritism, and the challenge of demonstrating authentic faith amid everyday trials.",
-    "structure": ["Trials and Wisdom (chapter 1)", "Faith and Works (chapters 2-3)", "Warnings Against Worldliness (chapter 4)", "Patience and Prayer (chapter 5)"],
-    "themes": ["faith and works", "wisdom", "speech and self-control", "care for the poor"],
-    "keyVerseIds": ["james-1-5"],
+    "structure": [
+      "Trials and Wisdom (chapter 1)",
+      "Faith and Works (chapters 2-3)",
+      "Warnings Against Worldliness (chapter 4)",
+      "Patience and Prayer (chapter 5)"
+    ],
+    "themes": [
+      "faith and works",
+      "wisdom",
+      "speech and self-control",
+      "care for the poor"
+    ],
+    "keyVerseIds": [
+      "james-1-5"
+    ],
     "chapters": 5,
     "readingTimeMinutes": 20
+  },
+  {
+    "id": "1-peter",
+    "title": "1 Peter",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Traditionally attributed to the apostle Peter",
+    "authorNote": "Petrine authorship of 1 Peter is debated. The letter's polished Greek and apparent awareness of persecution spread across several Roman provinces lead some scholars to suspect a later writer or secretary working in Peter's name, while other scholars defend authenticity, citing the letter's explicit self-identification and early attestation.",
+    "dateWritten": "c. 60-65 CE if genuine; some scholars propose a later date.",
+    "audience": "Christians scattered across several provinces of Asia Minor (modern Turkey), experiencing social ostracism and hardship.",
+    "purpose": "Written to encourage believers who were enduring suffering and marginalization for their faith, urging them to live honorably despite hostility.",
+    "historicalContext": "The letter reflects a period when Christians in Asia Minor faced local social hostility and suspicion rather than necessarily organized state persecution, addressing its recipients as 'exiles' dispersed across the region.",
+    "structure": [
+      "The identity and hope of believers (1)",
+      "Call to holy living (2)",
+      "Suffering for doing good (3-4)",
+      "Instructions to elders and final exhortations (5)"
+    ],
+    "themes": [
+      "suffering",
+      "hope",
+      "holy living",
+      "submission",
+      "perseverance"
+    ],
+    "keyVerseIds": [
+      "1-peter-5-7"
+    ],
+    "chapters": 5,
+    "readingTimeMinutes": 18
+  },
+  {
+    "id": "2-peter",
+    "title": "2 Peter",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Traditionally attributed to the apostle Peter",
+    "authorNote": "2 Peter is widely regarded by mainstream critical scholarship as among the most doubtful authorship claims in the New Testament, largely considered pseudonymous and written well after Peter's death, based on its stylistic differences from 1 Peter, its apparent literary dependence on Jude, and its reference to a collection of Paul's letters. Some scholars, particularly in more traditional circles, continue to defend Petrine authorship.",
+    "dateWritten": "c. 80-140 CE according to most critical scholars; c. 65 CE if genuinely written by Peter.",
+    "audience": "A broad Christian audience facing the influence of false teachers within their communities.",
+    "purpose": "Written to warn against false teachers and scoffers who denied the reality of Christ's return, and to affirm the certainty of divine judgment.",
+    "historicalContext": "The letter responds to internal challenges from teachers who apparently promoted moral license and questioned why Christ's promised return had been delayed.",
+    "structure": [
+      "Growing in faith and virtue (1)",
+      "Condemnation of false teachers (2)",
+      "The coming day of the Lord (3)"
+    ],
+    "themes": [
+      "false teachers",
+      "the day of the Lord",
+      "spiritual growth",
+      "divine judgment"
+    ],
+    "keyVerseIds": [],
+    "chapters": 3,
+    "readingTimeMinutes": 10
+  },
+  {
+    "id": "1-john",
+    "title": "1 John",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Traditionally attributed to John the Apostle",
+    "authorNote": "Authorship of 1 John is debated separately from the question of who wrote the Gospel of John. Many scholars think 1-3 John share a common author, sometimes identified as 'John the Elder,' associated with a broader 'Johannine community,' rather than definitively the apostle John himself.",
+    "dateWritten": "c. 85-100 CE",
+    "audience": "A Christian community, likely within the wider Johannine circle, facing an internal division.",
+    "purpose": "Written to reassure believers of their genuine fellowship with God, to counter a schismatic teaching that denied Christ's full humanity, and to stress the centrality of love and obedience.",
+    "historicalContext": "The letter reflects a painful split within its community, apparently involving early proto-Gnostic ideas that questioned whether Jesus had truly come 'in the flesh.'",
+    "structure": [
+      "Fellowship with God and walking in light (1-2)",
+      "Children of God and love for one another (3-4)",
+      "Faith, assurance, and eternal life (5)"
+    ],
+    "themes": [
+      "love",
+      "fellowship with God",
+      "assurance",
+      "combating false teaching",
+      "obedience"
+    ],
+    "keyVerseIds": [
+      "1-john-4-18"
+    ],
+    "chapters": 5,
+    "readingTimeMinutes": 15
+  },
+  {
+    "id": "2-john",
+    "title": "2 John",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Traditionally attributed to John the Apostle",
+    "authorNote": "2 John shares the same authorship discussion as 1 and 3 John. The author identifies only as 'the Elder,' which fuels ongoing scholarly debate over whether this refers to the apostle John, another early leader of the same name, or a figure within the Johannine community.",
+    "dateWritten": "c. 85-100 CE",
+    "audience": "Addressed to 'the elect lady and her children,' likely a symbolic reference to a specific local church and its members.",
+    "purpose": "Written to warn against welcoming traveling teachers who denied Christ's incarnation, and to reaffirm the command to love one another.",
+    "historicalContext": "The letter reflects concerns within the Johannine community about itinerant teachers spreading doctrine inconsistent with its understanding of Christ.",
+    "structure": [
+      "Greeting and the call to love (1-6)",
+      "Warning against false teachers (7-11)",
+      "Closing (12-13)"
+    ],
+    "themes": [
+      "truth and love",
+      "guarding sound teaching",
+      "discernment in hospitality"
+    ],
+    "keyVerseIds": [],
+    "chapters": 1,
+    "readingTimeMinutes": 3
+  },
+  {
+    "id": "3-john",
+    "title": "3 John",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Traditionally attributed to John the Apostle",
+    "authorNote": "3 John shares the same authorship discussion as 1 and 2 John, with the author again identifying only as 'the Elder,' leaving open whether this is the apostle John or another leader connected to the Johannine community.",
+    "dateWritten": "c. 85-100 CE",
+    "audience": "Gaius, an individual leader or member within a local church.",
+    "purpose": "Written to commend Gaius for his hospitality toward traveling teachers, and to criticize Diotrephes for refusing to cooperate and asserting improper control over the church.",
+    "historicalContext": "The letter offers a rare glimpse into leadership tensions and questions of authority among early house churches, as different local figures vied for influence.",
+    "structure": [
+      "Greeting and commendation of Gaius (1-8)",
+      "Condemnation of Diotrephes (9-11)",
+      "Commendation of Demetrius and closing (12-14)"
+    ],
+    "themes": [
+      "hospitality",
+      "church leadership conflict",
+      "truth",
+      "authority"
+    ],
+    "keyVerseIds": [],
+    "chapters": 1,
+    "readingTimeMinutes": 3
+  },
+  {
+    "id": "jude",
+    "title": "Jude",
+    "testament": "new",
+    "category": "General Epistle",
+    "author": "Traditionally attributed to Jude, brother of James",
+    "authorNote": "Authorship of Jude is debated. Some scholars accept the traditional attribution to Jude, brother of James (and by extension a half-brother of Jesus), noting the modest, non-self-aggrandizing way the author identifies himself. Others view the letter as pseudonymous, pointing to its close literary relationship with 2 Peter and a probable later composition date.",
+    "dateWritten": "c. 65-90 CE; precise dating is disputed.",
+    "audience": "A general Christian audience facing infiltration by false, morally permissive teachers.",
+    "purpose": "Written to urge believers to 'contend for the faith' against false teachers who had entered the community and were undermining its moral and doctrinal integrity.",
+    "historicalContext": "The letter closely parallels chapter 2 of 2 Peter, suggesting a literary relationship between the two texts in one direction or another, and addresses a community perceived as being led astray by teachers promoting license.",
+    "structure": [
+      "Occasion for writing (1-4)",
+      "Judgment on false teachers (5-16)",
+      "Call to persevere (17-23)",
+      "Closing doxology (24-25)"
+    ],
+    "themes": [
+      "contending for the faith",
+      "judgment",
+      "false teachers",
+      "perseverance"
+    ],
+    "keyVerseIds": [],
+    "chapters": 1,
+    "readingTimeMinutes": 5
   },
   {
     "id": "revelation",
@@ -333,9 +1863,21 @@
     "audience": "Seven churches in Roman Asia Minor facing pressure to compromise their faith under Roman imperial religion.",
     "purpose": "To encourage persecuted and pressured Christian communities with a vision of God's ultimate victory over evil and the promise of a renewed creation.",
     "historicalContext": "Written during a period of tension between the early church and Roman imperial cult practices, the book uses apocalyptic imagery common in Jewish literature of the era to address political and spiritual pressures facing its first readers.",
-    "structure": ["Letters to the Seven Churches (chapters 1-3)", "Visions of Heaven and Judgment (chapters 4-16)", "The Fall of Babylon and Final Victory (chapters 17-20)", "The New Heaven and New Earth (chapters 21-22)"],
-    "themes": ["God's sovereignty over history", "perseverance under persecution", "judgment", "the renewal of creation"],
-    "keyVerseIds": ["revelation-21-4"],
+    "structure": [
+      "Letters to the Seven Churches (chapters 1-3)",
+      "Visions of Heaven and Judgment (chapters 4-16)",
+      "The Fall of Babylon and Final Victory (chapters 17-20)",
+      "The New Heaven and New Earth (chapters 21-22)"
+    ],
+    "themes": [
+      "God's sovereignty over history",
+      "perseverance under persecution",
+      "judgment",
+      "the renewal of creation"
+    ],
+    "keyVerseIds": [
+      "revelation-21-4"
+    ],
     "chapters": 22,
     "readingTimeMinutes": 90
   }
