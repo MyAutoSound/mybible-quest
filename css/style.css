@@ -268,8 +268,8 @@ p { color: var(--text-secondary); }
 .hero-visual { position: relative; display: flex; justify-content: center; padding: 10px 24px 40px; }
 .hero-photo-card {
   width: 100%;
-  max-width: 360px;
-  aspect-ratio: 4 / 5;
+  max-width: 420px;
+  aspect-ratio: 3 / 2;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
@@ -277,12 +277,6 @@ p { color: var(--text-secondary); }
   position: relative;
 }
 .hero-photo-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.hero-photo-credit {
-  position: absolute; left: 0; right: 0; top: 0;
-  padding: 10px 14px 24px;
-  font-size: 0.68rem; color: #fdfcfa;
-  background: linear-gradient(180deg, rgba(20,15,5,0.6) 0%, transparent 100%);
-}
 .hero-app-card {
   position: absolute;
   left: 50%;
