@@ -110,11 +110,17 @@ async function renderPlansTeaser() {
 async function renderArchaeologyTeaser() {
   const items = await DataStore.load("archaeology");
   document.getElementById("archaeology-teaser-grid").innerHTML = items.slice(0, 3).map(a => `
-    <div class="card reveal">
-      <div class="card-icon blue">${ICONS.pin}</div>
-      <h3>${a.name}</h3>
-      <p>${a.description}</p>
-      <div class="meta-row"><span class="tag">${a.consensusLevel}</span></div>
+    <div class="artifact-card reveal">
+      <div class="artifact-photo">
+        <img src="${a.imageUrl}" alt="${a.imageAlt}" loading="lazy">
+        <span class="artifact-consensus">${a.consensusLevel}</span>
+      </div>
+      <div class="artifact-body">
+        <div class="artifact-meta">${a.era} · ${a.location}</div>
+        <h3>${a.name}</h3>
+        <p>${a.description}</p>
+        <div class="artifact-credit">${a.imageCredit}</div>
+      </div>
     </div>
   `).join("");
   initScrollReveal();

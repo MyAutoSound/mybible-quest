@@ -8,7 +8,10 @@
     "description": "A fragmentary basalt victory stele erected by an Aramean king, discovered in pieces during excavations at Tel Dan. The Aramaic inscription boasts of victories over the kings of Israel and of 'the House of David,' making it the earliest known reference to David outside the Bible. It was found reused as building material in a later city wall.",
     "significance": "It provides the earliest extrabiblical evidence that a dynasty called 'the House of David' was recognized by neighboring kingdoms as a real political entity, not simply a later literary invention.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": null
+    "relatedPlaceId": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JRSLM_300116_Tel_Dan_Stele_01.jpg/500px-JRSLM_300116_Tel_Dan_Stele_01.jpg",
+    "imageCredit": "Photo: Oren Rozen, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageAlt": "The fragmentary basalt Tel Dan Stele on display, showing its Aramaic inscription."
   },
   {
     "id": "dead-sea-scrolls",
@@ -19,7 +22,10 @@
     "description": "A collection of roughly 900 manuscripts and fragments found in eleven caves near Qumran, including copies of nearly every book of the Hebrew Bible along with community rules, hymns, and commentaries. They were preserved by the region's dry climate and are the oldest surviving copies of most Hebrew scripture by roughly a thousand years.",
     "significance": "They let scholars compare much later medieval Hebrew Bible manuscripts against far older copies, showing the text was transmitted with remarkable, though not perfect, consistency over a millennium.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": null
+    "relatedPlaceId": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Psalm_23_Dead_Sea_Scrolls.jpg/500px-Psalm_23_Dead_Sea_Scrolls.jpg",
+    "imageCredit": "Public domain (CC0), via Wikimedia Commons",
+    "imageAlt": "A Dead Sea Scroll fragment containing text from Psalm 23."
   },
   {
     "id": "pilate-stone",
@@ -30,7 +36,10 @@
     "description": "A limestone block found during excavation of a Roman theater, bearing a partial Latin inscription that names 'Pontius Pilatus, Prefect of Judea' as dedicating a building to the emperor Tiberius. It is the only known archaeological artifact contemporary with Pilate that names him directly.",
     "significance": "It confirms Pontius Pilate as a real historical governor and settles his correct Roman title as prefect, corroborating his existence outside of biblical and other literary texts.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": null
+    "relatedPlaceId": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pontius_Pilate_Inscription.JPG/500px-Pontius_Pilate_Inscription.JPG",
+    "imageCredit": "Public domain (CC0), via Wikimedia Commons",
+    "imageAlt": "The Pilate Stone, a limestone block with a partial Latin inscription naming Pontius Pilate."
   },
   {
     "id": "cyrus-cylinder",
@@ -41,7 +50,10 @@
     "description": "A clay cylinder inscribed in Akkadian cuneiform, commissioned by Persian king Cyrus the Great after his conquest of Babylon. It describes Cyrus restoring displaced peoples and their gods to their homelands and rebuilding temples, a policy that parallels the biblical account of Cyrus permitting exiled Judeans to return to Jerusalem.",
     "significance": "It shows that Cyrus's policy of allowing conquered peoples to return home and rebuild their worship, described in the books of Ezra and Chronicles, matches a broader documented Persian imperial practice.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": "babylon"
+    "relatedPlaceId": "babylon",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cyrus_Cylinder.jpg/500px-Cyrus_Cylinder.jpg",
+    "imageCredit": "Photo: Mike Peel, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageAlt": "The Cyrus Cylinder, a clay cylinder inscribed in Akkadian cuneiform, on display at the British Museum."
   },
   {
     "id": "merneptah-stele",
@@ -52,7 +64,10 @@
     "description": "A granite victory inscription of Pharaoh Merneptah listing enemies defeated during a military campaign in Canaan. Among the names is 'Israel,' written with a determinative marking it as a people group rather than a city-state or territory.",
     "significance": "It is the earliest known reference to Israel outside the Bible, indicating some group known as Israel existed in or near Canaan by the late 13th century BC, though it says nothing about their size, organization, or origins.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": "egypt"
+    "relatedPlaceId": "egypt",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Merneptah_Steli_%28cropped%29.jpg/500px-Merneptah_Steli_%28cropped%29.jpg",
+    "imageCredit": "CC BY-SA 4.0, via Wikimedia Commons",
+    "imageAlt": "The granite Merneptah Stele on display at the Egyptian Museum in Cairo."
   },
   {
     "id": "ketef-hinnom-scrolls",
@@ -63,7 +78,10 @@
     "description": "Two tiny rolled silver amulets found in a burial cave outside Jerusalem, inscribed with a paleo-Hebrew blessing closely resembling the Priestly Blessing in the book of Numbers. Carefully unrolled after discovery, they are among the oldest surviving artifacts quoting a biblical text.",
     "significance": "They demonstrate that this specific scriptural blessing was already in use, in close to its familiar wording, before the Babylonian exile, pushing back the documented history of that text by centuries.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": "jerusalem"
+    "relatedPlaceId": "jerusalem",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ketef_hinom_scrolls.JPG/500px-Ketef_hinom_scrolls.JPG",
+    "imageCredit": "Photo: Bachrach44, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageAlt": "The two tiny rolled silver Ketef Hinnom scrolls as displayed at the Israel Museum."
   },
   {
     "id": "siloam-inscription",
@@ -74,7 +92,10 @@
     "description": "A Hebrew inscription carved into the wall of a rock-cut water tunnel beneath ancient Jerusalem, describing the moment two teams of tunnelers digging from opposite ends met in the middle. The tunnel itself is widely identified with the water project attributed to King Hezekiah in advance of an Assyrian siege.",
     "significance": "It corroborates the biblical account of Hezekiah's engineering preparations for Jerusalem's defense and provides a rare first-person Hebrew engineering record from the period of the Israelite monarchy.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": "jerusalem"
+    "relatedPlaceId": "jerusalem",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Siloam_inscription.jpg/500px-Siloam_inscription.jpg",
+    "imageCredit": "Public domain (CC0), via Wikimedia Commons",
+    "imageAlt": "The Siloam Inscription, a Hebrew inscription on display at the Istanbul Archaeological Museums."
   },
   {
     "id": "arch-of-titus",
@@ -85,6 +106,9 @@
     "description": "A monumental arch built to commemorate the Roman emperor Titus's victories, including a relief panel depicting Roman soldiers carrying looted treasures from the Jerusalem Temple, among them a large menorah, after the city's destruction in 70 AD.",
     "significance": "It provides a contemporary Roman visual record corroborating the Jewish historian Josephus's account of the Temple's destruction and looting, from the perspective of the conquering side.",
     "consensusLevel": "widely accepted",
-    "relatedPlaceId": "rome"
+    "relatedPlaceId": "rome",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Arch_of_titus_relief_2.jpg/500px-Arch_of_titus_relief_2.jpg",
+    "imageCredit": "Photo: Anthony Majanlahti, CC BY 2.0, via Wikimedia Commons",
+    "imageAlt": "The relief panel on the Arch of Titus depicting Roman soldiers carrying the Temple menorah."
   }
 ]

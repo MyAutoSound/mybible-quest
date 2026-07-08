@@ -209,15 +209,18 @@ async function renderArchaeology() {
   const items = await DataStore.load("archaeology");
   const grid = document.getElementById("archaeology-grid");
   grid.innerHTML = items.map(a => `
-    <div class="card reveal is-visible">
-      <div class="card-icon blue">${ICONS.pin}</div>
-      <h3>${a.name}</h3>
-      <p>${a.description}</p>
-      <div class="meta-row">
-        <span class="tag">${a.era}</span>
-        <span class="tag">${a.consensusLevel}</span>
+    <div class="artifact-card reveal is-visible">
+      <div class="artifact-photo">
+        <img src="${a.imageUrl}" alt="${a.imageAlt}" loading="lazy">
+        <span class="artifact-consensus">${a.consensusLevel}</span>
       </div>
-      <p style="margin-top:12px;font-size:0.85rem"><strong>Why it matters:</strong> ${a.significance}</p>
+      <div class="artifact-body">
+        <div class="artifact-meta">${a.era} · ${a.location}</div>
+        <h3>${a.name}</h3>
+        <p>${a.description}</p>
+        <div class="artifact-significance"><strong>Why it matters:</strong> ${a.significance}</div>
+        <div class="artifact-credit">${a.imageCredit}</div>
+      </div>
     </div>
   `).join("");
 }
