@@ -8,6 +8,7 @@ async function init() {
   const book = books.find(b => b.id === id) || books[0];
 
   document.title = `${book.title} — MyBible.quest`;
+  setPageMeta(book.authorNote || `${book.title}: ${book.category}, ${book.testament === "old" ? "Old Testament" : "New Testament"} — author, context, and key verses.`);
   document.getElementById("book-head").innerHTML = `
     <span class="eyebrow">✦ ${book.testament === "old" ? "Old Testament" : "New Testament"} · ${book.category}</span>
     <h2>${book.title}</h2>

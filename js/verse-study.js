@@ -25,6 +25,7 @@ async function init() {
 
   Store.recordVerseStudyView(verse.id);
   document.title = `${verse.reference} — MyBible.quest`;
+  setPageMeta(verse.text ? `${verse.reference}: "${verse.text}" — historical context, key words, related verses, and reflection.` : `A full study of ${verse.reference}: historical context, culture, key words, related verses, and reflection.`);
 
   document.getElementById("verse-head").innerHTML = `
     <span class="eyebrow">✦ Verse Study</span>

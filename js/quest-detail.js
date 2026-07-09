@@ -106,6 +106,7 @@ async function init() {
   state.verses = verses;
 
   document.title = `${quest.title} — MyBible.quest`;
+  setPageMeta(quest.description || quest.tagline);
   document.getElementById("quest-tagline").textContent = quest.tagline;
   document.getElementById("quest-title").textContent = quest.title;
   document.getElementById("quest-description").textContent = quest.description;

@@ -8,6 +8,7 @@ async function init() {
   const study = studies.find(s => s.id === id) || studies[0];
 
   document.title = `${study.title} — MyBible.quest`;
+  setPageMeta(study.summary);
   document.getElementById("study-head").innerHTML = `
     <span class="eyebrow">✦ ${study.category} · ${study.readingTimeMinutes} min read</span>
     <h2>${study.title}</h2>

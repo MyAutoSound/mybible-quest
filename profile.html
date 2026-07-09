@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Profile — MyBible.quest</title>
   <meta name="description" content="Your reading streak, XP, badges, favorites, and personal notes — all stored privately on this device.">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%231e3a5f%22/><text x=%2212%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22serif%22>Q</text></svg>">
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript">
@@ -28,12 +29,25 @@
       <div class="container hero-inner">
         <span class="eyebrow reveal">✦ Your Profile</span>
         <h1 class="reveal">Your reading, your way.</h1>
-        <p class="subtitle reveal">Everything here lives only in this browser — no account, nothing sent anywhere. Clear your browser data and it resets.</p>
+        <p class="subtitle reveal">Everything here lives in this browser by default — no account required. Sign in any time to back it up and sync it across your devices.</p>
       </div>
     </section>
 
     <section style="padding-top:0">
       <div class="container">
+        <div class="study-card reveal is-visible" id="profile-account-card" style="margin-bottom:24px">
+          <div id="profile-account-signed-out">
+            <h3 style="margin:0 0 6px">Sync across devices</h3>
+            <p style="margin:0 0 14px">Sign in to back up your progress, favorites, and notes, and pick up where you left off on another device. Staying signed out keeps everything local-only, as always.</p>
+            <button class="btn btn-primary btn-sm" id="profile-signin-btn">Sign in / Create account</button>
+          </div>
+          <div id="profile-account-signed-in" hidden>
+            <h3 style="margin:0 0 6px">Signed in</h3>
+            <p style="margin:0 0 4px" id="profile-account-email"></p>
+            <p style="margin:0 0 14px;font-size:0.82rem;color:var(--text-tertiary)" id="profile-last-synced"></p>
+            <button class="btn btn-secondary btn-sm" id="profile-signout-btn">Sign out</button>
+          </div>
+        </div>
         <div class="study-card reveal is-visible level-card" id="level-card"></div>
       </div>
     </section>
@@ -90,6 +104,8 @@
 
   <script src="js/store.js"></script>
   <script src="js/main.js"></script>
+  <script type="module" src="js/firebase-init.js"></script>
+  <script type="module" src="js/auth-ui.js"></script>
   <script src="js/mountain-trail.js"></script>
   <script src="js/profile.js"></script>
 </body>

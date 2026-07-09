@@ -12,7 +12,7 @@
   {
     "id": "f3",
     "question": "Is my reading progress or personal data private?",
-    "answer": "Yes. Everything you do on this site, including quest progress, saved verses, and reading plan status, is stored locally in your own browser using localStorage. Nothing is sent to a server, there is no account or sign-up, and no one else can see your activity."
+    "answer": "By default, yes. Everything you do on this site, including quest progress, saved verses, and reading plan status, is stored locally in your own browser using localStorage, with nothing sent to a server and no account or sign-up required. Creating an account is entirely optional and only exists so you can sync that same data across your own devices; no one else can see your activity either way."
   },
   {
     "id": "f4",
@@ -32,7 +32,7 @@
   {
     "id": "f7",
     "question": "Can I suggest a verse, feature, or correction?",
-    "answer": "Yes, suggestions are welcome. Since this is a small independent project without an account system or forum yet, the best way is through the contact link in the site footer, and feedback genuinely does shape what gets added or fixed."
+    "answer": "Yes, suggestions are welcome. Since this is a small independent project without a forum yet, the best way is through the contact link in the site footer, and feedback genuinely does shape what gets added or fixed."
   },
   {
     "id": "f8",

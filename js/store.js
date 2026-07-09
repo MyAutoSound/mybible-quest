@@ -81,6 +81,62 @@ const Store = {
     this._listeners.push(fn);
   },
 
+  /* ---------- Cloud sync (optional, used by firebase-init.js) ---------- */
+  _exportState() {
+    return { ...this._load() };
+  },
+
+  _importState(remote) {
+    this._state = { ...DEFAULT_STATE(), ...remote };
+    localStorage.setItem(this._key, JSON.stringify(this._state));
+    this._emit();
+  },
+
+  // Combines this device's local state with a remote (cloud) state so that
+  // signing into an existing account never silently discards progress made
+  // as a guest on this device: lists union, counters/steps take the higher
+  // value, booleans OR together.
+  _mergeState(remote) {
+    const local = this._load();
+    const merged = { ...DEFAULT_STATE(), ...remote };
+    const union = (a = [], b = []) => [...new Set([...a, ...b])];
+
+    merged.favorites = union(local.favorites, remote.favorites);
+    merged.highlights = union(local.highlights, remote.highlights);
+    merged.badges = union(local.badges, remote.badges);
+    merged.verseStudiesOpened = union(local.verseStudiesOpened, remote.verseStudiesOpened);
+    merged.explorerTabsVisited = union(local.explorerTabsVisited, remote.explorerTabsVisited);
+    merged.mapPlacesVisited = union(local.mapPlacesVisited, remote.mapPlacesVisited);
+    merged.visitDates = union(local.visitDates, remote.visitDates);
+
+    const notesById = new Map();
+    [...(remote.notes || []), ...(local.notes || [])].forEach(n => notesById.set(n.id, n));
+    merged.notes = [...notesById.values()];
+
+    merged.xp = Math.max(local.xp || 0, remote.xp || 0);
+    merged.streak = Math.max(local.streak || 0, remote.streak || 0);
+    merged.lastVisit = [local.lastVisit, remote.lastVisit].filter(Boolean).sort().pop() || null;
+    merged.newsletterSubscribed = !!(local.newsletterSubscribed || remote.newsletterSubscribed);
+
+    merged.questProgress = {};
+    new Set([...Object.keys(local.questProgress || {}), ...Object.keys(remote.questProgress || {})])
+      .forEach(id => {
+        const a = local.questProgress?.[id] || { step: 0, completed: false };
+        const b = remote.questProgress?.[id] || { step: 0, completed: false };
+        merged.questProgress[id] = { step: Math.max(a.step, b.step), completed: a.completed || b.completed };
+      });
+
+    merged.readingPlanProgress = {};
+    new Set([...Object.keys(local.readingPlanProgress || {}), ...Object.keys(remote.readingPlanProgress || {})])
+      .forEach(id => {
+        const a = local.readingPlanProgress?.[id] || { day: 0, completed: false };
+        const b = remote.readingPlanProgress?.[id] || { day: 0, completed: false };
+        merged.readingPlanProgress[id] = { day: Math.max(a.day, b.day), completed: a.completed || b.completed };
+      });
+
+    return merged;
+  },
+
   getLevel(xp) {
     const value = xp ?? this._load().xp;
     let level = 1;

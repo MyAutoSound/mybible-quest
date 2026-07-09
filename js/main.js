@@ -225,6 +225,27 @@ function dayOfYear(date = new Date()) {
   return Math.floor(diff / 86400000);
 }
 
+function setPageMeta(description) {
+  const canonicalHref = `https://mybible.quest/${location.pathname.replace(/^\//, "")}${location.search}`;
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement("link");
+    canonical.rel = "canonical";
+    document.head.appendChild(canonical);
+  }
+  canonical.href = canonicalHref;
+
+  if (description) {
+    let desc = document.querySelector('meta[name="description"]');
+    if (!desc) {
+      desc = document.createElement("meta");
+      desc.name = "description";
+      document.head.appendChild(desc);
+    }
+    desc.content = description;
+  }
+}
+
 function initShell() {
   renderSkipLink();
   renderHeader();

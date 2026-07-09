@@ -10,6 +10,7 @@ async function init() {
   const person = people.find(p => p.id === id) || people[0];
 
   document.title = `${person.name} — MyBible.quest`;
+  setPageMeta(person.description || `${person.name}: ${person.role} — biblical context, places visited, and key verses.`);
   document.getElementById("person-head").innerHTML = `
     <span class="eyebrow">✦ ${person.role}</span>
     <h2>${person.name}</h2>

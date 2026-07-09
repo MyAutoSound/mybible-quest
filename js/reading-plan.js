@@ -84,6 +84,7 @@ async function init() {
   planState.plan = plan;
 
   document.title = `${plan.title} — MyBible.quest`;
+  setPageMeta(plan.description || plan.tagline);
   document.getElementById("plan-head").innerHTML = `
     <span class="eyebrow">✦ ${plan.tagline}</span>
     <h2>${plan.title}</h2>
