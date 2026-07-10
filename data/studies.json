@@ -301,5 +301,50 @@
         "body": "Communities that hold a strong view of scriptural preservation often point to the overall consistency shown by the scrolls as reassuring, while textual scholars are equally interested in the documented variants as historically significant in their own right. Both observations are compatible with the same underlying evidence."
       }
     ]
+  },
+  {
+    "id": "bible-and-science",
+    "title": "The Bible and Science: What's Established, What's Debated, and What's Faith",
+    "category": "Science & Faith",
+    "summary": "Genesis and modern cosmology are often framed as enemies, but the actual conversation between scripture and science is older, more varied, and less settled than either side of the culture-war version suggests.",
+    "readingTimeMinutes": 9,
+    "sections": [
+      {
+        "heading": "An old question, not a new one",
+        "body": "Debate over how literally to read Genesis predates modern science by well over a thousand years. In the early 5th century, the theologian Augustine warned against insisting on a reading of scripture that contradicted things people could plainly observe about the natural world, arguing it would embarrass Christian teaching in front of those who knew better. The tension this site covers here is a continuation of a very old internal conversation, not a modern invention."
+      },
+      {
+        "heading": "Two creation accounts, side by side",
+        "body": "Genesis contains two creation passages placed back to back: 1:1-2:3, which moves through six days culminating in humanity made male and female together, and 2:4-25, which narrates events in a different order and focuses closely on the first man, the garden, and the first woman. That the two accounts exist, differ in sequence and emphasis, and sit directly next to each other in the final text is a textual observation scholars broadly agree on, independent of how one interprets it theologically."
+      },
+      {
+        "heading": "Ancient Near Eastern context",
+        "body": "Genesis's creation material shares structural features with other creation stories circulating in the ancient Near East, including Babylon's Enuma Elish, such as a beginning in watery chaos that gets ordered into a habitable world. It also diverges sharply from those neighbors: Genesis depicts one God speaking creation into being calmly and by decree, rather than the violent conflict among multiple rival gods found in Enuma Elish. Most scholars read Genesis as engaging with, and quietly arguing against, the cosmologies around it."
+      },
+      {
+        "heading": "What mainstream science holds",
+        "body": "The scientific consensus, built from independent lines of evidence including radiometric dating, cosmic background radiation, and the fossil and genetic record, places the universe at roughly 13.8 billion years old, Earth at roughly 4.5 billion years, and the diversity of life as the product of evolutionary common descent over billions of years. This is a factual summary of where mainstream physics, geology, and biology currently stand, not one side of a live scientific debate."
+      },
+      {
+        "heading": "Believing scientists who saw no conflict",
+        "body": "Some of the people who built the modern scientific picture were themselves religious. Georges Lemaître, a Belgian Catholic priest and physicist, first proposed what became Big Bang cosmology in 1927. Gregor Mendel, an Augustinian friar, ran the pea-plant experiments that founded modern genetics. Their example doesn't settle the broader debate, but it does show that rigorous scientific work and religious conviction have coexisted in the same people, not just in theory."
+      },
+      {
+        "heading": "How readers today reconcile the two",
+        "body": "Contemporary Jewish and Christian readers hold a range of sincerely-argued positions on Genesis: young-earth readings that take the six days as literal 24-hour periods and a young universe; old-earth or 'day-age' readings that treat each day as a long era; a literary framework view that reads the seven-day structure as a theological arrangement rather than a chronological report; and theistic evolution, which treats evolutionary biology as the mechanism through which God created. This site describes these as different interpretive traditions rather than ranking them."
+      },
+      {
+        "heading": "Verses sometimes read as anticipating science",
+        "body": "A few passages are sometimes cited as anticipating modern findings, such as Job 26:7 ('he suspends the earth over nothing') or Ecclesiastes 1:6-7, which describes circulating wind and water. Some readers take these as remarkable foresight. Other scholars caution that these same books also use the ordinary ancient cosmology of their time elsewhere, such as a solid sky-dome holding back waters above it, and argue the verses in question are poetic, observational language rather than scientific claims. Both readings are presented here without declaring a winner."
+      },
+      {
+        "heading": "Different questions, or the same ones?",
+        "body": "One influential framework, associated with the scientist Stephen Jay Gould, treats science and religion as addressing separate 'magisteria': science answers empirical how-and-when questions, while religion addresses meaning and purpose. Plenty of scientists and theologians reject this tidy division, some arguing scripture does make claims empirical methods can weigh in on, others arguing meaning-questions aren't actually off-limits to scientific reasoning. That disagreement is itself very much unresolved."
+      },
+      {
+        "heading": "A note on faith interpretation",
+        "body": "Whether Genesis's opening chapters are read as historical reporting, theological literature, a mix of both, or something else again is a matter of interpretation and faith commitment. What's established here is the state of the text, its ancient literary neighbors, and the current scientific consensus; how any individual reader or tradition weighs and integrates those pieces is a conviction this site describes rather than adjudicates."
+      }
+    ]
   }
 ]
