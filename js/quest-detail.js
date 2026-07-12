@@ -98,6 +98,37 @@ function renderComplete() {
   });
 }
 
+function renderSignInGate() {
+  document.getElementById("mountain-trail").innerHTML = "";
+  document.getElementById("step-panel").innerHTML = `
+    <div style="text-align:center;padding:40px 20px">
+      <div style="width:56px;height:56px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">${ICONS.user}</div>
+      <h3 style="margin-bottom:12px">Sign in to start this quest</h3>
+      <p style="max-width:420px;margin:0 auto 24px">Guided quests track your step-by-step progress, so a free account is required to begin — it's quick, and it also syncs your progress across devices. Everything else on the site, including reading plans and favorites, still works without one.</p>
+      <button class="btn btn-primary" id="quest-signin-btn">Sign in / Create account</button>
+    </div>
+  `;
+  document.getElementById("quest-signin-btn").addEventListener("click", () => {
+    document.getElementById("auth-btn")?.click();
+  });
+}
+
+function renderQuestFlow() {
+  const progress = Store.getQuestProgress(state.quest.id);
+  state.completed = !!progress.completed;
+  if (!progress.completed && progress.step > 0 && progress.step < state.quest.steps.length) {
+    state.stepIndex = progress.step;
+  } else {
+    state.stepIndex = progress.completed ? state.quest.steps.length - 1 : 0;
+  }
+
+  if (progress.completed) {
+    renderComplete();
+  } else {
+    renderStep();
+  }
+}
+
 async function init() {
   const id = getQueryParam("id") || "anxiety";
   const [quests, verses] = await Promise.all([DataStore.load("quests"), DataStore.load("verses")]);
@@ -111,19 +142,10 @@ async function init() {
   document.getElementById("quest-title").textContent = quest.title;
   document.getElementById("quest-description").textContent = quest.description;
 
-  const progress = Store.getQuestProgress(quest.id);
-  state.completed = !!progress.completed;
-  if (!progress.completed && progress.step > 0 && progress.step < quest.steps.length) {
-    state.stepIndex = progress.step;
-  } else {
-    state.stepIndex = progress.completed ? quest.steps.length - 1 : 0;
-  }
-
-  if (progress.completed) {
-    renderComplete();
-  } else {
-    renderStep();
-  }
+  Auth.onChange((user) => {
+    if (user) renderQuestFlow();
+    else renderSignInGate();
+  });
 }
 
 init();

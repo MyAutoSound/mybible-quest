@@ -12,7 +12,7 @@
   {
     "id": "f3",
     "question": "Is my reading progress or personal data private?",
-    "answer": "By default, yes. Everything you do on this site, including quest progress, saved verses, and reading plan status, is stored locally in your own browser using localStorage, with nothing sent to a server and no account or sign-up required. Creating an account is entirely optional and only exists so you can sync that same data across your own devices; no one else can see your activity either way."
+    "answer": "By default, yes. Favorites, notes, reading plan status, streaks, and badges are all stored locally in your own browser using localStorage, with nothing sent to a server. The one exception is the guided quests: starting one requires a free account, since quests track step-by-step progress and that account also lets you sync it across your own devices. No one else can see your activity either way."
   },
   {
     "id": "f4",
@@ -37,7 +37,7 @@
   {
     "id": "f8",
     "question": "Is this site free to use?",
-    "answer": "Yes, the entire site is free, with no paywall, no required account, and no hidden tiers. It's built as a static educational resource, not a subscription product."
+    "answer": "Yes, the entire site is free, with no paywall and no hidden tiers. A free account is required only to start a guided quest; everything else, including reading plans, search, the explorer, and the assistant, needs no account at all. It's built as an educational resource, not a subscription product."
   },
   {
     "id": "f9",
