@@ -26,6 +26,8 @@ const EMOTION_KEYWORDS = {
   faith: ["doubt", "doubting", "faith", "believe", "belief", "unsure"],
   direction: ["direction", "decision", "confused", "lost", "choice", "purpose"],
   forgiveness: ["forgive", "forgiveness", "grudge", "angry", "resentment"],
+  gratitude: ["grateful", "gratitude", "thankful", "thanks", "blessed", "appreciate"],
+  protection: ["danger", "unsafe", "protect", "protection", "safety", "watch over", "keep me safe", "afraid for"],
 };
 
 const AIEngine = {
@@ -33,16 +35,16 @@ const AIEngine = {
 
   async _ensureData() {
     if (this._data) return this._data;
-    const [verses, people, places, quests, books] = await Promise.all([
+    const [verses, people, places, quests, books, prayers] = await Promise.all([
       DataStore.load("verses"), DataStore.load("people"), DataStore.load("places"),
-      DataStore.load("quests"), DataStore.load("books"),
+      DataStore.load("quests"), DataStore.load("books"), DataStore.load("prayers"),
     ]);
-    this._data = { verses, people, places, quests, books };
+    this._data = { verses, people, places, quests, books, prayers };
     return this._data;
   },
 
   async ask(question) {
-    const { verses, people, places, quests, books } = await this._ensureData();
+    const { verses, people, places, quests, books, prayers } = await this._ensureData();
     const q = question.trim();
     const qLower = q.toLowerCase();
     const tokens = tokenize(q);
@@ -53,22 +55,11 @@ const AIEngine = {
       return this._verseAnswer(refMatch, `You asked about ${refMatch.reference} directly, so here's the full picture:`);
     }
 
-    // 2) Emotion intent -> suggest a quest + a grounded verse
+    // 2) Emotion intent -> suggest a quest, a grounded verse, and a short prayer
     for (const [emotion, keywords] of Object.entries(EMOTION_KEYWORDS)) {
       if (keywords.some(k => qLower.includes(k))) {
-        const quest = quests.find(qq => qq.id === emotion);
-        const matchingVerse = verses.find(v => v.emotions.includes(emotion));
-        if (quest && matchingVerse) {
-          return {
-            html: `
-              <p>It sounds like this might connect to <strong>${quest.title}</strong>. That's one of the site's guided quests — a short, five-step reading path built around this exact feeling.</p>
-              <p>One verse from that path: <em>"${matchingVerse.text}"</em> — <strong>${matchingVerse.reference}</strong>.</p>
-              <p>${matchingVerse.context}</p>
-              <p class="ai-note">This is a suggestion based on keyword matching against the site's own quest data, not a diagnosis or substitute for professional support.</p>
-            `,
-            sources: [{ type: "quest", title: quest.title, href: `quest.html?id=${quest.id}` }, { type: "verse", title: matchingVerse.reference, href: `verse.html?id=${matchingVerse.id}` }],
-          };
-        }
+        const answer = this._emotionAnswer(emotion, { quests, verses, prayers });
+        if (answer) return answer;
       }
     }
 
@@ -120,6 +111,38 @@ const AIEngine = {
     if (best.kind === "place") return this._placeAnswer(best.item);
     if (best.kind === "book") return this._bookAnswer(best.item);
     return this._verseAnswer(best.item, "Here's what the site's library has on that:");
+  },
+
+  _emotionAnswer(emotion, { quests, verses, prayers }) {
+    const quest = quests.find(qq => qq.id === emotion);
+    const matchingVerse = verses.find(v => v.emotions.includes(emotion));
+    const matchingPrayer = prayers.find(p => p.category.toLowerCase() === emotion);
+    if (!quest && !matchingVerse && !matchingPrayer) return null;
+
+    const parts = [];
+    const sources = [];
+
+    if (quest) {
+      parts.push(`<p>It sounds like this might connect to <strong>${quest.title}</strong>. That's one of the site's guided quests — a short, five-step reading path built around this exact feeling.</p>`);
+      sources.push({ type: "quest", title: quest.title, href: `quest.html?id=${quest.id}` });
+    }
+    if (matchingVerse) {
+      parts.push(`
+        <p>One verse that speaks to this: <em>"${matchingVerse.text}"</em> — <strong>${matchingVerse.reference}</strong>.</p>
+        <p>${matchingVerse.context}</p>
+      `);
+      sources.push({ type: "verse", title: matchingVerse.reference, href: `verse.html?id=${matchingVerse.id}` });
+    }
+    if (matchingPrayer) {
+      parts.push(`
+        <p>There's also a short written prayer for this: <strong>${matchingPrayer.title}</strong>.</p>
+        <blockquote class="ai-quote">"${matchingPrayer.text}"</blockquote>
+      `);
+      sources.push({ type: "prayer", title: matchingPrayer.title, href: `prayers.html` });
+    }
+    parts.push(`<p class="ai-note">This is a suggestion based on keyword matching against the site's own data, not a diagnosis or substitute for professional support.</p>`);
+
+    return { html: parts.join(""), sources };
   },
 
   _verseAnswer(v, lead) {

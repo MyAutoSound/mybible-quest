@@ -1,0 +1,130 @@
+[
+  {
+    "id": "anxious-mind",
+    "title": "For an Anxious Mind",
+    "category": "Anxiety",
+    "occasion": "When your thoughts are racing and won't settle",
+    "text": "I don't want to carry this weight alone anymore. My mind keeps circling the same worries, and I'm tired. Help me set them down, even just for this moment, and trust that I'm not managing everything by myself. Give me one steady breath, and then another.",
+    "relatedVerseIds": ["philippians-4-6", "1-peter-5-7"]
+  },
+  {
+    "id": "sleepless-night",
+    "title": "For Sleepless Nights",
+    "category": "Anxiety",
+    "occasion": "Lying awake, unable to quiet your thoughts",
+    "text": "It's late, and my mind won't stop turning things over. Be with me in this quiet, wide-awake hour. I don't need every answer tonight — I just need enough peace to rest. Watch over the people and things I can't do anything about right now.",
+    "relatedVerseIds": ["psalm-91-1", "isaiah-41-10"]
+  },
+  {
+    "id": "uncertain-future",
+    "title": "When the Future Feels Uncertain",
+    "category": "Hope",
+    "occasion": "Facing a season with no clear outcome in sight",
+    "text": "I can't see what's ahead, and that scares me more some days than others. Help me hold this uncertainty without needing to control it. I want to believe there's still good ahead, even on the days it's hard to picture. Give me enough hope for today.",
+    "relatedVerseIds": ["jeremiah-29-11", "romans-8-28"]
+  },
+  {
+    "id": "weary-heart",
+    "title": "For a Weary Heart",
+    "category": "Hope",
+    "occasion": "When you're running low and don't know how to keep going",
+    "text": "I'm tired in a way that sleep doesn't fully fix. Renew whatever's worn thin in me right now. I don't need to feel strong today — I just need enough to take the next step. Thank you for not asking me to do this on empty.",
+    "relatedVerseIds": ["isaiah-40-31", "matthew-11-28"]
+  },
+  {
+    "id": "in-the-middle-of-loss",
+    "title": "In the Middle of Loss",
+    "category": "Grief",
+    "occasion": "When grief is fresh and everything feels raw",
+    "text": "This hurts more than I know how to say. I'm not asking to feel better right away — just to not feel so alone in it. Be close to me in the parts of this that no one else can reach. Thank you for staying near to people whose hearts are breaking.",
+    "relatedVerseIds": ["psalm-34-18", "matthew-5-4"]
+  },
+  {
+    "id": "remembering-someone-i-love",
+    "title": "Remembering Someone I Love",
+    "category": "Grief",
+    "occasion": "On a birthday, anniversary, or ordinary day they cross your mind",
+    "text": "I found myself thinking of them again today. Thank you for the time I had, even though it wasn't long enough. Help me hold the memory without it undoing me completely. I miss them, and I'm allowed to still say that out loud.",
+    "relatedVerseIds": ["lamentations-3-22", "revelation-21-4"]
+  },
+  {
+    "id": "when-belief-feels-hard",
+    "title": "When Belief Feels Hard",
+    "category": "Faith",
+    "occasion": "Wrestling with doubt instead of certainty",
+    "text": "I want to believe, but honestly, some days it's a struggle. I'm not going to pretend my doubts aren't there. Meet me in the questions instead of waiting for me to have them all resolved. Help my honest uncertainty, not just my confident moments.",
+    "relatedVerseIds": ["mark-9-24", "hebrews-11-1"]
+  },
+  {
+    "id": "for-a-deeper-trust",
+    "title": "For a Deeper Trust",
+    "category": "Faith",
+    "occasion": "Wanting your faith to feel more solid, day to day",
+    "text": "I want trust that holds up on an ordinary Tuesday, not just in a crisis. Grow something steady in me, even slowly. I'd rather have a real, plain trust than a performance of certainty. Thank you for meeting me at whatever pace that takes.",
+    "relatedVerseIds": ["romans-10-9", "john-14-6"]
+  },
+  {
+    "id": "before-a-big-decision",
+    "title": "Before a Big Decision",
+    "category": "Direction",
+    "occasion": "Standing at a genuine fork in the road",
+    "text": "I don't want to rush this, but I also can't stay stuck here forever. Help me sort through what actually matters from what's just noise or fear. Give me the clarity to take the next right step, even if I can't yet see the whole path.",
+    "relatedVerseIds": ["proverbs-3-5", "psalm-119-105"]
+  },
+  {
+    "id": "when-i-feel-lost",
+    "title": "When I Feel Lost",
+    "category": "Direction",
+    "occasion": "When nothing feels like it's pointing anywhere",
+    "text": "I don't know what I'm doing right now, and I'll admit that plainly. Meet me in this unclear stretch, even without a map. I don't need the whole plan today — just enough direction for the next step in front of me.",
+    "relatedVerseIds": ["joshua-1-9", "jeremiah-29-11"]
+  },
+  {
+    "id": "letting-go-of-a-grudge",
+    "title": "Letting Go of a Grudge",
+    "category": "Forgiveness",
+    "occasion": "Still holding on to something someone did to you",
+    "text": "I've been holding onto this longer than it's been holding onto them. Help me loosen my grip on it, even if I can't yet call it fully forgiven. I don't want this to keep taking up space in me. Give me a way forward that isn't pretending it didn't happen.",
+    "relatedVerseIds": ["matthew-6-14", "colossians-3-13"]
+  },
+  {
+    "id": "asking-to-be-forgiven",
+    "title": "Asking to Be Forgiven",
+    "category": "Forgiveness",
+    "occasion": "Owning a wrong you've done, honestly",
+    "text": "I got this wrong, and I don't want to make excuses for it. I'm sorry, plainly and without qualifying it. Help me make it right where I still can, and help me actually receive forgiveness instead of just feeling guilty about it indefinitely.",
+    "relatedVerseIds": ["1-john-1-9", "ephesians-2-8"]
+  },
+  {
+    "id": "for-an-ordinary-day",
+    "title": "For an Ordinary Day",
+    "category": "Gratitude",
+    "occasion": "A regular day, worth noticing anyway",
+    "text": "Nothing remarkable happened today, and I don't want to let that pass by unnoticed. Thank you for the small, unremarkable good in it — a meal, a conversation, a moment of quiet. Help me stay someone who notices ordinary things.",
+    "relatedVerseIds": ["1-thessalonians-5-18", "psalm-107-1"]
+  },
+  {
+    "id": "counting-whats-good",
+    "title": "Counting What's Good",
+    "category": "Gratitude",
+    "occasion": "Deliberately naming what you're thankful for",
+    "text": "It's easy for me to list what's wrong; let me slow down and list what's right too. Thank you for the people who show up for me, and for the ones I get to show up for. I don't want gratitude to be an afterthought in my week.",
+    "relatedVerseIds": ["nehemiah-8-10", "psalm-107-1"]
+  },
+  {
+    "id": "before-sleep",
+    "title": "Before Sleep",
+    "category": "Protection",
+    "occasion": "A short prayer to close out the day",
+    "text": "Thank you for getting me through today, whatever it held. Watch over this house, and over the people I love who are out of my sight tonight. Let me rest without needing to solve everything before I close my eyes.",
+    "relatedVerseIds": ["psalm-91-1", "numbers-6-24"]
+  },
+  {
+    "id": "for-someone-im-worried-about",
+    "title": "For Someone I'm Worried About",
+    "category": "Protection",
+    "occasion": "Carrying concern for someone else's safety or wellbeing",
+    "text": "I can't fix what they're going through, and that's hard to sit with. Be near to them, especially in the parts I can't reach or even see. Give me the right way to show up for them, and give them more peace than I can offer on my own.",
+    "relatedVerseIds": ["zephaniah-3-17", "isaiah-41-10"]
+  }
+]

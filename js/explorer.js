@@ -65,12 +65,21 @@ async function renderMap() {
   placesCache = places;
   const wrap = document.getElementById("map-wrap");
 
+  const geoSvg = `
+    <svg class="map-geo-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <path class="map-sea" d="M 0,10 L 10,8 L 18,14 L 26,20 L 33,24 L 40,27 L 44,32 L 45,45 L 43,55 L 38,60 L 30,63 L 20,60 L 10,50 L 0,35 Z" vector-effect="non-scaling-stroke"/>
+      <path class="map-sea map-red-sea" d="M 30,72 L 38,72 L 36,90 L 32,90 Z" vector-effect="non-scaling-stroke"/>
+      <path class="map-river" d="M 24,63 L 20,95" vector-effect="non-scaling-stroke"/>
+      <path class="map-river" d="M 51,38 L 52,47 L 53,58" vector-effect="non-scaling-stroke"/>
+    </svg>
+  `;
+
   const pinsHtml = places.map(p => `
     <div class="map-pin" style="left:${p.x}%; top:${p.y}%;" data-id="${p.id}" title="${p.name}" tabindex="0" role="button" aria-label="${p.name}">
       <span class="map-pin-label">${p.name}</span>
     </div>
   `).join("");
-  wrap.innerHTML = pinsHtml;
+  wrap.innerHTML = geoSvg + pinsHtml;
 
   // Layer toggle buttons
   const toggles = document.getElementById("map-layer-toggles");
@@ -144,6 +153,51 @@ const TIMELINE_CATEGORIES = [
   { key: "early-church", label: "Early Church" },
 ];
 
+function timelineSlug(title) {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
+function yearLabel(year) {
+  if (year < 0) return `${Math.abs(year)} BC`;
+  return year === 0 ? "AD 1" : `AD ${year}`;
+}
+
+function renderTimelineScale(events, onJump) {
+  const dated = events.filter(e => typeof e.yearApprox === "number").sort((a, b) => a.yearApprox - b.yearApprox);
+  const minYear = dated[0].yearApprox;
+  const maxYear = dated[dated.length - 1].yearApprox;
+  const span = maxYear - minYear;
+  const pct = (y) => ((y - minYear) / span) * 100;
+
+  // Gridlines close to the last one are dropped so labels never collide.
+  const gridYears = [-2000, -1500, -1000, -500, 0].filter(y => y >= minYear && y <= maxYear - span * 0.04);
+  const gridlinesHtml = gridYears.map(y => `
+    <div class="scale-gridline" style="left:${pct(y)}%"><span>${yearLabel(y)}</span></div>
+  `).join("");
+
+  // Events close together in time (relative to the full span) are stacked
+  // downward in a small cascade so nearby dots stay individually clickable.
+  let lastPct = -Infinity;
+  let stack = 0;
+  const dotsHtml = dated.map(e => {
+    const p = pct(e.yearApprox);
+    stack = (p - lastPct < 1.5) ? stack + 1 : 0;
+    lastPct = p;
+    const top = -8 + stack * 9;
+    return `<button type="button" class="scale-dot ${e.highlight ? "highlight" : ""}" style="left:${p}%; top:${top}px" data-target="${timelineSlug(e.title)}" title="${e.era} — ${e.title}"></button>`;
+  }).join("");
+
+  const scaleEl = document.getElementById("timeline-scale");
+  scaleEl.innerHTML = `
+    <div class="scale-creation-marker">✦ Creation — outside the dated scale below</div>
+    <div class="scale-track">${gridlinesHtml}${dotsHtml}</div>
+  `;
+
+  scaleEl.querySelectorAll(".scale-dot").forEach(dot => {
+    dot.addEventListener("click", () => onJump(dot.dataset.target));
+  });
+}
+
 async function renderTimeline() {
   const events = await DataStore.load("timeline");
   const list = document.getElementById("timeline-list");
@@ -154,12 +208,23 @@ async function renderTimeline() {
   function renderList(cat) {
     const filtered = cat === "all" ? events : events.filter(e => e.category === cat);
     list.innerHTML = filtered.map(e => `
-      <div class="timeline-item ${e.highlight ? "highlight" : ""}">
+      <div class="timeline-item ${e.highlight ? "highlight" : ""}" id="${timelineSlug(e.title)}">
         <div class="era">${e.era}</div>
         <h3>${e.title}</h3>
         <p>${e.description}</p>
       </div>
     `).join("") || `<p style="color:var(--text-tertiary)">No events in this category.</p>`;
+  }
+
+  function jumpToEvent(targetId) {
+    filters.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+    filters.querySelector('[data-cat="all"]').classList.add("active");
+    renderList("all");
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.classList.add("pulse");
+    setTimeout(() => target.classList.remove("pulse"), 1200);
   }
 
   filters.querySelectorAll(".filter-chip").forEach(chip => {
@@ -170,6 +235,7 @@ async function renderTimeline() {
     });
   });
 
+  renderTimelineScale(events, jumpToEvent);
   renderList("all");
 }
 

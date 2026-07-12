@@ -5,6 +5,7 @@
 const NAV_LINKS = [
   { href: "index.html", label: "Home", key: "home" },
   { href: "quests.html", label: "Quests", key: "quests" },
+  { href: "prayers.html", label: "Prayers", key: "prayers" },
   { href: "explorer.html", label: "Explorer", key: "explorer" },
   { href: "studies.html", label: "Studies", key: "studies" },
   { href: "assistant.html", label: "Assistant", key: "assistant" },
@@ -45,6 +46,7 @@ function currentPageKey() {
   const map = {
     "": "home", "index.html": "home",
     "quests.html": "quests", "quest.html": "quests", "reading-plan.html": "quests",
+    "prayers.html": "prayers",
     "explorer.html": "explorer", "book.html": "explorer", "person.html": "explorer",
     "assistant.html": "assistant",
     "search.html": "search",
@@ -134,6 +136,7 @@ function renderFooter() {
           <h4>Explore</h4>
           <a href="quests.html">Guided Quests</a>
           <a href="quests.html">Reading Plans</a>
+          <a href="prayers.html">Prayers</a>
           <a href="explorer.html">Context Explorer</a>
           <a href="explorer.html#map">Bible Maps</a>
           <a href="search.html">Search</a>

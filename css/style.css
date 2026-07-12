@@ -610,8 +610,13 @@ section { padding: 76px 0; }
     var(--bg-subtle);
 }
 .map-grid-line { position: absolute; background: var(--border); opacity: 0.6; }
+.map-geo-svg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+.map-sea { fill: var(--accent-soft); stroke: none; }
+.map-red-sea { opacity: 0.9; }
+.map-river { fill: none; stroke: var(--accent); stroke-width: 1.6; opacity: 0.45; stroke-linecap: round; }
 .map-pin {
   position: absolute;
+  z-index: 2;
   transform: translate(-50%, -50%);
   width: 14px;
   height: 14px;
@@ -657,6 +662,26 @@ section { padding: 76px 0; }
 }
 .place-detail .modern-loc { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 12px; }
 
+.timeline-scale { margin-bottom: 32px; }
+.scale-creation-marker { font-size: 0.78rem; color: var(--text-tertiary); font-style: italic; margin-bottom: 20px; }
+.scale-track { position: relative; height: 80px; margin: 0 6px; border-top: 2px solid var(--border-strong); }
+.scale-gridline { position: absolute; top: -2px; width: 2px; height: 8px; background: var(--border-strong); }
+.scale-gridline span {
+  position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+  font-size: 0.68rem; color: var(--text-tertiary); white-space: nowrap;
+}
+.scale-dot {
+  position: absolute; top: -8px; width: 14px; height: 14px; border-radius: 50%;
+  background: var(--accent); border: 2px solid var(--bg-elevated); box-shadow: 0 0 0 1px var(--accent);
+  cursor: pointer; transform: translateX(-50%); transition: transform 0.15s ease; padding: 0;
+}
+.scale-dot:hover { transform: translateX(-50%) scale(1.5); background: var(--gold); box-shadow: 0 0 0 1px var(--gold); z-index: 2; }
+.scale-dot.highlight { background: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+.timeline-item.pulse { animation: timeline-pulse 1.2s ease; border-radius: var(--radius-sm); }
+@keyframes timeline-pulse {
+  0% { background: var(--accent-soft); }
+  100% { background: transparent; }
+}
 .timeline { position: relative; padding-left: 34px; }
 .timeline::before { content:""; position:absolute; left:6px; top:6px; bottom:6px; width:2px; background: var(--border-strong); }
 .timeline-item { position: relative; padding-bottom: 34px; }
@@ -1112,7 +1137,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .layer-btn .swatch { width: 10px; height: 10px; border-radius: 50%; }
 .layer-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
-.map-routes-svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.map-routes-svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; }
 .map-route-path { fill: none; stroke-width: 2; stroke-dasharray: 6 5; opacity: 0.85; }
 
 /* ---------- Book / study list cards ---------- */

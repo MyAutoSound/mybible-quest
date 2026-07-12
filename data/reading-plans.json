@@ -184,5 +184,161 @@
         "devotional": "After chapters of betrayal, slavery, and imprisonment, Joseph's story closes with this reflection on how harm and good can coexist in a single long story without one erasing the other."
       }
     ]
+  },
+  {
+    "id": "proverbs-7-day",
+    "title": "7 Days Through Proverbs",
+    "tagline": "Short daily wisdom for ordinary decisions",
+    "description": "Seven brief readings from Israel's collected wisdom literature, each paired with a short reflection on what that wisdom might mean for an ordinary day.",
+    "durationDays": 7,
+    "icon": "sparkle",
+    "days": [
+      {
+        "day": 1,
+        "reference": "Proverbs 3:5-6",
+        "verseText": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+        "devotional": "This proverb doesn't ask for certainty before trust — it asks for trust instead of insisting on full clarity first. That's a harder, more ongoing posture than a one-time decision."
+      },
+      {
+        "day": 2,
+        "reference": "Proverbs 4:23",
+        "verseText": "Above all else, guard your heart, for everything you do flows from it.",
+        "devotional": "In Hebrew thought, the 'heart' meant the whole inner self — will, thought, and feeling together, not just emotion. This proverb treats that inner life as the source everything else flows from, worth protecting deliberately."
+      },
+      {
+        "day": 3,
+        "reference": "Proverbs 12:15",
+        "verseText": "The way of fools seems right to them, but the wise listen to advice.",
+        "devotional": "A blunt, uncomfortable proverb: feeling confident you're right isn't evidence that you are. Willingness to actually be corrected is presented here as a mark of wisdom, not weakness."
+      },
+      {
+        "day": 4,
+        "reference": "Proverbs 15:1",
+        "verseText": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+        "devotional": "Practical, relational wisdom about de-escalation. It doesn't promise a gentle answer will always work — just that it changes the odds, which is worth something in the middle of an argument."
+      },
+      {
+        "day": 5,
+        "reference": "Proverbs 16:9",
+        "verseText": "In their hearts humans plan their course, but the Lord establishes their steps.",
+        "devotional": "A proverb that holds planning and humility together rather than choosing one: make the plan, and hold it loosely enough to be wrong about the details."
+      },
+      {
+        "day": 6,
+        "reference": "Proverbs 17:17",
+        "verseText": "A friend loves at all times, and a brother is born for a time of adversity.",
+        "devotional": "The proverb distinguishes fair-weather affection from the kind of friendship that shows up specifically when things are hard — arguably the more telling test of the two."
+      },
+      {
+        "day": 7,
+        "reference": "Proverbs 31:8-9",
+        "verseText": "Speak up for those who cannot speak for themselves, for the rights of all who are destitute. Speak up and judge fairly; defend the rights of the poor and needy.",
+        "devotional": "The book closes its wisdom not with private virtue alone but with an instruction to use whatever voice or position you have on behalf of people who don't have one."
+      }
+    ]
+  },
+  {
+    "id": "exodus-story-7-day",
+    "title": "The Exodus Story",
+    "tagline": "Slavery to freedom, one stop at a time",
+    "description": "Seven readings tracing the Exodus narrative from Israel's slavery in Egypt to the edge of the promised land, following the same journey mapped in the site's Bible Context Explorer.",
+    "durationDays": 7,
+    "icon": "map",
+    "days": [
+      {
+        "day": 1,
+        "reference": "Exodus 2:23-25",
+        "verseText": "The Israelites groaned under their slavery and cried out, and their cry for help went up to God. God heard their groaning and remembered his covenant.",
+        "devotional": "The story doesn't open with a plan or a rescuer — it opens with unanswered groaning being noticed. Before any deliverance narrative, there's simply the claim that the suffering was heard."
+      },
+      {
+        "day": 2,
+        "reference": "Exodus 3:13-14",
+        "verseText": "Moses said to God, 'Suppose I go and say this, and they ask me, what is his name? What shall I tell them?' God said, 'I am who I am. Tell them: I AM has sent me to you.'",
+        "devotional": "Asked for a name, God gives something closer to a refusal to be fully defined or controlled — presence itself, rather than a label that could be managed or contained."
+      },
+      {
+        "day": 3,
+        "reference": "Exodus 14:21-22",
+        "verseText": "Moses stretched out his hand over the sea, and the Lord drove the sea back and turned it into dry land. The Israelites went through the sea on dry ground, with a wall of water on their right and their left.",
+        "devotional": "The story's most dramatic turning point: exactly the moment escape seemed impossible. Whatever else is debated about this passage historically, its placement here is deliberate — deliverance arrives at the point of greatest apparent dead end."
+      },
+      {
+        "day": 4,
+        "reference": "Exodus 16:2-4",
+        "verseText": "In the desert the whole community grumbled, 'If only we had died in Egypt, where we sat by pots of meat.' Then the Lord said to Moses, 'I will rain down bread from heaven for you.'",
+        "devotional": "Freedom didn't erase complaint or fear of scarcity — it just relocated it. Provision here meets the people in the middle of their grumbling, not after they'd earned it by being grateful enough."
+      },
+      {
+        "day": 5,
+        "reference": "Exodus 19:4-6",
+        "verseText": "You yourselves have seen what I did to Egypt, and how I carried you on eagles' wings and brought you to myself. Now if you obey me fully and keep my covenant, you will be my treasured possession.",
+        "devotional": "The covenant offered at Sinai is framed first as relationship and identity ('brought you to myself') before it's framed as obligation — belonging comes before the rules that follow it."
+      },
+      {
+        "day": 6,
+        "reference": "Exodus 20:2-3",
+        "verseText": "I am the Lord your God, who brought you out of Egypt, out of the land of slavery. You shall have no other gods before me.",
+        "devotional": "Even the Ten Commandments open with a rescue, not a demand — the first line is what God already did, and only then what's asked in response. Obligation follows deliverance here, not the other way around."
+      },
+      {
+        "day": 7,
+        "reference": "Exodus 33:14-15",
+        "verseText": "The Lord replied, 'My Presence will go with you, and I will give you rest.' Then Moses said, 'If your Presence does not go with us, do not send us up from here.'",
+        "devotional": "The journey doesn't close with arrival at the destination — this reading ends short of Canaan, on a promise of company along the way. For Moses, presence itself, not just the destination, is what makes the journey worth continuing."
+      }
+    ]
+  },
+  {
+    "id": "women-of-the-bible-7-day",
+    "title": "Women of the Bible",
+    "tagline": "Seven portraits of courage, faith, and resilience",
+    "description": "Seven brief profiles of women across both testaments, different eras and different roles, each paired with the moment scripture chooses to remember them by.",
+    "durationDays": 7,
+    "icon": "users",
+    "days": [
+      {
+        "day": 1,
+        "reference": "Ruth 1:16",
+        "verseText": "But Ruth replied, 'Don't urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.'",
+        "devotional": "A Moabite widow's chosen loyalty to her mother-in-law, not an inherited one, becomes central to Israel's story — Ruth is later named directly in the genealogy leading to King David."
+      },
+      {
+        "day": 2,
+        "reference": "Judges 4:4-5",
+        "verseText": "Deborah, a prophet, was leading Israel at that time. She held court under the Palm of Deborah, and the Israelites came to her to have their disputes decided.",
+        "devotional": "The text introduces a woman holding recognized public and military authority in this period matter-of-factly, without treating it as an exception that needs special justification."
+      },
+      {
+        "day": 3,
+        "reference": "1 Samuel 1:15",
+        "verseText": "Hannah replied, 'I am a woman deeply troubled. I have not been drinking; I was pouring out my soul to the Lord.'",
+        "devotional": "Hannah's grief is initially misread by a priest as drunkenness — a reminder that raw, visible prayer has always risked being misunderstood. Her son, born after this scene, becomes the prophet Samuel."
+      },
+      {
+        "day": 4,
+        "reference": "Esther 4:15-16",
+        "verseText": "Esther sent this reply: 'Go, gather all the Jews and fast for me. I and my attendants will fast as you do. When this is done, I will go to the king, even though it is against the law. And if I perish, I perish.'",
+        "devotional": "Esther's decision carries real, stated risk in a book that famously never mentions God by name — courage here is shown entirely through action taken, not through declared belief."
+      },
+      {
+        "day": 5,
+        "reference": "Luke 1:38",
+        "verseText": "'I am the Lord's servant,' Mary answered. 'May your word to me be fulfilled.'",
+        "devotional": "A brief, plain sentence of consent to something socially risky and life-altering, carrying enormous weight for the narrative that follows it."
+      },
+      {
+        "day": 6,
+        "reference": "John 4:28-29",
+        "verseText": "Then, leaving her water jar, the woman went back to the town and said to the people, 'Come, see a man who told me everything I ever did. Could this be the Messiah?'",
+        "devotional": "A woman with a complicated reputation, from a group Jesus's own culture usually avoided, becomes one of the Gospel's first people to carry the news to others."
+      },
+      {
+        "day": 7,
+        "reference": "Acts 18:24-26",
+        "verseText": "He began to speak boldly in the synagogue. When Priscilla and Aquila heard him, they invited him to their home and explained to him the way of God more adequately.",
+        "devotional": "This reading closes on a woman named as a teacher correcting and mentoring an eloquent preacher, part of a husband-and-wife ministry team the New Testament names together — and sometimes names her first."
+      }
+    ]
   }
 ]

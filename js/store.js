@@ -12,7 +12,7 @@ const LEVEL_TITLES = [
   "Devoted Reader", "Scholar", "Sage", "Elder", "Luminary", "Keeper of the Mountain",
 ];
 // The full set of distinct top-level sections tracked for the "Every Corner" badge.
-const SITE_SECTIONS = ["home", "quests", "explorer", "assistant", "search", "understand", "studies", "profile"];
+const SITE_SECTIONS = ["home", "quests", "prayers", "explorer", "assistant", "search", "understand", "studies", "profile"];
 
 const XP_AWARDS = {
   dailyVisit: 10,
