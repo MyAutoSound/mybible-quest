@@ -11,6 +11,15 @@ function initials(user) {
   return source.trim().charAt(0).toUpperCase();
 }
 
+function avatarInner(user) {
+  return user.photoURL ? `<img src="${user.photoURL}" alt="">` : initials(user);
+}
+
+function providerLabel(user) {
+  const isGoogle = (user.providerData || []).some((p) => p.providerId === "google.com");
+  return isGoogle ? "Signed in with Google" : "Signed in with email";
+}
+
 function renderAuthButton() {
   const actions = document.querySelector(".nav-actions");
   if (!actions) return null;
@@ -67,8 +76,15 @@ function renderAccountDropdown() {
   dropdown.id = "auth-dropdown";
   dropdown.hidden = true;
   dropdown.innerHTML = `
-    <p class="auth-dropdown-email" id="auth-dropdown-email"></p>
-    <button class="btn btn-secondary btn-sm" id="auth-signout-btn">Sign out</button>
+    <div class="account-row" style="margin-bottom:14px">
+      <div class="account-avatar-lg" id="auth-dropdown-avatar" style="width:40px;height:40px;font-size:0.95rem"></div>
+      <div style="min-width:0">
+        <div id="auth-dropdown-name" style="font-weight:600;font-size:0.92rem"></div>
+        <p class="auth-dropdown-email" id="auth-dropdown-email" style="margin:0"></p>
+      </div>
+    </div>
+    <a href="profile.html" class="btn btn-secondary btn-sm" style="width:100%;margin-bottom:8px">View profile</a>
+    <button class="btn btn-secondary btn-sm" id="auth-signout-btn" style="width:100%">Sign out</button>
   `;
   document.body.appendChild(dropdown);
   return dropdown;
@@ -181,9 +197,11 @@ function initAuthUI() {
 
   Auth.onChange((user) => {
     if (user) {
-      btn.innerHTML = `<span class="auth-avatar">${initials(user)}</span>`;
+      btn.innerHTML = `<span class="auth-avatar">${avatarInner(user)}</span>`;
       btn.setAttribute("aria-label", `Signed in as ${user.email}`);
-      dropdown.querySelector("#auth-dropdown-email").textContent = user.displayName || user.email;
+      dropdown.querySelector("#auth-dropdown-avatar").innerHTML = avatarInner(user);
+      dropdown.querySelector("#auth-dropdown-name").textContent = user.displayName || "";
+      dropdown.querySelector("#auth-dropdown-email").textContent = user.email;
     } else {
       btn.innerHTML = ICONS.user;
       btn.setAttribute("aria-label", "Account — sign in");
@@ -199,27 +217,105 @@ function initProfileAccountCard(overlay) {
   const signedInView = document.getElementById("profile-account-signed-in");
   if (!signedOutView || !signedInView) return;
 
+  const nameEl = document.getElementById("profile-account-name");
+  const nameForm = document.getElementById("profile-edit-name-form");
+  const nameInput = document.getElementById("profile-edit-name-input");
+  const editNameBtn = document.getElementById("profile-edit-name-btn");
+  const deleteBtn = document.getElementById("profile-delete-btn");
+  const deleteForm = document.getElementById("profile-delete-form");
+  const errorEl = document.getElementById("profile-account-error");
+
+  const showError = (msg) => { errorEl.textContent = msg; errorEl.hidden = false; };
+  const clearError = () => { errorEl.hidden = true; };
+
   document.getElementById("profile-signin-btn").addEventListener("click", () => {
     setMode(overlay, "signin");
     openModal(overlay);
   });
+
   document.getElementById("profile-signout-btn").addEventListener("click", async () => {
     await Auth.signOutUser();
     showToast("Signed out. Your data stays on this device.", "default");
   });
 
+  document.getElementById("profile-sync-btn").addEventListener("click", async (e) => {
+    const syncBtn = e.currentTarget;
+    syncBtn.disabled = true;
+    syncBtn.textContent = "Syncing…";
+    await Auth.syncNow();
+    syncBtn.textContent = "Sync now";
+    syncBtn.disabled = false;
+    showToast("Synced.", "default");
+  });
+
+  editNameBtn.addEventListener("click", () => {
+    nameInput.value = Auth.currentUser?.displayName || "";
+    nameForm.hidden = false;
+    nameEl.hidden = true;
+    editNameBtn.hidden = true;
+    nameInput.focus();
+  });
+
+  nameForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const name = nameInput.value.trim();
+    if (!name) return;
+    clearError();
+    const result = await Auth.updateDisplayName(name);
+    if (result.error) { showError(result.error); return; }
+    nameForm.hidden = true;
+    nameEl.hidden = false;
+    editNameBtn.hidden = false;
+  });
+
+  let deleteArmed = false;
+  deleteBtn.addEventListener("click", async () => {
+    clearError();
+    if (!deleteArmed) {
+      deleteArmed = true;
+      deleteBtn.textContent = "Click again to confirm — this can't be undone";
+      setTimeout(() => {
+        deleteArmed = false;
+        deleteBtn.textContent = "Delete account";
+      }, 4000);
+      return;
+    }
+    deleteArmed = false;
+    deleteBtn.textContent = "Delete account";
+    const result = await Auth.deleteAccount();
+    if (!result.error) { showToast("Account deleted. Your local data stays on this device.", "default"); return; }
+    if (result.error === "reauth-required") {
+      deleteForm.hidden = false;
+      document.getElementById("profile-delete-password").focus();
+      return;
+    }
+    showError(result.error);
+  });
+
+  deleteForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    clearError();
+    const password = document.getElementById("profile-delete-password").value;
+    const result = await Auth.deleteAccount(password);
+    if (result.error) { showError(result.error); return; }
+    deleteForm.hidden = true;
+    showToast("Account deleted. Your local data stays on this device.", "default");
+  });
+
   Auth.onChange((user) => {
     signedOutView.hidden = !!user;
     signedInView.hidden = !user;
-    if (user) {
-      document.getElementById("profile-account-email").textContent = user.displayName
-        ? `${user.displayName} (${user.email})`
-        : user.email;
-      const syncedEl = document.getElementById("profile-last-synced");
-      syncedEl.textContent = Auth.lastSyncedAt
-        ? `Last synced at ${new Date(Auth.lastSyncedAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
-        : "Syncing…";
-    }
+    if (!user) return;
+
+    document.getElementById("profile-account-avatar").innerHTML = avatarInner(user);
+    nameEl.textContent = user.displayName || "No name set";
+    document.getElementById("profile-account-email").textContent = user.email;
+    document.getElementById("profile-account-provider").textContent = providerLabel(user);
+
+    const syncedEl = document.getElementById("profile-last-synced");
+    syncedEl.textContent = Auth.lastSyncedAt
+      ? `Last synced at ${new Date(Auth.lastSyncedAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
+      : "Syncing…";
   });
 }
 

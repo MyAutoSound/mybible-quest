@@ -30,6 +30,7 @@ function appendSkeleton() {
 
 async function handleQuestion(question) {
   if (!question.trim()) return;
+  if (typeof Store !== "undefined") Store.recordAssistantUse();
   appendMessage("user", question.replace(/</g, "&lt;"));
   appendSkeleton();
 

@@ -9,6 +9,7 @@ async function init() {
 
   document.title = `${study.title} — MyBible.quest`;
   setPageMeta(study.summary);
+  if (typeof Store !== "undefined") Store.recordStudyOpened(study.id, studies.length);
   document.getElementById("study-head").innerHTML = `
     <span class="eyebrow">✦ ${study.category} · ${study.readingTimeMinutes} min read</span>
     <h2>${study.title}</h2>

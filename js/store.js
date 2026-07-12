@@ -7,6 +7,12 @@
 const CORE_QUEST_IDS = ["anxiety", "hope", "grief", "faith", "direction", "forgiveness"];
 const EXPLORER_TABS = ["map", "timeline", "books", "people", "archaeology"];
 const XP_LEVELS = [0, 80, 200, 400, 700, 1100, 1650, 2350, 3250, 4400, 6000];
+const LEVEL_TITLES = [
+  "Wanderer", "Seeker", "Pilgrim", "Disciple", "Student of the Word",
+  "Devoted Reader", "Scholar", "Sage", "Elder", "Luminary", "Keeper of the Mountain",
+];
+// The full set of distinct top-level sections tracked for the "Every Corner" badge.
+const SITE_SECTIONS = ["home", "quests", "explorer", "assistant", "search", "understand", "studies", "profile"];
 
 const XP_AWARDS = {
   dailyVisit: 10,
@@ -37,6 +43,12 @@ const DEFAULT_STATE = () => ({
   explorerTabsVisited: [],
   mapPlacesVisited: [],
   newsletterSubscribed: false,
+  pagesVisited: [],
+  booksVisited: [],
+  studiesOpened: [],
+  assistantUsed: false,
+  darkModeUsed: false,
+  logoClicks: 0,
 });
 
 const Store = {
@@ -108,6 +120,12 @@ const Store = {
     merged.explorerTabsVisited = union(local.explorerTabsVisited, remote.explorerTabsVisited);
     merged.mapPlacesVisited = union(local.mapPlacesVisited, remote.mapPlacesVisited);
     merged.visitDates = union(local.visitDates, remote.visitDates);
+    merged.pagesVisited = union(local.pagesVisited, remote.pagesVisited);
+    merged.booksVisited = union(local.booksVisited, remote.booksVisited);
+    merged.studiesOpened = union(local.studiesOpened, remote.studiesOpened);
+    merged.assistantUsed = !!(local.assistantUsed || remote.assistantUsed);
+    merged.darkModeUsed = !!(local.darkModeUsed || remote.darkModeUsed);
+    merged.logoClicks = Math.max(local.logoClicks || 0, remote.logoClicks || 0);
 
     const notesById = new Map();
     [...(remote.notes || []), ...(local.notes || [])].forEach(n => notesById.set(n.id, n));
@@ -155,6 +173,11 @@ const Store = {
     return { level, xp: state.xp, floor, ceiling, pct };
   },
 
+  getLevelTitle(level) {
+    const value = level ?? this.getLevel();
+    return LEVEL_TITLES[Math.min(value, LEVEL_TITLES.length) - 1];
+  },
+
   addXP(amount, reason) {
     const state = this._load();
     const levelBefore = this.getLevel(state.xp);
@@ -162,7 +185,7 @@ const Store = {
     const levelAfter = this.getLevel(state.xp);
     this._save();
     if (levelAfter > levelBefore && typeof showToast === "function") {
-      showToast(`Level up! You're now level ${levelAfter}.`, "level");
+      showToast(`Level up! You're now a ${this.getLevelTitle(levelAfter)} (level ${levelAfter}).`, "level");
     }
     return { leveledUp: levelAfter > levelBefore, level: levelAfter };
   },
@@ -324,6 +347,69 @@ const Store = {
       this.addXP(XP_AWARDS.mapPlaceFirstClick, "map-place");
       if (state.mapPlacesVisited.length >= 10) this.unlockBadge("cartographer");
     }
+  },
+
+  /* ---------- Hidden badges: exploring the site itself ---------- */
+  recordPageVisit(pageKey) {
+    const state = this._load();
+    const now = new Date();
+
+    if (!state.pagesVisited.includes(pageKey)) {
+      state.pagesVisited.push(pageKey);
+      this._save();
+      if (SITE_SECTIONS.every(k => state.pagesVisited.includes(k))) this.unlockBadge("every-corner");
+    }
+
+    const hour = now.getHours();
+    if (hour >= 0 && hour < 4) this.unlockBadge("night-owl");
+    if (hour >= 4 && hour < 6) this.unlockBadge("early-bird");
+    if (now.getDay() === 0) this.unlockBadge("sabbath-rest");
+  },
+
+  recordBookVisit(bookId, totalBooks) {
+    const state = this._load();
+    if (!state.booksVisited.includes(bookId)) {
+      state.booksVisited.push(bookId);
+      this._save();
+    }
+    if (state.booksVisited.includes("genesis") && state.booksVisited.includes("revelation")) {
+      this.unlockBadge("alpha-and-omega");
+    }
+    if (totalBooks && state.booksVisited.length >= totalBooks) this.unlockBadge("whole-story");
+  },
+
+  recordStudyOpened(studyId, totalStudies) {
+    const state = this._load();
+    if (!state.studiesOpened.includes(studyId)) {
+      state.studiesOpened.push(studyId);
+      this._save();
+    }
+    if (totalStudies && state.studiesOpened.length >= totalStudies) this.unlockBadge("well-read");
+  },
+
+  recordAssistantUse() {
+    const state = this._load();
+    if (!state.assistantUsed) {
+      state.assistantUsed = true;
+      this._save();
+      this.unlockBadge("still-small-voice");
+    }
+  },
+
+  recordDarkModeToggle() {
+    const state = this._load();
+    if (!state.darkModeUsed) {
+      state.darkModeUsed = true;
+      this._save();
+      this.unlockBadge("turn-the-lights-off");
+    }
+  },
+
+  recordLogoClick() {
+    const state = this._load();
+    state.logoClicks += 1;
+    this._save();
+    if (state.logoClicks >= 7) this.unlockBadge("secret-keeper");
   },
 
   /* ---------- Quest progress ---------- */

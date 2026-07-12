@@ -58,5 +58,59 @@
     "name": "Scholar",
     "description": "Complete a full reading plan.",
     "icon": "sprout"
+  },
+  {
+    "id": "night-owl",
+    "name": "Night Owl",
+    "description": "Visit the site between midnight and 4 AM.",
+    "icon": "moon"
+  },
+  {
+    "id": "early-bird",
+    "name": "Early Bird",
+    "description": "Visit the site before 6 AM.",
+    "icon": "sun"
+  },
+  {
+    "id": "sabbath-rest",
+    "name": "Sabbath Rest",
+    "description": "Visit the site on a Sunday.",
+    "icon": "dove"
+  },
+  {
+    "id": "alpha-and-omega",
+    "name": "Alpha and Omega",
+    "description": "Read the overview of both Genesis and Revelation — the first and the last.",
+    "icon": "star"
+  },
+  {
+    "id": "still-small-voice",
+    "name": "Still Small Voice",
+    "description": "Ask the AI Bible assistant a question.",
+    "icon": "sparkle"
+  },
+  {
+    "id": "well-read",
+    "name": "Well Read",
+    "description": "Open every featured study.",
+    "icon": "book"
+  },
+  {
+    "id": "every-corner",
+    "name": "Every Corner",
+    "description": "Visit every major section of the site: Home, Quests, Explorer, Studies, Assistant, Understand, Search, and Profile.",
+    "icon": "compass"
+  },
+  {
+    "id": "whole-story",
+    "name": "The Whole Story",
+    "description": "Open the overview page for all 66 books of the Bible.",
+    "icon": "bookmark"
+  },
+  {
+    "id": "secret-keeper",
+    "name": "Secret Keeper",
+    "description": "Found it — you clicked the site logo far more times than anyone reasonably should.",
+    "icon": "sparkle"
   }
 ]

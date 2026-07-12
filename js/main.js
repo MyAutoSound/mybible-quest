@@ -9,6 +9,8 @@ const NAV_LINKS = [
   { href: "studies.html", label: "Studies", key: "studies" },
   { href: "assistant.html", label: "Assistant", key: "assistant" },
   { href: "understand.html", label: "Understand", key: "understand" },
+  { href: "search.html", label: "Search", key: "search" },
+  { href: "profile.html", label: "Profile", key: "profile" },
 ];
 
 const ICONS = {
@@ -80,7 +82,6 @@ function renderHeader() {
           ${ICONS.flame}<span id="nav-streak-count">0</span>
         </a>
         <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">${ICONS.moon}</button>
-        <a href="search.html" class="icon-btn" aria-label="Search" id="nav-search-btn">${ICONS.search}</a>
         <button class="hamburger" id="hamburger-btn" aria-label="Open menu">${ICONS.menu}</button>
       </div>
     </div>
@@ -96,8 +97,6 @@ function renderHeader() {
   mobileMenu.innerHTML = `
     <button class="icon-btn mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">${ICONS.close}</button>
     ${NAV_LINKS.map(l => `<a href="${l.href}" class="${l.key === active ? "active" : ""}">${l.label}</a>`).join("")}
-    <a href="search.html" class="${active === "search" ? "active" : ""}">Search</a>
-    <a href="profile.html" class="${active === "profile" ? "active" : ""}">Profile</a>
   `;
   header.after(mobileMenu);
 
@@ -105,6 +104,10 @@ function renderHeader() {
     const streakEl = document.getElementById("nav-streak-count");
     if (streakEl) streakEl.textContent = Store.getStreak();
   }
+
+  header.querySelector(".brand").addEventListener("click", () => {
+    if (typeof Store !== "undefined") Store.recordLogoClick();
+  });
 
   document.getElementById("hamburger-btn").addEventListener("click", () => {
     document.getElementById("mobile-menu").classList.add("open");
@@ -177,6 +180,7 @@ function initTheme() {
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem("mbq-theme", next);
     updateThemeIcon();
+    if (next === "dark" && typeof Store !== "undefined") Store.recordDarkModeToggle();
   });
 }
 
@@ -262,6 +266,7 @@ function initShell() {
         setTimeout(() => showToast(`Day ${streak} streak — welcome back.`, "default"), 600);
       });
     }
+    Store.recordPageVisit(currentPageKey());
   }
 }
 

@@ -17,12 +17,17 @@ import {
   signInWithPopup,
   signOut,
   updateProfile,
+  deleteUser,
+  reauthenticateWithCredential,
+  reauthenticateWithPopup,
+  EmailAuthProvider,
 } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-auth.js";
 import {
   getFirestore,
   doc,
   getDoc,
   setDoc,
+  deleteDoc,
 } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -81,6 +86,7 @@ function friendlyAuthError(err) {
     "auth/missing-email": "Enter your email above first.",
     "auth/operation-not-allowed": "That sign-in method isn't enabled for this project yet — enable it in the Firebase console under Authentication > Sign-in method.",
     "auth/configuration-not-found": "Authentication hasn't been set up for this project yet — open Authentication in the Firebase console and enable Email/Password and Google sign-in.",
+    "auth/requires-recent-login": "For your security, please sign in again before doing this.",
   };
   return map[err.code] || "Something went wrong. Please try again.";
 }
@@ -133,6 +139,55 @@ const Auth = {
       return {};
     } catch (err) {
       return { error: friendlyAuthError(err) };
+    }
+  },
+
+  async updateDisplayName(name) {
+    try {
+      await updateProfile(auth.currentUser, { displayName: name });
+      this._listeners.forEach((fn) => fn(this.currentUser));
+      return {};
+    } catch (err) {
+      return { error: friendlyAuthError(err) };
+    }
+  },
+
+  syncNow() {
+    if (!this.currentUser || !hasStore) return Promise.resolve();
+    clearTimeout(pushTimer);
+    return setDoc(doc(db, "users", this.currentUser.uid), Store._exportState()).then(() => {
+      this.lastSyncedAt = Date.now();
+      this._listeners.forEach((fn) => fn(this.currentUser));
+    });
+  },
+
+  // Deleting the account also removes its cloud-synced document. If Firebase
+  // requires a fresh login for this sensitive action, this re-authenticates
+  // with the given password (email accounts) or a fresh Google popup, then
+  // retries once, rather than surfacing a dead end to the user.
+  async deleteAccount(password) {
+    const user = auth.currentUser;
+    try {
+      await deleteDoc(doc(db, "users", user.uid)).catch(() => {});
+      await deleteUser(user);
+      return {};
+    } catch (err) {
+      if (err.code !== "auth/requires-recent-login") return { error: friendlyAuthError(err) };
+      try {
+        const isGoogle = user.providerData.some((p) => p.providerId === "google.com");
+        if (isGoogle) {
+          await reauthenticateWithPopup(user, new GoogleAuthProvider());
+        } else if (password) {
+          await reauthenticateWithCredential(user, EmailAuthProvider.credential(user.email, password));
+        } else {
+          return { error: "reauth-required" };
+        }
+        await deleteDoc(doc(db, "users", user.uid)).catch(() => {});
+        await deleteUser(user);
+        return {};
+      } catch (err2) {
+        return { error: friendlyAuthError(err2) };
+      }
     }
   },
 };

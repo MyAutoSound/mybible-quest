@@ -10,7 +10,7 @@ function renderLevelCard() {
     </div>
     <div style="flex:1">
       <div class="flex-between" style="margin-bottom:8px">
-        <strong style="font-size:0.9rem">${xp} XP total</strong>
+        <strong style="font-size:0.9rem">${Store.getLevelTitle(level)} · ${xp} XP total</strong>
         <span style="font-size:0.8rem;color:var(--text-tertiary)">${ceiling - xp > 0 ? `${ceiling - xp} XP to level ${level + 1}` : "Max level"}</span>
       </div>
       <div class="xp-bar"><span style="width:${pct}%"></span></div>

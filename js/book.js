@@ -9,6 +9,7 @@ async function init() {
 
   document.title = `${book.title} — MyBible.quest`;
   setPageMeta(book.authorNote || `${book.title}: ${book.category}, ${book.testament === "old" ? "Old Testament" : "New Testament"} — author, context, and key verses.`);
+  if (typeof Store !== "undefined") Store.recordBookVisit(book.id, books.length);
   document.getElementById("book-head").innerHTML = `
     <span class="eyebrow">✦ ${book.testament === "old" ? "Old Testament" : "New Testament"} · ${book.category}</span>
     <h2>${book.title}</h2>

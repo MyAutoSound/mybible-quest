@@ -42,10 +42,32 @@
             <button class="btn btn-primary btn-sm" id="profile-signin-btn">Sign in / Create account</button>
           </div>
           <div id="profile-account-signed-in" hidden>
-            <h3 style="margin:0 0 6px">Signed in</h3>
-            <p style="margin:0 0 4px" id="profile-account-email"></p>
-            <p style="margin:0 0 14px;font-size:0.82rem;color:var(--text-tertiary)" id="profile-last-synced"></p>
-            <button class="btn btn-secondary btn-sm" id="profile-signout-btn">Sign out</button>
+            <div class="account-row">
+              <div class="account-avatar-lg" id="profile-account-avatar"></div>
+              <div style="flex:1;min-width:0">
+                <div class="account-name-row">
+                  <strong id="profile-account-name" style="font-size:1.05rem"></strong>
+                  <button class="auth-forgot-link" id="profile-edit-name-btn" style="margin:0">Edit name</button>
+                </div>
+                <form id="profile-edit-name-form" hidden style="display:flex;gap:8px;margin:6px 0">
+                  <input type="text" id="profile-edit-name-input" class="auth-field-input" style="flex:1" maxlength="40">
+                  <button type="submit" class="btn btn-primary btn-sm">Save</button>
+                </form>
+                <p style="margin:2px 0 0;font-size:0.85rem;color:var(--text-tertiary)" id="profile-account-email"></p>
+                <p style="margin:2px 0 0;font-size:0.78rem;color:var(--text-tertiary)" id="profile-account-provider"></p>
+              </div>
+            </div>
+            <p style="margin:12px 0 14px;font-size:0.82rem;color:var(--text-tertiary)" id="profile-last-synced"></p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <button class="btn btn-secondary btn-sm" id="profile-sync-btn">Sync now</button>
+              <button class="btn btn-secondary btn-sm" id="profile-signout-btn">Sign out</button>
+            </div>
+            <button class="auth-forgot-link" id="profile-delete-btn" style="margin:16px 0 0;color:#c0392b">Delete account</button>
+            <form id="profile-delete-form" hidden style="display:flex;gap:8px;margin-top:10px">
+              <input type="password" id="profile-delete-password" placeholder="Confirm your password" class="auth-field-input" style="flex:1" autocomplete="current-password">
+              <button type="submit" class="btn btn-primary btn-sm" style="background:#c0392b">Delete</button>
+            </form>
+            <p class="auth-error" id="profile-account-error" hidden></p>
           </div>
         </div>
         <div class="study-card reveal is-visible level-card" id="level-card"></div>
