@@ -578,6 +578,7 @@ section { padding: 76px 0; }
 .result-item h3 { margin-bottom: 6px; font-size: 1.15rem; }
 .result-item p { font-size: 0.93rem; }
 .no-results { text-align: center; padding: 60px 20px; color: var(--text-tertiary); }
+.result-item mark { background: var(--gold-soft); color: var(--text); border-radius: 3px; padding: 0 2px; }
 
 /* ---------- Explorer ---------- */
 .explorer-tabs { display: flex; gap: 8px; margin-bottom: 36px; border-bottom: 1px solid var(--border); }

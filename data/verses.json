@@ -2290,5 +2290,467 @@
       "scholarlyDebate": "Scholars debate whether 1 John was written by the same author as the Gospel of John, by a later member of a shared Johannine community and tradition, or by someone else entirely; the letter itself does not name its author.",
       "interpretation": "Many readers interpret 'purify us from all unrighteousness' as pointing to a complete, ongoing cleansing rather than a one-time transaction, though traditions differ on exactly how they understand that process."
     }
+  },
+  {
+    "id": "genesis-1-1",
+    "reference": "Genesis 1:1",
+    "text": "In the beginning God created the heavens and the earth.",
+    "context": "The opening line of the first of Genesis's two creation accounts (1:1-2:3), which moves through six days of ordered creation culminating in humanity made in God's image, followed by a day of rest.",
+    "importance": "As the Bible's opening sentence, it frames everything that follows around a single God calmly and deliberately ordering the world into being, in contrast to neighboring creation stories built on conflict among many rival gods.",
+    "themes": ["creation", "sovereignty", "beginnings"],
+    "emotions": ["faith", "hope"],
+    "author": "Traditionally attributed to Moses as part of the Torah; many modern scholars instead see Genesis as combining multiple sources woven together over centuries.",
+    "dateApprox": "Traditional dating places Mosaic authorship around the 15th-13th century BC; source-critical scholars generally date the text's final compilation between the 10th and 5th centuries BC.",
+    "place": "Composed and compiled within ancient Israel, with some material possibly reaching final form during or after the Babylonian exile.",
+    "audience": "The people of Israel, understanding their own origins and their God's identity against the backdrop of the surrounding nations' very different religious systems.",
+    "politicalSituation": "Ancient Israel existed alongside dominant regional powers, including Egypt and Babylon, each with well-known creation traditions of its own.",
+    "culturalNote": "Unlike Mesopotamian creation accounts, where the world often forms from the corpse of or conflict between defeated gods, Genesis presents creation as calm and spoken into being, with humanity as a deliberate high point rather than an afterthought created for slave labor.",
+    "keyWords": [
+      { "word": "bara (created)", "meaning": "A Hebrew verb used in the text exclusively with God as its subject, suggesting a distinct kind of creating unavailable to any other agent." },
+      { "word": "elohim (God)", "meaning": "A grammatically plural Hebrew noun consistently paired with singular verbs here, which most scholars read as expressing majesty rather than multiple gods." }
+    ],
+    "modernApplication": "Readers often return to this verse when wrestling with questions of purpose and order, using it as a starting point for believing the world is intentional, regardless of how they read the following chapters scientifically.",
+    "relatedVerseIds": ["john-1-1", "psalm-139-14", "hebrews-11-1"],
+    "reflectionQuestions": [
+      "Does picturing the world as deliberately ordered, rather than accidental, change how you move through an ordinary day?",
+      "What would it mean to see your own life as something intentionally begun rather than randomly assembled?"
+    ],
+    "suggestedPrayer": "Help me see order and purpose in the world around me, even in seasons that feel chaotic. Thank you for beginnings, and for the chance to start again.",
+    "historicityNote": {
+      "established": "Genesis's opening chapters share structural features, such as a beginning in watery chaos ordered into a habitable world, with other ancient Near Eastern creation texts like Babylon's Enuma Elish.",
+      "scholarlyDebate": "Scholars debate the number, date, and boundaries of the sources behind Genesis's final form, and how literally versus theologically its six-day structure was originally intended to be read.",
+      "interpretation": "Faith communities hold a range of views on how this verse relates to modern cosmology, from young-earth literalism to reading the chapter as theological literature about order and purpose rather than a scientific timeline."
+    }
+  },
+  {
+    "id": "exodus-20-3",
+    "reference": "Exodus 20:3",
+    "text": "You shall have no other gods before me.",
+    "context": "The first of the Ten Commandments, given to Israel at Mount Sinai shortly after their departure from Egypt, opening the core legal and covenantal section of Exodus.",
+    "importance": "As the first command in the list, it establishes exclusive loyalty to Israel's God as the foundation the other nine commandments build on, rather than one rule among equals.",
+    "themes": ["worship", "covenant", "law"],
+    "emotions": ["faith"],
+    "author": "Traditionally Moses; many scholars see the legal material in Exodus as developed and compiled over a longer period alongside a Mosaic-era core.",
+    "dateApprox": "Traditional dating places the Exodus and Sinai events around the 13th century BC; scholars debate the dating of the legal text's composition, with some seeing centuries of later development.",
+    "place": "Set at Mount Sinai in the wilderness, on the way from Egypt to Canaan.",
+    "audience": "The recently-freed Israelite community, forming a covenant identity as a people distinct from Egypt and from the nations they would encounter in Canaan.",
+    "politicalSituation": "Egypt's New Kingdom dominated the region during the traditional dating of the Exodus, and the surrounding Canaanite city-states practiced polytheistic worship of multiple regional and household gods.",
+    "culturalNote": "Ancient Near Eastern treaties between kings and vassal nations often opened with a demand for exclusive loyalty; many scholars note the Ten Commandments' structure echoes this treaty form, with Israel's God taking the position of the great king.",
+    "keyWords": [
+      { "word": "panai (before me / before my face)", "meaning": "A Hebrew idiom suggesting rivalry in God's own presence, not merely elsewhere — the concern is exclusive loyalty, not geography." }
+    ],
+    "modernApplication": "Readers sometimes broaden this beyond literal idols to ask what commands their deepest loyalty day to day — work, achievement, relationships — and whether anything has quietly taken a place this verse reserves for God alone.",
+    "relatedVerseIds": ["deuteronomy-6-4", "joshua-1-9"],
+    "reflectionQuestions": [
+      "What competes most for the kind of exclusive priority this verse describes?",
+      "How does thinking of commandments as covenant terms, rather than arbitrary rules, change how you read them?"
+    ],
+    "suggestedPrayer": "Show me what I've quietly let compete for first place in my life. I want my deepest loyalty to be well placed.",
+    "historicityNote": {
+      "established": "The Ten Commandments appear twice in the Torah (Exodus 20 and Deuteronomy 5) with minor wording differences, and their treaty-like structure has documented parallels in other ancient Near Eastern legal and diplomatic texts.",
+      "scholarlyDebate": "Historians debate the precise date and stages of composition behind the Sinai narrative and its laws, and how much reflects a single Mosaic-era event versus later legal compilation attributed back to it.",
+      "interpretation": "Jewish and Christian traditions differ on how this command applies today, including debates over the second commandment's scope regarding religious imagery, a difference reflected in how various traditions number the commandments."
+    }
+  },
+  {
+    "id": "psalm-139-14",
+    "reference": "Psalm 139:14",
+    "text": "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.",
+    "context": "Part of a psalm reflecting on being fully known by God — thoughts, actions, and even one's formation in the womb — traditionally attributed to David.",
+    "importance": "This verse grounds a person's worth in being deliberately and carefully made, rather than in performance or comparison to others, within a psalm otherwise focused on being completely known.",
+    "themes": ["identity", "worth", "creation"],
+    "emotions": ["hope", "faith"],
+    "author": "Traditionally attributed to David; the psalm's superscription names him, though authorship of individual psalms is difficult to verify independently.",
+    "dateApprox": "If Davidic, roughly the 10th century BC; some scholars date the psalm's language to a later period based on its vocabulary.",
+    "place": "Ancient Israel, likely composed for personal reflection or temple worship use.",
+    "audience": "An individual worshiper addressing God directly, in a psalm later used communally in Israel's worship.",
+    "politicalSituation": "Not tied to a specific political event; the psalm's concern is personal and theological rather than national.",
+    "culturalNote": "Ancient Near Eastern thought commonly attributed the formation of a child in the womb to divine craftsmanship, an image this psalm draws on directly a few verses earlier when it describes being 'knit together' before birth.",
+    "keyWords": [
+      { "word": "yare (fearfully)", "meaning": "Related to a Hebrew root for awe or reverence, suggesting a formation that inspires wonder rather than mere biological description." },
+      { "word": "pala (wonderful)", "meaning": "Describes something surpassing ordinary explanation, often used elsewhere in the Old Testament for God's miraculous acts." }
+    ],
+    "modernApplication": "Readers often use this verse to counter feelings of worthlessness or comparison, treating their own existence as intentional rather than incidental.",
+    "relatedVerseIds": ["genesis-1-1", "jeremiah-29-11"],
+    "reflectionQuestions": [
+      "Where do you most struggle to believe you were made with intention rather than by accident?",
+      "How would treating your own body and mind as 'wonderfully made' change how you talk to yourself?"
+    ],
+    "suggestedPrayer": "Help me see myself the way this verse describes — carefully made, not an accident. Quiet the voice that tells me I'm not enough.",
+    "historicityNote": {
+      "established": "Psalm 139 is preserved in the Masoretic Text and among the Dead Sea Scrolls, and its themes of divine omniscience and intimate knowledge of a person are consistent across manuscript traditions.",
+      "scholarlyDebate": "Scholars debate the psalm's exact date based on its distinctive vocabulary, with some pointing to features suggesting a later post-exilic composition rather than a 10th century BC Davidic origin.",
+      "interpretation": "The psalm is widely used in both Jewish and Christian teaching on human dignity and the ethics of how people treat one another and themselves, an application drawn from the text rather than stated explicitly within it."
+    }
+  },
+  {
+    "id": "proverbs-22-6",
+    "reference": "Proverbs 22:6",
+    "text": "Start children off on the way they should go, and even when they are old they will not turn from it.",
+    "context": "One of many short, standalone wisdom sayings collected in Proverbs, part of a broader ancient Near Eastern genre of practical instruction literature.",
+    "importance": "Reflects the book of Proverbs' general pattern of describing likely outcomes of wise living, offering a general principle about upbringing rather than a strict, unconditional promise.",
+    "themes": ["wisdom", "family", "formation"],
+    "emotions": ["direction", "hope"],
+    "author": "Traditionally associated with Solomon, though Proverbs itself names multiple contributors and compilers, including 'the wise' more generally.",
+    "dateApprox": "Solomon's traditional reign is dated to the 10th century BC; scholars generally see Proverbs as a compiled anthology assembled over a longer span, into the post-exilic period.",
+    "place": "Ancient Israel, within a wisdom tradition shared broadly across the ancient Near East, including Egypt.",
+    "audience": "Israelite households and, likely, young people specifically being taught wisdom for adult life.",
+    "politicalSituation": "Not tied to a specific political event; wisdom literature like Proverbs functioned across generations regardless of Israel's shifting political fortunes.",
+    "culturalNote": "Egyptian wisdom instructions, such as the Instruction of Amenemope, share notable parallels with sections of Proverbs, reflecting a common ancient Near Eastern genre of practical, generational teaching.",
+    "keyWords": [
+      { "word": "chanak (start / train)", "meaning": "Related to a Hebrew root associated with dedication, as in 'dedicating' a house or object — suggesting an intentional, formative start rather than casual habit." }
+    ],
+    "modernApplication": "Parents and mentors often hold this verse alongside the honest reality that raised children still make their own choices, reading it as a principle about likely tendencies rather than an ironclad guarantee.",
+    "relatedVerseIds": ["proverbs-3-5", "deuteronomy-6-4"],
+    "reflectionQuestions": [
+      "What values were you intentionally or unintentionally 'started on' as a child, for better or worse?",
+      "How do you hold a general wisdom principle like this one alongside people you love who didn't follow the path they were raised in?"
+    ],
+    "suggestedPrayer": "Give wisdom to those raising children, and comfort to those whose loved ones have wandered from a good upbringing. Help me trust that formation matters, even when outcomes aren't guaranteed.",
+    "historicityNote": {
+      "established": "Proverbs 22:17-24:22 shares clear structural and thematic parallels with the Egyptian Instruction of Amenemope, a documented case of shared wisdom literature across ancient Near Eastern cultures.",
+      "scholarlyDebate": "Scholars debate how much of Proverbs reflects genuine Solomonic authorship versus later compilation under his name, a common ancient practice of attributing wisdom collections to a renowned figure.",
+      "interpretation": "Proverbs' sayings are generally read as wisdom describing likely patterns rather than unconditional promises, a genre distinction many traditions apply here to avoid treating this verse as a guarantee that overrides individual free will."
+    }
+  },
+  {
+    "id": "isaiah-53-5",
+    "reference": "Isaiah 53:5",
+    "text": "But he was pierced for our transgressions, he was crushed for our iniquities; the punishment that brought us peace was on him, and by his wounds we are healed.",
+    "context": "Part of the fourth of Isaiah's 'Servant Songs,' describing a suffering figure who bears others' wrongdoing, within a section of the book addressing Judah during and after the Babylonian exile.",
+    "importance": "One of the most debated passages in the Hebrew Bible, this verse describes vicarious suffering bringing healing to others, a theme Christian tradition applies directly to Jesus's crucifixion.",
+    "themes": ["suffering", "redemption", "sacrifice"],
+    "emotions": ["grief", "hope"],
+    "author": "Traditionally the prophet Isaiah; many scholars attribute chapters 40-55 to a later author or authors, often called 'Second Isaiah,' writing during or after the Babylonian exile.",
+    "dateApprox": "If unified Isaiah authorship, 8th century BC; if Second Isaiah, roughly the 6th century BC, during or shortly after the Babylonian exile.",
+    "place": "Likely composed in Babylon or in Judah, addressing a community experiencing or emerging from exile.",
+    "audience": "The exiled or recently-restored community of Judah, processing collective suffering and hope for restoration.",
+    "politicalSituation": "Judah had been conquered by Babylon, its temple destroyed, and much of its population deported; the servant songs are often read against this backdrop of national trauma.",
+    "culturalNote": "The identity of the 'servant' was debated even in ancient Jewish interpretation, with some readings applying it to the nation of Israel collectively and others to an individual figure, a debate that continues in different forms today.",
+    "keyWords": [
+      { "word": "mecholal (pierced)", "meaning": "A strong Hebrew term for violent wounding, sometimes rendered 'pierced through.'" },
+      { "word": "avonoteinu (our iniquities)", "meaning": "Places responsibility for wrongdoing explicitly on the 'we' speaking, not the suffering servant himself." }
+    ],
+    "modernApplication": "Readers across traditions find in this verse a template for meaning found in undeserved suffering, whether applied christologically or to collective national experience.",
+    "relatedVerseIds": ["1-john-1-9", "john-3-16"],
+    "reflectionQuestions": [
+      "How do you personally make sense of suffering that seems to benefit someone other than the one suffering?",
+      "Does reading this passage change depending on whether you picture an individual or a whole people as the 'servant'?"
+    ],
+    "suggestedPrayer": "Help me find meaning in suffering I don't understand, mine or others'. Thank you for the hope that pain isn't always the end of the story.",
+    "historicityNote": {
+      "established": "Isaiah 53 is preserved in full in the Great Isaiah Scroll among the Dead Sea Scrolls, dated to roughly the 2nd century BC, confirming the passage's wording predates Christianity by at least a century.",
+      "scholarlyDebate": "Scholars debate the identity of the 'suffering servant' — options proposed include the nation of Israel, a specific prophet, an idealized future king, or a figure later identified with the Messiah — and there is no single scholarly consensus.",
+      "interpretation": "Christian tradition reads this passage as a direct prophecy of Jesus's crucifixion; many Jewish interpretive traditions read the servant as representing Israel's own suffering and eventual vindication among the nations. Both are long-standing interpretive traditions rather than one being a simple factual error."
+    }
+  },
+  {
+    "id": "matthew-5-4",
+    "reference": "Matthew 5:4",
+    "text": "Blessed are those who mourn, for they will be comforted.",
+    "context": "Part of the Beatitudes, the opening of Jesus's Sermon on the Mount, a series of blessings pronounced over states that don't usually look like blessings by ordinary standards.",
+    "importance": "This verse directly pairs grief with a promised comfort, refusing to treat mourning as something to simply push past or hide, within Jesus's broader reversal of expected values in the Beatitudes.",
+    "themes": ["grief", "comfort", "blessing"],
+    "emotions": ["grief", "hope"],
+    "author": "The Gospel of Matthew is traditionally attributed to the apostle Matthew, though the manuscripts themselves are anonymous.",
+    "dateApprox": "Most scholars date Matthew to roughly AD 80-90, drawing on Mark and other shared source material.",
+    "place": "Likely composed for a Jewish-Christian community, possibly in Syrian Antioch, though the exact location is debated.",
+    "audience": "A mixed audience of Jesus's disciples and the broader crowds gathered to hear him, according to the narrative setting.",
+    "politicalSituation": "Roman-occupied Judea, with the Sermon on the Mount narratively set before the Jewish-Roman conflicts that would later lead to Jerusalem's destruction in AD 70.",
+    "culturalNote": "The Beatitudes' 'blessed' pattern echoes wisdom literature elsewhere in Jewish scripture, but subverts typical honor-shame values of the era by pronouncing blessing over mourning, meekness, and persecution rather than wealth or status.",
+    "keyWords": [
+      { "word": "makarios (blessed)", "meaning": "Describes a state of deep flourishing or favor, not simply momentary happiness." },
+      { "word": "parakaleo (comforted)", "meaning": "Related to a word meaning 'called alongside' — comfort here carries the sense of someone coming near, not just a feeling passing." }
+    ],
+    "modernApplication": "This verse is often used to validate grief as legitimate rather than something to suppress, while also holding out comfort as a real, promised response rather than empty positivity.",
+    "relatedVerseIds": ["psalm-34-18", "revelation-21-4"],
+    "reflectionQuestions": [
+      "Have you felt pressure to move past grief faster than felt honest? How does this verse sit with that pressure?",
+      "What would it look like to actively expect comfort in your grief, rather than just endure it?"
+    ],
+    "suggestedPrayer": "I bring my grief honestly, without pretending it's smaller than it is. Thank you for promising comfort rather than asking me to simply move on.",
+    "historicityNote": {
+      "established": "The Beatitudes appear in both Matthew and Luke, in differing forms, and are widely regarded by scholars as reflecting authentic early teaching material attributed to Jesus.",
+      "scholarlyDebate": "Scholars debate whether Matthew's version (with its more spiritualized 'poor in spirit' language elsewhere in the passage) or Luke's shorter, more materially-focused version reflects an earlier form of the tradition.",
+      "interpretation": "Traditions differ on whether the comfort promised here is primarily future and eschatological, present and pastoral, or both simultaneously."
+    }
+  },
+  {
+    "id": "john-1-1",
+    "reference": "John 1:1",
+    "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "context": "The opening line of the Gospel of John's prologue (1:1-18), a theological introduction identifying Jesus as the eternal 'Word' (Logos) present with God before creation.",
+    "importance": "This verse deliberately echoes Genesis 1:1's opening phrase while identifying Jesus with God's own eternal nature, making one of the New Testament's clearest statements of Jesus's divinity.",
+    "themes": ["identity of Christ", "creation", "divinity"],
+    "emotions": ["faith"],
+    "author": "Traditionally attributed to John the Apostle, or the Johannine community associated with him.",
+    "dateApprox": "Most scholars date the Gospel of John to roughly AD 85-95, though some argue for an earlier date.",
+    "place": "Likely composed in or near Ephesus, in Asia Minor, according to early church tradition.",
+    "audience": "A Christian community, likely a mix of Jewish and Gentile believers, in a setting where Greek philosophical ideas about a divine 'Logos' or ordering principle were also culturally familiar.",
+    "politicalSituation": "Roman rule governed the wider Mediterranean world, and by this Gospel's likely date, Jerusalem's Temple had already been destroyed in AD 70, reshaping both Jewish and Christian identity.",
+    "culturalNote": "'Logos' (Word) carried meaning in both Jewish tradition, where God's spoken word accomplishes his will, and Greek philosophy, where the Logos described a rational ordering principle behind the universe — the prologue likely speaks to both audiences at once.",
+    "keyWords": [
+      { "word": "logos (word)", "meaning": "Carries a double resonance: God's active, effective speech in Jewish thought, and a cosmic ordering principle in Greek philosophical usage." },
+      { "word": "en arche (in the beginning)", "meaning": "A direct echo of the Greek Old Testament's (Septuagint) opening words of Genesis 1:1, deliberately linking this Gospel to the creation account." }
+    ],
+    "modernApplication": "Readers often reflect on this verse when considering claims about who Jesus was and is, since it makes an unusually direct, philosophically-engaged statement about his eternal identity rather than only his teaching or example.",
+    "relatedVerseIds": ["genesis-1-1", "john-14-6"],
+    "reflectionQuestions": [
+      "What difference does it make to you whether Jesus is described as a teacher versus described here as eternally present with God?",
+      "How does the deliberate echo of Genesis's opening line shape how you read the rest of John's Gospel?"
+    ],
+    "suggestedPrayer": "Help me take seriously the claims this Gospel makes about who Jesus is, not just what he taught. Thank you for a Word that was there from the very beginning.",
+    "historicityNote": {
+      "established": "The Gospel of John's prologue is preserved consistently across early manuscripts, including Papyrus 66 (circa AD 200), and its Logos language reflects documented philosophical vocabulary current in the first-century eastern Mediterranean.",
+      "scholarlyDebate": "Scholars debate how much the prologue draws directly on Greek philosophy (particularly Stoic and Philo's Jewish-Hellenistic writings) versus primarily Jewish wisdom traditions that personify God's Word or Wisdom.",
+      "interpretation": "This verse is central to later Christian doctrinal formulations of the Trinity, developed in the centuries following the New Testament rather than spelled out in later creedal terms within the text itself."
+    }
+  },
+  {
+    "id": "john-14-6",
+    "reference": "John 14:6",
+    "text": "Jesus answered, \"I am the way and the truth and the life. No one comes to the Father except through me.\"",
+    "context": "Spoken during Jesus's final extended conversation with his disciples at the Last Supper, in response to Thomas's question about how to know the way to where Jesus said he was going.",
+    "importance": "One of several 'I am' statements in John's Gospel, this verse makes an exclusive claim about access to God specifically through Jesus, central to how many Christian traditions understand salvation.",
+    "themes": ["identity of Christ", "salvation", "truth"],
+    "emotions": ["faith", "direction"],
+    "author": "Traditionally attributed to John the Apostle, or the Johannine community associated with him.",
+    "dateApprox": "Most scholars date the Gospel of John to roughly AD 85-95.",
+    "place": "Narratively set in Jerusalem, at the Last Supper prior to Jesus's arrest.",
+    "audience": "Jesus's closest disciples, in an intimate, private setting rather than a public teaching moment.",
+    "politicalSituation": "Set narratively just before the Roman and Jewish religious authorities' actions leading to Jesus's crucifixion during Passover in Jerusalem.",
+    "culturalNote": "'Way' language evoked common Jewish and Greco-Roman imagery of a path or manner of life to be followed, while 'I am' statements throughout John's Gospel echo the divine name given to Moses at the burning bush (Exodus 3:14).",
+    "keyWords": [
+      { "word": "hodos (way)", "meaning": "Can mean a literal road or, metaphorically, a manner of life or conduct — early Christianity was itself sometimes called simply 'the Way' (Acts 9:2)." },
+      { "word": "ego eimi (I am)", "meaning": "A phrase used repeatedly by Jesus in John's Gospel that many scholars connect to God's self-identification to Moses as 'I am' in Exodus." }
+    ],
+    "modernApplication": "This verse sits at the center of ongoing conversations, within and beyond Christianity, about religious exclusivity and pluralism, and readers across traditions engage that tension differently.",
+    "relatedVerseIds": ["john-1-1", "romans-10-9"],
+    "reflectionQuestions": [
+      "How do you personally hold together this verse's exclusive claim with respect for people of other faiths or none?",
+      "What would it mean to you for Jesus to be 'the way' in a practical, daily sense, not just a doctrinal statement?"
+    ],
+    "suggestedPrayer": "Help me hold conviction about what I believe with humility toward those who see it differently. Thank you for offering a way when I feel lost.",
+    "historicityNote": {
+      "established": "This verse is consistently preserved across early manuscripts of John's Gospel, and 'I am' statements are a well-documented, distinctive feature of Johannine style compared to the other three Gospels.",
+      "scholarlyDebate": "Scholars debate how much of John's distinctive, elevated language reflects Jesus's own words versus the Gospel author's theological interpretation and expansion, a broader question in Johannine scholarship.",
+      "interpretation": "Christian traditions differ on how strictly to read this verse's exclusivity, including debates over the eternal fate of those who never encountered Christian teaching, a question this site describes as contested rather than settling."
+    }
+  },
+  {
+    "id": "romans-3-23",
+    "reference": "Romans 3:23",
+    "text": "For all have sinned and fall short of the glory of God.",
+    "context": "Part of Paul's extended argument early in Romans that both Jews and Gentiles alike stand in need of God's grace, building toward his explanation of salvation through faith rather than law-keeping.",
+    "importance": "This verse is a key summary statement establishing universal human need, functioning as a hinge between Paul's critique of self-righteousness and his subsequent explanation of grace.",
+    "themes": ["sin", "grace", "equality"],
+    "emotions": ["faith", "doubt"],
+    "author": "The apostle Paul, addressing a Christian community in Rome he had not yet visited.",
+    "dateApprox": "Widely dated to around AD 57, among the least disputed of Paul's letters in terms of authorship and dating.",
+    "place": "Written from Corinth, sent to the Christian community in Rome.",
+    "audience": "A mixed Jewish and Gentile Christian community in Rome, navigating tension over how Jewish law-keeping related to Gentile inclusion in the faith.",
+    "politicalSituation": "Written under the rule of Emperor Nero, in the capital of the Roman Empire, to a community that would later face significant persecution under Roman authorities.",
+    "culturalNote": "Paul's argument directly challenges both Jewish confidence in law-keeping and Gentile self-sufficiency, an unusually even-handed move given the ethnic tension present in the early church.",
+    "keyWords": [
+      { "word": "hamartano (sinned)", "meaning": "An archery-derived term meaning to miss a mark, used throughout the New Testament for moral failure." },
+      { "word": "doxa (glory)", "meaning": "Can mean visible splendor or reputation; 'falling short' suggests failing to reflect God's own character fully." }
+    ],
+    "modernApplication": "This verse is often used to level the playing field between people who consider themselves 'good' and those who don't, framing moral failure as a universal starting point rather than a dividing line between groups.",
+    "relatedVerseIds": ["1-john-1-9", "ephesians-2-8"],
+    "reflectionQuestions": [
+      "Does thinking of everyone as 'falling short' equally change how you judge yourself compared to others?",
+      "Where do you find it hardest to admit you've fallen short?"
+    ],
+    "suggestedPrayer": "Help me be honest that I fall short too, without using that honesty to spiral into shame. I'm grateful this isn't the end of the sentence.",
+    "historicityNote": {
+      "established": "Romans is among the seven Pauline letters whose authorship is essentially undisputed among scholars, and its early date and wide manuscript attestation make its text well established.",
+      "scholarlyDebate": "Scholars debate the precise makeup and internal tensions of the Roman Christian community Paul addresses, since he had not founded or personally visited it before writing.",
+      "interpretation": "Traditions differ on how this verse relates to questions of free will and human nature, including long-running theological debates over concepts like original sin that developed centuries after Paul."
+    }
+  },
+  {
+    "id": "romans-10-9",
+    "reference": "Romans 10:9",
+    "text": "If you declare with your mouth, \"Jesus is Lord,\" and believe in your heart that God raised him from the dead, you will be saved.",
+    "context": "Part of Paul's discussion of faith and salvation in Romans 10, contrasting a righteousness based on law-keeping with one based on faith openly professed and inwardly held.",
+    "importance": "This verse pairs outward confession with inward belief as together constituting saving faith, a formula widely cited across Christian traditions for what faith requires.",
+    "themes": ["salvation", "faith", "confession"],
+    "emotions": ["faith", "hope"],
+    "author": "The apostle Paul, writing to the Christian community in Rome.",
+    "dateApprox": "Widely dated to around AD 57.",
+    "place": "Written from Corinth, sent to Rome.",
+    "audience": "The same mixed Jewish and Gentile Christian community in Rome addressed throughout the letter.",
+    "politicalSituation": "Written under Roman imperial rule, where declaring 'Jesus is Lord' (rather than Caesar) carried a quiet political edge, given the imperial cult's own use of 'lord' language for the emperor.",
+    "culturalNote": "The confession 'Jesus is Lord' likely functioned as an early baptismal or worship formula, and calling Jesus 'Lord' (kyrios) directly echoed and rivaled titles used for the Roman emperor.",
+    "keyWords": [
+      { "word": "kyrios (Lord)", "meaning": "A title of authority also used for the Roman emperor and, in the Greek Old Testament, as a stand-in for God's own name — its use for Jesus makes a strong claim about his identity." },
+      { "word": "homologeo (declare/confess)", "meaning": "To say the same thing as, to openly agree with and affirm, rather than merely privately believe." }
+    ],
+    "modernApplication": "This verse is frequently used to describe the basic shape of Christian conversion: something believed inwardly and also stated openly, not kept entirely private.",
+    "relatedVerseIds": ["john-14-6", "ephesians-2-8"],
+    "reflectionQuestions": [
+      "Why do you think this verse pairs an internal belief with an external, spoken declaration rather than resting on one alone?",
+      "Is there a difference for you between privately believing something and openly saying it?"
+    ],
+    "suggestedPrayer": "I want my private beliefs and my public words to match. Give me courage to say what I believe, and honesty about what I actually believe.",
+    "historicityNote": {
+      "established": "Romans' authorship and early date are well established among scholars, and 'Jesus is Lord' is widely recognized as reflecting an early, pre-Pauline Christian confessional formula.",
+      "scholarlyDebate": "Scholars debate the precise liturgical or baptismal origins of this confession formula and how uniformly it was used across different early Christian communities.",
+      "interpretation": "Traditions differ on whether this verse describes a single, decisive moment of salvation or an ongoing posture of faith and confession sustained over a lifetime."
+    }
+  },
+  {
+    "id": "1-corinthians-13-4",
+    "reference": "1 Corinthians 13:4-7",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs.",
+    "context": "Part of Paul's extended reflection on love in 1 Corinthians 13, placed between two chapters discussing spiritual gifts, arguing love matters more than any impressive ability exercised without it.",
+    "importance": "Widely known as the 'love chapter,' this passage defines love through concrete behaviors rather than only feeling, making it one of the most quoted descriptions of love in the Bible, common at weddings and beyond.",
+    "themes": ["love", "relationships", "character"],
+    "emotions": ["hope", "faith"],
+    "author": "The apostle Paul, writing to the church in Corinth.",
+    "dateApprox": "Widely dated to around AD 53-54.",
+    "place": "Likely written from Ephesus, sent to the church in Corinth.",
+    "audience": "The Corinthian church, a community Paul elsewhere describes as divided and prone to prizing impressive spiritual gifts over character.",
+    "politicalSituation": "Corinth was a wealthy, cosmopolitan Roman colony city, known for commerce, status competition, and a diverse religious landscape.",
+    "culturalNote": "Corinthian culture placed heavy emphasis on public status and rhetorical skill; Paul's definition of love as patient and not boastful directly challenges those very values within the young church there.",
+    "keyWords": [
+      { "word": "agape (love)", "meaning": "A term for deliberate, committed love distinguished in Greek from romantic (eros) or friendship (philia) love, describing choice and action rather than only feeling." }
+    ],
+    "modernApplication": "This passage is often used as a practical checklist for relationships of all kinds, not only romantic ones, testing specific behaviors rather than only stated intentions or feelings.",
+    "relatedVerseIds": ["colossians-3-13", "galatians-5-22"],
+    "reflectionQuestions": [
+      "Which specific behavior in this list is hardest for you to practice consistently?",
+      "How does defining love by action, rather than only feeling, change how you evaluate your own relationships?"
+    ],
+    "suggestedPrayer": "Help me love the way this passage describes — patient, not keeping score, not needing to be first. Show me where my love has been more about feeling than action.",
+    "historicityNote": {
+      "established": "1 Corinthians is among Paul's least disputed letters in terms of authorship and early dating, with strong manuscript support.",
+      "scholarlyDebate": "Scholars debate whether this chapter was composed specifically for this letter or adapted from an existing early Christian hymn or teaching Paul incorporated into his argument.",
+      "interpretation": "While frequently used at weddings for romantic love, the passage's original context concerns love within the whole church community, not specifically marriage — an application many scholars note as a later, broader use of the text."
+    }
+  },
+  {
+    "id": "galatians-5-22",
+    "reference": "Galatians 5:22-23",
+    "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Against such things there is no law.",
+    "context": "Part of Paul's contrast in Galatians between 'works of the flesh' and the 'fruit of the Spirit,' addressing a church debating whether Gentile believers needed to follow Jewish law to be fully included.",
+    "importance": "This list describes character qualities as an organic outcome ('fruit') of a Spirit-led life, contrasted explicitly with a preceding list of destructive behaviors Paul calls 'works of the flesh.'",
+    "themes": ["character", "virtue", "transformation"],
+    "emotions": ["hope", "faith"],
+    "author": "The apostle Paul, writing to churches in the Roman province of Galatia.",
+    "dateApprox": "Scholars generally date Galatians to the late 40s or mid-50s AD, making it possibly Paul's earliest surviving letter.",
+    "place": "Written to several churches across the region of Galatia in Asia Minor.",
+    "audience": "Gentile Christian communities being pressured by other teachers to adopt Jewish law-keeping, particularly circumcision, as necessary for full inclusion.",
+    "politicalSituation": "Written amid an internal early-church dispute over Jewish and Gentile identity, well before wider Roman persecution of Christians became a major concern.",
+    "culturalNote": "'Fruit' imagery for character was a common ancient metaphor across Jewish and Greco-Roman moral teaching, describing visible results growing naturally from an inner root rather than external rule-following.",
+    "keyWords": [
+      { "word": "karpos (fruit)", "meaning": "Deliberately singular in the Greek text, unlike the plural 'works' of the flesh listed earlier — suggesting one unified character rather than a checklist of separate achievements." },
+      { "word": "enkrateia (self-control)", "meaning": "Literally 'inner strength' or mastery over oneself, a virtue also prized in Greek philosophical ethics of the period." }
+    ],
+    "modernApplication": "This list is often used as a practical gauge for spiritual growth, asking which of these qualities feel present or absent in daily life, rather than only measuring religious activity.",
+    "relatedVerseIds": ["1-corinthians-13-4", "ephesians-6-10"],
+    "reflectionQuestions": [
+      "Which of these nine qualities feels most and least present in your life right now?",
+      "The text calls this 'fruit,' something that grows, not something forced — how does that distinction change how you pursue these qualities?"
+    ],
+    "suggestedPrayer": "Grow these qualities in me — not as a performance, but as fruit that grows naturally. Show me which one needs the most attention right now.",
+    "historicityNote": {
+      "established": "Galatians' Pauline authorship is essentially unanimous among scholars, and it is one of the earliest and most confidently dated letters in the New Testament.",
+      "scholarlyDebate": "Scholars debate the exact identity and teaching of Paul's opponents in Galatia, generally called 'Judaizers,' and precisely which churches in the region received the letter.",
+      "interpretation": "Traditions differ on whether this list is meant as a complete, exhaustive description of Spirit-led character or a representative, non-exhaustive sample, a distinction the text itself doesn't explicitly settle."
+    }
+  },
+  {
+    "id": "ephesians-2-8",
+    "reference": "Ephesians 2:8-9",
+    "text": "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast.",
+    "context": "Part of Paul's explanation of salvation in Ephesians, following a description of humanity's spiritual condition before God's intervention, addressed to a largely Gentile Christian audience.",
+    "importance": "One of the New Testament's clearest single statements that salvation is received as an unearned gift rather than achieved through good deeds, central to Protestant theology in particular.",
+    "themes": ["grace", "salvation", "humility"],
+    "emotions": ["faith", "forgiveness"],
+    "author": "Traditionally the apostle Paul; some modern scholars debate whether Ephesians was written directly by Paul or by a close associate writing in his name and tradition after his death.",
+    "dateApprox": "If Pauline, roughly AD 60-62, during Paul's imprisonment; if pseudonymous, potentially somewhat later in the first century.",
+    "place": "Traditionally written from Rome during Paul's imprisonment, addressed to the church in Ephesus.",
+    "audience": "A largely Gentile Christian community in Ephesus, a major city with a significant pagan temple culture, notably the Temple of Artemis.",
+    "politicalSituation": "Written from Roman imprisonment, a period during which Paul also wrote several other letters traditionally grouped as his 'prison epistles.'",
+    "culturalNote": "Ephesus was home to the Temple of Artemis, one of the ancient world's Seven Wonders, and a major center of pagan worship and the associated trade in religious goods, a backdrop against which claims of a gift-based salvation stood out.",
+    "keyWords": [
+      { "word": "charis (grace)", "meaning": "Describes unearned favor or a freely given gift, a term with roots in Greco-Roman patron-client relationships but redefined here as entirely one-directional." },
+      { "word": "kauchaomai (boast)", "meaning": "To take pride in accomplishment; Paul explicitly rules this out as a possible response to grace-based salvation." }
+    ],
+    "modernApplication": "This verse is often used to relieve pressure to 'earn' acceptance from God through good behavior, reframing spiritual effort as a response to an already-given gift rather than a transaction.",
+    "relatedVerseIds": ["romans-3-23", "romans-10-9"],
+    "reflectionQuestions": [
+      "Do you tend to relate to God more like someone earning approval or someone who has already received a gift?",
+      "How might genuinely believing salvation is a gift change how you treat your own mistakes?"
+    ],
+    "suggestedPrayer": "Help me stop trying to earn what you've already given freely. Teach me to receive grace without needing to prove I deserve it.",
+    "historicityNote": {
+      "established": "Ephesians is preserved in early and widespread manuscript form, and its themes of grace and unity between Jewish and Gentile believers are consistent with broader Pauline theology found elsewhere.",
+      "scholarlyDebate": "A significant portion of modern scholars question direct Pauline authorship of Ephesians based on differences in vocabulary and style from Paul's undisputed letters, while others defend traditional authorship.",
+      "interpretation": "Christian traditions have long debated the relationship between grace, faith, and good works described here and elsewhere in the New Testament (compare James 2:17), generally resolving it as faith and works relating differently rather than contradicting each other."
+    }
+  },
+  {
+    "id": "philippians-4-13",
+    "reference": "Philippians 4:13",
+    "text": "I can do all this through him who gives me strength.",
+    "context": "Near the close of Paul's letter to the Philippians, following his description of having learned contentment in both plenty and want, written from prison.",
+    "importance": "Often quoted in isolation for general encouragement, the verse's original context is specifically about contentment and endurance through hardship, not unlimited achievement in any endeavor.",
+    "themes": ["strength", "contentment", "perseverance"],
+    "emotions": ["anxiety", "hope"],
+    "author": "The apostle Paul, writing to the church in Philippi, a congregation with whom he had a notably warm relationship.",
+    "dateApprox": "Widely dated to around AD 60-62, during one of Paul's imprisonments, possibly in Rome.",
+    "place": "Written from prison, addressed to the church in the Roman colony city of Philippi in Macedonia.",
+    "audience": "A Christian community Paul describes affectionately elsewhere in the letter, one that had also sent him material support during his imprisonment.",
+    "politicalSituation": "Written from Roman custody, likely awaiting the outcome of a legal proceeding that could have ended in his execution.",
+    "culturalNote": "Philippi was a Roman colony populated partly by retired soldiers, with a strong culture of Roman civic pride, which Paul plays on elsewhere in the letter by reminding believers their true 'citizenship' is in heaven.",
+    "keyWords": [
+      { "word": "ischyo (I can / I am strong)", "meaning": "Relates to having sufficient strength or power for a task, here attributed entirely to an outside source rather than personal capability." },
+      { "word": "endynamounti (who strengthens)", "meaning": "A present-tense participle suggesting ongoing, continuous empowering rather than a single past event." }
+    ],
+    "modernApplication": "While often applied broadly to achievement or ambition, the verse's original context suggests it's most directly about enduring hardship and finding contentment in difficult circumstances, a distinction worth keeping in mind when quoting it.",
+    "relatedVerseIds": ["2-corinthians-12-9", "isaiah-40-31"],
+    "reflectionQuestions": [
+      "How does knowing this verse was originally about contentment in hardship, not unlimited achievement, change how you apply it?",
+      "What current hardship are you needing strength to endure rather than escape?"
+    ],
+    "suggestedPrayer": "Give me strength not necessarily to escape hardship, but to endure it with contentment. Thank you for not leaving me to face it alone.",
+    "historicityNote": {
+      "established": "Philippians is among Paul's undisputed letters, with early and consistent manuscript attestation and near-universal scholarly agreement on its Pauline authorship.",
+      "scholarlyDebate": "Scholars debate exactly which of Paul's imprisonments (Rome, Ephesus, or Caesarea are all proposed) this letter was written during, affecting its precise date.",
+      "interpretation": "This verse is frequently quoted in contexts of athletic or personal achievement, an application that extends beyond, though isn't necessarily incompatible with, its original focus on contentment amid hardship."
+    }
+  },
+  {
+    "id": "psalm-91-1",
+    "reference": "Psalm 91:1",
+    "text": "Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty.",
+    "context": "The opening line of a psalm describing God's protection using imagery of shelter, refuge, and safety from various dangers, traditionally read as a psalm of trust.",
+    "importance": "This verse frames security as something found in proximity to God — 'dwelling' and 'shelter' — rather than in the absence of danger itself, setting up the psalm's extended protection imagery that follows.",
+    "themes": ["protection", "trust", "refuge"],
+    "emotions": ["anxiety", "faith"],
+    "author": "The psalm is anonymous in its Hebrew text, without an attributed author in its superscription, unlike many other psalms.",
+    "dateApprox": "Difficult to date precisely; scholars generally place it sometime within the range of Israel's monarchic to post-exilic periods.",
+    "place": "Ancient Israel, likely intended for temple worship or personal devotional use.",
+    "audience": "An individual worshiper seeking reassurance of God's protection, later used communally in Israel's worship life.",
+    "politicalSituation": "Not tied to a specific historical event; the psalm speaks in general terms about danger, including plague, war ('arrow'), and other threats.",
+    "culturalNote": "Imagery of taking refuge 'in the shadow' of a protector draws on the ancient Near Eastern image of a bird sheltering its young under its wings, also used elsewhere in the Psalms (e.g., Psalm 17:8).",
+    "keyWords": [
+      { "word": "sether (shelter)", "meaning": "A hiding place or covering, suggesting concealment and protection rather than mere shade." },
+      { "word": "shaddai (Almighty)", "meaning": "An ancient divine title of uncertain etymology, traditionally rendered 'Almighty,' used throughout the Old Testament, notably in Job." }
+    ],
+    "modernApplication": "This psalm is widely used in moments of fear or anxiety, though readers differ on whether its protection promises describe literal safety from all harm or a deeper security that persists through hardship.",
+    "relatedVerseIds": ["isaiah-41-10", "psalm-46-1"],
+    "reflectionQuestions": [
+      "What does 'dwelling' in God's shelter look like practically, in an ordinary anxious day?",
+      "How do you hold this psalm's protection language alongside the real hardships people of faith still experience?"
+    ],
+    "suggestedPrayer": "When I'm afraid, help me find shelter rather than just white-knuckle through it alone. Thank you for being a refuge I can return to again and again.",
+    "historicityNote": {
+      "established": "Psalm 91 is preserved in the Masoretic Text and appears among the Dead Sea Scrolls, and its imagery of divine shelter is consistent across Israel's broader psalm tradition.",
+      "scholarlyDebate": "Because the psalm lacks an attributed author or clear historical reference point, scholars have proposed a wide range of possible dates and settings without firm consensus.",
+      "interpretation": "Readers and traditions differ on whether this psalm's protection language promises literal physical safety or a deeper spiritual security compatible with real suffering, a tension especially visible when the psalm is used, as it sometimes is, in the context of illness or war."
+    }
   }
 ]
