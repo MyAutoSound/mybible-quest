@@ -178,5 +178,65 @@
         "reflection": "This doesn't ask you to pretend the harm was good. What might it look like to release resentment without denying that something wrong happened?"
       }
     ]
+  },
+  {
+    "id": "anger",
+    "title": "Anger & Conflict",
+    "icon": "flame",
+    "tagline": "For when tension is running hot",
+    "description": "Five stops on what the Bible says about anger, not as something to suppress or excuse, but as something to notice, slow down, and eventually resolve.",
+    "color": "gold",
+    "steps": [
+      {
+        "verseId": "james-1-19",
+        "reflection": "Listening comes before speaking, and speaking comes before anger, in that order. In your last disagreement, which of the three moved fastest?"
+      },
+      {
+        "verseId": "proverbs-15-1",
+        "reflection": "Tone is treated here as a real variable, not a minor detail. What tone do you default to under pressure, and is it the one you'd choose on purpose?"
+      },
+      {
+        "verseId": "ephesians-4-26",
+        "reflection": "Anger itself isn't condemned here, only what's done with it, and how long it's allowed to sit. Is there anger you've been carrying well past its 'sundown'?"
+      },
+      {
+        "verseId": "matthew-5-23",
+        "reflection": "Reconciliation is placed ahead of ritual. Is there a relationship you've been avoiding instead of repairing?"
+      },
+      {
+        "verseId": "colossians-3-13",
+        "reflection": "Forgiveness is framed as an ongoing practice, not a single dramatic act. What would it look like to practice it with whoever this anger is actually about?"
+      }
+    ]
+  },
+  {
+    "id": "loneliness",
+    "title": "Loneliness",
+    "icon": "moon",
+    "tagline": "For when you feel like you're on your own",
+    "description": "A quiet path through passages about presence and belonging, written to people who were genuinely isolated, displaced, or about to be left behind.",
+    "color": "blue",
+    "steps": [
+      {
+        "verseId": "deuteronomy-31-6",
+        "reflection": "This was spoken to a whole community about to lose its longtime leader. What transition are you facing without the support you'd like to have?"
+      },
+      {
+        "verseId": "psalm-68-6",
+        "reflection": "Belonging is described here as something provided, not something you have to earn. Where have you experienced that kind of belonging before?"
+      },
+      {
+        "verseId": "john-15-15",
+        "reflection": "The relationship on offer here is friendship, not distance managed from above. Where do you relate to others, or to God, more like a servant than a friend?"
+      },
+      {
+        "verseId": "matthew-28-20",
+        "reflection": "This promise was given to people being sent out into something uncertain. What are you facing right now that would feel different with steady company?"
+      },
+      {
+        "verseId": "psalm-23-1",
+        "reflection": "Rest and provision are pictured here as close, not distant. What would it take for you to actually believe you're being led somewhere, not left to find your own way?"
+      }
+    ]
   }
 ]

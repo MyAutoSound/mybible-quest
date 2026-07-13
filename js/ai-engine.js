@@ -25,9 +25,11 @@ const EMOTION_KEYWORDS = {
   grief: ["grief", "grieving", "sad", "sadness", "loss", "mourning", "depressed"],
   faith: ["doubt", "doubting", "faith", "believe", "belief", "unsure"],
   direction: ["direction", "decision", "confused", "lost", "choice", "purpose"],
-  forgiveness: ["forgive", "forgiveness", "grudge", "angry", "resentment"],
+  forgiveness: ["forgive", "forgiveness", "grudge", "resentment"],
   gratitude: ["grateful", "gratitude", "thankful", "thanks", "blessed", "appreciate"],
   protection: ["danger", "unsafe", "protect", "protection", "safety", "watch over", "keep me safe", "afraid for"],
+  anger: ["angry", "anger", "furious", "rage", "irritated", "resentful", "frustrated"],
+  loneliness: ["lonely", "loneliness", "alone", "isolated", "left out", "no one understands", "no friends"],
 };
 
 const AIEngine = {

@@ -346,5 +346,51 @@
         "body": "Whether Genesis's opening chapters are read as historical reporting, theological literature, a mix of both, or something else again is a matter of interpretation and faith commitment. What's established here is the state of the text, its ancient literary neighbors, and the current scientific consensus; how any individual reader or tradition weighs and integrates those pieces is a conviction this site describes rather than adjudicates."
       }
     ]
+  },
+  {
+    "id": "anger-in-the-bible",
+    "title": "Anger in the Bible: What It Permits, Warns Against, and Models",
+    "category": "Character & Faith",
+    "summary": "Anger shows up throughout scripture: warned against here, commanded there, even attributed to God himself. Here's how the text actually distinguishes destructive anger from righteous protest.",
+    "readingTimeMinutes": 8,
+    "relatedVerseIds": ["james-1-19", "ephesians-4-26", "matthew-5-23"],
+    "sections": [
+      {
+        "heading": "Not a single, simple verdict",
+        "body": "Unlike some topics where the Bible speaks with one consistent voice, anger gets treated several ways across its pages: warned against as dangerous, commanded as an appropriate response to injustice, and even attributed to God himself. Untangling these requires looking at specific texts rather than assuming one blanket rule applies everywhere."
+      },
+      {
+        "heading": "The warnings: anger as a danger to guard against",
+        "body": "Proverbs repeatedly cautions against a 'hot temper' (Proverbs 14:29, 15:18, 29:22), consistently linking it to foolishness and conflict rather than strength. Paul lists 'fits of anger' among the 'works of the flesh' in Galatians 5:19-21, in the same list as sexual immorality and idolatry, a striking grouping to many modern readers."
+      },
+      {
+        "heading": "The permission: 'in your anger, do not sin'",
+        "body": "Ephesians 4:26 doesn't forbid anger outright, it assumes it will happen, 'in your anger', and instead sets a boundary: don't let it produce sin, and don't let it linger past sundown. This verse is often cited as the Bible's clearest distinction between the emotion itself and what's done with it."
+      },
+      {
+        "heading": "Jesus and the money changers",
+        "body": "All four Gospels describe Jesus overturning tables and driving out merchants from the Temple courts (Matthew 21:12-13; Mark 11:15-17; Luke 19:45-46; John 2:13-16), an unmistakably angry, physical act aimed at what he called turning a place of prayer into 'a den of robbers.' The Gospels present this as protest against exploitation and misused sacred space, not as a simple loss of control."
+      },
+      {
+        "heading": "God's anger in the Old Testament",
+        "body": "The Hebrew Bible repeatedly describes God as experiencing anger (Hebrew 'aph, literally 'nose' or 'flaring nostrils'), particularly in response to injustice, idolatry, and broken covenant promises. At the same time, Exodus 34:6 famously describes God as 'slow to anger,' a phrase repeated throughout the Old Testament as a core description of God's character, pairing real anger with notable restraint."
+      },
+      {
+        "heading": "The prophets' angry advocacy",
+        "body": "Old Testament prophets like Amos and Micah voice sharp anger on behalf of the poor and exploited, condemning those who 'trample on the heads of the poor' (Amos 2:7) or 'tear the skin from my people' (Micah 3:2-3). This prophetic anger is directed outward at injustice done to others, distinct from personal grievance or wounded pride."
+      },
+      {
+        "heading": "James's practical counsel: slow, not absent",
+        "body": "James 1:19-20 offers a middle path: be 'quick to listen, slow to speak, and slow to become angry,' because human anger does not produce the righteousness God desires. The instruction is to slow anger down, not eliminate it entirely, treating the sequence of listening, speaking, and reacting as something worth deliberately managing."
+      },
+      {
+        "heading": "A pattern across the texts",
+        "body": "Read together, these passages suggest a working distinction the Bible doesn't always spell out explicitly: anger directed at injustice done to others, restrained, brief, and paired with constructive action, reads differently across scripture than anger that lingers, dominates, or is used to justify harming others. The texts warn most consistently against the second kind while making room, even models, for the first."
+      },
+      {
+        "heading": "A note on interpretation",
+        "body": "That these varied passages about anger exist side by side in the text is a straightforward observation. How a given tradition or reader weighs 'righteous anger' against caution about anger's dangers, and where exactly that line falls in a specific modern situation, is a matter of application and discernment this site describes rather than settles."
+      }
+    ]
   }
 ]

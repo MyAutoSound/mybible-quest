@@ -126,5 +126,37 @@
     "occasion": "Carrying concern for someone else's safety or wellbeing",
     "text": "I can't fix what they're going through, and that's hard to sit with. Be near to them, especially in the parts I can't reach or even see. Give me the right way to show up for them, and give them more peace than I can offer on my own.",
     "relatedVerseIds": ["zephaniah-3-17", "isaiah-41-10"]
+  },
+  {
+    "id": "in-the-heat-of-it",
+    "title": "In the Heat of It",
+    "category": "Anger",
+    "occasion": "Right in the middle of feeling angry, before you've said or done something you'll regret",
+    "text": "I'm angry right now, and I don't want to pretend otherwise. Help me slow down before I speak. I don't want this feeling to make the situation worse than it already is. Give me a clear head long enough to respond instead of just react.",
+    "relatedVerseIds": ["james-1-19", "proverbs-15-1"]
+  },
+  {
+    "id": "after-the-argument",
+    "title": "After the Argument",
+    "category": "Anger",
+    "occasion": "When the moment has passed but the tension hasn't",
+    "text": "That didn't go the way I wanted it to. Help me not let this sit unresolved longer than it needs to. Show me what's mine to own here, and give me the courage to go first if reconciliation needs to start with me.",
+    "relatedVerseIds": ["ephesians-4-26", "matthew-5-23"]
+  },
+  {
+    "id": "an-empty-room",
+    "title": "For an Empty Room",
+    "category": "Loneliness",
+    "occasion": "When the quiet feels heavier than usual",
+    "text": "It's quiet here, and some days that quiet feels like too much. I don't want to pretend I'm fine when I'm not. Be close in this empty room in a way I can actually feel. Help me take one small step toward connection today, even a small one.",
+    "relatedVerseIds": ["psalm-68-6", "deuteronomy-31-6"]
+  },
+  {
+    "id": "feeling-left-out",
+    "title": "Feeling Left Out",
+    "category": "Loneliness",
+    "occasion": "When everyone else seems to have somewhere they belong",
+    "text": "It's hard watching everyone else seem to belong somewhere while I'm still looking for my place. Help me believe I'm truly known, not just tolerated. Show me where real belonging might already be within reach, even if it looks different than I expected.",
+    "relatedVerseIds": ["john-15-15", "matthew-28-20"]
   }
 ]

@@ -2752,5 +2752,470 @@
       "scholarlyDebate": "Because the psalm lacks an attributed author or clear historical reference point, scholars have proposed a wide range of possible dates and settings without firm consensus.",
       "interpretation": "Readers and traditions differ on whether this psalm's protection language promises literal physical safety or a deeper spiritual security compatible with real suffering, a tension especially visible when the psalm is used, as it sometimes is, in the context of illness or war."
     }
+  },
+  {
+    "id": "james-1-19",
+    "reference": "James 1:19-20",
+    "text": "Everyone should be quick to listen, slow to speak, and slow to grow angry, because our anger does not produce the right kind of life God wants.",
+    "context": "Written by James, likely the brother of Jesus and a leader of the Jerusalem church, to Jewish Christians scattered outside Judea, offering practical wisdom for everyday community life.",
+    "importance": "Names anger as something to slow down rather than suppress or excuse outright, offering a sequence, listen, then speak, then anger, as a practical order of operations for tense moments.",
+    "themes": ["anger", "listening", "self-control"],
+    "emotions": ["anger"],
+    "author": "Traditionally James, identified in early tradition as Jesus's brother and a leader of the Jerusalem church; some scholars debate whether an associate wrote in his name.",
+    "dateApprox": "Widely debated; if by James the brother of Jesus, likely before his death in AD 62, making it possibly one of the earliest New Testament writings; some scholars date it later.",
+    "place": "Likely Jerusalem, if written by James the brother of Jesus, who led the church there.",
+    "audience": "Jewish Christians scattered outside Judea, addressed as 'the twelve tribes scattered among the nations,' facing practical struggles of everyday community life.",
+    "politicalSituation": "Jewish communities lived under Roman rule throughout the empire, with the letter addressing internal community friction more than external political pressure.",
+    "culturalNote": "Ancient wisdom literature, both Jewish and Greco-Roman, commonly grouped speech, listening, and temper together as linked disciplines, a pattern James draws on directly.",
+    "keyWords": [
+      { "word": "tacheis (quick)", "meaning": "Describes readiness or promptness, applied here to listening rather than to speaking or reacting." },
+      { "word": "orge (anger)", "meaning": "Can describe a settled disposition of anger, not just a single outburst, which is why James pairs it with 'slow.'" }
+    ],
+    "modernApplication": "This verse offers a concrete sequence for tense conversations: listen first, choose words carefully second, and treat anger as something to slow down rather than immediately act on.",
+    "relatedVerseIds": ["ephesians-4-26", "proverbs-15-1", "colossians-3-13"],
+    "reflectionQuestions": [
+      "In your last disagreement, which of the three, listening, speaking, or anger, moved fastest?",
+      "What would it look like to physically slow down before responding in a tense moment?"
+    ],
+    "suggestedPrayer": "I don't want my anger to speak before I've actually listened. Help me slow down enough to hear what's really being said. Give me self-control in the moments I'm most tempted to react.",
+    "historicityNote": {
+      "established": "The Letter of James is included among the New Testament's General Epistles and is attested in early canon lists, though it was debated in some regions before wide acceptance.",
+      "scholarlyDebate": "Scholars debate both the letter's authorship and date, with its polished Greek raising questions for some about direct authorship by a Galilean fisherman's family member.",
+      "interpretation": "Many readers interpret this verse as practical wisdom for everyday conflict, though its original audience likely also faced sharper communal and economic tensions the letter addresses elsewhere."
+    }
+  },
+  {
+    "id": "ephesians-4-26",
+    "reference": "Ephesians 4:26-27",
+    "text": "In your anger, do not sin. Do not let the sun go down while you are still angry, and do not give the devil a foothold.",
+    "context": "Part of Paul's practical instructions to the Ephesian church about everyday community life, following a list of behaviors to put off and put on within the 'new self.'",
+    "importance": "Distinguishes anger itself from sin, treating anger as an emotion that can be handled well or badly, while adding a literal time limit meant to prevent it from festering.",
+    "themes": ["anger", "self-control", "conflict"],
+    "emotions": ["anger"],
+    "author": "Traditionally Paul; some modern scholars debate direct Pauline authorship of Ephesians based on stylistic differences from his undisputed letters.",
+    "dateApprox": "If genuinely Pauline, c. AD 60-62 during his imprisonment; if written by a later associate in his name, possibly the AD 70s-90s.",
+    "place": "Written from prison, traditionally identified as Rome, to the church in Ephesus, a major city in Roman Asia Minor.",
+    "audience": "A mixed Jewish and Gentile Christian community in Ephesus, a large port city known for its temple to Artemis and diverse religious life.",
+    "politicalSituation": "Ephesus was a prominent, prosperous city under Roman rule, and the young Christian community there navigated both Jewish-Gentile tension and the surrounding pagan religious culture.",
+    "culturalNote": "The instruction 'do not let the sun go down' echoes an older Jewish practice from Deuteronomy of not withholding a debtor's cloak overnight, both texts treat overnight delay as allowing harm to compound.",
+    "keyWords": [
+      { "word": "orgizesthe (be angry)", "meaning": "An imperative that can be read as permission, 'be angry,' paired with a boundary, 'but do not sin,' rather than a command to feel angry." },
+      { "word": "topos (foothold/place)", "meaning": "Literally a 'place' or opportunity, suggesting unresolved anger creates room for further harm rather than causing it directly." }
+    ],
+    "modernApplication": "This verse suggests a practical boundary for conflict: anger itself isn't condemned, but letting it sit unresolved, especially overnight, is treated as an opening for more damage.",
+    "relatedVerseIds": ["james-1-19", "colossians-3-13", "matthew-5-23"],
+    "reflectionQuestions": [
+      "Is there anger you've been carrying well past 'sundown' on the original issue?",
+      "What would resolving something today, even imperfectly, look like instead of letting it sit?"
+    ],
+    "suggestedPrayer": "I don't want to pretend I'm not angry, but I also don't want to let it sit and grow. Help me deal with what's bothering me honestly and soon. Don't let this feeling turn into something worse.",
+    "historicityNote": {
+      "established": "Ephesians is included among the New Testament's 'Prison Epistles' and has strong early manuscript attestation.",
+      "scholarlyDebate": "A significant number of scholars question direct Pauline authorship of Ephesians due to vocabulary and style differences from his seven undisputed letters, while others defend it as genuinely Pauline.",
+      "interpretation": "Many readers interpret this verse as distinguishing the emotion of anger from sinful action taken in anger, though traditions differ on how literally to apply the 'before sundown' timeframe."
+    }
+  },
+  {
+    "id": "proverbs-15-1",
+    "reference": "Proverbs 15:1",
+    "text": "A gentle answer turns away anger, but a harsh word stirs up wrath.",
+    "context": "One of many short, standalone wisdom sayings in the book of Proverbs, contrasting two possible responses to tension and their differing outcomes.",
+    "importance": "States a practical, observable pattern about de-escalation rather than a moral command, framing tone as a real variable in how conflict unfolds.",
+    "themes": ["anger", "wisdom", "communication"],
+    "emotions": ["anger"],
+    "author": "Traditionally attributed largely to Solomon, though the book of Proverbs itself credits multiple contributors, including 'the wise' generally and figures like Agur and King Lemuel.",
+    "dateApprox": "Likely compiled over centuries; Solomonic material would date to the 10th century BC, with final compilation possibly centuries later.",
+    "place": "Associated with the royal court and wisdom schools of ancient Israel, particularly Jerusalem.",
+    "audience": "A broad audience of learners, often framed within the book as a parent or teacher instructing a young person.",
+    "politicalSituation": "If Solomonic, this falls during the united monarchy's relative peace and prosperity, a period associated with the flourishing of wisdom literature.",
+    "culturalNote": "Ancient Near Eastern royal courts placed high value on skilled, careful speech, and wisdom literature across the region similarly linked gentle speech to social effectiveness and avoiding conflict.",
+    "keyWords": [
+      { "word": "rak (gentle/soft)", "meaning": "Describes something soft or tender, contrasted directly with 'harsh' in the same verse's parallel structure." },
+      { "word": "chemah (wrath)", "meaning": "Often describes a hotter, more intense anger than the more general term used elsewhere, suggesting escalation specifically." }
+    ],
+    "modernApplication": "This proverb offers a practical, testable claim for tense conversations: tone often shapes outcome as much as content, worth trying deliberately in the next disagreement.",
+    "relatedVerseIds": ["james-1-19", "ephesians-4-26", "matthew-5-23"],
+    "reflectionQuestions": [
+      "Can you recall a time a gentle response actually defused a tense moment?",
+      "What tone do you tend to default to under pressure, and is it the one you'd choose deliberately?"
+    ],
+    "suggestedPrayer": "Help me choose gentleness even when I feel like being harsh. I don't want my words to make a hard moment worse. Give me the presence of mind to respond well, not just react.",
+    "historicityNote": {
+      "established": "Proverbs is part of the Hebrew wisdom literature tradition and is well attested in ancient manuscripts, including among the Dead Sea Scrolls.",
+      "scholarlyDebate": "Scholars debate how much of the book reflects genuine Solomonic authorship versus later compilation and editing under his name, a common ancient practice of attributing wisdom collections to a renowned figure.",
+      "interpretation": "Many readers apply this proverb broadly to everyday communication, though its original context sits among many short, situational sayings not meant as an absolute rule for every circumstance."
+    }
+  },
+  {
+    "id": "matthew-5-23",
+    "reference": "Matthew 5:23-24",
+    "text": "So if you are offering your gift at the altar and there remember that a brother or sister has something against you, leave your gift there and go. First be reconciled, then come back and offer it.",
+    "context": "Part of the Sermon on the Mount, immediately following Jesus's teaching that anger and insult are linked to the same root as murder, giving a concrete instruction for what to do about unresolved conflict.",
+    "importance": "Places reconciliation with another person ahead of religious ritual, suggesting broken relationships take priority over formal worship.",
+    "themes": ["reconciliation", "worship", "conflict"],
+    "emotions": ["anger", "forgiveness"],
+    "author": "Traditionally attributed to Matthew; many scholars view the Gospel as anonymous, later attributed to the apostle.",
+    "dateApprox": "Most scholars date Matthew's Gospel to roughly AD 80-90.",
+    "place": "Likely composed in or near Antioch in Syria, according to many scholars.",
+    "audience": "A largely Jewish-Christian community concerned with how Jesus's teaching related to Jewish law and temple practice.",
+    "politicalSituation": "Written after the Temple's destruction in AD 70, meaning the specific altar scenario described was no longer literally practicable by the time of writing, giving the teaching a more symbolic weight for its first readers.",
+    "culturalNote": "Bringing a sacrificial gift to the Temple altar was a significant, often costly act of worship; interrupting it to first seek reconciliation would have been a striking, countercultural instruction to an original audience.",
+    "keyWords": [
+      { "word": "diallagethi (be reconciled)", "meaning": "Implies a mutual change, restoring a relationship rather than a one-sided apology alone." },
+      { "word": "mnesthes (remember)", "meaning": "An imperative to actively recall, suggesting the worshiper is expected to search their memory for unresolved conflict rather than wait for it to surface." }
+    ],
+    "modernApplication": "This teaching suggests examining relationships before approaching acts of worship or spiritual practice, treating unresolved conflict as something to address promptly rather than compartmentalize.",
+    "relatedVerseIds": ["ephesians-4-26", "colossians-3-13", "matthew-6-14"],
+    "reflectionQuestions": [
+      "Is there a relationship you've been avoiding that this teaching would ask you to address first?",
+      "What would it look like to prioritize reconciliation over simply moving on with your routine?"
+    ],
+    "suggestedPrayer": "Show me if there's a relationship I've been avoiding instead of repairing. Help me care more about being reconciled than about looking put-together. Give me the courage to go first.",
+    "historicityNote": {
+      "established": "Matthew's Gospel survives in numerous early manuscripts and this passage is part of the well-attested Sermon on the Mount.",
+      "scholarlyDebate": "Scholars debate the Gospel's precise authorship and community setting, as with the rest of Matthew.",
+      "interpretation": "Many readers interpret this passage as a general principle for prioritizing relationships over ritual, though its original scenario, a Temple sacrifice, was specific to a practice no longer possible after AD 70."
+    }
+  },
+  {
+    "id": "deuteronomy-31-6",
+    "reference": "Deuteronomy 31:6",
+    "text": "Be strong and courageous. Do not be afraid or terrified, for the Lord your God goes with you; he will never leave you nor forsake you.",
+    "context": "Spoken by Moses to the Israelites shortly before his death, as leadership was about to pass to Joshua and the people prepared to enter the promised land without him.",
+    "importance": "Offers courage grounded specifically in accompaniment rather than in the absence of danger, addressed to a whole community facing a genuinely uncertain transition.",
+    "themes": ["courage", "presence", "loneliness"],
+    "emotions": ["loneliness"],
+    "author": "Attributed to Moses within the text; Deuteronomy's authorship is debated among scholars, with many viewing it as compiled and shaped across later centuries.",
+    "dateApprox": "Traditionally dated to the 13th century BC if Mosaic; many scholars date the book's final form much later, possibly the 7th century BC or after.",
+    "place": "Spoken on the plains of Moab, east of the Jordan River, just before Israel's entry into Canaan.",
+    "audience": "The Israelite community as a whole, addressed collectively during a moment of leadership transition and geographic upheaval.",
+    "politicalSituation": "Israel stood at the edge of Canaan, a land already occupied by other peoples and city-states, facing the prospect of conflict and conquest without their longtime leader.",
+    "culturalNote": "Losing a leader on the verge of a major undertaking was a significant, destabilizing moment in the ancient world, and this farewell speech follows a recognizable genre of last words meant to steady a community through transition.",
+    "keyWords": [
+      { "word": "chazaq (strong)", "meaning": "Conveys firmness or resolve, often used for physical or moral strengthening in the face of a difficult task." },
+      { "word": "lo yarpecha (will not leave you)", "meaning": "Literally 'will not slacken his grip on you,' an image of steady, sustained holding rather than a one-time rescue." }
+    ],
+    "modernApplication": "This verse is often used to address feelings of isolation during a major life transition, framing courage as compatible with continued fear, so long as it's paired with a sense of not being truly alone.",
+    "relatedVerseIds": ["joshua-1-9", "matthew-28-20", "psalm-23-1"],
+    "reflectionQuestions": [
+      "What transition are you currently facing without the support you'd like to have?",
+      "What would it mean for you to feel accompanied rather than simply told to be brave?"
+    ],
+    "suggestedPrayer": "I feel alone in what I'm facing right now. Help me believe that I'm not actually going through this by myself. Give me courage that doesn't depend on feeling completely certain.",
+    "historicityNote": {
+      "established": "Deuteronomy is part of the Torah and is well attested in ancient manuscripts, including among the Dead Sea Scrolls.",
+      "scholarlyDebate": "Scholars widely debate the book's composition history, with many viewing it as reflecting later theological reflection on the Mosaic tradition rather than a single, contemporaneous speech.",
+      "interpretation": "Many readers apply this verse personally to individual loneliness or fear, though its original address was to an entire community facing a specific, collective transition."
+    }
+  },
+  {
+    "id": "psalm-68-6",
+    "reference": "Psalm 68:5-6",
+    "text": "A father to the fatherless, a defender of widows, is God in his holy dwelling. God sets the lonely in families, he leads out the prisoners with singing.",
+    "context": "Part of a longer victory psalm celebrating God's power, this section shifts from cosmic imagery to specific concern for society's most isolated members.",
+    "importance": "Names loneliness alongside other forms of vulnerability like widowhood and imprisonment, treating belonging as something actively provided rather than left to chance.",
+    "themes": ["loneliness", "family", "belonging"],
+    "emotions": ["loneliness"],
+    "author": "Traditionally attributed to David in the psalm's heading; the psalm's varied content has led some scholars to propose it as a compilation of older material.",
+    "dateApprox": "If Davidic, roughly the 10th century BC; scholars note the psalm may incorporate material from various periods.",
+    "place": "Associated with Israelite communal worship, possibly connected to a procession or festival given its triumphant, processional language.",
+    "audience": "The worshiping community of Israel, including specific attention to its most vulnerable members.",
+    "politicalSituation": "The psalm's language of leading captives and defeating enemies suggests a setting connected to military victory or its commemoration, though no specific historical event is named.",
+    "culturalNote": "In the ancient world, family and clan structures were the primary source of protection and provision; someone without a family unit faced real social and economic vulnerability, not just emotional isolation.",
+    "keyWords": [
+      { "word": "yachid (lonely/solitary)", "meaning": "Can describe someone singularly alone or isolated, here paired directly with God's action of placing them into a family structure." },
+      { "word": "beit av (family/household)", "meaning": "Literally 'father's house,' the basic social and economic unit of ancient Israelite life, central to a person's identity and security." }
+    ],
+    "modernApplication": "This verse can reframe loneliness as something God is described as actively addressing, through community and belonging, rather than something to simply endure privately.",
+    "relatedVerseIds": ["deuteronomy-31-6", "john-15-15", "psalm-23-1"],
+    "reflectionQuestions": [
+      "Where have you experienced belonging that felt like it was provided rather than earned?",
+      "Is there a form of 'family,' beyond blood relation, you could look for or offer to someone else right now?"
+    ],
+    "suggestedPrayer": "I feel isolated right now, and I want to believe that's not the end of the story. Thank you for caring specifically about people who feel alone. Help me find or build the belonging I'm missing.",
+    "historicityNote": {
+      "established": "Psalm 68 is preserved in the Masoretic Text and is recognized by scholars as one of the more linguistically difficult and ancient-sounding psalms in the collection.",
+      "scholarlyDebate": "Scholars debate the psalm's unity and date, with some proposing it stitches together fragments from different eras and occasions rather than a single composition.",
+      "interpretation": "Many readers interpret 'setting the lonely in families' as a broad promise of belonging and community, extending beyond the psalm's likely original reference to Israel's specific social structures."
+    }
+  },
+  {
+    "id": "matthew-28-20",
+    "reference": "Matthew 28:20",
+    "text": "And surely I am with you always, to the very end of the age.",
+    "context": "The closing line of Matthew's Gospel, spoken by the risen Jesus to his disciples as he commissions them to teach and make disciples of all nations.",
+    "importance": "Functions as the Gospel's final promise, offered specifically as the disciples were being sent out into an uncertain, unsupervised mission rather than staying in one settled place.",
+    "themes": ["presence", "promise", "mission"],
+    "emotions": ["loneliness", "hope"],
+    "author": "Traditionally attributed to Matthew; many scholars view the Gospel as anonymous.",
+    "dateApprox": "Most scholars date Matthew's Gospel to roughly AD 80-90.",
+    "place": "Set on a mountain in Galilee, according to the text, following the resurrection.",
+    "audience": "The eleven remaining disciples, directly commissioned to carry the message beyond their immediate community to 'all nations.'",
+    "politicalSituation": "Written after the Temple's destruction in AD 70, a period in which Jewish and Christian communities were both redefining their identity and mission.",
+    "culturalNote": "Sending representatives out with a promise of the sender's ongoing presence was a recognizable ancient pattern, though here the promise is framed as personal presence rather than delegated authority alone.",
+    "keyWords": [
+      { "word": "idou (surely/behold)", "meaning": "An attention-grabbing interjection, marking the statement that follows as significant and worth pausing on." },
+      { "word": "synteleia (end/completion)", "meaning": "Refers to a full completion or consummation, not merely a stopping point, suggesting the promise spans the entire remaining mission." }
+    ],
+    "modernApplication": "This verse is often drawn on during isolating seasons, particularly when someone is doing something difficult or unfamiliar without visible support nearby.",
+    "relatedVerseIds": ["deuteronomy-31-6", "psalm-68-6", "john-15-15"],
+    "reflectionQuestions": [
+      "What 'sending' or new responsibility are you currently facing without the support you'd like?",
+      "How does a promise of ongoing presence, rather than a one-time send-off, change how you approach it?"
+    ],
+    "suggestedPrayer": "I'm stepping into something that feels bigger than what I can handle alone. Thank you for promising to stay close, not just to start me off. Help me feel that presence in the ordinary moments, not just the big ones.",
+    "historicityNote": {
+      "established": "Matthew's Gospel is one of the four canonical Gospels, well attested in early manuscripts, and this closing commission is among its most frequently cited passages.",
+      "scholarlyDebate": "Scholars debate the precise composition and community setting of Matthew, as with the Gospel generally.",
+      "interpretation": "Many readers interpret this promise as extending personally to individual believers today, though its immediate original address was to the eleven disciples specifically commissioned in that scene."
+    }
+  },
+  {
+    "id": "john-15-15",
+    "reference": "John 15:15",
+    "text": "I no longer call you servants, because a servant does not know his master's business. Instead, I have called you friends, for everything that I learned from my Father I have made known to you.",
+    "context": "Part of Jesus's extended farewell teaching to his disciples at the Last Supper, shortly before his arrest, describing the nature of their relationship to him.",
+    "importance": "Reframes the disciples' relationship from a hierarchy of servant and master to something closer to mutual friendship, offered specifically to people about to feel his physical absence.",
+    "themes": ["friendship", "loneliness", "belonging"],
+    "emotions": ["loneliness"],
+    "author": "Traditionally attributed to John the Apostle, or the Johannine community associated with him.",
+    "dateApprox": "Most scholars date the Gospel of John to roughly AD 85-95.",
+    "place": "Likely composed in or near Ephesus, according to early church tradition.",
+    "audience": "Immediately, Jesus's closest disciples at the Last Supper; more broadly, the Gospel's later Christian readers facing their own sense of absence and distance.",
+    "politicalSituation": "Set during the final days before Jesus's arrest and crucifixion under Roman and Jewish religious authority in Jerusalem.",
+    "culturalNote": "In the ancient world, the social gap between a master and servant was significant and clearly understood; explicitly closing that gap and naming friendship instead would have carried real social weight for the original hearers.",
+    "keyWords": [
+      { "word": "doulos (servant/slave)", "meaning": "Describes someone bound to obey without necessarily being informed of the reasoning behind instructions." },
+      { "word": "philos (friend)", "meaning": "Denotes a relationship of mutual affection and shared knowledge, contrasted directly here with the servant relationship." }
+    ],
+    "modernApplication": "This verse can address loneliness by reframing a sense of distance or hierarchy as unnecessary, offering a model of relationship built on being known and included rather than simply managed.",
+    "relatedVerseIds": ["matthew-28-20", "psalm-68-6", "deuteronomy-31-6"],
+    "reflectionQuestions": [
+      "Where in your life do you relate to others, or to God, more like a servant than a friend?",
+      "What would it change to believe you're meant to be 'let in' rather than kept at a distance?"
+    ],
+    "suggestedPrayer": "I don't want to feel like an outsider looking in. Thank you for calling me close instead of keeping me at arm's length. Help me actually believe I'm known, not just tolerated.",
+    "historicityNote": {
+      "established": "The Gospel of John is one of the four canonical Gospels, surviving in early manuscripts including Papyrus 66.",
+      "scholarlyDebate": "Scholars debate how much of the extended farewell discourse in John 13-17 reflects direct historical speech versus later theological composition and reflection.",
+      "interpretation": "Many readers interpret this verse as describing an intimate, ongoing relationship available to any believer, though its immediate narrative context is Jesus's specific final address to his original twelve disciples."
+    }
+  },
+  {
+    "id": "psalm-139-23",
+    "reference": "Psalm 139:23-24",
+    "text": "Search me, God, and know my heart; test me and know my anxious thoughts. See if there is any offensive way in me, and lead me in the way everlasting.",
+    "context": "The closing lines of a psalm that spends most of its length marveling at God's total knowledge of the psalmist, from before birth through every location and thought.",
+    "importance": "Turns a psalm about being fully known into an invitation for honest self-examination, asking to be searched rather than simply affirmed.",
+    "themes": ["guilt", "honesty", "self-examination"],
+    "emotions": ["guilt"],
+    "author": "Traditionally attributed to David; psalm headings are ancient tradition rather than verified authorship.",
+    "dateApprox": "If Davidic, roughly the 10th century BC; the psalm's final written form may be later.",
+    "place": "Unspecified; part of the broader Israelite psalm tradition of personal reflection.",
+    "audience": "Likely composed as personal prayer, later adopted for communal worship.",
+    "politicalSituation": "No specific political situation is named; the psalm is reflective and personal rather than tied to a historical event.",
+    "culturalNote": "Requesting to be 'searched' by a deity, rather than simply asserting one's own innocence, reflects an unusually vulnerable posture in ancient prayer literature, inviting scrutiny rather than avoiding it.",
+    "keyWords": [
+      { "word": "chaqar (search)", "meaning": "Suggests a thorough, careful investigation, the same root used elsewhere for exploring or examining something in depth." },
+      { "word": "derek olam (way everlasting)", "meaning": "Can be read as an ancient, well-established path, or as a path leading toward eternity, depending on interpretation." }
+    ],
+    "modernApplication": "This prayer offers language for processing guilt honestly: inviting examination rather than either denying wrongdoing or spiraling into shame without a path forward.",
+    "relatedVerseIds": ["1-john-1-9", "matthew-6-14", "psalm-13-1"],
+    "reflectionQuestions": [
+      "Is there something you've been avoiding looking at honestly about yourself?",
+      "What's the difference for you between guilt that leads somewhere and guilt that just repeats?"
+    ],
+    "suggestedPrayer": "I don't want to hide from what's true about me, even the uncomfortable parts. Search me honestly, and help me not be afraid of what you'll find. Lead me toward something better than where I am now.",
+    "historicityNote": {
+      "established": "Psalm 139 is preserved in the Masoretic Text and is widely regarded among scholars for its distinctive, meditative style within the Psalter.",
+      "scholarlyDebate": "Scholars debate the psalm's precise date, noting some linguistic features some associate with later Hebrew, though a Davidic origin remains traditionally held by many.",
+      "interpretation": "Many readers interpret this closing request as a model for healthy self-examination, distinct from either denial of wrongdoing or unresolved, directionless guilt."
+    }
+  },
+  {
+    "id": "1-chronicles-28-20",
+    "reference": "1 Chronicles 28:20",
+    "text": "Be strong and courageous, and do the work. Do not be afraid or discouraged, for the Lord God, my God, is with you. He will not fail you or forsake you.",
+    "context": "Spoken by King David to his son Solomon in front of the assembled leaders of Israel, commissioning him to build the Temple that David himself was not permitted to construct.",
+    "importance": "Pairs courage directly with a specific, daunting task rather than a vague feeling, modeling how one generation hands responsibility to the next.",
+    "themes": ["courage", "strength", "work"],
+    "emotions": ["courage"],
+    "author": "The Chronicler, an anonymous author or group of editors compiling Israel's history, traditionally sometimes linked to Ezra.",
+    "dateApprox": "Most scholars date 1 and 2 Chronicles to the post-exilic period, roughly the 4th century BC, reflecting on much earlier events.",
+    "place": "Set in Jerusalem, in the context of David's final public address before his death.",
+    "audience": "Immediately, Solomon and the assembled leaders of Israel; as a later text, also the post-exilic Jewish community rebuilding its own institutions.",
+    "politicalSituation": "Narratively set at the transition from David's reign to Solomon's, a pivotal moment for the united monarchy's continuity and the Temple's eventual construction.",
+    "culturalNote": "Public commissioning speeches before assembled leaders were a recognizable way to formally transfer authority and responsibility in the ancient Near East, lending institutional as well as personal weight to the words.",
+    "keyWords": [
+      { "word": "chazaq ve'ematz (be strong and courageous)", "meaning": "A paired phrase used at several major leadership transitions in the Hebrew Bible, including for Joshua, marking a formulaic call to resolve at a pivotal moment." },
+      { "word": "melakah (work)", "meaning": "Denotes a task or undertaking, here specifically the substantial, skilled labor of Temple construction." }
+    ],
+    "modernApplication": "This verse can encourage someone facing a large, specific responsibility they've inherited or been handed, pairing courage directly with getting started rather than waiting to feel ready.",
+    "relatedVerseIds": ["joshua-1-9", "deuteronomy-31-6", "2-timothy-1-7"],
+    "reflectionQuestions": [
+      "What specific task in front of you needs courage more than it needs more preparation?",
+      "Who has commissioned or entrusted you with a responsibility you're hesitant to fully step into?"
+    ],
+    "suggestedPrayer": "This task in front of me feels bigger than I feel equipped for. Help me start anyway, trusting I'm not doing it unsupported. Give me courage that's tied to actually doing the work, not just feeling ready.",
+    "historicityNote": {
+      "established": "1 Chronicles is part of the Hebrew Bible's historical books and covers material paralleling parts of Samuel and Kings, often with a distinct theological emphasis.",
+      "scholarlyDebate": "Scholars debate how the Chronicler used and adapted earlier sources, and how much of the specific speech material reflects available records versus later theological composition.",
+      "interpretation": "Many readers apply this charge broadly to any major undertaking, though its original context is specifically Solomon's commissioning to build the Jerusalem Temple."
+    }
+  },
+  {
+    "id": "1-timothy-6-6",
+    "reference": "1 Timothy 6:6",
+    "text": "But godliness with contentment is great gain.",
+    "context": "Part of Paul's closing instructions to Timothy, a younger leader he mentored, warning against those who treat religious life as a means to financial gain.",
+    "importance": "Redefines 'gain' away from material accumulation and toward an inner posture, offered as a corrective within a passage specifically about money and desire.",
+    "themes": ["contentment", "simplicity", "desire"],
+    "emotions": ["contentment"],
+    "author": "Traditionally Paul; some modern scholars question direct Pauline authorship of the pastoral letters (1 and 2 Timothy, Titus) based on style and vocabulary.",
+    "dateApprox": "If genuinely Pauline, likely the mid-60s AD, near the end of Paul's life; if pseudonymous, possibly later in the 1st or early 2nd century.",
+    "place": "Addressed to Timothy, who was serving as a leader in the church at Ephesus at the time.",
+    "audience": "Timothy directly, a younger co-worker of Paul, with the letter's content also intended for broader use within the Ephesian church he led.",
+    "politicalSituation": "Ephesus was a wealthy, commercially significant city, and the letter addresses internal church concerns, including false teachers reportedly motivated by financial gain, rather than external political pressure.",
+    "culturalNote": "Greco-Roman philosophy, particularly Stoic thought, also valued contentment as a virtue, meaning Paul's teaching here would have resonated with, while also reframing, ideas already circulating in the wider culture.",
+    "keyWords": [
+      { "word": "eusebeia (godliness)", "meaning": "Describes reverent, practical devotion to God, encompassing conduct as well as belief." },
+      { "word": "autarkeia (contentment)", "meaning": "A term also used in Greco-Roman philosophy for self-sufficiency or satisfaction, here paired with godliness rather than self-reliance." }
+    ],
+    "modernApplication": "This verse offers a short, memorable redefinition of 'gain' worth returning to when comparison or acquisition starts to feel like the measure of a good life.",
+    "relatedVerseIds": ["philippians-4-13", "psalm-23-1", "james-1-2"],
+    "reflectionQuestions": [
+      "Where in your life are you currently measuring 'gain' in a way this verse would challenge?",
+      "What would practicing contentment, rather than just tolerating your current circumstances, look like this week?"
+    ],
+    "suggestedPrayer": "Help me stop measuring my life by what I don't yet have. I want contentment that isn't dependent on getting more. Teach me to notice what's already enough.",
+    "historicityNote": {
+      "established": "1 Timothy is included among the 'Pastoral Epistles' and has been part of the New Testament canon since antiquity.",
+      "scholarlyDebate": "A substantial number of scholars question direct Pauline authorship of the Pastoral Epistles based on vocabulary, style, and apparent church structures, while others maintain Pauline authorship, possibly through a secretary.",
+      "interpretation": "Many readers apply this verse broadly to consumer culture and comparison, an application consistent with, though extending beyond, its original warning about false teachers motivated by financial gain."
+    }
+  },
+  {
+    "id": "james-1-2",
+    "reference": "James 1:2-4",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance. Let perseverance finish its work so that you may be mature and complete, not lacking anything.",
+    "context": "The opening of James's letter, addressed to Jewish Christians scattered outside their homeland and likely facing real hardship, economic and otherwise.",
+    "importance": "Directly connects patience to a process, framing perseverance as something trials produce rather than something to simply endure without purpose.",
+    "themes": ["patience", "trials", "perseverance"],
+    "emotions": ["patience"],
+    "author": "Traditionally James, identified in early tradition as Jesus's brother and a leader of the Jerusalem church.",
+    "dateApprox": "Widely debated; if by James the brother of Jesus, likely before AD 62; some scholars date it later.",
+    "place": "Likely Jerusalem, if written by James the brother of Jesus.",
+    "audience": "Jewish Christians scattered outside Judea, described as 'the twelve tribes scattered among the nations,' facing practical hardship.",
+    "politicalSituation": "Diaspora Jewish communities lived under varying local pressures throughout the Roman world, and the letter's content, addressing poverty and suffering, suggests real socioeconomic strain among its readers.",
+    "culturalNote": "Ancient moral philosophy, both Jewish and Greco-Roman, commonly discussed how hardship could build character, though James's framing of counting trials as 'joy' pushes further than most of those parallels toward an active, chosen response.",
+    "keyWords": [
+      { "word": "hypomone (perseverance)", "meaning": "Describes steady endurance under pressure, often translated 'patience,' but carrying a more active, sustained sense than simply waiting." },
+      { "word": "teleioi (mature/complete)", "meaning": "Relates to reaching an intended goal or purpose, not merely growing older, suggesting perseverance has a clear aim." }
+    ],
+    "modernApplication": "This passage offers a reframe for prolonged difficulty: not denying that trials are hard, but suggesting patience under pressure is doing something, not simply passing time.",
+    "relatedVerseIds": ["romans-8-28", "1-corinthians-10-13", "ecclesiastes-3-1"],
+    "reflectionQuestions": [
+      "What current trial might you be able to see as producing something, rather than just something to get through?",
+      "Where do you notice yourself resisting patience because it feels like passive waiting?"
+    ],
+    "suggestedPrayer": "This is hard, and I don't want to just white-knuckle through it. Help me believe something real is being built in me through this waiting. Give me patience that doesn't require pretending it's easy.",
+    "historicityNote": {
+      "established": "The Letter of James is included among the New Testament's General Epistles and is attested in early canon lists, though it was debated in some regions before wide acceptance.",
+      "scholarlyDebate": "Scholars debate the letter's authorship and date, with its polished Greek raising questions for some about direct authorship by a Galilean fisherman's family member.",
+      "interpretation": "Many readers interpret 'pure joy' as describing a chosen perspective on hardship rather than an emotional expectation to feel happy during suffering itself, a distinction the letter's broader content supports."
+    }
+  },
+  {
+    "id": "1-corinthians-10-13",
+    "reference": "1 Corinthians 10:13",
+    "text": "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.",
+    "context": "Part of Paul's warning to the Corinthian church, using examples from Israel's wilderness generation, cautioning against overconfidence while also offering reassurance about temptation's limits.",
+    "importance": "Balances two claims at once: temptation is a common, shared human experience, and it is also not limitless or inescapable, offering both solidarity and hope.",
+    "themes": ["temptation", "faithfulness", "endurance"],
+    "emotions": ["temptation"],
+    "author": "The apostle Paul, writing to a church he had personally founded and corresponded with extensively.",
+    "dateApprox": "c. AD 53-54, during Paul's extended stay in Ephesus.",
+    "place": "Written from Ephesus to the church in Corinth, a major Greek commercial city.",
+    "audience": "The Christian community in Corinth, a diverse, cosmopolitan congregation Paul repeatedly addresses for internal division and moral compromise.",
+    "politicalSituation": "Corinth was a wealthy Roman colony and trade hub known for its variety of religious cults and, in ancient reputation, for moral permissiveness, creating real cultural pressure on the young church.",
+    "culturalNote": "Paul draws his warning from the wilderness generation described in Exodus and Numbers, using their well-known failures as a cautionary example his Jewish and Gentile readers alike would recognize.",
+    "keyWords": [
+      { "word": "peirasmos (temptation/testing)", "meaning": "Can mean either 'temptation' toward wrongdoing or 'testing' more neutrally, with context determining which sense applies." },
+      { "word": "ekbasis (way out)", "meaning": "Literally an 'exit' or way of escape, a concrete, almost architectural image of an available path away from a difficult situation." }
+    ],
+    "modernApplication": "This verse can offer both relief, temptation is a shared human experience, not a personal failure, and a practical expectation to actively look for the 'way out' rather than assume none exists.",
+    "relatedVerseIds": ["mark-9-24", "james-1-2", "romans-8-28"],
+    "reflectionQuestions": [
+      "What might the 'way out' look like in a temptation you're currently facing?",
+      "Does it change anything to know this struggle is described as 'common,' not uniquely yours?"
+    ],
+    "suggestedPrayer": "I feel the pull of this temptation strongly right now. Help me actually look for the way out instead of assuming there isn't one. Thank you for not leaving me to face this completely alone.",
+    "historicityNote": {
+      "established": "1 Corinthians is among Paul's undisputed letters, with strong early manuscript attestation and broad scholarly agreement on its authenticity.",
+      "scholarlyDebate": "Scholars debate the precise nature of some of the specific temptations and disputes Paul addresses throughout the letter, given the one-sided nature of surviving correspondence.",
+      "interpretation": "Many readers lean on this verse for reassurance during moral struggle, though scholars note its immediate context is a specific warning against the overconfidence Paul saw developing in the Corinthian church."
+    }
+  },
+  {
+    "id": "jeremiah-1-5",
+    "reference": "Jeremiah 1:5",
+    "text": "Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations.",
+    "context": "God's opening words to Jeremiah at the very start of his prophetic call, before Jeremiah has done anything or proven himself in any way.",
+    "importance": "Locates purpose prior to birth and prior to any demonstrated ability, offering a strong statement about identity and calling preceding accomplishment.",
+    "themes": ["purpose", "calling", "identity"],
+    "emotions": ["purpose"],
+    "author": "The prophet Jeremiah, with the book possibly recorded in part by his scribe Baruch, mentioned elsewhere in the text.",
+    "dateApprox": "Jeremiah's ministry is dated to roughly 627-580 BC, spanning the final decades of the kingdom of Judah through the Babylonian exile.",
+    "place": "Jeremiah was from Anathoth, a village near Jerusalem, and this call narrative is set at the beginning of his prophetic career.",
+    "audience": "Addressed directly to Jeremiah as an individual, though later recorded and read as part of the book's broader message to Judah.",
+    "politicalSituation": "Judah faced growing pressure from surrounding empires during Jeremiah's lifetime, eventually culminating in Babylonian conquest and exile, a turbulent backdrop for his entire prophetic career.",
+    "culturalNote": "Prophetic call narratives in the Hebrew Bible often include an initial objection or sense of inadequacy from the person being called, a pattern Jeremiah follows in the verses immediately after this one, citing his youth.",
+    "keyWords": [
+      { "word": "yadati (I knew)", "meaning": "Implies an intimate, relational knowing, not merely awareness of facts about someone." },
+      { "word": "hiqdashtikha (I set you apart)", "meaning": "Related to the root for holiness, suggesting dedication to a specific purpose rather than general blessing." }
+    ],
+    "modernApplication": "This verse is often used to affirm a sense of inherent purpose or calling that exists prior to, and independent of, someone's own sense of readiness or accomplishment.",
+    "relatedVerseIds": ["romans-8-28", "jeremiah-29-11", "james-1-2"],
+    "reflectionQuestions": [
+      "Where do you feel you need to prove yourself before your life or work has value or purpose?",
+      "What would it mean to trust that a sense of calling could precede your own confidence in it?"
+    ],
+    "suggestedPrayer": "I don't always feel ready or qualified for what's ahead of me. Help me trust that you saw purpose in me before I could see it myself. Give me confidence that isn't dependent on already having it figured out.",
+    "historicityNote": {
+      "established": "The book of Jeremiah is one of the major prophetic books of the Hebrew Bible, with substantial manuscript attestation including among the Dead Sea Scrolls.",
+      "scholarlyDebate": "Scholars debate how much of the book reflects Jeremiah's own words versus later editorial shaping, particularly given the complex textual history evidenced by differences between the Hebrew and Greek versions of the book.",
+      "interpretation": "Many readers apply this verse personally to their own sense of purpose, though its original context is specifically Jeremiah's individual prophetic commissioning, a distinct and demanding calling within the text."
+    }
+  },
+  {
+    "id": "psalm-100-1",
+    "reference": "Psalm 100:1-2",
+    "text": "Shout for joy to the Lord, all the earth. Worship the Lord with gladness; come before him with joyful songs.",
+    "context": "A short communal psalm of praise, traditionally used as a call to worship, inviting a universal audience rather than Israel alone.",
+    "importance": "Frames joy as something enacted, shouted and sung, rather than only felt privately, treating worship itself as an act of gladness.",
+    "themes": ["joy", "praise", "worship"],
+    "emotions": ["joy"],
+    "author": "The psalm is anonymous in its Hebrew text, carrying only a general liturgical heading.",
+    "dateApprox": "Difficult to date precisely; likely used across various periods of Israel's temple worship.",
+    "place": "Associated with communal worship, likely at the Jerusalem Temple.",
+    "audience": "Addressed expansively to 'all the earth,' extending the invitation to worship beyond Israel alone, in keeping with several other 'enthronement' psalms.",
+    "politicalSituation": "No specific political event is named; the psalm functions as a general liturgical call to worship rather than a response to a particular crisis or victory.",
+    "culturalNote": "Communal, vocal expressions of joy, shouting and singing together, were central to ancient Israelite worship, differing from more private, individual forms of devotion also present elsewhere in the Psalms.",
+    "keyWords": [
+      { "word": "teruah (shout)", "meaning": "Often associated with a loud shout or trumpet blast, used in both worship and military contexts to mark a significant, unmistakable moment." },
+      { "word": "simchah (gladness)", "meaning": "A broad term for joy or gladness, frequently associated with festivals and celebration in Israelite worship." }
+    ],
+    "modernApplication": "This psalm can serve as an invitation to practice joy actively, through singing, gathering, or vocal gratitude, rather than waiting for the feeling to arrive first.",
+    "relatedVerseIds": ["psalm-107-1", "1-thessalonians-5-18", "nehemiah-8-10"],
+    "reflectionQuestions": [
+      "What would it look like for you to express joy outwardly, not just feel it privately, this week?",
+      "Is there a place or community where you experience this kind of shared, vocal gladness?"
+    ],
+    "suggestedPrayer": "I want joy that shows, not just joy I keep to myself. Thank you for the invitation to celebrate, not just to endure. Help my worship carry real gladness, not just routine.",
+    "historicityNote": {
+      "established": "Psalm 100 is preserved in the Masoretic Text and is among the well-known 'enthronement' or praise psalms used widely in later Jewish and Christian liturgy.",
+      "scholarlyDebate": "Scholars debate the precise dating and liturgical setting of many anonymous psalms, including this one, given the lack of a specific historical superscription.",
+      "interpretation": "Many readers and traditions have used this psalm as a general call to worship applicable in any era, consistent with its own broad, universal address to 'all the earth.'"
+    }
   }
 ]
