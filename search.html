@@ -42,14 +42,14 @@
           <span style="width:20px;height:20px;color:var(--text-tertiary)" id="search-icon"></span>
           <input type="text" id="search-input" placeholder="Try “John 3:16”, “grief”, or “Moses”…" autocomplete="off">
         </div>
-        <div class="search-filters reveal" id="search-filters">
-          <span class="filter-chip active" data-filter="all">All</span>
-          <span class="filter-chip" data-filter="verse">Verses</span>
-          <span class="filter-chip" data-filter="theme">Themes</span>
-          <span class="filter-chip" data-filter="person">People</span>
-          <span class="filter-chip" data-filter="place">Places</span>
-          <span class="filter-chip" data-filter="book">Books</span>
-          <span class="filter-chip" data-filter="study">Studies</span>
+        <div class="search-filters reveal" id="search-filters" role="group" aria-label="Filter search results by type">
+          <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-chip" data-filter="verse" aria-pressed="false">Verses</button>
+          <button type="button" class="filter-chip" data-filter="theme" aria-pressed="false">Themes</button>
+          <button type="button" class="filter-chip" data-filter="person" aria-pressed="false">People</button>
+          <button type="button" class="filter-chip" data-filter="place" aria-pressed="false">Places</button>
+          <button type="button" class="filter-chip" data-filter="book" aria-pressed="false">Books</button>
+          <button type="button" class="filter-chip" data-filter="study" aria-pressed="false">Studies</button>
         </div>
       </div>
     </section>

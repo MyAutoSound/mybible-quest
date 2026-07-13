@@ -84,7 +84,7 @@ function renderHeader() {
           ${ICONS.flame}<span id="nav-streak-count">0</span>
         </a>
         <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">${ICONS.moon}</button>
-        <button class="hamburger" id="hamburger-btn" aria-label="Open menu">${ICONS.menu}</button>
+        <button class="hamburger" id="hamburger-btn" aria-label="Open menu" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-menu">${ICONS.menu}</button>
       </div>
     </div>
   `;
@@ -96,6 +96,9 @@ function renderHeader() {
   const mobileMenu = document.createElement("div");
   mobileMenu.className = "mobile-menu";
   mobileMenu.id = "mobile-menu";
+  mobileMenu.setAttribute("role", "dialog");
+  mobileMenu.setAttribute("aria-modal", "true");
+  mobileMenu.setAttribute("aria-label", "Site navigation");
   mobileMenu.innerHTML = `
     <button class="icon-btn mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">${ICONS.close}</button>
     ${NAV_LINKS.map(l => `<a href="${l.href}" class="${l.key === active ? "active" : ""}">${l.label}</a>`).join("")}
@@ -111,11 +114,23 @@ function renderHeader() {
     if (typeof Store !== "undefined") Store.recordLogoClick();
   });
 
-  document.getElementById("hamburger-btn").addEventListener("click", () => {
-    document.getElementById("mobile-menu").classList.add("open");
-  });
-  document.getElementById("mobile-menu-close").addEventListener("click", () => {
-    document.getElementById("mobile-menu").classList.remove("open");
+  const hamburgerBtn = document.getElementById("hamburger-btn");
+
+  function openMobileMenu() {
+    mobileMenu.classList.add("open");
+    hamburgerBtn.setAttribute("aria-expanded", "true");
+    mobileMenu.querySelector("a, button")?.focus();
+  }
+  function closeMobileMenu() {
+    mobileMenu.classList.remove("open");
+    hamburgerBtn.setAttribute("aria-expanded", "false");
+    hamburgerBtn.focus();
+  }
+
+  hamburgerBtn.addEventListener("click", openMobileMenu);
+  document.getElementById("mobile-menu-close").addEventListener("click", closeMobileMenu);
+  mobileMenu.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeMobileMenu();
   });
 }
 

@@ -556,7 +556,10 @@ section { padding: 76px 0; }
   border: 1px solid var(--border);
   font-size: 0.85rem;
   font-weight: 600;
+  font-family: inherit;
   color: var(--text-secondary);
+  background: transparent;
+  cursor: pointer;
 }
 .filter-chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 .result-item {
@@ -632,6 +635,13 @@ section { padding: 76px 0; }
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+/* Invisible hit area larger than the visible dot, so the tap target meets
+   the ~24px minimum on touch without enlarging the dot itself visually. */
+.map-pin::before {
+  content: "";
+  position: absolute;
+  inset: -9px;
+}
 .map-pin:hover, .map-pin.active {
   transform: translate(-50%, -50%) scale(1.5);
   background: var(--gold);
@@ -685,6 +695,13 @@ section { padding: 76px 0; }
   position: absolute; top: -8px; width: 14px; height: 14px; border-radius: 50%;
   background: var(--accent); border: 2px solid var(--bg-elevated); box-shadow: 0 0 0 1px var(--accent);
   cursor: pointer; transform: translateX(-50%); transition: transform 0.15s ease; padding: 0;
+}
+/* Invisible hit area larger than the visible dot, matching the map pins'
+   expanded tap target for touch and precision-limited pointers. */
+.scale-dot::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
 }
 .scale-dot:hover { transform: translateX(-50%) scale(1.5); background: var(--gold); box-shadow: 0 0 0 1px var(--gold); z-index: 2; }
 .scale-dot.highlight { background: var(--gold); box-shadow: 0 0 0 1px var(--gold); }

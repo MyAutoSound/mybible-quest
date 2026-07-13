@@ -32,8 +32,9 @@ function initFilters() {
   const chips = document.querySelectorAll("#prayer-filters .filter-chip");
   chips.forEach(chip => {
     chip.addEventListener("click", () => {
-      chips.forEach(c => c.classList.remove("active"));
+      chips.forEach(c => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
       chip.classList.add("active");
+      chip.setAttribute("aria-pressed", "true");
       activeFilter = chip.dataset.filter;
       renderPrayersGrid();
     });

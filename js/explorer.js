@@ -120,32 +120,34 @@ async function renderMap() {
 
   // Only one label should ever be visible among a crowded cluster at a time,
   // otherwise adjacent places (Jerusalem/Bethlehem, Galilee/Nazareth) render
-  // their name tags on top of each other.
-  wrap.addEventListener("pointerover", (e) => {
-    const pin = e.target.closest(".map-pin");
+  // their name tags on top of each other. Mirrored on focusin/focusout too,
+  // since keyboard users tabbing between pins never fire pointerover.
+  function suppressCrowdedSiblings(pin) {
     if (!pin || !pin.classList.contains("crowded")) return;
     wrap.querySelectorAll(".map-pin.crowded").forEach(p => {
       if (p !== pin) p.classList.add("label-suppressed");
     });
-  });
-  wrap.addEventListener("pointerout", (e) => {
-    const pin = e.target.closest(".map-pin");
-    if (!pin) return;
+  }
+  function clearSuppressed() {
     wrap.querySelectorAll(".label-suppressed").forEach(p => p.classList.remove("label-suppressed"));
-  });
+  }
+  wrap.addEventListener("pointerover", (e) => suppressCrowdedSiblings(e.target.closest(".map-pin")));
+  wrap.addEventListener("pointerout", (e) => { if (e.target.closest(".map-pin")) clearSuppressed(); });
+  wrap.addEventListener("focusin", (e) => suppressCrowdedSiblings(e.target.closest(".map-pin")));
+  wrap.addEventListener("focusout", (e) => { if (e.target.closest(".map-pin")) clearSuppressed(); });
 
   // Layer toggle buttons
   const toggles = document.getElementById("map-layer-toggles");
   toggles.innerHTML = routes.map(r => `
-    <button class="layer-btn" data-route="${r.id}"><span class="swatch" style="background:var(--${r.color === 'gold' ? 'gold' : 'accent'})"></span>${r.label}</button>
+    <button class="layer-btn" data-route="${r.id}" aria-pressed="false"><span class="swatch" style="background:var(--${r.color === 'gold' ? 'gold' : 'accent'})"></span>${r.label}</button>
   `).join("");
   toggles.querySelectorAll(".layer-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       const clickedId = btn.dataset.route;
       const wasActive = activeRouteId === clickedId;
       activeRouteId = wasActive ? null : clickedId;
-      toggles.querySelectorAll(".layer-btn").forEach(b => b.classList.remove("active"));
-      if (!wasActive) btn.classList.add("active");
+      toggles.querySelectorAll(".layer-btn").forEach(b => { b.classList.remove("active"); b.setAttribute("aria-pressed", "false"); });
+      if (!wasActive) { btn.classList.add("active"); btn.setAttribute("aria-pressed", "true"); }
       drawRoutes(routes);
       if (!wasActive) {
         const route = routes.find(r => r.id === clickedId);
@@ -239,7 +241,7 @@ function renderTimelineScale(events, onJump) {
     const p = pct(e.yearApprox);
     if (p - anchorPct >= 1.5) { anchorPct = p; stack = 0; } else { stack += 1; }
     const top = -7 + stack * 10;
-    return `<button type="button" class="scale-dot ${e.highlight ? "highlight" : ""}" style="left:${anchorPct}%; top:${top}px" data-target="${timelineSlug(e.title)}" title="${e.era} — ${e.title}"></button>`;
+    return `<button type="button" class="scale-dot ${e.highlight ? "highlight" : ""}" style="left:${anchorPct}%; top:${top}px" data-target="${timelineSlug(e.title)}" title="${e.era} — ${e.title}" aria-label="Jump to ${e.era} — ${e.title}"></button>`;
   }).join("");
 
   const scaleEl = document.getElementById("timeline-scale");
@@ -258,7 +260,7 @@ async function renderTimeline() {
   const list = document.getElementById("timeline-list");
   const filters = document.getElementById("timeline-filters");
 
-  filters.innerHTML = TIMELINE_CATEGORIES.map((c, i) => `<span class="filter-chip ${i === 0 ? "active" : ""}" data-cat="${c.key}">${c.label}</span>`).join("");
+  filters.innerHTML = TIMELINE_CATEGORIES.map((c, i) => `<button type="button" class="filter-chip ${i === 0 ? "active" : ""}" data-cat="${c.key}" aria-pressed="${i === 0}">${c.label}</button>`).join("");
 
   function renderList(cat) {
     const filtered = cat === "all" ? events : events.filter(e => e.category === cat);
@@ -272,8 +274,10 @@ async function renderTimeline() {
   }
 
   function jumpToEvent(targetId) {
-    filters.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
-    filters.querySelector('[data-cat="all"]').classList.add("active");
+    filters.querySelectorAll(".filter-chip").forEach(c => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
+    const allChip = filters.querySelector('[data-cat="all"]');
+    allChip.classList.add("active");
+    allChip.setAttribute("aria-pressed", "true");
     renderList("all");
     const target = document.getElementById(targetId);
     if (!target) return;
@@ -284,8 +288,9 @@ async function renderTimeline() {
 
   filters.querySelectorAll(".filter-chip").forEach(chip => {
     chip.addEventListener("click", () => {
-      filters.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+      filters.querySelectorAll(".filter-chip").forEach(c => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
       chip.classList.add("active");
+      chip.setAttribute("aria-pressed", "true");
       renderList(chip.dataset.cat);
     });
   });
