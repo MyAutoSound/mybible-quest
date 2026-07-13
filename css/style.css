@@ -611,23 +611,32 @@ section { padding: 76px 0; }
 }
 .map-grid-line { position: absolute; background: var(--border); opacity: 0.6; }
 .map-geo-svg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
-.map-sea { fill: var(--accent-soft); stroke: none; }
-.map-red-sea { opacity: 0.9; }
-.map-river { fill: none; stroke: var(--accent); stroke-width: 1.6; opacity: 0.45; stroke-linecap: round; }
+.map-sea {
+  fill: color-mix(in srgb, var(--accent) 20%, var(--accent-soft));
+  stroke: var(--accent);
+  stroke-width: 0.6;
+  opacity: 0.8;
+}
+.map-red-sea { opacity: 0.8; }
+.map-river { fill: none; stroke: var(--accent); stroke-width: 1.4; opacity: 0.5; stroke-linecap: round; }
 .map-pin {
   position: absolute;
   z-index: 2;
   transform: translate(-50%, -50%);
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--accent);
-  border: 3px solid var(--bg-elevated);
-  box-shadow: 0 0 0 2px var(--accent);
+  border: 2px solid var(--bg-elevated);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.map-pin:hover, .map-pin.active { transform: translate(-50%, -50%) scale(1.4); background: var(--gold); box-shadow: 0 0 0 2px var(--gold); }
+.map-pin:hover, .map-pin.active {
+  transform: translate(-50%, -50%) scale(1.5);
+  background: var(--gold);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 0 4px color-mix(in srgb, var(--gold) 22%, transparent);
+}
 .map-pin-label {
   position: absolute;
   top: 16px;
@@ -641,6 +650,7 @@ section { padding: 76px 0; }
   padding: 2px 8px;
   border-radius: 6px;
   border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
   pointer-events: none;
   opacity: 0;
   z-index: 1;
@@ -652,6 +662,7 @@ section { padding: 76px 0; }
   opacity: 1;
   z-index: 5;
 }
+.map-pin.label-suppressed .map-pin-label { opacity: 0 !important; z-index: 1; }
 .place-detail {
   margin-top: 24px;
   background: var(--bg-elevated);

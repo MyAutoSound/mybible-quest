@@ -58,28 +58,81 @@ function drawRoutes(routes) {
   svg.appendChild(path);
 }
 
+// Turns a polygon's corner points into a smooth flowing outline (quadratic
+// curves through each edge's midpoint) instead of hard, angular joints.
+function smoothPath(points, closed = true) {
+  const pts = closed ? [...points, points[0]] : points;
+  let d = `M ${pts[0][0]},${pts[0][1]} `;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const [x0, y0] = pts[i];
+    const [x1, y1] = pts[i + 1];
+    const mx = (x0 + x1) / 2, my = (y0 + y1) / 2;
+    d += `Q ${x0},${y0} ${mx},${my} `;
+  }
+  if (closed) d += "Z";
+  return d;
+}
+
+const MEDITERRANEAN_SEA = [[0,10],[10,8],[18,14],[26,20],[33,24],[40,27],[44,32],[45,45],[43,55],[38,60],[30,63],[20,60],[10,50],[0,35]];
+const RED_SEA = [[30,72],[38,72],[36,90],[32,90]];
+const NILE = [[24,63],[21,78],[20,95]];
+const JORDAN = [[51,38],[52,47],[53,58]];
+
+// Places close enough together that their hover/selected labels would
+// otherwise overlap (e.g. Jerusalem and Bethlehem) get flagged so we can
+// suppress every other label while one of them is active.
+function findCrowdedIds(places, threshold = 6) {
+  const crowded = new Set();
+  for (let i = 0; i < places.length; i++) {
+    for (let j = i + 1; j < places.length; j++) {
+      if (Math.hypot(places[i].x - places[j].x, places[i].y - places[j].y) < threshold) {
+        crowded.add(places[i].id);
+        crowded.add(places[j].id);
+      }
+    }
+  }
+  return crowded;
+}
+
 async function renderMap() {
   const [places, verses, routes] = await Promise.all([
     DataStore.load("places"), DataStore.load("verses"), DataStore.load("map-routes")
   ]);
   placesCache = places;
   const wrap = document.getElementById("map-wrap");
+  const crowdedIds = findCrowdedIds(places);
 
   const geoSvg = `
     <svg class="map-geo-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-      <path class="map-sea" d="M 0,10 L 10,8 L 18,14 L 26,20 L 33,24 L 40,27 L 44,32 L 45,45 L 43,55 L 38,60 L 30,63 L 20,60 L 10,50 L 0,35 Z" vector-effect="non-scaling-stroke"/>
-      <path class="map-sea map-red-sea" d="M 30,72 L 38,72 L 36,90 L 32,90 Z" vector-effect="non-scaling-stroke"/>
-      <path class="map-river" d="M 24,63 L 20,95" vector-effect="non-scaling-stroke"/>
-      <path class="map-river" d="M 51,38 L 52,47 L 53,58" vector-effect="non-scaling-stroke"/>
+      <path class="map-sea" d="${smoothPath(MEDITERRANEAN_SEA)}" vector-effect="non-scaling-stroke"/>
+      <path class="map-sea map-red-sea" d="${smoothPath(RED_SEA)}" vector-effect="non-scaling-stroke"/>
+      <path class="map-river" d="${smoothPath(NILE, false)}" vector-effect="non-scaling-stroke"/>
+      <path class="map-river" d="${smoothPath(JORDAN, false)}" vector-effect="non-scaling-stroke"/>
     </svg>
   `;
 
   const pinsHtml = places.map(p => `
-    <div class="map-pin" style="left:${p.x}%; top:${p.y}%;" data-id="${p.id}" title="${p.name}" tabindex="0" role="button" aria-label="${p.name}">
+    <div class="map-pin${crowdedIds.has(p.id) ? " crowded" : ""}" style="left:${p.x}%; top:${p.y}%;" data-id="${p.id}" title="${p.name}" tabindex="0" role="button" aria-label="${p.name}">
       <span class="map-pin-label">${p.name}</span>
     </div>
   `).join("");
   wrap.innerHTML = geoSvg + pinsHtml;
+
+  // Only one label should ever be visible among a crowded cluster at a time,
+  // otherwise adjacent places (Jerusalem/Bethlehem, Galilee/Nazareth) render
+  // their name tags on top of each other.
+  wrap.addEventListener("pointerover", (e) => {
+    const pin = e.target.closest(".map-pin");
+    if (!pin || !pin.classList.contains("crowded")) return;
+    wrap.querySelectorAll(".map-pin.crowded").forEach(p => {
+      if (p !== pin) p.classList.add("label-suppressed");
+    });
+  });
+  wrap.addEventListener("pointerout", (e) => {
+    const pin = e.target.closest(".map-pin");
+    if (!pin) return;
+    wrap.querySelectorAll(".label-suppressed").forEach(p => p.classList.remove("label-suppressed"));
+  });
 
   // Layer toggle buttons
   const toggles = document.getElementById("map-layer-toggles");
@@ -175,16 +228,18 @@ function renderTimelineScale(events, onJump) {
     <div class="scale-gridline" style="left:${pct(y)}%"><span>${yearLabel(y)}</span></div>
   `).join("");
 
-  // Events close together in time (relative to the full span) are stacked
-  // downward in a small cascade so nearby dots stay individually clickable.
-  let lastPct = -Infinity;
+  // Events close together in time (relative to the full span) share a single
+  // anchor position and stack straight down from it, instead of each one
+  // nudging slightly further along the scale — a clean vertical cluster
+  // reads as "several things happened right around here," where a diagonal
+  // cascade of slightly-offset dots just looks like scattered noise.
+  let anchorPct = -Infinity;
   let stack = 0;
   const dotsHtml = dated.map(e => {
     const p = pct(e.yearApprox);
-    stack = (p - lastPct < 1.5) ? stack + 1 : 0;
-    lastPct = p;
-    const top = -8 + stack * 9;
-    return `<button type="button" class="scale-dot ${e.highlight ? "highlight" : ""}" style="left:${p}%; top:${top}px" data-target="${timelineSlug(e.title)}" title="${e.era} — ${e.title}"></button>`;
+    if (p - anchorPct >= 1.5) { anchorPct = p; stack = 0; } else { stack += 1; }
+    const top = -7 + stack * 10;
+    return `<button type="button" class="scale-dot ${e.highlight ? "highlight" : ""}" style="left:${anchorPct}%; top:${top}px" data-target="${timelineSlug(e.title)}" title="${e.era} — ${e.title}"></button>`;
   }).join("");
 
   const scaleEl = document.getElementById("timeline-scale");
