@@ -44,7 +44,7 @@ function renderEmotionRow() {
 }
 
 async function renderQuestTeasers() {
-  const quests = await DataStore.load("quests");
+  const quests = (await DataStore.load("quests")).filter(q => !q.saga);
   const grid = document.getElementById("quest-teaser-grid");
   grid.innerHTML = quests.slice(0, 3).map(q => `
     <div class="card reveal">
@@ -202,7 +202,7 @@ function renderHowItWorksTrail() {
   initNewsletter();
   renderHowItWorksTrail();
   await Promise.all([
-    renderVerseOfDay(), renderQuestTeasers(), renderStats(),
+    renderSagaHero(), renderVerseOfDay(), renderQuestTeasers(), renderStats(),
     renderMapPreview(), renderTimelinePreview(), renderPlansTeaser(),
     renderArchaeologyTeaser(), renderStudiesTeaser(), renderTestimonials(), renderFAQ(),
   ]);

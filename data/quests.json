@@ -238,5 +238,293 @@
         "reflection": "Rest and provision are pictured here as close, not distant. What would it take for you to actually believe you're being led somewhere, not left to find your own way?"
       }
     ]
+  },
+  {
+    "id": "saga-1-creation",
+    "title": "Creation & Beginnings",
+    "icon": "sprout",
+    "tagline": "Where the story opens",
+    "description": "From the first words spoken over chaos to the covenant that would define a nation — the story begins with a God who creates, provides, and asks for undivided loyalty.",
+    "color": "blue",
+    "saga": "through-the-bible",
+    "sagaOrder": 1,
+    "steps": [
+      {
+        "verseId": "genesis-1-1",
+        "reflection": "The Bible doesn't open with an argument for God's existence, it opens with an action: ordering chaos into a world. As you begin this long walk through Scripture, what would it mean to trust that the same deliberate care shaped everything that follows?"
+      },
+      {
+        "verseId": "genesis-50-20",
+        "reflection": "By the end of Genesis, the same God who spoke light into being is shown at work inside one family's betrayal and years of hardship. Where in your own story might there be a 'meanwhile' you haven't been able to see the far side of yet?"
+      },
+      {
+        "verseId": "exodus-20-3",
+        "reflection": "Genesis ends with a family in Egypt; Exodus opens with that family enslaved, then freed, then given this as the very first rule of their new life. Why do you think undivided loyalty comes before every other instruction they're given?"
+      },
+      {
+        "verseId": "leviticus-19-18",
+        "reflection": "Buried inside a book mostly remembered for ritual law is this quieter command, later called the second-greatest in the entire Bible. What does it tell you that 'love your neighbor' was written for a specific, particular community before it became universal advice?"
+      },
+      {
+        "verseId": "deuteronomy-6-4",
+        "reflection": "As Moses prepares this generation to enter a land he'll never see himself, he doesn't leave them with a strategy — he leaves them with a creed. If you had to compress everything you believe into one sentence to pass on, what would it need to include?"
+      }
+    ]
+  },
+  {
+    "id": "saga-2-kingdom",
+    "title": "Into the Land & the Kingdom",
+    "icon": "compass",
+    "tagline": "From wandering to a throne",
+    "description": "Israel crosses into a promised land, forms a nation, and builds a kingdom — each step led by someone who had to move forward without knowing exactly what waited on the other side.",
+    "color": "gold",
+    "saga": "through-the-bible",
+    "sagaOrder": 2,
+    "steps": [
+      {
+        "verseId": "joshua-1-9",
+        "reflection": "Moses is dead, and Joshua now has to lead a whole nation into unfamiliar territory with no instruction manual. Notice the order here — courage is commanded before the outcome is known, not after. What's the 'land' you're being asked to enter without proof it will go well?"
+      },
+      {
+        "verseId": "ruth-1-16",
+        "reflection": "Centuries later, in the chaotic period of the Judges, one of the story's turning points comes not from a king or a prophet, but from a foreign widow choosing loyalty she owed no one. What would it cost you to commit to people or a path this fully, before you can see where it leads?"
+      },
+      {
+        "verseId": "1-samuel-16-7",
+        "reflection": "When Israel finally gets a king worth remembering, he isn't chosen the way anyone expected — Samuel is looking for someone impressive, and God has already chosen the overlooked youngest son. Where have you been measuring yourself, or someone else, by the wrong metric?"
+      },
+      {
+        "verseId": "1-chronicles-28-20",
+        "reflection": "David spends his reign wanting to build God a temple and is told, instead, that the task belongs to his son. Here, in public, he hands Solomon both the job and the same charge Joshua once received. What has someone else prepared for you to carry forward, that isn't really yours to finish alone?"
+      },
+      {
+        "verseId": "nehemiah-8-10",
+        "reflection": "Generations after the kingdom collapses and the people are exiled, a remnant returns to rebuild — and their first instinct, hearing the law read aloud again, is to weep. Nehemiah redirects that grief toward joy as the thing that will actually carry them. What's the difference, for you, between mourning what's lost and finding strength to rebuild?"
+      }
+    ]
+  },
+  {
+    "id": "saga-3-wisdom",
+    "title": "Wisdom for Living",
+    "icon": "book",
+    "tagline": "What the kingdom years asked",
+    "description": "Alongside the history of kings and battles, Israel also produced its wisdom literature — unflinching questions about suffering, work, love, and the limits of understanding.",
+    "color": "blue",
+    "saga": "through-the-bible",
+    "sagaOrder": 3,
+    "steps": [
+      {
+        "verseId": "job-19-25",
+        "reflection": "Job has lost everything and spent chapters arguing with friends who insist his suffering must be deserved, when suddenly, in the middle of his anguish, this line breaks through. What would it look like to hold a hope like this without it erasing the real pain underneath it?"
+      },
+      {
+        "verseId": "proverbs-3-5",
+        "reflection": "Wisdom literature rarely gives certainty — instead, a father hands his son this posture: trust over self-reliance. Where are you currently leaning hardest on your own understanding, and what would 'leaning not on it' actually look like this week?"
+      },
+      {
+        "verseId": "proverbs-15-1",
+        "reflection": "Not every piece of wisdom is about the big questions — some of it is this practical: your tone changes what happens next. Think of a recent tense conversation. Which answer did you give, and which one do you wish you had?"
+      },
+      {
+        "verseId": "ecclesiastes-3-1",
+        "reflection": "The wisdom writer who explores life's limits with unusual honesty doesn't tell you to skip the hard seasons — he names weeping and mourning as seasons in their own right, with their own place. What season do you think you're actually in right now, rather than the one you feel you should be in?"
+      },
+      {
+        "verseId": "song-of-songs-8-6",
+        "reflection": "Tucked among books about law, suffering, and governance is this one, devoted entirely to love between two people. Why do you think a book this intimate earned a place in the same story as covenants and kings?"
+      }
+    ]
+  },
+  {
+    "id": "saga-4-psalms",
+    "title": "Songs of Israel",
+    "icon": "wave",
+    "tagline": "The soundtrack of a nation's faith",
+    "description": "The Psalms are Israel's prayer book — poems of trust, praise, and protection sung across centuries of both stability and crisis.",
+    "color": "gold",
+    "saga": "through-the-bible",
+    "sagaOrder": 4,
+    "steps": [
+      {
+        "verseId": "psalm-23-1",
+        "reflection": "David, once a shepherd himself, describes God using the one image he trusted most from his own life. What image from your own experience would you reach for, if you had to describe what you rely on?"
+      },
+      {
+        "verseId": "psalm-100-1",
+        "reflection": "This is a psalm meant to be sung by 'all the earth,' not just Israel — worship here is loud, communal, and unembarrassed. When did you last let gladness be that visible, rather than something private and contained?"
+      },
+      {
+        "verseId": "psalm-91-1",
+        "reflection": "Notice the verb: 'dwells.' This isn't a psalm about danger disappearing, it's about where you choose to stay. What does staying close, rather than waiting for the danger to pass, look like in your life right now?"
+      },
+      {
+        "verseId": "psalm-139-14",
+        "reflection": "In a psalm otherwise about being completely known — thoughts, actions, even formation in the womb — this line grounds worth in being made carefully, not in achievement. Where do you tend to base your worth instead?"
+      },
+      {
+        "verseId": "psalm-107-1",
+        "reflection": "This psalm opens a long list of specific people rescued from specific troubles, and only after naming them does it call for thanks. What specific thing, not a general feeling, could you actually name gratitude for today?"
+      }
+    ]
+  },
+  {
+    "id": "saga-5-prophets",
+    "title": "Prophets: Warning & Hope",
+    "icon": "moon",
+    "tagline": "Truth-tellers before and during exile",
+    "description": "As the kingdom fractures and eventually falls, the prophets speak both warning and comfort — naming what's broken while insisting the story isn't over.",
+    "color": "blue",
+    "saga": "through-the-bible",
+    "sagaOrder": 5,
+    "steps": [
+      {
+        "verseId": "isaiah-41-10",
+        "reflection": "Spoken to a people facing real, credible threats from powerful neighbors, this isn't comfort that pretends danger away — it names fear first, then answers it with presence. What fear of yours deserves to be named plainly before you look for a way past it?"
+      },
+      {
+        "verseId": "jeremiah-1-5",
+        "reflection": "Before Jeremiah delivers a single hard word to a nation heading toward collapse, he's told he was known and appointed before he was even born. How might it change a difficult task in front of you, to believe you were prepared for it long before you felt ready?"
+      },
+      {
+        "verseId": "lamentations-3-22",
+        "reflection": "This book is almost entirely raw grief over a destroyed city, and yet, in the middle of it, the writer pauses to say this. Hope here doesn't replace the grief — it interrupts it. Where might you make space for both at once?"
+      },
+      {
+        "verseId": "ezekiel-36-26",
+        "reflection": "Speaking to a community that has lost their home, their temple, everything external, God promises something internal instead — a new heart. What would change if you believed the deepest repair available to you wasn't about your circumstances, but something inside you being remade?"
+      },
+      {
+        "verseId": "isaiah-53-5",
+        "reflection": "Centuries before it would be read the way Christian tradition reads it, this is already startling — a suffering figure whose wounds become someone else's healing. Hold this one loosely as you move into the next chapter; it's about to matter more than it seems right now."
+      }
+    ]
+  },
+  {
+    "id": "saga-6-jesus",
+    "title": "Jesus: Light of the World",
+    "icon": "sun",
+    "tagline": "The story's turning point",
+    "description": "Centuries of law, kingdom, wisdom, and prophecy converge on one life — a birth, a teaching ministry, and claims about identity that split opinion from the start.",
+    "color": "gold",
+    "saga": "through-the-bible",
+    "sagaOrder": 6,
+    "steps": [
+      {
+        "verseId": "john-1-1",
+        "reflection": "John doesn't open his account of Jesus with a birth story — he opens it by echoing Genesis 1:1 almost word for word. Why do you think he wanted this new part of the story to sound like the very first line of the old one?"
+      },
+      {
+        "verseId": "matthew-5-4",
+        "reflection": "In his first public teaching, Jesus doesn't start with triumph — he blesses mourning, poverty of spirit, hunger for justice. What would it mean for you if the things you consider your weak spots were actually where he starts?"
+      },
+      {
+        "verseId": "mark-9-24",
+        "reflection": "A desperate father, watching his son suffer, gives one of the most honest lines in the whole story: belief and doubt in the very same breath. Is there something you both believe and doubt right now, and can both be true at once?"
+      },
+      {
+        "verseId": "john-3-16",
+        "reflection": "Spoken quietly, at night, to one religious leader — not shouted from a stage — this line is still treated as a summary of the entire message. Notice it names a motive before a method: love, then gift. Which of those two feels harder for you to accept right now?"
+      },
+      {
+        "verseId": "john-14-6",
+        "reflection": "At the end, in his last extended conversation with the people closest to him, Jesus makes his most direct claim about who he is. This is a hinge point in the whole story — everything before builds toward this claim, and everything after responds to it."
+      }
+    ]
+  },
+  {
+    "id": "saga-7-church",
+    "title": "The Early Church",
+    "icon": "users",
+    "tagline": "A movement takes shape",
+    "description": "After the resurrection, a small, uncertain group of followers is sent out — and what follows is the birth of a faith carried by ordinary people, not kings or prophets.",
+    "color": "blue",
+    "saga": "through-the-bible",
+    "sagaOrder": 7,
+    "steps": [
+      {
+        "verseId": "matthew-28-20",
+        "reflection": "The Gospel's final line isn't a plan or a set of instructions — it's a promise of presence, given to people about to be scattered into an unfamiliar world with an enormous task. What task in your own life feels too big, unless someone reliable is actually with you in it?"
+      },
+      {
+        "verseId": "romans-3-23",
+        "reflection": "Writing years later to a young, mixed community of Jewish and Gentile believers, Paul starts his explanation of grace with this leveling statement. Why might it matter that the good news starts with everyone standing in the same place, rather than some further ahead than others?"
+      },
+      {
+        "verseId": "romans-10-9",
+        "reflection": "This verse pairs something spoken aloud with something believed inwardly — outward confession and inward trust, together. Which of those two comes more naturally to you, and which takes more effort?"
+      },
+      {
+        "verseId": "2-corinthians-5-17",
+        "reflection": "To a church Paul had reason to be frustrated with, he insists that anyone 'in Christ' is a new creation entirely — not an improved version of the old one. Is there an old story about yourself you're still carrying that this claim would ask you to set down?"
+      },
+      {
+        "verseId": "galatians-5-22",
+        "reflection": "Writing to a church arguing over what belonging required, Paul describes character not as something achieved through effort, but as fruit — something that grows. Which of these qualities feels most and least present in your life right now?"
+      }
+    ]
+  },
+  {
+    "id": "saga-8-letters",
+    "title": "Letters to the Churches",
+    "icon": "bookmark",
+    "tagline": "Faith worked out in ordinary life",
+    "description": "The New Testament letters carry the movement's theology into daily, practical questions — work, hardship, endurance, and what it means to actually live this out.",
+    "color": "gold",
+    "saga": "through-the-bible",
+    "sagaOrder": 8,
+    "steps": [
+      {
+        "verseId": "ephesians-2-8",
+        "reflection": "Paul makes one of the clearest statements in the whole New Testament here: this is received, not earned. If nothing you did secured it, what changes about how you hold it — more loosely, or more gratefully?"
+      },
+      {
+        "verseId": "philippians-4-13",
+        "reflection": "Written from prison, and directly following Paul's description of learning contentment in both plenty and hardship, this isn't a promise of unlimited success — it's endurance through whatever comes. What is it you actually need strength to get through right now, not to conquer?"
+      },
+      {
+        "verseId": "colossians-3-23",
+        "reflection": "Originally addressed to people with no control over their circumstances, working for others under difficult terms, this reframes the point of the work itself. Where in your daily labor could this shift — from who's watching, to who it's ultimately for — actually change something?"
+      },
+      {
+        "verseId": "hebrews-11-1",
+        "reflection": "This defines faith right before a long list of people who acted on trust before they saw the outcome. Confidence, not certainty. What is something you're currently trusting without being able to fully verify it yet?"
+      },
+      {
+        "verseId": "james-1-2",
+        "reflection": "James doesn't tell a struggling community that trials are good — he says something more specific: that they produce something, if you let the process finish. What's a hard season you're in the middle of, that might actually be producing something you can't see yet?"
+      }
+    ]
+  },
+  {
+    "id": "saga-9-hope",
+    "title": "The Hope Ahead",
+    "icon": "star",
+    "tagline": "Where the story is heading",
+    "description": "The story closes the way faith is meant to be lived — with perseverance, released fear, and a promise that everything painful is temporary, not final.",
+    "color": "blue",
+    "saga": "through-the-bible",
+    "sagaOrder": 9,
+    "steps": [
+      {
+        "verseId": "hebrews-12-1",
+        "reflection": "After chapter after chapter of people who trusted before they saw the outcome, the writer turns to you: run your own race, with your eyes fixed forward. Looking back at everyone you've walked through in this journey so far, who from earlier in the story would you want cheering you on?"
+      },
+      {
+        "verseId": "1-peter-5-7",
+        "reflection": "Written to Christians scattered and under real social hostility, this instruction is short and direct — cast the anxiety, don't carry it alone. What are you currently carrying that this verse is inviting you to hand over instead?"
+      },
+      {
+        "verseId": "1-john-4-18",
+        "reflection": "This describes fear and love as opposites that can't fully coexist — where one grows, the other shrinks. Where might more love, not more effort, be the actual answer to a fear you're facing?"
+      },
+      {
+        "verseId": "2-timothy-1-7",
+        "reflection": "Written to a younger leader who may have been tempted to shrink back from a hard calling, this describes the opposite of timidity as something already given, not something to manufacture. What would you do differently this week if you actually believed this was already true of you?"
+      },
+      {
+        "verseId": "revelation-21-4",
+        "reflection": "The story that opened with God speaking order into chaos closes with this: every tear personally wiped away, the old order gone. You've walked from 'in the beginning' all the way to this. What does it mean to you that the story you've just walked through ends here, and not somewhere darker?"
+      }
+    ]
   }
 ]

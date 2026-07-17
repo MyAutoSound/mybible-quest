@@ -1,0 +1,17 @@
+{
+  "id": "through-the-bible",
+  "title": "Through the Bible",
+  "tagline": "One long walk from Genesis to Revelation",
+  "description": "A single ongoing journey through the Bible's whole story, in order — nine chapters, five stops each, from creation to the story's final hope. Come back whenever you like; each chapter you finish unlocks the next.",
+  "chapterIds": [
+    "saga-1-creation",
+    "saga-2-kingdom",
+    "saga-3-wisdom",
+    "saga-4-psalms",
+    "saga-5-prophets",
+    "saga-6-jesus",
+    "saga-7-church",
+    "saga-8-letters",
+    "saga-9-hope"
+  ]
+}

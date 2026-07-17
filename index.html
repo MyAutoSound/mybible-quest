@@ -58,17 +58,17 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-inner">
-          <span class="eyebrow reveal">✦ A guided quest through scripture</span>
-          <h1 class="reveal">Explore the Bible,<br>one step at a time.</h1>
-          <p class="subtitle reveal">MyBible.quest turns reading into a real journey: pick how you feel or what
-            you're facing, follow a guided quest step by step, and watch your progress climb — literally, up a mountain trail.</p>
+          <span class="eyebrow reveal">✦ One long journey through scripture</span>
+          <h1 class="reveal">Walk the whole Bible,<br>one chapter at a time.</h1>
+          <p class="subtitle reveal">MyBible.quest's main quest walks you through the Bible's entire story, Genesis to
+            Revelation, nine chapters at your own pace — plus short side quests for exactly how you're feeling today, and your progress saved automatically, literally up a mountain trail.</p>
           <div class="hero-actions reveal">
-            <a href="quests.html" class="btn btn-primary">Start your quest</a>
+            <a href="quests.html" class="btn btn-primary">Begin the journey →</a>
             <a href="explorer.html" class="btn btn-secondary">Explore the context</a>
           </div>
           <div class="hero-stats reveal">
             <div class="hero-stat"><strong id="stat-verses">—</strong><span>Verses in context</span></div>
-            <div class="hero-stat"><strong id="stat-quests">6</strong><span>Guided quests</span></div>
+            <div class="hero-stat"><strong>9</strong><span>Chapters, one long quest</span></div>
             <div class="hero-stat"><strong id="stat-places">—</strong><span>Places &amp; events mapped</span></div>
           </div>
         </div>
@@ -89,6 +89,13 @@
       </div>
     </section>
 
+    <!-- ================= MAIN QUEST (SAGA) ================= -->
+    <section id="saga-hero-section" style="padding-bottom:0">
+      <div class="container">
+        <div id="saga-hero" style="max-width:760px;margin:0 auto"><!-- injected --></div>
+      </div>
+    </section>
+
     <!-- ================= HOW IT WORKS ================= -->
     <section id="how-it-works" style="background:var(--bg-subtle)">
       <div class="container">
@@ -98,7 +105,7 @@
             <h2 class="reveal" style="margin:12px 0 20px">A quest, not just a reading list.</h2>
             <div class="reveal" style="display:flex;gap:16px;margin-bottom:20px">
               <div style="flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fdfcfa;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:var(--font-serif)">1</div>
-              <div><strong>Choose your path.</strong><br><span style="color:var(--text-secondary);font-size:0.95rem">Pick how you're feeling — anxious, hopeful, grieving, doubting — and we match you to a guided quest built around it.</span></div>
+              <div><strong>Choose your path.</strong><br><span style="color:var(--text-secondary);font-size:0.95rem">Walk the main quest through the whole Bible in order, or pick how you're feeling — anxious, hopeful, grieving, doubting — for a short side quest built around it.</span></div>
             </div>
             <div class="reveal" style="display:flex;gap:16px;margin-bottom:20px">
               <div style="flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fdfcfa;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:var(--font-serif)">2</div>
@@ -145,9 +152,9 @@
     <section id="quests-teaser">
       <div class="container">
         <div class="section-head reveal">
-          <span class="eyebrow">Guided Quests</span>
-          <h2>Short journeys through scripture</h2>
-          <p>Each quest is five verses deep — enough to sit with an idea, not enough to overwhelm you.</p>
+          <span class="eyebrow">Side Quests</span>
+          <h2>Short journeys for how you feel today</h2>
+          <p>Each side quest is five verses deep — enough to sit with an idea, not enough to overwhelm you.</p>
         </div>
         <div class="grid grid-3" id="quest-teaser-grid"><!-- injected --></div>
         <div class="text-center reveal" style="margin-top:32px">
@@ -319,9 +326,9 @@
     <section id="cta">
       <div class="container">
         <div class="cta-band reveal">
-          <h2>Ready to begin your quest?</h2>
-          <p>A free account keeps your step-by-step progress and syncs it across devices. Pick a feeling, sign in, and watch your trail unfold.</p>
-          <a href="quests.html" class="btn btn-primary">Start your quest</a>
+          <h2>Ready to begin the journey?</h2>
+          <p>A free account keeps your step-by-step progress and syncs it across devices. Sign in, and watch your trail unfold — one chapter, or one feeling, at a time.</p>
+          <a href="quests.html" class="btn btn-primary">Begin the journey →</a>
         </div>
       </div>
     </section>
@@ -332,6 +339,7 @@
   <script type="module" src="js/firebase-init.js"></script>
   <script type="module" src="js/auth-ui.js"></script>
   <script src="js/mountain-trail.js"></script>
+  <script src="js/saga-hero.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>

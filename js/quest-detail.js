@@ -6,7 +6,7 @@ function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
 
-let state = { quest: null, verses: null, stepIndex: 0, completed: false, viewingComplete: false };
+let state = { quest: null, verses: null, saga: null, stepIndex: 0, completed: false, viewingComplete: false };
 
 function renderTrail() {
   renderMountainTrail(document.getElementById("mountain-trail"), {
@@ -77,15 +77,38 @@ function renderComplete() {
   state.viewingComplete = true;
   renderTrail();
   const panel = document.getElementById("step-panel");
+  const stepCount = state.quest.steps.length;
+
+  const chapterIds = state.saga?.chapterIds || [];
+  const sagaPos = state.quest.saga ? chapterIds.indexOf(state.quest.id) : -1;
+  const nextChapterId = sagaPos !== -1 ? chapterIds[sagaPos + 1] : null;
+
+  let heading = "Summit reached";
+  let body = `You've walked through all ${stepCount} verses in "${state.quest.title}". Come back anytime — the passages will still be here, or tap any waypoint above to revisit a step.`;
+  let primaryCta = `<a href="quests.html" class="btn btn-primary">Choose another quest</a>`;
+  let ghostCta = `<a href="profile.html" class="btn-ghost">View your badges →</a>`;
+
+  if (state.quest.saga && nextChapterId) {
+    heading = "Chapter complete";
+    body = `You've finished "${state.quest.title}" — chapter ${sagaPos + 1} of ${chapterIds.length} in the Through the Bible saga. Come back anytime to revisit a step, or keep walking.`;
+    primaryCta = `<a href="quest.html?id=${nextChapterId}" class="btn btn-primary">Continue to next chapter →</a>`;
+    ghostCta = `<a href="quests.html" class="btn-ghost">Back to the saga →</a>`;
+  } else if (state.quest.saga && !nextChapterId) {
+    heading = "Journey complete";
+    body = `You've walked the whole story, Genesis to Revelation. Come back anytime to revisit a chapter, or explore the badge this journey earned you.`;
+    primaryCta = `<a href="profile.html" class="btn btn-primary">View your badges →</a>`;
+    ghostCta = `<a href="quests.html" class="btn-ghost">Back to the saga →</a>`;
+  }
+
   panel.innerHTML = `
     <div style="text-align:center;padding:20px 0">
       <div style="width:56px;height:56px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">${ICONS.check}</div>
-      <h3 style="margin-bottom:12px">Summit reached</h3>
-      <p style="max-width:420px;margin:0 auto 28px">You've walked through all five verses in "${state.quest.title}". Come back anytime — the passages will still be here, or tap any waypoint above to revisit a step.</p>
+      <h3 style="margin-bottom:12px">${heading}</h3>
+      <p style="max-width:420px;margin:0 auto 28px">${body}</p>
       <div class="flex gap-3" style="justify-content:center;flex-wrap:wrap">
-        <button class="btn btn-secondary" id="restart-btn">Restart this quest</button>
-        <a href="quests.html" class="btn btn-primary">Choose another quest</a>
-        <a href="profile.html" class="btn-ghost">View your badges →</a>
+        <button class="btn btn-secondary" id="restart-btn">Restart this ${state.quest.saga ? "chapter" : "quest"}</button>
+        ${primaryCta}
+        ${ghostCta}
       </div>
     </div>
   `;
@@ -131,10 +154,11 @@ function renderQuestFlow() {
 
 async function init() {
   const id = getQueryParam("id") || "anxiety";
-  const [quests, verses] = await Promise.all([DataStore.load("quests"), DataStore.load("verses")]);
+  const [quests, verses, saga] = await Promise.all([DataStore.load("quests"), DataStore.load("verses"), DataStore.load("saga")]);
   const quest = quests.find(q => q.id === id) || quests[0];
   state.quest = quest;
   state.verses = verses;
+  state.saga = saga;
 
   document.title = `${quest.title} — MyBible.quest`;
   setPageMeta(quest.description || quest.tagline);

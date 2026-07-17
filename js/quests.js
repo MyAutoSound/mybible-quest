@@ -3,7 +3,7 @@
    ========================================================================== */
 
 async function renderQuestsGrid() {
-  const quests = await DataStore.load("quests");
+  const quests = (await DataStore.load("quests")).filter(q => !q.saga);
   const grid = document.getElementById("quests-grid");
 
   grid.innerHTML = quests.map(q => {
@@ -68,6 +68,6 @@ function initModeToggle() {
 
 (async function init() {
   initModeToggle();
-  await Promise.all([renderQuestsGrid(), renderPlansGrid()]);
+  await Promise.all([renderSagaHero(), renderQuestsGrid(), renderPlansGrid()]);
   initScrollReveal();
 })();

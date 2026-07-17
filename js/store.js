@@ -5,6 +5,10 @@
    ========================================================================== */
 
 const CORE_QUEST_IDS = ["anxiety", "hope", "grief", "faith", "direction", "forgiveness"];
+const SAGA_CHAPTER_IDS = [
+  "saga-1-creation", "saga-2-kingdom", "saga-3-wisdom", "saga-4-psalms", "saga-5-prophets",
+  "saga-6-jesus", "saga-7-church", "saga-8-letters", "saga-9-hope",
+];
 const EXPLORER_TABS = ["map", "timeline", "books", "people", "archaeology"];
 const XP_LEVELS = [0, 80, 200, 400, 700, 1100, 1650, 2350, 3250, 4400, 6000];
 const LEVEL_TITLES = [
@@ -439,6 +443,10 @@ const Store = {
       this.unlockBadge("first-steps");
       const doneCount = CORE_QUEST_IDS.filter(id => state.questProgress[id]?.completed).length;
       if (doneCount >= CORE_QUEST_IDS.length) this.unlockBadge("quest-master");
+      if (SAGA_CHAPTER_IDS.includes(questId)) {
+        const sagaDone = SAGA_CHAPTER_IDS.every(id => state.questProgress[id]?.completed);
+        if (sagaDone) this.unlockBadge("pilgrim");
+      }
     }
   },
 

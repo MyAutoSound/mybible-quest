@@ -112,5 +112,11 @@
     "name": "Secret Keeper",
     "description": "Found it — you clicked the site logo far more times than anyone reasonably should.",
     "icon": "sparkle"
+  },
+  {
+    "id": "pilgrim",
+    "name": "Pilgrim",
+    "description": "Complete every chapter of the Through the Bible saga, from Genesis to Revelation.",
+    "icon": "flame"
   }
 ]

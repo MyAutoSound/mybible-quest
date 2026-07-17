@@ -25,8 +25,9 @@ const SVG_NS = "http://www.w3.org/2000/svg";
  * @param {number} opts.currentIndex - 0-based index of the active step
  * @param {boolean} opts.completed - whether the whole quest/plan is finished
  * @param {(index: number) => void} opts.onSelect - called when a reachable waypoint is clicked
+ * @param {string} [opts.unitLabel] - noun used in each waypoint's aria-label (defaults to "Step")
  */
-function renderMountainTrail(container, { totalSteps, currentIndex, completed, onSelect }) {
+function renderMountainTrail(container, { totalSteps, currentIndex, completed, onSelect, unitLabel = "Step" }) {
   container.innerHTML = mountainTrailSVGMarkup();
   const pathEl = container.querySelector("#trail-path-line");
   const group = container.querySelector("#trail-waypoints");
@@ -41,7 +42,7 @@ function renderMountainTrail(container, { totalSteps, currentIndex, completed, o
     g.setAttribute("class", `trail-waypoint ${state}`);
     g.setAttribute("transform", `translate(${pt.x}, ${pt.y})`);
     g.setAttribute("role", "button");
-    g.setAttribute("aria-label", `Step ${i + 1}${state === "done" ? " — completed" : state === "current" ? " — current step" : " — locked"}`);
+    g.setAttribute("aria-label", `${unitLabel} ${i + 1}${state === "done" ? " — completed" : state === "current" ? ` — current ${unitLabel.toLowerCase()}` : " — locked"}`);
     if (state !== "locked") g.setAttribute("tabindex", "0");
 
     g.innerHTML = `
