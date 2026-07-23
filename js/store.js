@@ -4,7 +4,7 @@
    No account, no server, nothing transmitted — see the FAQ for why.
    ========================================================================== */
 
-const CORE_QUEST_IDS = ["anxiety", "hope", "grief", "faith", "direction", "forgiveness"];
+const CORE_QUEST_IDS = ["anxiety", "hope", "grief", "faith", "direction", "forgiveness", "anger", "loneliness"];
 const SAGA_CHAPTER_IDS = [
   "saga-1-creation", "saga-2-kingdom", "saga-3-wisdom", "saga-4-psalms", "saga-5-prophets",
   "saga-6-jesus", "saga-7-church", "saga-8-letters", "saga-9-hope",

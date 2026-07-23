@@ -104,7 +104,7 @@ function renderNotes() {
   renderLevelCard();
   renderProfileJourney();
   renderStats();
-  await Promise.all([renderBadges(), renderFavorites()]);
+  await Promise.all([renderSagaHero(), renderBadges(), renderFavorites()]);
   renderNotes();
   initScrollReveal();
 })();
